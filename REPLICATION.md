@@ -61,9 +61,19 @@ shared improvements.
    of the tool. If no named person or org owns the calendar, don't launch.
 2. Is the state's certified candidate list machine-readable, or at least
    capturable with the browser pattern?
-3. Does the state have single-member districts and conventional primaries,
-   or are you signing up for one of the traps above on your first build?
+3. Which of the ballot-structure traps above apply to your state? None of
+   them is disqualifying; they are documented here precisely so you can
+   plan for them instead of discovering them mid-build. A top-two state
+   like California mostly means adjusting the candidate filter and the
+   race-card copy; budget for it, don't be scared off by it.
 4. Are there competitive races people will actually search for?
+
+A note for odd-year states (Virginia, New Jersey, and others): an even-year
+build there is smaller, not pointless. Their even-year ballot is federal
+races only, which makes a first build a fraction of the work of a full
+state, and a good dry run before the odd-year cycle when the statewide and
+legislative races arrive. Starting small and proving the refresh cadence on
+a dozen races is a legitimate path in.
 
 ## Maintenance budget, for planning
 
