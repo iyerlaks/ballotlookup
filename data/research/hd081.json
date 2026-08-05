@@ -1,0 +1,67 @@
+{
+  "23616": {
+    "name": "Caleb Joshua Donahue",
+    "positions": {
+      "economy": {
+        "summary": "In a League of Women Voters VOTE411 candidate questionnaire, said his district has many working class voters and that he believes it is important to protect labor unions and to ensure every worker has fair wages and protections.",
+        "short": "Supports protecting labor unions, fair wages and worker protections.",
+        "source": "https://onyourballot.vote411.org/m/race-detail.do?id=50206549",
+        "date": "2026-05"
+      },
+      "taxes": {
+        "summary": "In a League of Women Voters VOTE411 candidate questionnaire, said compromise is key to the state budget process but that if a budget is not passed on time, lawmakers should forfeit their pay, which he said would incentivize lawmakers to prioritize Pennsylvanians instead of partisan politics.",
+        "short": "Proposes lawmakers forfeit pay when the state budget is late.",
+        "source": "https://onyourballot.vote411.org/m/race-detail.do?id=50206549",
+        "date": "2026-05"
+      },
+      "healthcare": {
+        "summary": "In a League of Women Voters VOTE411 candidate questionnaire, said easier access to healthcare benefits is a top priority if elected and that he would write and sponsor bills designed to protect and expand access to Medicare and Medicaid for Pennsylvanians.",
+        "short": "Would sponsor bills protecting and expanding Medicare and Medicaid access.",
+        "source": "https://onyourballot.vote411.org/m/race-detail.do?id=50206549",
+        "date": "2026-05"
+      },
+      "energy": {
+        "summary": "In a League of Women Voters VOTE411 candidate questionnaire, said data center development should be heavily scrutinized and limited based on environmental concerns, and that municipalities and the state must fully agree and collaborate with each other before any such project comes to fruition.",
+        "short": "Says data centers need environmental scrutiny and municipal-state agreement.",
+        "source": "https://onyourballot.vote411.org/m/race-detail.do?id=50206549",
+        "date": "2026-05"
+      }
+    }
+  },
+  "23327": {
+    "name": "Richard S. Irvin",
+    "website": "https://richirvinforpa.com/",
+    "positions": {
+      "economy": {
+        "summary": "His campaign platform supports pro-growth policies that it says help create a job-friendly environment, and cites his push to expand broadband connectivity in rural Pennsylvania, including work with county commissioners to use a $20 million federal grant for broadband infrastructure.",
+        "short": "Supports pro-growth job policies and rural broadband expansion.",
+        "source": "https://richirvinforpa.com/conservative-issues/",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "His campaign platform says he has focused on controlling spending, cutting government waste and preventing tax increases, opposed Governor Wolf's tax increases, and fought to eliminate unfunded mandates; his legislative biography also lists true property tax reform among his priorities.",
+        "short": "Says he controls spending, opposes tax increases, seeks property tax reform.",
+        "source": "https://richirvinforpa.com/conservative-issues/",
+        "date": "2026-07"
+      },
+      "abortion": {
+        "summary": "Describes himself as pro-life and says he has voted for every pro-life bill in the state House of Representatives.",
+        "short": "Describes himself pro-life; says voted for every pro-life bill.",
+        "source": "https://richirvinforpa.com/conservative-issues/",
+        "date": "2026-07"
+      },
+      "education": {
+        "summary": "Supports increasing transparency in schools so that parents have a voice in their children's education, and supports banning the teaching of critical race theory in classrooms.",
+        "short": "Supports school transparency for parents; supports banning critical race theory.",
+        "source": "https://richirvinforpa.com/conservative-issues/",
+        "date": "2026-07"
+      },
+      "guns": {
+        "summary": "States on his campaign website that he is Pro-2nd Amendment and defends Second Amendment rights; his campaign platform also supports fully funding police and opposes any effort to defund the police.",
+        "short": "Defends Second Amendment rights; supports fully funding police.",
+        "source": "https://richirvinforpa.com/",
+        "date": "2026-07"
+      }
+    }
+  }
+}

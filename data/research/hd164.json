@@ -1,0 +1,32 @@
+{
+  "23859": {
+    "name": "Gina H. Curry",
+    "website": "https://www.ginahcurry.com/",
+    "positions": {
+      "economy": {
+        "summary": "Her campaign platform calls for economic development in the 164th District by both attracting larger companies and supporting entrepreneurship, saying strategic entrepreneurial programs would help residents access grants, loans, and business services.",
+        "short": "Platform calls for economic development via companies and entrepreneurship.",
+        "source": "https://www.ginahcurry.com/economic-development",
+        "date": "2026-07"
+      },
+      "education": {
+        "summary": "States on her campaign site that she is a strong supporter and advocate of public education and of equitable school situations, describing changes through large financial choices like new buildings, fields, and programs.",
+        "short": "Says she is a strong supporter and advocate of public education.",
+        "source": "https://www.ginahcurry.com/public-education-opportunities",
+        "date": "2026-07"
+      },
+      "abortion": {
+        "summary": "Cosponsored House Bill 1957 in the 2025-2026 session, a joint resolution proposing an amendment to the Pennsylvania Constitution providing for personal reproductive liberty.",
+        "short": "Cosponsored 2025 amendment providing for personal reproductive liberty.",
+        "source": "https://www.palegis.us/legislation/bills/2025/hb1957",
+        "date": "2025-10"
+      },
+      "guns": {
+        "summary": "Cosponsored House Bill 731 in the 2023-2024 session, which would provide for safe storage of firearms when not in use and impose related penalties.",
+        "short": "Cosponsored 2023 bill on safe storage of firearms.",
+        "source": "https://www.palegis.us/legislation/bills/2023/hb731",
+        "date": "2023-03"
+      }
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "23935": {
+    "name": "Jessica Lee Branas",
+    "website": "https://www.jess4pa.com/",
+    "positions": {
+      "economy": {
+        "summary": "Supports raising Pennsylvania's minimum wage, calling it the first real step toward making communities affordable again; says prices have risen while paychecks have not kept up and that full-time work should pay the bills.",
+        "short": "Supports raising minimum wage; says full-time work should pay bills.",
+        "source": "https://www.jess4pa.com/issues",
+        "date": "2026-07"
+      },
+      "education": {
+        "summary": "Supports fully funded public schools where teachers are supported and classrooms are stocked; says every kid in every zip code deserves a fair shot and that a student's resources should not depend on family wealth or hometown budget.",
+        "short": "Supports fully funded public schools regardless of zip code.",
+        "source": "https://www.jess4pa.com/issues",
+        "date": "2026-07"
+      },
+      "healthcare": {
+        "summary": "Says she is fighting for healthcare that is truly affordable and covers people when they are sick, with decisions made by patients and their doctors rather than insurance company executives; cites surprise medical bills as a burden on working families.",
+        "short": "Supports affordable healthcare; patient-doctor decisions, not insurance executives.",
+        "source": "https://www.jess4pa.com/issues",
+        "date": "2026-07"
+      }
+    }
+  },
+  "22753": {
+    "name": "Steven Curtis Mentzer",
+    "positions": {
+      "economy": {
+        "summary": "Supported House Bill 591 to set uniform construction permitting standards aligned with federal rules and neighboring states, calling Pennsylvania's permitting process cumbersome and antiquated and describing the bill as critical legislation for jobs and the economy.",
+        "short": "Supports streamlining construction permitting; calls it critical for jobs.",
+        "source": "https://www.repmentzer.com/News/23981/Press-Releases/Setting-Uniform-Construction-Permitting-Standards",
+        "date": "2021-12"
+      },
+      "taxes": {
+        "summary": "Voted for the 2026-27 state budget, which he said was nearly $3 billion below the governor's request, saying Pennsylvania families cannot afford over-spending and tax increases and that the budget protects taxpayers while maintaining the Earned Income Tax Credit and Property Tax & Rent Rebate programs.",
+        "short": "Voted for budget he says protects taxpayers, avoids tax increases.",
+        "source": "https://www.repmentzer.com/News/38239/Press-Releases/Mentzer-Votes-Yes-on-State-Budget",
+        "date": "2026-07"
+      },
+      "abortion": {
+        "summary": "Voted against House Bill 1957 (2025), a proposed state constitutional amendment providing for personal reproductive liberty; in 2022 he voted for Senate Bill 106, a proposed amendment stating the constitution does not grant a right to taxpayer-funded abortion or any other right relating to abortion.",
+        "short": "Voted against reproductive-liberty amendment; voted for no-right-to-abortion amendment.",
+        "source": "https://www.palegis.us/house/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=795",
+        "date": "2025-12"
+      },
+      "education": {
+        "summary": "Supports Pennsylvania's Educational Improvement and Opportunity Scholarship tax credit programs, saying they rescue promising students from failing schools, give students opportunities they otherwise would not have, and encourage business investment in the state.",
+        "short": "Supports tax credit scholarship programs expanding students' school options.",
+        "source": "https://www.repmentzer.com/News/23980/Press-Releases/Most-Effective-Economic-Development-Tool-Also-Best-at-Providing-Educational-Options",
+        "date": "2021-12"
+      },
+      "energy": {
+        "summary": "Voted against House Bill 2025 (2020), which would have required legislative approval before the state Department of Environmental Protection could impose a tax or fee on carbon dioxide emissions, a measure aimed at Pennsylvania's planned participation in the Regional Greenhouse Gas Initiative.",
+        "short": "Voted against bill restricting state carbon-emissions regulation authority.",
+        "source": "https://www.palegis.us/house/roll-calls/summary?sessYr=2019&sessInd=0&rcNum=1507",
+        "date": "2020-07"
+      },
+      "guns": {
+        "summary": "Voted against House Bill 714 (2023), which would have required background checks on all firearm sales, and voted against Senate Bill 565 (2021), which would have allowed concealed carry of firearms without a permit.",
+        "short": "Voted against universal background checks and against permitless carry.",
+        "source": "https://www.palegis.us/house/roll-calls/summary?sessYr=2023&sessInd=0&rcNum=96",
+        "date": "2023-05"
+      }
+    }
+  }
+}

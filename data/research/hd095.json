@@ -1,0 +1,86 @@
+{
+  "23654": {
+    "name": "Carol D. Hill-Evans",
+    "website": "https://www.votecarolhill-evanspa95thld.com/",
+    "positions": {
+      "economy": {
+        "summary": "Her campaign platform supports Main Street and economic development programs that support new local jobs, along with investments in infrastructure and public transit; she cites bringing over $100 million in funding to the district, including for economic development.",
+        "short": "Supports local-jobs development programs, infrastructure and public transit investments.",
+        "source": "https://www.votecarolhill-evanspa95thld.com/issues",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "Her campaign platform includes cutting taxes and costs for working families, and her site says she was prime sponsor of HB 1100 to increase Property Tax/Rent Rebate payments for seniors.",
+        "short": "Supports cutting working-family taxes; sponsored senior rent-rebate increase.",
+        "source": "https://www.votecarolhill-evanspa95thld.com/",
+        "date": "2026-07"
+      },
+      "abortion": {
+        "summary": "As a legislator she sponsored a proposed state constitutional amendment establishing a right to personal reproductive liberty and a 2024 bill to repeal waiting-period and parental-consent requirements while protecting abortion access through 24 weeks, and voted against a 20-week ban and other abortion restrictions.",
+        "short": "Sponsored reproductive-liberty amendment; voted against 20-week ban, restrictions.",
+        "source": "https://choicetracker.org/legislator/h95hill-evans",
+        "date": "2024-05"
+      },
+      "education": {
+        "summary": "Her campaign platform supports equitable funding for public education, investments in career and technical education and workforce development, and affordable, accessible and attainable college.",
+        "short": "Supports equitable public-school funding, career-technical investment, affordable college.",
+        "source": "https://www.votecarolhill-evanspa95thld.com/issues",
+        "date": "2026-07"
+      },
+      "healthcare": {
+        "summary": "Sponsored House Bill 2117, which authorizes Pennsylvania schools to stock albuterol and lets trained staff administer it to students in respiratory distress with parental permission; it passed the House in June 2026 and she called it a practical, life-saving measure.",
+        "short": "Sponsored school asthma-medication bill; passed House June 2026.",
+        "source": "https://www.pahouse.com/InTheNews/NewsRelease/?id=143910",
+        "date": "2026-06"
+      },
+      "energy": {
+        "summary": "This entry reflects water-quality work rather than an energy platform: she sponsored a 2026 House resolution designating Chesapeake Bay Awareness Week, serves on the Chesapeake Bay Commission, and said investing in Pennsylvania's waterways strengthens the health of the bay.",
+        "short": "Sponsored Chesapeake Bay resolution; supports investing in Pennsylvania waterways.",
+        "source": "https://www.pahouse.com/InTheNews/NewsRelease/?id=143988",
+        "date": "2026-06"
+      },
+      "guns": {
+        "summary": "Voted yes in May 2023 on House Bill 714, which removes the exemption of certain private gun sales from Pennsylvania's background-check requirement.",
+        "short": "Voted for extending background checks to private gun sales.",
+        "source": "https://www.palegis.us/house/roll-calls/summary?sessYr=2023&sessInd=0&rcNum=96",
+        "date": "2023-05"
+      }
+    }
+  },
+  "23692": {
+    "name": "Jasmine Rivera",
+    "website": "https://www.jasmineriveraforpa.com/",
+    "positions": {
+      "economy": {
+        "summary": "Her campaign site says Pennsylvania's corporate tax rate is the fifth-highest in the nation and calls for lowering it, proposes drastically reducing the regulatory burden on small businesses, and says the state must address young people leaving for states offering better opportunities.",
+        "short": "Proposes lowering corporate taxes and drastically reducing regulatory burden.",
+        "source": "https://www.jasmineriveraforpa.com/on-the-issues/",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "Proposes eliminating school property taxes, replacing the revenue with income and sales taxes; her site calls Pennsylvania's property tax system outdated, unfair and in need of reform, citing the burden on seniors and low- and middle-income families.",
+        "short": "Proposes eliminating school property taxes via income, sales taxes.",
+        "source": "https://www.jasmineriveraforpa.com/on-the-issues/",
+        "date": "2026-07"
+      },
+      "abortion": {
+        "summary": "Her campaign site says abortion should be allowed up to three months, with exceptions beyond that only to protect the life of the mother and to address unviable pregnancies.",
+        "short": "Says abortion allowed to three months; exceptions for life, unviability.",
+        "source": "https://www.jasmineriveraforpa.com/on-the-issues/",
+        "date": "2026-07"
+      },
+      "education": {
+        "summary": "Supports school choice, saying education dollars should follow all Pennsylvania students to the school of their choice and that a family's zip code should not determine a child's school; supports expanding Lifeline Scholarships and increasing vocational training opportunities.",
+        "short": "Supports school choice, Lifeline Scholarships; dollars follow the student.",
+        "source": "https://www.jasmineriveraforpa.com/on-the-issues/",
+        "date": "2026-07"
+      },
+      "guns": {
+        "summary": "Her platform's public-safety section addresses criminal justice rather than firearms: she supports pragmatic criminal justice reform pairing toughness on crime with jobs, mentorships, job training, probation reform and personal accountability; her site does not state a position on guns.",
+        "short": "Supports pragmatic criminal justice reform; no stated gun position.",
+        "source": "https://www.jasmineriveraforpa.com/on-the-issues/",
+        "date": "2026-07"
+      }
+    }
+  }
+}

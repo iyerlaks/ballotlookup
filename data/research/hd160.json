@@ -1,0 +1,74 @@
+{
+  "22836": {
+    "name": "Elizabeth Rhein Moro",
+    "website": "https://elizabethmoro.com/",
+    "positions": {
+      "economy": {
+        "summary": "Her campaign says everything is more expensive these days, listing eggs, coffee, and utilities, and proposes lowering costs, raising the minimum wage, and restoring skilled trade jobs.",
+        "short": "Proposes lowering costs, raising minimum wage, restoring trade jobs.",
+        "source": "https://elizabethmoro.com/issues/",
+        "date": "2026-07"
+      },
+      "abortion": {
+        "summary": "Her campaign says she is dedicated to protecting reproductive freedom, stating that state and local governments are the frontlines to defending reproductive freedom.",
+        "short": "Says she is dedicated to protecting reproductive freedom.",
+        "source": "https://elizabethmoro.com/issues/",
+        "date": "2026-07"
+      },
+      "education": {
+        "summary": "Her campaign supports fair education funding so that every child receives access to the resources of a great education, no matter their zip code.",
+        "short": "Supports fair education funding regardless of a child's zip code.",
+        "source": "https://elizabethmoro.com/issues/",
+        "date": "2026-07"
+      },
+      "healthcare": {
+        "summary": "Her campaign says no one should have to drain their bank account or go into debt to be seen by a doctor, and pledges to reduce the price of prescription drugs.",
+        "short": "Pledges to reduce doctor costs and prescription drug prices.",
+        "source": "https://elizabethmoro.com/issues/",
+        "date": "2026-07"
+      }
+    }
+  },
+  "23302": {
+    "name": "Wendell Craig Williams",
+    "website": "https://craigwilliamspa160.com/",
+    "positions": {
+      "economy": {
+        "summary": "His campaign says he is fighting to cut wasteful spending policies that have increased costs for families.",
+        "short": "Says he is fighting to cut wasteful spending that raised costs.",
+        "source": "https://craigwilliamspa160.com/",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "His campaign says he passed fiscally responsible budgets that did not increase taxes on families and seniors on fixed incomes.",
+        "short": "Says he passed budgets without raising taxes on families, seniors.",
+        "source": "https://craigwilliamspa160.com/",
+        "date": "2026-07"
+      },
+      "education": {
+        "summary": "His campaign says he secured record funding for children's education without raising taxes.",
+        "short": "Says he secured record education funding without raising taxes.",
+        "source": "https://craigwilliamspa160.com/",
+        "date": "2026-07"
+      },
+      "energy": {
+        "summary": "His campaign describes him as recognized as the leading voice for lowering electricity costs for Pennsylvania ratepayers.",
+        "short": "Describes himself as leading voice for lowering electricity costs.",
+        "source": "https://craigwilliamspa160.com/",
+        "date": "2026-07"
+      },
+      "guns": {
+        "summary": "His campaign says he secured over $13 million to hire additional prosecutors in Delaware and Philadelphia counties, resulting in over 100 convictions of felons in possession of firearms in federal court; this entry describes a law-enforcement and prosecution platform rather than firearm regulation.",
+        "short": "Secured funding for prosecutors convicting felons possessing firearms.",
+        "source": "https://craigwilliamspa160.com/",
+        "date": "2026-07"
+      },
+      "abortion": {
+        "summary": "In his 2024 attorney general campaign he said he does not believe the state constitution guarantees a right to abortion access, arguing that decision belongs to the legislature, and that as attorney general he would defend the constitution regarding the Abortion Control Act.",
+        "short": "Says state constitution does not guarantee a right to abortion.",
+        "source": "https://whyy.org/articles/craig-williams-pennsylvania-attorney-general-primary-election-2024/",
+        "date": "2024-04"
+      }
+    }
+  }
+}

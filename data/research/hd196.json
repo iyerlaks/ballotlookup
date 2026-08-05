@@ -1,0 +1,68 @@
+{
+  "23838": {
+    "name": "George Margetas",
+    "website": "https://votemargetas.com/",
+    "positions": {
+      "taxes": {
+        "summary": "His campaign says he will support only budgets that are balanced and do not outpace inflation and population growth, and pledges to oppose tax increases and enact taxpayer protection legislation.",
+        "short": "Supports only balanced budgets; pledges to oppose tax increases.",
+        "source": "https://votemargetas.com/",
+        "date": "2026-07"
+      },
+      "abortion": {
+        "summary": "At a May 2026 candidate forum he said abortion means ending a life and that he finds it acceptable only when a pregnancy threatens the mother's life or results from rape or incest.",
+        "short": "Says acceptable only for mother's life, rape, or incest.",
+        "source": "https://www.aol.com/articles/forum-highlights-differences-between-196th-084729777.html",
+        "date": "2026-05"
+      },
+      "education": {
+        "summary": "His campaign says education dollars should follow students rather than the systems and bureaucracy, and he says he opposed adding gender ideology and DEI to school curriculum while serving on the school board.",
+        "short": "Says education dollars should follow students, not bureaucracy.",
+        "source": "https://votemargetas.com/",
+        "date": "2026-07"
+      },
+      "energy": {
+        "summary": "In news coverage of the special election he was reported to support expanding fracking and to support leaving data center permitting to local municipalities; as a township supervisor he voted to rezone land for a data center.",
+        "short": "Supports expanding fracking; leaves data-center permitting to municipalities.",
+        "source": "https://en.wikipedia.org/wiki/George_Margetas",
+        "date": "2026-05"
+      },
+      "guns": {
+        "summary": "His campaign says he will protect Second Amendment rights now and for future generations and will assist and protect law enforcement and first responder communities.",
+        "short": "Pledges to protect Second Amendment rights; support law enforcement.",
+        "source": "https://votemargetas.com/",
+        "date": "2026-07"
+      }
+    }
+  },
+  "23390": {
+    "name": "Ronald G. Ruman",
+    "website": "https://www.rumanforrep.com/",
+    "positions": {
+      "taxes": {
+        "summary": "His campaign says he would change the local earned income tax to a personal income tax that includes investment earnings and use the added revenue to cut residential property taxes, while keeping pensions and Social Security untaxed.",
+        "short": "Proposes shifting to a personal income tax to cut property taxes.",
+        "source": "https://www.rumanforrep.com/copy-of-about",
+        "date": "2026-07"
+      },
+      "abortion": {
+        "summary": "At a May 2026 candidate forum he said Pennsylvania's current abortion laws offer reasonable restrictions and that reducing abortions requires supporting women during and after pregnancy, including maintaining SNAP benefits.",
+        "short": "Says current abortion laws offer reasonable restrictions.",
+        "source": "https://www.aol.com/articles/forum-highlights-differences-between-196th-084729777.html",
+        "date": "2026-05"
+      },
+      "education": {
+        "summary": "His campaign says he would stop what he calls excessive taxpayer support of cyber charter schools, which he says drives up school property taxes, and ensure public schools are funded adequately.",
+        "short": "Proposes limiting cyber charter funding; funding public schools adequately.",
+        "source": "https://www.rumanforrep.com/copy-of-about",
+        "date": "2026-07"
+      },
+      "energy": {
+        "summary": "His campaign says he would support legislation requiring data centers to pay for the electricity they use rather than passing the cost on to homeowners and businesses.",
+        "short": "Supports requiring data centers to pay for their electricity.",
+        "source": "https://www.rumanforrep.com/copy-of-about",
+        "date": "2026-07"
+      }
+    }
+  }
+}

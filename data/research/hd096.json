@@ -1,0 +1,61 @@
+{
+  "23115": {
+    "name": "Nikki Rivera",
+    "website": "https://www.nikkiriveraforpa.com/",
+    "positions": {
+      "economy": {
+        "summary": "Her campaign vision statement says hard work should provide stability, with good-paying jobs and wages that keep pace with the cost of living, housing costs that do not exceed 30% of income, and utilities that remain dependable and reasonably priced.",
+        "short": "Says wages should match living costs; housing under 30% income.",
+        "source": "https://www.nikkiriveraforpa.com/vision",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "Authored a bill, passed by the state House in June 2026, adding oversight to Pennsylvania's Educational Improvement and Opportunity Scholarship tax credit programs, including interdepartmental review, publication of participating schools, and Independent Fiscal Office audits; she said the bill keeps the program's funding at $680 million and that people deserve to know where the money goes.",
+        "short": "Authored oversight bill for educational tax credit programs.",
+        "source": "https://lancasteronline.com/news/local/lancaster-county-rep-nikki-rivera-proposes-added-oversight-to-educational-tax-credit-programs/article_828ef329-57a2-4ca5-80b9-2b07de576f17.html",
+        "date": "2026-06"
+      },
+      "abortion": {
+        "summary": "Co-sponsored House Bill 1957, a proposed state constitutional amendment establishing a right of privacy for personal, sexual and reproductive health care decisions, including the right to choose or refuse abortion, contraceptives, and fertility care; the House passed it 102-101 in December 2025.",
+        "short": "Co-sponsored constitutional amendment protecting abortion and reproductive care rights.",
+        "source": "https://www.palegis.us/legislation/bills/2025/hb1957",
+        "date": "2025-12"
+      },
+      "education": {
+        "summary": "Her campaign says every child deserves access to a high-quality, fairly funded public education, and supports cyber charter tuition reform to ensure responsible taxpayer spending; after her 2024 election she said she would focus on continuing Pennsylvania's fair education funding work.",
+        "short": "Supports fair public school funding and cyber charter tuition reform.",
+        "source": "https://www.nikkiriveraforpa.com/vision",
+        "date": "2026-07"
+      },
+      "healthcare": {
+        "summary": "As a legislator she has sponsored bills to create a Maternal Care Access Program, expand insurance coverage for mammograms and breast imaging, establish a mental health crisis response program, and revise medical assistance eligibility.",
+        "short": "Sponsored maternal care, breast imaging coverage, mental health bills.",
+        "source": "https://ballotpedia.org/Nikki_Rivera",
+        "date": "2026-07"
+      },
+      "energy": {
+        "summary": "Her campaign vision statement commits to protecting clean air, water, and soil for future generations while ensuring communities have the infrastructure they need as energy demands grow; she has also sponsored bills on county stormwater planning and riparian buffer protection.",
+        "short": "Supports clean air and water protections; infrastructure for energy demand.",
+        "source": "https://www.nikkiriveraforpa.com/vision",
+        "date": "2026-07"
+      },
+      "guns": {
+        "summary": "Her campaign's vision statement addresses public safety rather than gun policy: it supports safe streets for walking, biking, and driving, efficient public transportation, and backing local law enforcement and emergency responders.",
+        "short": "Campaign backs safe streets, law enforcement; no gun-policy platform.",
+        "source": "https://www.nikkiriveraforpa.com/vision",
+        "date": "2026-07"
+      }
+    }
+  },
+  "23624": {
+    "name": "Babita Rusyn",
+    "positions": {
+      "education": {
+        "summary": "A 2026 primary election candidate profile describes her as an advocate for improving education, creating science-based resolutions, and providing legal advocacy without compromise; the profile does not detail specific policy proposals.",
+        "short": "Profile describes her as advocate for improving education.",
+        "source": "https://www.fox43.com/article/news/politics/elections/candidates/2026-primary-election-guide-babita-rusyn-republican-candidate-for-pa-houses-96th-district/521-feb9c2f9-d9bc-4a9c-b99a-f114b0012378",
+        "date": "2026-04"
+      }
+    }
+  }
+}

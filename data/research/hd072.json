@@ -1,0 +1,61 @@
+{
+  "23204": {
+    "name": "Frank Burns",
+    "website": "https://frankburns4pa.com/",
+    "positions": {
+      "economy": {
+        "summary": "Voted in March 2026 against House Bill 2189, which would raise Pennsylvania's minimum wage from $7.25 to $15 an hour by 2029 with cost-of-living adjustments afterward. He was one of two House Democrats to vote against the bill, which passed 104-95.",
+        "short": "Voted against raising the state minimum wage to $15.",
+        "source": "https://www.northcentralpa.com/news/state/pa-house-passes-bill-to-raise-minimum-wage-to-15-by-2029/article_cb252b62-8ef3-5fb5-b9d0-a8bd7e68da61.html",
+        "date": "2026-03"
+      },
+      "taxes": {
+        "summary": "In May 2026 he introduced House Bill 2686 to repeal a Corbett-era provision that authorized gas tax increases over time, saying Pennsylvania drivers already pay among the highest state fuel taxes in the nation and that removing the provision would provide relief to working families facing rising fuel costs.",
+        "short": "Proposes repealing Corbett-era gas tax provision to lower fuel costs.",
+        "source": "https://www.palegis.us/house/co-sponsorship/memo?memoId=48777",
+        "date": "2026-05"
+      },
+      "abortion": {
+        "summary": "Voted against a bill that would shield doctors and patients from out-of-state abortion prosecutions, and voted in 2011 for a law that increased restrictions on abortion clinics.",
+        "short": "Voted against abortion-prosecution shield bill; voted for clinic restrictions.",
+        "source": "https://www.spotlightpa.org/news/2024/11/frank-burns-who-pennsylvania-legislature-democrats-win-majority-cambria-blue-dog/",
+        "date": "2024-11"
+      },
+      "education": {
+        "summary": "His campaign website says he will continue to secure additional resources for local school districts and promote educational programs that prepare students for future employment.",
+        "short": "Says he will secure school resources and promote job-preparation programs.",
+        "source": "https://frankburns4pa.com/",
+        "date": "2026-07"
+      },
+      "healthcare": {
+        "summary": "His campaign website says he supports lower prescription drug prices and access to affordable health care options, and will continue to fight the opioid epidemic. In the 2025-26 session he is prime sponsor of House Bill 2431, which amends the enforcement authority of the state's Pharmacy Audit Integrity and Transparency Act.",
+        "short": "Supports lower drug prices, affordable coverage; sponsors pharmacy audit bill.",
+        "source": "https://frankburns4pa.com/",
+        "date": "2026-07"
+      },
+      "guns": {
+        "summary": "Voted in May 2023 against a three-bill package that included criminal penalties for failing to report a lost or stolen firearm within 72 hours, background checks on private sales of rifles and shotguns, and red-flag orders, saying he refuses to chip away at the Second Amendment rights of the people of Cambria County and that the legislation punishes law-abiding gun owners rather than criminals.",
+        "short": "Opposed background-check, red-flag, and lost-firearm reporting bills.",
+        "source": "https://www.pahouse.com/Burns/InTheNews/NewsRelease/?id=129067",
+        "date": "2023-05"
+      }
+    }
+  },
+  "23427": {
+    "name": "Philip D. Rice",
+    "positions": {
+      "economy": {
+        "summary": "In a May 2014 candidate profile during an earlier run for this same seat, Rice named jobs, opportunity and growth as the district's top needs and said he would advocate pro-growth strategies and work to reduce the power, scope and size of the state bureaucracy. No 2026 platform statements on the economy were located.",
+        "short": "In 2014, named jobs and growth top needs; proposed pro-growth strategies.",
+        "source": "https://www.altoonamirror.com/news/local-news/2014/05/philip-d-rice/",
+        "date": "2014-05"
+      },
+      "taxes": {
+        "summary": "His 2014 campaign website, from an earlier run for this same seat, said he would not support raising taxes on those who already pay their fair share, would support budgets marked by fiscal discipline, and would refuse per diems and cost-of-living pay raises for legislators. No 2026 platform statements on taxes were located.",
+        "short": "In 2014, opposed raising taxes; supported fiscal-discipline budgets.",
+        "source": "https://ballotpedia.org/Philip_Rice",
+        "date": "2014-05"
+      }
+    }
+  }
+}

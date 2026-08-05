@@ -1,0 +1,62 @@
+{
+  "22708": {
+    "name": "Harry Scott Conklin",
+    "website": "https://www.scottconklinpa.com/",
+    "positions": {
+      "economy": {
+        "summary": "He is prime sponsor of HB 2391, which passed the state House 117-84 and aims to improve housing affordability by letting lenders offer investors financing with prepayment penalties while prohibiting such penalties on mortgages for personal, family, or household purposes. He said the option would \"open up more housing, stabilize prices and spur more long-term investments.\"",
+        "short": "Sponsors housing affordability bill; says it would stabilize home prices.",
+        "source": "https://www.pahouse.com/Conklin/InTheNews/NewsRelease/?id=143942",
+        "date": "2026-06"
+      },
+      "taxes": {
+        "summary": "He introduced HR 457, a resolution directing the Legislative Budget and Finance Committee to study the feasibility of a property tax exemption for Pennsylvanians 65 and older, saying seniors on fixed incomes should not fear losing their homes to rising property taxes.",
+        "short": "Proposes studying a property tax exemption for seniors.",
+        "source": "https://www.pahouse.com/Conklin/InTheNews/NewsRelease/?id=142853",
+        "date": "2026-03"
+      },
+      "education": {
+        "summary": "His 2026 reelection campaign lists increased education funding among his priorities. As of May 2026 his campaign materials do not detail specific education proposals.",
+        "short": "Lists increased education funding among his campaign priorities.",
+        "source": "https://www.statecollege.com/articles/elections/after-uncontested-primaries-heres-who-will-be-on-the-november-ballot-in-centre-county-for-u-s-and-state-house/",
+        "date": "2026-05"
+      },
+      "energy": {
+        "summary": "His 2026 reelection campaign lists environmental sustainability among his priorities, alongside safer infrastructure and voter accessibility. As of May 2026 his campaign materials do not detail specific energy or environmental proposals.",
+        "short": "Lists environmental sustainability among his campaign priorities.",
+        "source": "https://www.statecollege.com/articles/elections/after-uncontested-primaries-heres-who-will-be-on-the-november-ballot-in-centre-county-for-u-s-and-state-house/",
+        "date": "2026-05"
+      }
+    }
+  },
+  "23828": {
+    "name": "Michelle Marie Schellberg",
+    "website": "https://schellbergforpa.com/",
+    "positions": {
+      "economy": {
+        "summary": "Her campaign site says she supports \"promoting smart development and local business growth that preserves Centre County's character\" and advocates for infrastructure, broadband access, and agricultural support for rural communities.",
+        "short": "Supports smart development, local business growth, rural infrastructure, broadband.",
+        "source": "https://schellbergforpa.com/",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "Her campaign site calls for \"cutting wasteful spending and keeping taxes low so hardworking families keep more of what they earn.\"",
+        "short": "Supports cutting wasteful spending and keeping taxes low.",
+        "source": "https://schellbergforpa.com/",
+        "date": "2026-07"
+      },
+      "education": {
+        "summary": "Her campaign site says she supports \"empowering parents with choice and ensuring every student in Centre County has access to an excellent education.\"",
+        "short": "Supports parental school choice and access to excellent education.",
+        "source": "https://schellbergforpa.com/",
+        "date": "2026-07"
+      },
+      "guns": {
+        "summary": "Her campaign site says she supports \"protecting Second Amendment rights and opposing any legislation that infringes on law-abiding citizens' freedoms,\" and separately supports law enforcement and first responders to keep neighborhoods safe.",
+        "short": "Opposes gun legislation she views as infringing rights; supports law enforcement.",
+        "source": "https://schellbergforpa.com/",
+        "date": "2026-07"
+      }
+    }
+  }
+}

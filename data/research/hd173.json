@@ -1,0 +1,56 @@
+{
+  "22833": {
+    "name": "Patrick Gallagher",
+    "website": "https://www.pahouse.com/Gallagher/",
+    "positions": {
+      "economy": {
+        "summary": "He supported the Keystone Saves Program (H.B. 1263), which would give retirement-savings account access to Pennsylvania workers who lack employer-sponsored plans, saying workers deserve a secure and reliable retirement.",
+        "short": "Supported Keystone Saves retirement-savings access for workers.",
+        "source": "https://www.pahouse.com/Gallagher/InTheNews/NewsRelease/?id=138661",
+        "date": "2025-05"
+      },
+      "healthcare": {
+        "summary": "He supported H.B. 1123, which requires insurance coverage for colorectal cancer screening beginning at age 45 instead of 50, describing it as a measure aimed at saving lives.",
+        "short": "Supported bill lowering colorectal cancer screening coverage age.",
+        "source": "https://www.pahouse.com/Gallagher/InTheNews/NewsRelease/?id=140864",
+        "date": "2025-10"
+      },
+      "guns": {
+        "summary": "He backed legislation (H.B. 2426, enacted 2024) banning license plate flipping devices, framed as a public-safety and driver-accountability measure rather than a firearms measure, saying it closes loopholes used to evade tolls and payments.",
+        "short": "Backed ban on license plate flipping devices.",
+        "source": "https://www.pahouse.com/Gallagher/InTheNews/NewsRelease/?id=137832",
+        "date": "2025-03"
+      }
+    }
+  },
+  "23304": {
+    "name": "William J. Griffin Jr.",
+    "website": "https://www.electbillgriffin.com/",
+    "positions": {
+      "economy": {
+        "summary": "His campaign lists \"Affordable Living\" as a priority, saying working families and seniors shouldn't be squeezed by rising costs.",
+        "short": "Lists affordable living; says rising costs squeeze families, seniors.",
+        "source": "https://www.electbillgriffin.com/",
+        "date": "2026-07"
+      },
+      "education": {
+        "summary": "His campaign lists \"Strong Public Schools\" as a priority, saying schools should be places where students thrive and parents feel respected and heard.",
+        "short": "Lists strong public schools where students thrive as priority.",
+        "source": "https://www.electbillgriffin.com/",
+        "date": "2026-07"
+      },
+      "healthcare": {
+        "summary": "Under a \"Support for Seniors & Families\" priority, his campaign says everyone deserves a fair shot and access to reliable health care and essential services.",
+        "short": "Says everyone deserves access to reliable health care.",
+        "source": "https://www.electbillgriffin.com/",
+        "date": "2026-07"
+      },
+      "guns": {
+        "summary": "His campaign lists \"Safe Neighborhoods\" as a priority, saying every family deserves to feel secure on their block and in their home.",
+        "short": "Lists safe neighborhoods; says families deserve to feel secure.",
+        "source": "https://www.electbillgriffin.com/",
+        "date": "2026-07"
+      }
+    }
+  }
+}

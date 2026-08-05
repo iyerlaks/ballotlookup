@@ -1,0 +1,98 @@
+{
+  "22728": {
+    "name": "Cecilia Gerlach",
+    "website": "https://www.ceceforpa.com/",
+    "positions": {
+      "economy": {
+        "summary": "Her platform proposes limiting how much landlords can raise rents and banning what she calls predatory, AI-driven price gouging and secret price tags. She says Pennsylvania's economy should work for everyone, not just the wealthy and well-connected.",
+        "short": "Proposes limiting rent increases; proposes banning AI-driven price gouging.",
+        "source": "https://www.ceceforpa.com/platform-issues",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "Her platform calls for making billionaires pay their fair share in taxes to take the burden off the working and middle class.",
+        "short": "Proposes taxing billionaires to reduce working- and middle-class burden.",
+        "source": "https://www.ceceforpa.com/platform-issues",
+        "date": "2026-07"
+      },
+      "abortion": {
+        "summary": "Her platform says communities are stronger when people have the freedom and resources to decide if, when, and how to grow their families, and pledges to stand with those fighting to protect reproductive rights and keep Pennsylvania a safe place for care.",
+        "short": "Pledges to protect reproductive rights and access to care.",
+        "source": "https://www.ceceforpa.com/issues",
+        "date": "2026-07"
+      },
+      "education": {
+        "summary": "Her platform says every child, regardless of ZIP code, family income, or background, deserves a world-class education in a safe, well-resourced public school, and calls for equitable public school funding, noting a court ruled Pennsylvania's funding system unconstitutional.",
+        "short": "Supports equitable, full funding of public schools statewide.",
+        "source": "https://www.ceceforpa.com/issues",
+        "date": "2026-07"
+      },
+      "healthcare": {
+        "summary": "Her platform calls health care a human right, not a privilege, says no one should have to choose between paying for medicine and paying for rent, and cites uninsured residents and medical debt as problems to address.",
+        "short": "Calls health care a human right; cites medical debt.",
+        "source": "https://www.ceceforpa.com/issues",
+        "date": "2026-07"
+      },
+      "energy": {
+        "summary": "Her platform says the climate crisis is already impacting Pennsylvania with extreme weather, flooding, poor air quality, and rising energy costs, and supports transitioning to clean energy in a way that benefits working families.",
+        "short": "Says climate crisis is here; supports clean energy transition.",
+        "source": "https://www.ceceforpa.com/issues",
+        "date": "2026-07"
+      },
+      "guns": {
+        "summary": "Her platform's public-safety section does not address firearms specifically; it says safety is about more than policing and requires strong neighborhoods, good jobs, quality schools, affordable housing, and trust between residents and those who serve them.",
+        "short": "Public-safety platform stresses neighborhoods and trust; does not address firearms.",
+        "source": "https://www.ceceforpa.com/issues",
+        "date": "2026-07"
+      }
+    }
+  },
+  "23475": {
+    "name": "Robert E. Smith Jr.",
+    "website": "https://smithforpa.com/",
+    "positions": {
+      "economy": {
+        "summary": "In an iVoterGuide candidate survey during the February 2026 special election, he said he supports raising the minimum wage, noting it has not gone up in 16 years.",
+        "short": "Supports raising the minimum wage after 16 years unchanged.",
+        "source": "https://ivoterguide.com/candidate/66927/race/26257/election/1398",
+        "date": "2026-02"
+      },
+      "taxes": {
+        "summary": "Describes himself as a fiscal conservative and questioned the timing of borrowing for the governor's proposed $1 billion affordable housing bond, saying it first has to be at the right time.",
+        "short": "Describes himself as fiscal conservative; questions housing-bond borrowing timing.",
+        "source": "https://www.politicspa.com/hd-22-tiburcio-smith-compete-for-open-allentown-house-seat/145716/",
+        "date": "2026-02"
+      },
+      "abortion": {
+        "summary": "In an iVoterGuide candidate survey, he answered that abortion providers should not receive taxpayer funds and agreed that human life deserves legal protection from conception until natural death.",
+        "short": "Opposes taxpayer funds for abortion providers; supports legal protection from conception.",
+        "source": "https://ivoterguide.com/candidate/66927/race/26257/election/1398",
+        "date": "2026-02"
+      },
+      "education": {
+        "summary": "Supports school choice legislation and reinstating state reimbursements to public schools for charter school tuition, and says curriculum requirements should be less rigid, summarizing his view as 'let the teachers teach.'",
+        "short": "Supports school choice, charter-tuition reimbursements, less rigid curriculum.",
+        "source": "https://www.politicspa.com/hd-22-tiburcio-smith-compete-for-open-allentown-house-seat/145716/",
+        "date": "2026-02"
+      },
+      "healthcare": {
+        "summary": "In an iVoterGuide candidate survey, he said he prefers a system that allows both government-funded and private healthcare options, favoring maximum choice over a single mandated option.",
+        "short": "Prefers allowing both government-funded and private healthcare options.",
+        "source": "https://ivoterguide.com/candidate/66927/race/26257/election/1398",
+        "date": "2026-02"
+      },
+      "energy": {
+        "summary": "In an iVoterGuide candidate survey, he disagreed that man-made climate change requires urgent action and called nuclear energy the most efficient way to address growing electricity demands.",
+        "short": "Disagrees climate change requires urgent action; backs nuclear energy.",
+        "source": "https://ivoterguide.com/candidate/66927/race/26257/election/1398",
+        "date": "2026-02"
+      },
+      "guns": {
+        "summary": "In an iVoterGuide candidate survey, he said there are enough current gun laws on the books and described himself as a strong supporter of the Second Amendment.",
+        "short": "Says current gun laws suffice; strong Second Amendment supporter.",
+        "source": "https://ivoterguide.com/candidate/66927/race/26257/election/1398",
+        "date": "2026-02"
+      }
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "23753": {
+    "name": "Kyle T. Devlin",
+    "website": "https://www.pennsylvaniansoverprofits.com/",
+    "positions": {
+      "economy": {
+        "summary": "His campaign platform says corporate food consolidation has driven Pennsylvania grocery prices to among the highest in America while shutting local farmers out of markets; he supports connecting Pennsylvania farms to schools and communities and backs community land trusts as a model for affordable housing.",
+        "short": "Opposes corporate food consolidation; supports farm links, community land trusts.",
+        "source": "https://www.pennsylvaniansoverprofits.com/issues",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "His campaign site notes Pennsylvania is a top natural gas producer without a severance tax on gas extraction and describes this as millions of dollars in missed revenue; he also proposes legalizing adult-use cannabis and using the tax revenue to fund schools, roads, and broadband.",
+        "short": "Cites missing gas severance-tax revenue; proposes cannabis tax for schools.",
+        "source": "https://www.pennsylvaniansoverprofits.com/why-run-why-now",
+        "date": "2026-07"
+      },
+      "education": {
+        "summary": "His campaign platform calls for fully funding public education according to the state constitutional requirement and reforming cyber charter payments, saying districts pay $14,000-22,000 per cyber charter student for online schools with no buildings; he says redirected funds could hire teachers and lower property taxes.",
+        "short": "Supports fully funding public schools and cyber charter payment reform.",
+        "source": "https://www.pennsylvaniansoverprofits.com/issues/education-funding-reform",
+        "date": "2026-07"
+      },
+      "healthcare": {
+        "summary": "His campaign platform supports universal healthcare coverage and expansion of Medical Assistance, saying healthcare is the district's largest employer and that universal coverage protects those jobs with stable funding while guaranteeing care for every resident.",
+        "short": "Supports universal healthcare coverage and Medical Assistance expansion.",
+        "source": "https://www.pennsylvaniansoverprofits.com/issues/medical-assistance-expansion",
+        "date": "2026-07"
+      },
+      "guns": {
+        "summary": "His campaign site does not address firearms; its public-safety-related platform calls for treatment over incarceration for addiction and mental health issues and expanded mental health services, saying Pennsylvania spends over $3 billion on prisons while underfunding treatment.",
+        "short": "Public-safety platform: treatment over incarceration; does not address firearms.",
+        "source": "https://www.pennsylvaniansoverprofits.com/issues/mental-health-addiction-reform",
+        "date": "2026-07"
+      }
+    }
+  },
+  "22974": {
+    "name": "Jonathan A. Fritz",
+    "website": "https://www.repfritz.com/",
+    "positions": {
+      "economy": {
+        "summary": "In January 2026 he advocated for House Bill 1129, which would let early-stage businesses sell net operating losses and unused research-and-development tax credits to other companies to raise capital; he said competition for capital often results in startups relocating to states with a more favorable business climate.",
+        "short": "Advocated for bill letting startups sell tax losses and credits.",
+        "source": "https://www.repfritz.com/News/37208/Press-Releases/Fritz-Advocates-for-Bill-to-Help-Start-Up-Businesses",
+        "date": "2026-01"
+      },
+      "taxes": {
+        "summary": "He voted for the $50.8 billion 2026-27 state budget, saying it avoided tax increases and rainy day fund spending and was $2.5 billion less than the governor's February proposal; he called maintaining Corporate Net Income Tax reductions essential for small businesses.",
+        "short": "Voted for budget he says avoided tax increases; backs CNIT cuts.",
+        "source": "https://www.repfritz.com/News/38269/Press-Releases/Fritz--Budget-Passes-Without-Tax-Increases-or-Rainy-Day-Fund-Spending",
+        "date": "2026-07"
+      },
+      "abortion": {
+        "summary": "In December 2025 he voted against House Bill 1957, a proposed amendment to the Pennsylvania Constitution providing for personal reproductive liberty; the measure passed the House 102-101.",
+        "short": "Voted against reproductive-liberty amendment to the state constitution.",
+        "source": "https://www.palegis.us/house/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=795",
+        "date": "2025-12"
+      },
+      "education": {
+        "summary": "He sponsored House Bill 1768, the Keystone Fresh Act, a school-nutrition measure that would fund incentives for school food authorities to buy more locally produced food; the bill passed the House in January 2026, and he framed it as delivering fresh local meals in schools while supporting Pennsylvania family farmers.",
+        "short": "Sponsored bill funding incentives for schools to buy local food.",
+        "source": "https://www.repfritz.com/News/37262/Press-Releases/Fritz-Bill-to-Increase-Locally-Produced-Agriculture-for-Schools-Heads-to-Senate-for-Consideration",
+        "date": "2026-01"
+      },
+      "energy": {
+        "summary": "In July 2026 he was among the sponsors of a House Republican 11-bill energy package aimed at building more energy generation, lowering consumer costs, and strengthening grid reliability, including streamlined permitting and eliminating the gross receipts tax on electric utility service.",
+        "short": "Co-sponsors package to increase energy production and lower costs.",
+        "source": "https://www.repfritz.com/News/38217/Press-Releases/House-Republicans-Unveil-11-Bill-Energy-Package-to-Keep-the-Lights-On--Costs-Down",
+        "date": "2026-07"
+      },
+      "guns": {
+        "summary": "In May 2023 he voted against final passage of House Bill 714, which would expand background check requirements to include private sales of long guns; the bill passed the House 109-92.",
+        "short": "Voted against expanding background checks to private long-gun sales.",
+        "source": "https://www.palegis.us/house/roll-calls/summary?sessYr=2023&sessInd=0&rcNum=96",
+        "date": "2023-05"
+      }
+    }
+  }
+}

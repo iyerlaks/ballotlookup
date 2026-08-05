@@ -1,0 +1,68 @@
+{
+  "23693": {
+    "name": "Robert N. Gurtcheff II",
+    "website": "https://www.robgurtcheff4philly.com/",
+    "positions": {
+      "economy": {
+        "summary": "His campaign site's \"Lowering Costs\" section calls for stopping utility companies from raising residents' rates.",
+        "short": "Calls for stopping utility companies from raising rates.",
+        "source": "https://www.robgurtcheff4philly.com/issues",
+        "date": "2026-07"
+      },
+      "education": {
+        "summary": "His campaign site calls for increasing the fiscal accountability of schools and fully funding public schools, which he says would provide better opportunities for families and lower property taxes.",
+        "short": "Supports fiscal accountability and fully funding public schools.",
+        "source": "https://www.robgurtcheff4philly.com/issues",
+        "date": "2026-07"
+      },
+      "healthcare": {
+        "summary": "His campaign site calls for full disclosure of healthcare costs in advance; a Philadelphia voter guide also lists getting PTSD recognized as an injury for first responders among his priorities.",
+        "short": "Calls for advance healthcare cost disclosure; PTSD recognition for responders.",
+        "source": "https://www.robgurtcheff4philly.com/issues",
+        "date": "2026-07"
+      }
+    }
+  },
+  "23735": {
+    "name": "Martina A. White",
+    "website": "https://votemartina.com/",
+    "positions": {
+      "economy": {
+        "summary": "Her campaign priorities include supporting career and technical education, standing up for workers' rights and benefits, and making Pennsylvania more attractive to job creators.",
+        "short": "Supports career-technical education, worker benefits, attracting job creators.",
+        "source": "https://votemartina.com/priorities/",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "Her campaign site says she stopped a proposed income and sales tax increase, passed budgets that control spending while funding education, and supported legislation expanding property tax relief for older residents.",
+        "short": "Says she stopped tax increases and expanded senior property tax relief.",
+        "source": "https://votemartina.com/priorities/",
+        "date": "2026-07"
+      },
+      "abortion": {
+        "summary": "Voted no in December 2025 on House Bill 1957, a proposed constitutional amendment relating to abortion rights.",
+        "short": "Voted no on a 2025 abortion-related constitutional amendment.",
+        "source": "https://pafamily.org/2025/12/17/how-did-your-state-rep-vote-on-the-abortion-on-demand-bill/",
+        "date": "2025-12"
+      },
+      "education": {
+        "summary": "Her campaign site says she voted to increase education funding to record levels for both traditional public schools and school choice, created new school safety grants, and supports reducing standardized testing.",
+        "short": "Says she increased education funding, created safety grants, cut testing.",
+        "source": "https://votemartina.com/priorities/",
+        "date": "2026-07"
+      },
+      "healthcare": {
+        "summary": "Her campaign site says she passed a bipartisan law to reduce prescription drug costs, voted for telemedicine, supported a paid family leave program, and provided funding for charity care.",
+        "short": "Says she cut drug costs, backed telemedicine and charity care.",
+        "source": "https://votemartina.com/priorities/",
+        "date": "2026-07"
+      },
+      "energy": {
+        "summary": "Her campaign site says she is focused on growing a \"responsible energy industry\" to create family-sustaining jobs.",
+        "short": "Supports growing a responsible energy industry to create jobs.",
+        "source": "https://votemartina.com/priorities/",
+        "date": "2026-07"
+      }
+    }
+  }
+}

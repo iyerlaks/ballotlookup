@@ -1,0 +1,50 @@
+{
+  "22669": {
+    "name": "Malcolm Kenyatta",
+    "website": "https://malcolmkenyatta.com/",
+    "positions": {
+      "economy": {
+        "summary": "Hosted a Democratic Policy Committee hearing on unprecedented federal job cuts, calling them an assault on working families and an attack on organized labor under the guise of government efficiency.",
+        "short": "Calls federal job cuts an assault on working families.",
+        "source": "https://www.pahouse.com/Kenyatta/Video/?id=137964",
+        "date": "2025-04"
+      },
+      "taxes": {
+        "summary": "Voted yes on H.B. 2224, the Return on Equity Act, described as a $1.7 billion tax cut, saying he supports any legislation that lessens the financial burden on people across the commonwealth.",
+        "short": "Voted yes on Return on Equity Act, a tax cut.",
+        "source": "https://www.pahouse.com/Kenyatta/InTheNews/NewsRelease/?id=144187",
+        "date": "2026-06"
+      },
+      "abortion": {
+        "summary": "Introduced legislation with Rep. Morgan Cephas to bar Pennsylvania from imposing undue regulations on reproductive health, saying abortion is health care and health care is a human right.",
+        "short": "Introduced bill limiting reproductive-health regulations; says abortion is health care.",
+        "source": "https://www.pahouse.com/Cephas/InTheNews/NewsRelease/?id=121339",
+        "date": "2021-10"
+      },
+      "education": {
+        "summary": "Said the state budget remained incomplete without fiscal legislation funding public schools, and called on the Senate to pass the school-funding and mass-transit bills.",
+        "short": "Says budget must approve funding for public schools.",
+        "source": "https://www.pahouse.com/Kenyatta/InTheNews/NewsRelease/?id=139445",
+        "date": "2025-07"
+      },
+      "healthcare": {
+        "summary": "Co-sponsored pharmacy benefit manager reform legislation to restrict practices such as spread pricing and lower drug costs, saying he supports legislation that refocuses on small local pharmacies instead of national corporations.",
+        "short": "Co-sponsored PBM reform to protect local pharmacies, lower drug costs.",
+        "source": "https://pahouse.com/Kenyatta/InTheNews/NewsRelease/?id=134825",
+        "date": "2024-07"
+      },
+      "energy": {
+        "summary": "In a Conservation Voters of Pennsylvania endorsement, he is quoted saying the shift to renewable energy is vital to clean air and water and a step forward for the economy, and that polluters must be held accountable.",
+        "short": "Says shift to renewable energy is vital; hold polluters accountable.",
+        "source": "https://www.conservationpa.org/endorsements/hd-181-rep-malcolm-kenyatta",
+        "date": "2020-10"
+      },
+      "guns": {
+        "summary": "Co-sponsored legislation with Rep. Morgan Cephas to regulate untraceable 'ghost guns,' which passed the House, saying it is about saving lives and ensuring people who should not have firearms do not have them.",
+        "short": "Co-sponsored ghost-gun bill; says it's about saving lives.",
+        "source": "https://www.pahouse.com/Kenyatta/InTheNews/NewsRelease/?id=133469",
+        "date": "2024-03"
+      }
+    }
+  }
+}

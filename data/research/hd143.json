@@ -1,0 +1,68 @@
+{
+  "22672": {
+    "name": "Timothy J. Hayes",
+    "website": "https://timhayesforpa.com/",
+    "positions": {
+      "economy": {
+        "summary": "His campaign says the district faces an affordability crisis, with energy prices, grocery bills, and housing costs rising; he proposes expanding energy capacity, supporting low-income assistance, expanding home repair programs, and cracking down on corporate home-buying.",
+        "short": "Proposes expanding energy, assistance, home repair; curbing corporate home-buying.",
+        "source": "https://timhayesforpa.com/issues/",
+        "date": "2026-07"
+      },
+      "abortion": {
+        "summary": "His campaign says he will defend reproductive rights and keep the government out of patients' medical decisions.",
+        "short": "Says he will defend reproductive rights, keep government out.",
+        "source": "https://timhayesforpa.com/issues/",
+        "date": "2026-07"
+      },
+      "education": {
+        "summary": "His campaign says public dollars belong in public schools, and proposes raising teacher wages, investing in career and technical education, and keeping public funding from going to for-profit institutions.",
+        "short": "Says public dollars belong in public schools; proposes higher teacher pay.",
+        "source": "https://timhayesforpa.com/issues/",
+        "date": "2026-07"
+      },
+      "energy": {
+        "summary": "His campaign says he supports positioning Pennsylvania as a leader in clean energy industries and training workers, including veterans, for clean energy jobs.",
+        "short": "Supports clean energy leadership and clean energy workforce training.",
+        "source": "https://timhayesforpa.com/issues/",
+        "date": "2026-07"
+      },
+      "guns": {
+        "summary": "His campaign's public safety platform focuses on funding first responders, including securing equipment for police departments, holding hearings on fire service funding, and helping EMS retain municipal funding; it does not state a firearms policy.",
+        "short": "Focuses on funding first responders; states no firearms policy.",
+        "source": "https://timhayesforpa.com/issues/",
+        "date": "2026-07"
+      }
+    }
+  },
+  "23033": {
+    "name": "Shelby E. Labs",
+    "website": "https://www.shelbyforpa.com/",
+    "positions": {
+      "economy": {
+        "summary": "She is a sponsor of the House Republicans' 'Freedom Through Affordability' initiative, which proposes a temporary cut to the state personal income tax rate, a suspension of the state gas tax and of gross receipts taxes on electricity and telecommunications, and sales tax holidays on baby products.",
+        "short": "Sponsors initiative proposing temporary income, gas, and utility tax cuts.",
+        "source": "https://www.repshelbylabs.net/News/37743/Press-Releases/PA-House-Republicans-Launch--Freedom-Through-Affordability--Initiative-to-Cut-Costs-for-Families",
+        "date": "2026-03"
+      },
+      "taxes": {
+        "summary": "She proposed temporarily removing the state sales tax on personal care items such as soap, shampoo, deodorant, and shaving cream, saying they are basic needs rather than luxuries.",
+        "short": "Proposed removing sales tax on personal care essentials.",
+        "source": "https://www.repshelbylabs.net/News/37748/Press-Releases/Labs-Proposes-Sales-Tax-Relief-on-Personal-Care-Essentials",
+        "date": "2026-03"
+      },
+      "education": {
+        "summary": "She introduced legislation with Rep. Tim Hogan to create a pilot program aimed at training and supporting the next generation of early childhood educators.",
+        "short": "Introduced legislation to train and support early childhood educators.",
+        "source": "https://www.repshelbylabs.net/News/36355/Press-Releases/Hogan--Labs-Introduce-Legislation-to-Support-Early-Childhood-Educators",
+        "date": "2025-06"
+      },
+      "healthcare": {
+        "summary": "She co-sponsored House Bill 923, enacted as Act 49 of 2025, which extends a cost-of-living moratorium so seniors do not lose eligibility for the PACE and PACENET prescription drug programs; she said seniors should not be penalized by losing access to essential prescription programs.",
+        "short": "Co-sponsored enacted law protecting seniors' PACE prescription eligibility.",
+        "source": "https://www.repshelbylabs.net/News/37014/Press-Releases/Labs--Rivera-Announce-Enactment-of-Law-Protecting-Seniors-from-Losing-Prescription-Coverage",
+        "date": "2025-11"
+      }
+    }
+  }
+}

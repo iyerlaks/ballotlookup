@@ -1,0 +1,91 @@
+{
+  "23170": {
+    "name": "Dylan Anthony Altemara",
+    "website": "https://www.dylan4pa.com/",
+    "positions": {
+      "economy": {
+        "summary": "His campaign platform focuses on affordability, proposing property tax relief, fighting utility rate hikes, and supporting small business growth by cutting red tape.",
+        "short": "Proposes property tax relief, fighting utility hikes, cutting red tape.",
+        "source": "https://www.dylan4pa.com/issues",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "Proposes freezing property taxes at current levels for working people and seniors 65 and older who make under $75,000 per year, and closing loopholes to use extra state revenue to fund education and municipal governments.",
+        "short": "Proposes property tax freeze for seniors and working people; closing loopholes.",
+        "source": "https://www.dylan4pa.com/",
+        "date": "2026-07"
+      },
+      "education": {
+        "summary": "Told WESA's candidate survey he supports fair school funding, ensuring dollars reach classrooms, raising wages for support staff, and investing in special education, mental health services, and career and technical programs.",
+        "short": "Supports fair funding, support-staff raises, special education and technical programs.",
+        "source": "https://www.wesanews.org/wesa-voter-guide/2026-04-20/pa-state-house-39-altemara-frketic",
+        "date": "2026-04"
+      },
+      "healthcare": {
+        "summary": "His campaign pledges to fight for better access to healthcare and to expand mental and behavioral health services for children and adolescents.",
+        "short": "Pledges better healthcare access; expand youth mental health services.",
+        "source": "https://www.dylan4pa.com/",
+        "date": "2026-07"
+      },
+      "energy": {
+        "summary": "His campaign platform advocates strong environmental protections and supporting the transition to clean energy in ways that also create good local jobs.",
+        "short": "Supports environmental protections and clean energy transition creating local jobs.",
+        "source": "https://www.dylan4pa.com/issues",
+        "date": "2026-07"
+      },
+      "guns": {
+        "summary": "His campaign supports expanding background checks and closing private-sale loopholes for firearms, calling these essential for safer communities; he also proposes fully supporting first responders and investing in mental health services and community programs to prevent crime.",
+        "short": "Supports expanded background checks, closing private-sale firearm loopholes.",
+        "source": "https://www.dylan4pa.com/",
+        "date": "2026-07"
+      }
+    }
+  },
+  "23515": {
+    "name": "Andrew M. Kuzma",
+    "positions": {
+      "economy": {
+        "summary": "The incumbent's official legislative site says he is focused on fighting inflation, holding the line on taxes, and promoting economic development; he hosted a House Republican Policy Committee hearing on the impact of inflation.",
+        "short": "Says he focuses on fighting inflation, holding line on taxes.",
+        "source": "https://www.repkuzma.com/",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "Introduced House Bill 1437 to create an annual one-week back-to-school sales tax holiday exempting items such as school supplies, clothing accessories, and computers, citing inflation and rising costs on families.",
+        "short": "Introduced bill creating annual back-to-school sales tax holiday.",
+        "source": "https://www.repkuzma.com/News/36218/Press-Releases/Kuzma-Introduces-Bill-to-Create-Back-to-School-Sales-Tax-Holiday",
+        "date": "2025-05"
+      },
+      "abortion": {
+        "summary": "Is a co-sponsor of House Resolution 550, which would designate June 2026 as 'Life Month' in Pennsylvania; the resolution was referred to the House Health Committee in June 2026.",
+        "short": "Co-sponsored resolution designating June 2026 as 'Life Month.'",
+        "source": "https://www.palegis.us/legislation/bills/2025/hr550",
+        "date": "2026-06"
+      },
+      "education": {
+        "summary": "Ran in 2022 on a platform that included school choice, according to WESA's voter guide; he did not respond to WESA's 2024 candidate survey.",
+        "short": "Ran in 2022 on school choice; skipped 2024 survey.",
+        "source": "https://www.wesanews.org/wesa-voter-guide/2024-election/pa-state-house-39-girol-kuzma",
+        "date": "2024-10"
+      },
+      "healthcare": {
+        "summary": "Co-introduced bipartisan House Bill 79 to establish a Pennsylvania Medical Debt Relief Program targeting medical debt of low-income residents and improving transparency in hospital charity care programs.",
+        "short": "Co-introduced bipartisan medical debt relief program legislation.",
+        "source": "https://www.repkuzma.com/News/35437/Press-Releases/Kuzma--Others-Introduce-Bipartisan-Legislation-to-Help-Pennsylvanians-Overcome-Medical-Debt",
+        "date": "2025-01"
+      },
+      "energy": {
+        "summary": "Ran in 2022 on opposition to Pennsylvania's participation in the Regional Greenhouse Gas Initiative, according to WESA's voter guide; he did not respond to WESA's 2024 candidate survey on energy and climate policy.",
+        "short": "Ran in 2022 opposing Regional Greenhouse Gas Initiative participation.",
+        "source": "https://www.wesanews.org/wesa-voter-guide/2024-election/pa-state-house-39-girol-kuzma",
+        "date": "2024-10"
+      },
+      "guns": {
+        "summary": "On public safety, sponsored House Bill 377, passed by the House, to criminalize the manufacture, delivery, and possession of tianeptine, sold at gas stations and known as 'gas station heroin'; no stated position on firearms policy was found.",
+        "short": "Sponsored bill criminalizing tianeptine; no firearms position found.",
+        "source": "https://www.repkuzma.com/News/38123/Press-Releases/Kuzma-s-Bill-to-Make--Gas-Station-Heroin--Illegal-Passes-House",
+        "date": "2026-06"
+      }
+    }
+  }
+}

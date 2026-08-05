@@ -1,0 +1,80 @@
+{
+  "23394": {
+    "name": "Brandon Michael Dukes",
+    "website": "https://www.dukesforpa.com/",
+    "positions": {
+      "economy": {
+        "summary": "His campaign platform proposes raising the minimum wage to $15 per hour and ending price gouging on utilities and food prices.",
+        "short": "Proposes $15 minimum wage; ending utility and food price gouging.",
+        "source": "https://www.dukesforpa.com/issues",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "Supports shifting school funding away from local property taxes toward a state income-based system in which he says the wealthy pay their fair share, along with expanding homestead exemptions and adding transparency to reassessments.",
+        "short": "Supports shifting school funding from property taxes to income-based system.",
+        "source": "https://www.228times.com/pennsylvanias-12th-district-candidate-qa-brandon-duke-d/",
+        "date": "2026-04"
+      },
+      "education": {
+        "summary": "His campaign platform calls for ending school vouchers in Pennsylvania, increasing funding for community colleges and trade schools, and recruiting and retaining teachers through competitive pay.",
+        "short": "Proposes ending vouchers, funding trade schools, competitive teacher pay.",
+        "source": "https://www.dukesforpa.com/issues",
+        "date": "2026-07"
+      },
+      "healthcare": {
+        "summary": "His campaign platform includes keeping prescription prices low and affordable; the site does not detail a broader healthcare plan.",
+        "short": "Proposes keeping prescription prices low; no broader healthcare plan detailed.",
+        "source": "https://www.dukesforpa.com/issues",
+        "date": "2026-07"
+      }
+    }
+  },
+  "23145": {
+    "name": "Scott R. Timko",
+    "website": "https://www.captainscotttimko.com/",
+    "positions": {
+      "economy": {
+        "summary": "Says his top priority is making life more affordable for families and seniors, proposing to reduce property taxes, lower tolls and energy bills, and use Pennsylvania's energy resources as an economic advantage.",
+        "short": "Proposes reducing property taxes, tolls and energy bills for affordability.",
+        "source": "https://www.228times.com/aug-18-special-election-meet-the-candidates-for-pennsylvania-house-district-12",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "His campaign site says high taxes and wasteful government spending hurt families and kill jobs, and calls for cutting the state gas tax and school property taxes.",
+        "short": "Calls for cutting state gas tax and school property taxes.",
+        "source": "https://www.captainscotttimko.com/",
+        "date": "2026-07"
+      },
+      "abortion": {
+        "summary": "In an iVoterGuide candidate questionnaire, said abortion should be permitted only in the specific instance when a pregnancy will permanently harm or kill the mother.",
+        "short": "Says abortion permitted only when pregnancy would permanently harm mother.",
+        "source": "https://ivoterguide.com/candidate/49281/race/26658/election/1404",
+        "date": "2026-05"
+      },
+      "education": {
+        "summary": "Supports school choice legislation, saying he wants all parents to have a choice and wants competition in the education system to drive excellence.",
+        "short": "Supports school choice; says competition drives excellence in education.",
+        "source": "https://www.228times.com/pennsylvanias-12th-district-candidate-qa-scott-timko-r/",
+        "date": "2026-04"
+      },
+      "healthcare": {
+        "summary": "In an iVoterGuide candidate questionnaire, expressed a preference for ending taxpayer-funded healthcare programs while saying that keeping Medicaid and Medicare available, with no additional taxpayer-funded programs, is the realistic approach.",
+        "short": "Prefers less taxpayer-funded healthcare; would keep Medicaid and Medicare.",
+        "source": "https://ivoterguide.com/candidate/49281/race/26658/election/1404",
+        "date": "2026-05"
+      },
+      "energy": {
+        "summary": "Advocates expanding Pennsylvania's coal and natural gas production, saying energy production is at the root of the cost of everything and that increased production would lower living costs and generate revenue for tax reduction.",
+        "short": "Advocates expanding coal and natural gas production to lower costs.",
+        "source": "https://www.228times.com/pennsylvanias-12th-district-candidate-qa-scott-timko-r/",
+        "date": "2026-04"
+      },
+      "guns": {
+        "summary": "In an iVoterGuide candidate questionnaire, said he opposes any intrusions on or weakening of the Second Amendment and cited a 100 percent rating from Gun Owners of America.",
+        "short": "Opposes any intrusions on or weakening of the Second Amendment.",
+        "source": "https://ivoterguide.com/candidate/49281/race/26658/election/1404",
+        "date": "2026-05"
+      }
+    }
+  }
+}

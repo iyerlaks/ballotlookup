@@ -1,0 +1,74 @@
+{
+  "22692": {
+    "name": "Mark M. Gillen",
+    "website": "https://www.repgillen.com/",
+    "positions": {
+      "economy": {
+        "summary": "In the 2025-2026 session he is the prime sponsor of House Bill 2140, which would limit water and wastewater rate increases.",
+        "short": "Sponsors bill limiting water and wastewater rate increases.",
+        "source": "https://www.palegis.us/house/members/bio/1209/representative-mark-gillen",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "His official site states his top priorities are eliminating wasteful spending, reducing the size of state government, and continuing the fight to eliminate property taxes.",
+        "short": "Proposes eliminating property taxes, wasteful spending; smaller state government.",
+        "source": "https://www.repgillen.com/about",
+        "date": "2026-07"
+      },
+      "abortion": {
+        "summary": "In December 2025 he voted against House Bill 1957, a proposed amendment to the Pennsylvania Constitution providing for personal reproductive liberty; the measure passed the House 102-101.",
+        "short": "Voted against proposed constitutional amendment on reproductive liberty.",
+        "source": "https://pafamily.org/2025/12/17/how-did-your-state-rep-vote-on-the-abortion-on-demand-bill/",
+        "date": "2025-12"
+      },
+      "education": {
+        "summary": "In a 2019 Pennsylvania Catholic Conference profile he voiced support for the Educational Improvement Tax Credit scholarship program, backing a $25 million increase, and said parents should decide whether their children attend public, parochial, or private school.",
+        "short": "Supports Educational Improvement Tax Credit scholarships and parental school choice.",
+        "source": "https://www.pacatholic.org/rep-mark-gillen-from-educator-and-prison-guard-to-state-house/",
+        "date": "2019-08"
+      },
+      "guns": {
+        "summary": "In November 2021 he voted for Senate Bill 565, which would have removed Pennsylvania's license requirement for carrying a concealed firearm; the bill passed the House 107-92 and was later vetoed.",
+        "short": "Voted for bill removing concealed-carry license requirement.",
+        "source": "https://www.palegis.us/house/roll-calls/summary?sessYr=2021&sessInd=0&rcNum=624",
+        "date": "2021-11"
+      }
+    }
+  },
+  "23118": {
+    "name": "Andrew Wagner",
+    "website": "https://www.wagnerworks4pa.org/",
+    "positions": {
+      "economy": {
+        "summary": "His platform proposes investing in roads, bridges, and public transit, supporting small businesses and farms, and keeping water and electricity utility prices down.",
+        "short": "Proposes infrastructure investment, small-business support, lower utility prices.",
+        "source": "https://www.wagnerworks4pa.org/our-platform",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "His platform proposes proportional taxation to ease the burden on working families, a 1% state income tax reduction for first responders, eliminating the state emission tax on new car purchases, on-time state budgets, and reducing waste in Harrisburg.",
+        "short": "Proposes proportional taxation, first-responder tax cut, on-time budgets.",
+        "source": "https://www.wagnerworks4pa.org/our-platform",
+        "date": "2026-07"
+      },
+      "education": {
+        "summary": "His platform proposes equitable state funding for all schools, modernizing school infrastructure to reduce local tax burdens, expanding vocational training with more time spent on trades, eliminating state standardized testing in favor of competency certificates, and exploring year-round schooling.",
+        "short": "Proposes equitable school funding, vocational training, eliminating standardized testing.",
+        "source": "https://www.wagnerworks4pa.org/our-platform",
+        "date": "2026-07"
+      },
+      "energy": {
+        "summary": "His platform supports balanced development of timber, natural gas, oil, coal, solar, and hydro power, investment in upgrading the aging power grid, and apprenticeships partnering with energy companies. In a 2026 voter-guide questionnaire he supported state-level safeguards on data centers to protect residents from utility cost increases and environmental impacts.",
+        "short": "Supports balanced energy development, grid upgrades, data-center safeguards.",
+        "source": "https://www.wagnerworks4pa.org/our-platform",
+        "date": "2026-07"
+      },
+      "guns": {
+        "summary": "His platform's public safety plank proposes tax relief for volunteer and paid first responders, funding for equipment and training, and expanded tax credits for volunteers pursuing higher education; the site does not state a position on firearms policy.",
+        "short": "Proposes first-responder funding and tax relief; no firearms position.",
+        "source": "https://www.wagnerworks4pa.org/our-platform",
+        "date": "2026-07"
+      }
+    }
+  }
+}

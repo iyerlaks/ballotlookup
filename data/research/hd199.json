@@ -1,0 +1,74 @@
+{
+  "22806": {
+    "name": "Barbara Gleim",
+    "website": "https://votegleim.com/",
+    "positions": {
+      "economy": {
+        "summary": "Her campaign site says she supports pro-growth policies that grow the economy rather than government, and that she opposed tax increases affecting small businesses (HB 299, HB 950).",
+        "short": "Supports pro-growth policies; opposed tax increases on small businesses.",
+        "source": "https://votegleim.com/",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "Her campaign site says she advocates for property tax elimination and lowering the overall tax burden, co-sponsored inheritance tax cuts (HB 796), and supported property tax relief for seniors (HB 1100).",
+        "short": "Advocates property tax elimination; co-sponsored inheritance tax cuts, senior relief.",
+        "source": "https://votegleim.com/",
+        "date": "2026-07"
+      },
+      "abortion": {
+        "summary": "As a state representative she was a cosponsor of House Bill 320 (2023-24), described as the heartbeat bill, which would require a fetal heartbeat examination before an abortion and prohibit an abortion if cardiac activity is detected.",
+        "short": "Cosponsored 2023 heartbeat bill barring abortion if cardiac activity detected.",
+        "source": "https://www.palegis.us/legislation/bills/2023/hb320",
+        "date": "2023-03"
+      },
+      "education": {
+        "summary": "Her campaign site says she sponsored the Honesty in Teaching Act (HB 227), which she describes as banning critical race theory and DEI content, expanded school choice through Student Freedom Accounts (HB 1904), and holds that tax dollars should fund students rather than systems.",
+        "short": "Sponsored bill banning CRT/DEI content; expanded school choice.",
+        "source": "https://votegleim.com/",
+        "date": "2026-07"
+      },
+      "energy": {
+        "summary": "In a statement on the 2025-26 state budget she said it ends Pennsylvania's participation in the Regional Greenhouse Gas Initiative (RGGI), which she has described as a carbon tax on the energy industry, and cited that 78% of Pennsylvanians reported higher energy bills over the past two years.",
+        "short": "Says budget ends RGGI, which she calls a carbon tax on energy.",
+        "source": "https://www.repgleim.com/News/36954/Press-Releases/2025-26-State-Budget-Ends-RGGI-Participation--But-Spends-Remaining-Fund-Balance--Gleim-Says",
+        "date": "2025-11"
+      },
+      "guns": {
+        "summary": "Her campaign site says she co-sponsored permitless concealed carry legislation (HB 454), introduced a bill blocking local anti-gun ordinances (HB 548), and introduced a bill eliminating the sales tax on firearms and ammunition (HB 582).",
+        "short": "Co-sponsored permitless concealed carry; opposes local anti-gun ordinances.",
+        "source": "https://votegleim.com/",
+        "date": "2026-07"
+      }
+    }
+  },
+  "23128": {
+    "name": "Tawanda Lynne Hunter Stallworth",
+    "website": "https://www.stallworthforpa.com/",
+    "positions": {
+      "economy": {
+        "summary": "Her campaign platform says families in the 199th are working harder than ever to stay afloat, and calls for bringing quality jobs to the district, expanding access to workforce development, supporting skilled trades, and fostering small business growth.",
+        "short": "Calls for bringing jobs, expanding workforce development, supporting small business.",
+        "source": "https://www.stallworthforpa.com/blank-1",
+        "date": "2026-07"
+      },
+      "education": {
+        "summary": "Her platform says every child deserves access to a quality public education regardless of zip code, and calls for fully funded schools, supported educators, modern classrooms, vocational training, and safe, inclusive environments.",
+        "short": "Calls for fully funded public schools, vocational training, inclusive environments.",
+        "source": "https://www.stallworthforpa.com/blank-1",
+        "date": "2026-07"
+      },
+      "healthcare": {
+        "summary": "Her platform lists healthcare access among the basic services many residents struggle to reach and calls for community-driven infrastructure investments that address healthcare access and housing support; it does not detail a specific healthcare policy.",
+        "short": "Calls for community investments addressing healthcare access and housing support.",
+        "source": "https://www.stallworthforpa.com/blank-1",
+        "date": "2026-07"
+      },
+      "guns": {
+        "summary": "Her platform addresses public safety through justice-system reform, saying she would prioritize rehabilitation over punishment, support reentry programs, and promote community-based public safety solutions that address root causes; it does not address firearms specifically.",
+        "short": "Supports justice reform, reentry programs, community-based public safety solutions.",
+        "source": "https://www.stallworthforpa.com/blank-1",
+        "date": "2026-07"
+      }
+    }
+  }
+}

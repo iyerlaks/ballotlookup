@@ -1,0 +1,73 @@
+{
+  "23020": {
+    "name": "John C. Inglis III",
+    "website": "https://www.inforinglis.com/",
+    "positions": {
+      "economy": {
+        "summary": "His campaign priorities page calls for economic development through investment in roads, bridges, and public transit, expanded education opportunities, and delivering federal, state, and local grants back to communities to spur creation of high-quality jobs. He also says he will protect workers' rights to organize, fair compensation, and safe workplaces.",
+        "short": "Supports infrastructure investment, local grants for jobs, workers' right to organize.",
+        "source": "https://www.inforinglis.com/prioirities",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "Says increased state education funding should protect taxpayers from higher local property taxes, and opposes shifting education costs onto local property taxes, citing in particular protecting senior citizens from displacement.",
+        "short": "Opposes shifting education costs to local property taxes; protect seniors.",
+        "source": "https://www.inforinglis.com/prioirities",
+        "date": "2026-07"
+      },
+      "abortion": {
+        "summary": "His campaign priorities page says medical decisions are between an individual and their doctor and states, \"I will vote to keep abortion safe and legal.\"",
+        "short": "Says he will vote to keep abortion safe and legal.",
+        "source": "https://www.inforinglis.com/prioirities",
+        "date": "2026-07"
+      },
+      "education": {
+        "summary": "A former public school teacher and counselor, he calls for properly funded schools with support for career-technical education, pre-K, school safety measures, and mental health programs, and opposes funding schools by raising local property taxes.",
+        "short": "Supports school funding, career-technical education, pre-K, mental health programs.",
+        "source": "https://www.inforinglis.com/prioirities",
+        "date": "2026-07"
+      },
+      "energy": {
+        "summary": "Authored House Bill 500 (EDGE 2.0), which passed the state House in May 2025, creating and expanding tax credit incentives for energy-related investment including reliable energy, clean hydrogen hubs, geothermal energy, and sustainable aviation fuel; he says the bill aims to create jobs, cut costs, and support long-term energy stability.",
+        "short": "Authored tax-credit bill for hydrogen, geothermal, reliable energy investment.",
+        "source": "https://www.pahouse.com/InTheNews/NewsRelease/?id=138623",
+        "date": "2025-05"
+      },
+      "guns": {
+        "summary": "His campaign priorities page addresses public safety through support for first responders, advocating funding and resources for police, fire, and EMS and protecting their workplace safety; it does not detail a position on firearms.",
+        "short": "Supports first-responder funding; no stated position on firearms.",
+        "source": "https://www.inforinglis.com/prioirities",
+        "date": "2026-07"
+      }
+    }
+  },
+  "24078": {
+    "name": "Stone Sobieralski",
+    "positions": {
+      "economy": {
+        "summary": "In a 2024 WESA candidate survey, he said high taxes and regulations are causing businesses to leave Pennsylvania and proposed emulating the business models of states such as Oklahoma and North Dakota to bring high-paying jobs to the area and lower the cost of living.",
+        "short": "Proposes emulating other states' business models; high-paying jobs, lower costs.",
+        "source": "https://www.wesanews.org/wesa-voter-guide/2024-election/pa-state-house-38-inglis-sobieralski",
+        "date": "2024-10"
+      },
+      "taxes": {
+        "summary": "In a 2024 WESA candidate survey, he advocated reducing tax rates and streamlining regulations to improve Pennsylvania's competitiveness.",
+        "short": "Advocates reducing tax rates and streamlining regulations.",
+        "source": "https://www.wesanews.org/wesa-voter-guide/2024-election/pa-state-house-38-inglis-sobieralski",
+        "date": "2024-10"
+      },
+      "abortion": {
+        "summary": "In a 2024 WESA candidate survey, he said current Pennsylvania abortion law is sufficient and should remain as is.",
+        "short": "Says current Pennsylvania abortion law is sufficient; keep as is.",
+        "source": "https://www.wesanews.org/wesa-voter-guide/2024-election/pa-state-house-38-inglis-sobieralski",
+        "date": "2024-10"
+      },
+      "education": {
+        "summary": "In a 2024 WESA candidate survey, he opposed funding schools through property taxes and proposed school consolidation and standardized statewide teacher contracts, and said he advocates school choice.",
+        "short": "Opposes property-tax school funding; proposes consolidation, supports school choice.",
+        "source": "https://www.wesanews.org/wesa-voter-guide/2024-election/pa-state-house-38-inglis-sobieralski",
+        "date": "2024-10"
+      }
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "23535": {
+    "name": "Robert B. Francis",
+    "website": "https://voterobfrancis.com/",
+    "positions": {
+      "economy": {
+        "summary": "Supports an immediate increase in the minimum wage, calling Pennsylvania's $7.25 rate unchanged since 2009 not livable, and backs policies to keep costs of living low.",
+        "short": "Supports minimum wage increase and keeping costs of living low.",
+        "source": "https://voterobfrancis.com/the-issues/",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "Calls for significant tax reform so that district taxpayers benefit from their contributions, and says local tax revenue should return to benefit district infrastructure and services.",
+        "short": "Supports tax reform returning taxpayer contributions to the district.",
+        "source": "https://voterobfrancis.com/the-issues/",
+        "date": "2026-07"
+      },
+      "abortion": {
+        "summary": "Says the majority of Pennsylvania supports a woman's right to autonomy over her own body, and defends reproductive decisions made between patients and their doctors.",
+        "short": "Supports reproductive autonomy; defends patient-doctor reproductive decisions.",
+        "source": "https://voterobfrancis.com/the-issues/",
+        "date": "2026-07"
+      },
+      "education": {
+        "summary": "Supports raising teacher pay, equitable school funding, and removing barriers to educational access, saying strong schools require effective resourcing and teacher support.",
+        "short": "Supports raising teacher pay and equitable school funding.",
+        "source": "https://voterobfrancis.com/the-issues/",
+        "date": "2026-07"
+      },
+      "healthcare": {
+        "summary": "Says individuals deserve access to affordable and equitable healthcare; proposes lowering premiums and holding insurance and pharmaceutical companies accountable.",
+        "short": "Supports affordable healthcare; would hold insurers and drugmakers accountable.",
+        "source": "https://voterobfrancis.com/the-issues/",
+        "date": "2026-07"
+      },
+      "energy": {
+        "summary": "Supports policies protecting clean air and water while enabling economic growth and expansion of green energy without environmental harm.",
+        "short": "Supports clean air and water protections plus green energy expansion.",
+        "source": "https://voterobfrancis.com/the-issues/",
+        "date": "2026-07"
+      },
+      "guns": {
+        "summary": "His platform's community safety section proposes directing tax dollars toward community healthcare, public health outreach, and well-resourced schools and emergency services; it does not state positions on firearms.",
+        "short": "Community-safety plan funds local services; no stated firearms positions.",
+        "source": "https://voterobfrancis.com/the-issues/",
+        "date": "2026-07"
+      }
+    }
+  },
+  "22702": {
+    "name": "Eric R. Nelson",
+    "positions": {
+      "economy": {
+        "summary": "Co-authored House Bill 1108, which would let lower-income working parents who get a raise keep their child care subsidy at a higher copay for the rest of the benefit year, saying the bill smooths the child care cliff so parents can accept a raise and keep essential child care.",
+        "short": "Co-authored bill letting working parents keep child care subsidies.",
+        "source": "https://www.repnelson.com/News/36760/Press-Releases/Nelson--Giral-Bill-to-Eliminate-Child-Care-Cliff-Advances",
+        "date": "2025-10"
+      },
+      "taxes": {
+        "summary": "Opposed Governor Shapiro's 2026-27 budget proposal, saying it spends $6.4 billion more than the state has, and warned that draining the Rainy Day Fund could lead to a large tax increase on working families; says the state must tighten its belt now to avoid cuts or tax increases later.",
+        "short": "Opposes Shapiro budget; warns it risks tax increases on families.",
+        "source": "https://www.pahousegop.com/News/37455/Latest-News/Nelson-Shapiros-Budget-is-More-of-the-Same-",
+        "date": "2026-02"
+      },
+      "abortion": {
+        "summary": "In July 2022 voted for Senate Bill 106, a joint resolution proposing constitutional amendments including one providing there is no constitutional right to taxpayer-funded abortion or any other right relating to abortion.",
+        "short": "Voted for amendment stating constitution grants no abortion right.",
+        "source": "https://www.palegis.us/house/roll-calls/summary?sessYr=2021&sessInd=0&rcNum=1156",
+        "date": "2022-07"
+      },
+      "education": {
+        "summary": "Proposed a Pennsylvania College Voucher Program that would redirect about $580 million in state funding for Pitt, Penn State, and Temple into direct yearly grants of up to $8,000 for students at technical schools, community colleges, and other institutions, saying it would empower students seeking more affordable education options.",
+        "short": "Proposes redirecting state university funding into direct student grants.",
+        "source": "https://www.repnelson.com/News/28855/Latest-News/Nelson-PA-College-Voucher-Program-to-Fund-Students,-Not-Institutions",
+        "date": "2022-06"
+      },
+      "energy": {
+        "summary": "One of the sponsors of a 2026 House Republican energy package aimed at lowering electricity costs and expanding in-state power generation, saying more power equals lower prices and that the most affordable energy is power produced in Pennsylvania.",
+        "short": "Sponsors energy package; says more power equals lower prices.",
+        "source": "https://www.pahousegop.com/News/38217/Latest-News/House-Republicans-Unveil-11-Bill-Energy-Package-to-Keep-the-Lights-On--Costs-Down",
+        "date": "2026-07"
+      },
+      "guns": {
+        "summary": "In November 2021 voted for Senate Bill 565, which would have removed the requirement to obtain a license to carry a concealed firearm in Pennsylvania.",
+        "short": "Voted to remove license requirement for concealed carry.",
+        "source": "https://www.palegis.us/house/roll-calls/summary?sessYr=2021&sessInd=0&rcNum=624",
+        "date": "2021-11"
+      }
+    }
+  }
+}

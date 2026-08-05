@@ -1,0 +1,44 @@
+{
+  "22838": {
+    "name": "Sierra Denise McNeil",
+    "website": "https://www.sierraforpa.com/",
+    "positions": {
+      "economy": {
+        "summary": "McNeil's platform supports raising Pennsylvania's minimum wage above the federal $7.25 rate, indexing future increases to inflation, and eliminating the tipped minimum wage. She also calls for affordable housing and stronger tenant protections.",
+        "short": "Supports raising minimum wage, indexing to inflation, eliminating tipped wage",
+        "source": "https://www.sierraforpa.com/platform",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "McNeil supports amending Pennsylvania's Constitution to allow for progressive taxation, stating the ultra wealthy should pay their fair share, in part to fund public transit.",
+        "short": "Supports amending constitution to allow progressive taxation",
+        "source": "https://www.sierraforpa.com/platform",
+        "date": "2026-07"
+      },
+      "education": {
+        "summary": "McNeil supports increased public school funding while keeping public dollars in public schools, and states she will not vote for private school vouchers or tax credit programs. She also backs additional counselors and social workers in schools.",
+        "short": "Supports school funding; opposes private school vouchers",
+        "source": "https://www.sierraforpa.com/platform",
+        "date": "2026-07"
+      },
+      "healthcare": {
+        "summary": "McNeil states she supports a 'Medicare for All' model that guarantees healthcare for all residents, and backs increased Medicaid reimbursement rates for behavioral health services.",
+        "short": "Supports a Medicare for All model guaranteeing healthcare for residents",
+        "source": "https://www.sierraforpa.com/platform",
+        "date": "2026-07"
+      },
+      "energy": {
+        "summary": "McNeil supports transitioning to renewable energy such as wind and solar, returning to the Regional Greenhouse Gas Initiative (RGGI) commitments, and mandating that data centers operate on renewable energy.",
+        "short": "Supports renewables, rejoining RGGI, renewable-powered data centers",
+        "source": "https://www.sierraforpa.com/platform",
+        "date": "2026-07"
+      },
+      "guns": {
+        "summary": "McNeil's platform addresses public safety through a prevention-based approach, stating communities cannot be policed out of every problem and calling for investment in youth programs and well-resourced neighborhoods to reduce violence before it begins. The platform frames this as public safety and violence prevention rather than firearms policy specifically.",
+        "short": "Supports prevention-based public safety investing to reduce violence",
+        "source": "https://www.sierraforpa.com/platform",
+        "date": "2026-07"
+      }
+    }
+  }
+}

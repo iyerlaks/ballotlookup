@@ -1,0 +1,68 @@
+{
+  "22739": {
+    "name": "Kristin Marcell",
+    "website": "https://votekristinpa.com/",
+    "positions": {
+      "economy": {
+        "summary": "Her campaign says she promotes job and economic growth policies to make Pennsylvania more competitive for job creators.",
+        "short": "Promotes job and economic growth policies for job creators.",
+        "source": "https://votekristinpa.com/about/",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "Co-sponsored the House Republicans' Freedom Through Affordability legislation to temporarily suspend the Gross Receipts Tax on electricity and telecommunications for six months, which she described as a commonsense way to give families a break from rising costs.",
+        "short": "Co-sponsored bill to suspend gross receipts tax on utilities six months.",
+        "source": "https://www.politicspa.com/pa-house-republicans-launch-freedom-through-affordability-initiative-to-cut-costs-for-families/145951/",
+        "date": "2026-03"
+      },
+      "abortion": {
+        "summary": "Voted no on final passage of House Bill 1957, a proposed state constitutional amendment providing for personal reproductive liberty, in December 2025.",
+        "short": "Voted no on constitutional amendment for personal reproductive liberty.",
+        "source": "https://www.palegis.us/house/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=795",
+        "date": "2025-12"
+      },
+      "education": {
+        "summary": "Her campaign says she supports a quality education that prioritizes in-person learning and focuses resources on classrooms, and cites record investment in both traditional public education and school choice initiatives.",
+        "short": "Supports in-person learning, classroom resources, public education and school choice.",
+        "source": "https://votekristinpa.com/about/",
+        "date": "2026-07"
+      },
+      "energy": {
+        "summary": "Is a sponsor of the House Republicans' 11-bill energy package, which would streamline energy permitting, eliminate the Gross Receipts Tax on electric utilities, and prioritize baseload generation such as natural gas, nuclear and coal; she said Pennsylvania is the nation's largest electricity exporter yet families still face higher energy costs.",
+        "short": "Sponsors energy package streamlining permitting, cutting utility tax, backing baseload generation.",
+        "source": "https://www.pahousegop.com/News/38217/Latest-News/House-Republicans-Unveil-11-Bill-Energy-Package-to-Keep-the-Lights-On--Costs-Down",
+        "date": "2026-07"
+      },
+      "guns": {
+        "summary": "Her campaign says she supports funding police to protect the community and prevent crime in the district's neighborhoods; the statement addresses public safety and does not detail a position on firearms.",
+        "short": "Supports funding police to protect the community and prevent crime.",
+        "source": "https://votekristinpa.com/about/",
+        "date": "2026-07"
+      }
+    }
+  },
+  "23159": {
+    "name": "Monica J. Weninger",
+    "website": "https://monicaforpa.com/",
+    "positions": {
+      "economy": {
+        "summary": "Her campaign platform calls for policies that increase housing affordability, protect renters and support first-time homebuyers, and for reducing barriers and providing resources so local small businesses can thrive.",
+        "short": "Supports housing affordability, renter protections, first-time buyers, small business support.",
+        "source": "https://monicaforpa.com/issues",
+        "date": "2026-07"
+      },
+      "education": {
+        "summary": "Her campaign platform says schools need proper funding, support for educators and resources for every student, and that she will prioritize education funding and teacher support.",
+        "short": "Will prioritize education funding, teacher support, and school resources.",
+        "source": "https://monicaforpa.com/issues",
+        "date": "2026-07"
+      },
+      "healthcare": {
+        "summary": "Her campaign platform's senior care and disability services plank calls for expanded services, accessible healthcare, and programs to keep seniors and residents with disabilities safe and healthy.",
+        "short": "Advocates expanded services and accessible healthcare for seniors and disabled.",
+        "source": "https://monicaforpa.com/issues",
+        "date": "2026-07"
+      }
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "23283": {
+    "name": "Christopher Pielli",
+    "website": "https://www.chrispielli.com/",
+    "positions": {
+      "economy": {
+        "summary": "His campaign site says he supports raising the minimum wage to $15 tied to inflation and backs dependent care and working families tax credits to ease costs for families.",
+        "short": "Supports $15 minimum wage, dependent care and family tax credits.",
+        "source": "https://www.chrispielli.com/issues",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "His campaign says the 2025 state budget was passed without raising taxes, and he opposes giving additional tax breaks to billionaires.",
+        "short": "Says 2025 budget raised no taxes; opposes billionaire tax breaks.",
+        "source": "https://www.chrispielli.com/issues",
+        "date": "2026-07"
+      },
+      "abortion": {
+        "summary": "He says he supports a woman's right to choose and will oppose anti-abortion measures such as Senate Bill 106, and he has backed a constitutional amendment to protect reproductive rights.",
+        "short": "Supports abortion rights; opposes Senate Bill 106; backs rights amendment.",
+        "source": "https://www.chrispielli.com/issues",
+        "date": "2026-07"
+      },
+      "education": {
+        "summary": "He says he supports fair funding for public schools, cyber charter school reform, and expanding public preschool opportunities.",
+        "short": "Supports public school funding, cyber charter reform, public preschool.",
+        "source": "https://www.chrispielli.com/issues",
+        "date": "2026-07"
+      },
+      "healthcare": {
+        "summary": "He says he supports protecting the Affordable Care Act and passing a paid family leave act.",
+        "short": "Supports protecting the ACA and passing paid family leave.",
+        "source": "https://www.chrispielli.com/issues",
+        "date": "2026-07"
+      },
+      "energy": {
+        "summary": "He pledges to protect the air, water, and environment, and cites his record fighting a pipeline as a former West Goshen Township supervisor.",
+        "short": "Pledges to protect air, water, environment; fought a pipeline.",
+        "source": "https://www.chrispielli.com/issues",
+        "date": "2026-07"
+      },
+      "guns": {
+        "summary": "He says he supports commonsense gun safety reforms while respecting Second Amendment rights.",
+        "short": "Supports commonsense gun safety reforms; respects Second Amendment rights.",
+        "source": "https://www.chrispielli.com/issues",
+        "date": "2026-07"
+      }
+    }
+  },
+  "24037": {
+    "name": "Kris R. Vollrath",
+    "website": "https://vollrathforparep.com/",
+    "positions": {
+      "economy": {
+        "summary": "His campaign site says Pennsylvania should be a place where businesses grow and jobs are created, and that overregulation, high taxes, and anti-business policies have made it harder for employers to stay.",
+        "short": "Says overregulation and high taxes drive out employers and jobs.",
+        "source": "https://vollrathforparep.com/theissues/",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "He says taxpayers are tired of bloated budgets, patronage, and waste, and pledges to fight for fiscal discipline, balanced budgets, and spending priorities that serve residents.",
+        "short": "Pledges fiscal discipline, balanced budgets; criticizes bloated budgets and waste.",
+        "source": "https://vollrathforparep.com/theissues/",
+        "date": "2026-07"
+      },
+      "energy": {
+        "summary": "He says he opposes policies like RGGI that he says raise electricity prices, and supports using Pennsylvania's natural gas resources to provide reliable, affordable energy.",
+        "short": "Opposes RGGI; supports using Pennsylvania natural gas for affordable energy.",
+        "source": "https://vollrathforparep.com/theissues/",
+        "date": "2026-07"
+      },
+      "guns": {
+        "summary": "His campaign site's public safety platform focuses on immigration enforcement, saying he supports ending sanctuary policies and cooperation with federal authorities on criminal illegal immigrants; it does not state a position specifically on firearms.",
+        "short": "Public safety platform focuses on immigration enforcement, not firearms.",
+        "source": "https://vollrathforparep.com/theissues/",
+        "date": "2026-07"
+      }
+    }
+  }
+}

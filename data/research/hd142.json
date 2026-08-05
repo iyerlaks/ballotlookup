@@ -1,0 +1,92 @@
+{
+  "23143": {
+    "name": "Kristin Egan",
+    "website": "https://www.kristineganforpa.com/",
+    "positions": {
+      "economy": {
+        "summary": "Her campaign says she will focus on practical solutions that lower costs and ease the pressure on working families, and lists making everyday life more affordable as a priority.",
+        "short": "Says she will focus on lowering costs for working families.",
+        "source": "https://www.kristineganforpa.com/priorities",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "A Bucks County Beacon candidate profile reports she prioritizes increasing state-level school funding to reduce reliance on local property taxes.",
+        "short": "Prioritizes state school funding to reduce local property taxes.",
+        "source": "https://buckscountybeacon.com/candidate/kristin-egan/",
+        "date": "2026-07"
+      },
+      "abortion": {
+        "summary": "Her campaign lists endorsements from Planned Parenthood PA-PAC and EMILYs List, organizations that back candidates who support abortion rights; her site does not detail an abortion position.",
+        "short": "Endorsed by groups that back candidates supporting abortion rights.",
+        "source": "https://www.kristineganforpa.com/",
+        "date": "2026-07"
+      },
+      "education": {
+        "summary": "A public school teacher and school board director, she says she will fully fund schools, support teachers, and make sure every student has the support they need to succeed, including career and technical education.",
+        "short": "Says she will fully fund schools and support teachers.",
+        "source": "https://www.kristineganforpa.com/priorities",
+        "date": "2026-07"
+      },
+      "energy": {
+        "summary": "In April 2026 she said she opposes the PennDOT US Route 1 (RC3) reconstruction project in its current form, citing safety concerns, environmental risks, and impacts on quality of life.",
+        "short": "Opposes US Route 1 RC3 project, citing environmental risks.",
+        "source": "https://buckscountybeacon.com/2026/04/democratic-state-house-candidate-kristin-egan-goes-on-record-to-oppose-controversial-us-1-project-in-lower-bucks-county/",
+        "date": "2026-04"
+      },
+      "guns": {
+        "summary": "Her campaign says she will invest in local solutions that keep neighborhoods safe; she is endorsed by Everytown, which backs candidates who support gun violence prevention.",
+        "short": "Says she will invest in local solutions keeping neighborhoods safe.",
+        "source": "https://www.kristineganforpa.com/",
+        "date": "2026-07"
+      }
+    }
+  },
+  "22907": {
+    "name": "Joseph F. Hogan IV",
+    "website": "https://www.hogan4rep.com/",
+    "positions": {
+      "economy": {
+        "summary": "His campaign says he has been focused on affordability and has supported and proposed legislation aimed at making Pennsylvania more affordable for families, seniors, and small businesses.",
+        "short": "Focused on affordability; backs legislation to lower costs for families.",
+        "source": "https://www.hogan4rep.com/issues/",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "His campaign says he supported a cut to the Personal Income Tax for all Pennsylvanians, targeted tax cuts for childcare and low-income residents, and lower taxes for seniors and small businesses.",
+        "short": "Supported income tax cut, lower taxes for seniors, businesses.",
+        "source": "https://www.hogan4rep.com/issues/",
+        "date": "2026-07"
+      },
+      "abortion": {
+        "summary": "Voted for House Bill 1957 in December 2025, a joint resolution proposing a state constitutional amendment providing for personal reproductive liberty; the measure passed the House 102 to 101, and he was one of two Republicans to vote for it.",
+        "short": "Voted for 2025 amendment providing for personal reproductive liberty.",
+        "source": "https://www.palegis.us/house/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=795",
+        "date": "2025-12"
+      },
+      "education": {
+        "summary": "His campaign says he has worked with Republicans, Democrats, and Governor Shapiro to deliver record funding for public schools and that increased state school funding should reduce local property tax burdens.",
+        "short": "Says he delivered record public school funding across party lines.",
+        "source": "https://www.hogan4rep.com/issues/",
+        "date": "2026-07"
+      },
+      "healthcare": {
+        "summary": "His campaign says he has fought to lower the price of health care and opposed bills that would raise premiums on working families.",
+        "short": "Says he fought to lower health care prices and premiums.",
+        "source": "https://www.hogan4rep.com/issues/",
+        "date": "2026-07"
+      },
+      "energy": {
+        "summary": "His campaign says he worked with Governor Shapiro to repeal the Regional Greenhouse Gas Initiative (RGGI), which he says would have led to higher energy taxes for consumers.",
+        "short": "Says he worked to repeal RGGI to avoid energy taxes.",
+        "source": "https://www.hogan4rep.com/issues/",
+        "date": "2026-07"
+      },
+      "guns": {
+        "summary": "His official site says he authored legislation increasing penalties for gun store robberies and emphasizes keeping schools funded and communities safe.",
+        "short": "Authored increased penalties for gun store robberies; emphasizes community safety.",
+        "source": "https://rephogan.com/about",
+        "date": "2026-07"
+      }
+    }
+  }
+}

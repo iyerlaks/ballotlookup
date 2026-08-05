@@ -1,0 +1,42 @@
+{
+  "23434": {
+    "name": "David M. Delloso",
+    "website": "https://davefordelco.com/",
+    "positions": {
+      "economy": {
+        "summary": "His campaign platform lists creating jobs that sustain families, communities, and a dignified retirement, protecting unions and prevailing wages, and raising the minimum wage.",
+        "short": "Supports job creation, union protections, prevailing wages, raising minimum wage.",
+        "source": "https://davefordelco.com/issues",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "His campaign platform calls for closing tax loopholes and making corporations and the super-rich pay their fair share, and lowering property taxes while increasing state funding for schools.",
+        "short": "Supports closing tax loopholes, lowering property taxes, more state funding.",
+        "source": "https://davefordelco.com/issues",
+        "date": "2026-07"
+      },
+      "abortion": {
+        "summary": "Co-sponsored House Bill 26 of the 2025-2026 session, the Reproductive Freedom Act, which would repeal existing Pennsylvania statutory restrictions on abortion.",
+        "short": "Co-sponsored bill to repeal Pennsylvania abortion restrictions.",
+        "source": "https://www.palegis.us/legislation/bills/2025/hb26",
+        "date": "2025-01"
+      },
+      "education": {
+        "summary": "His campaign platform supports full and fair K-12 school funding, Pre-K for all, affordable paths to higher education, and certified trade schools and training programs.",
+        "short": "Supports K-12 funding, Pre-K for all, trade schools.",
+        "source": "https://davefordelco.com/issues",
+        "date": "2026-07"
+      },
+      "guns": {
+        "summary": "His campaign platform lists stopping the epidemic of gun violence in communities, streets, and schools among his priorities.",
+        "short": "Lists stopping gun violence in communities, streets, schools as priority.",
+        "source": "https://davefordelco.com/issues",
+        "date": "2026-07"
+      }
+    }
+  },
+  "23880": {
+    "name": "Michael E. Murphy",
+    "positions": {}
+  }
+}

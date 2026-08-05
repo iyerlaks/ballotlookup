@@ -1,0 +1,80 @@
+{
+  "24083": {
+    "name": "Michael G. Bannon",
+    "website": "https://www.bannonforpa.com/",
+    "positions": {
+      "economy": {
+        "summary": "His campaign says he is committed to supporting skilled trades, strengthening workforce development, and creating opportunities that keep Pennsylvania families working, and describes growing the economy through job creation and responsible energy independence.",
+        "short": "Supports skilled trades, workforce development, and job creation.",
+        "source": "https://www.bannonforpa.com/",
+        "date": "2026-07"
+      },
+      "energy": {
+        "summary": "Says he favors growing the economy through job creation and responsible energy independence.",
+        "short": "Favors responsible energy independence tied to job creation.",
+        "source": "https://www.bannonforpa.com/",
+        "date": "2026-07"
+      },
+      "healthcare": {
+        "summary": "Has made restoring healthcare services in Delaware County a top priority and says he will fight for long-term healthcare solutions, including bringing a full-service, trauma-capable hospital back to Delaware County.",
+        "short": "Prioritizes restoring Delaware County healthcare and a trauma hospital.",
+        "source": "https://www.bannonforpa.com/",
+        "date": "2026-07"
+      },
+      "guns": {
+        "summary": "His campaign describes him as a strong supporter of public safety and first responders who backs securing communities and enforcing the rule of law; the site does not detail a specific firearms position.",
+        "short": "Backs public safety, first responders, and enforcing the rule of law.",
+        "source": "https://www.bannonforpa.com/",
+        "date": "2026-07"
+      }
+    }
+  },
+  "23966": {
+    "name": "Carol Kazeem",
+    "website": "https://kazeemforpa.com/",
+    "positions": {
+      "economy": {
+        "summary": "Says the current state minimum wage is a poverty wage and supports raising the minimum wage to $15 an hour, including for tipped workers, citing a rising cost of living and stagnant wages.",
+        "short": "Supports raising the minimum wage to $15, including tipped workers.",
+        "source": "https://kazeemforpa.com/15-minimum-wage",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "Praised the bipartisan 2026-27 state budget, saying it makes investments in education and supports working families as the cost of living rises.",
+        "short": "Praises the 2026-27 budget's education and working-family investments.",
+        "source": "https://www.pahouse.com/InTheNews/NewsRelease/?id=144388",
+        "date": "2026-07"
+      },
+      "abortion": {
+        "summary": "As an incumbent, sponsored 2023 legislation to restrict health-facility acquisitions that reduce access to reproductive health care services (HB 864) and to hold certain nonprofits to family-planning advertising standards (HB 1484), per a reproductive-rights tracker that classifies her as pro-choice.",
+        "short": "Sponsored 2023 bills on reproductive health care access.",
+        "source": "https://choicetracker.org/legislator/h159kazeem",
+        "date": "2023-06"
+      },
+      "education": {
+        "summary": "Says every child deserves a quality education regardless of ZIP code and supports fair funding for public schools, staff support, expanded curricula, and bringing back vocational and trade school resources.",
+        "short": "Supports fair public-school funding, staff, and vocational resources.",
+        "source": "https://kazeemforpa.com/education-equity-for-all",
+        "date": "2026-07"
+      },
+      "healthcare": {
+        "summary": "In praising the 2026-27 state budget, said its increased healthcare funding will save lives and reduce stress on the healthcare system.",
+        "short": "Says the budget's healthcare funding saves lives, eases system stress.",
+        "source": "https://www.pahouse.com/InTheNews/NewsRelease/?id=144388",
+        "date": "2026-07"
+      },
+      "energy": {
+        "summary": "Says residents deserve clean air, clean water, and a clean environment, ties environmental issues to racial justice citing the Covanta incinerator in Chester, and calls for capping trash imports and transitioning toward zero-waste practices.",
+        "short": "Seeks clean air and water; caps trash imports toward zero waste.",
+        "source": "https://kazeemforpa.com/environmental-justice",
+        "date": "2026-07"
+      },
+      "guns": {
+        "summary": "Works as a gun violence interventionist and trauma outreach specialist and says she addresses gun violence through social resources, trauma-informed outreach, and reinvestment in youth recreation and opportunities.",
+        "short": "Addresses gun violence via outreach and youth reinvestment.",
+        "source": "https://kazeemforpa.com/curtailing-gun-violence",
+        "date": "2026-07"
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "23923": {
+    "name": "Justin J. Pak",
+    "positions": {}
+  },
+  "23014": {
+    "name": "Melissa Lynn Shusterman",
+    "website": "https://www.melissashusterman.com/",
+    "positions": {
+      "economy": {
+        "summary": "Her campaign news page says she championed an increased Child and Dependent Care Tax Credit, advocates raising the minimum wage in southeastern Pennsylvania, supports paid leave, and is pursuing efforts to lower housing costs.",
+        "short": "Championed child care tax credit; backs minimum wage increase, lower housing costs.",
+        "source": "https://www.melissashusterman.com/news",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "On the budget, she introduced a constitutional amendment to require the legislature to remain in session until a budget passes by June 30, and says the state budget invests in public education without raising taxes.",
+        "short": "Proposes budget-deadline amendment; says budget funds schools without raising taxes.",
+        "source": "https://www.melissashusterman.com/news",
+        "date": "2026-07"
+      },
+      "abortion": {
+        "summary": "Sponsored House Bill 2005 to eliminate Pennsylvania's 24-hour waiting period and mandatory counseling requirement for abortion, and worked to end taxpayer funding of crisis pregnancy centers.",
+        "short": "Sponsored bill to end abortion waiting period; opposes funding crisis pregnancy centers.",
+        "source": "https://www.melissashusterman.com/news",
+        "date": "2026-07"
+      },
+      "education": {
+        "summary": "Lists improving equity in education as a core priority and says she prioritizes public school investment to ease pressure on local property taxpayers.",
+        "short": "Prioritizes education equity and public school funding to ease property taxes.",
+        "source": "https://www.melissashusterman.com/about",
+        "date": "2026-07"
+      },
+      "healthcare": {
+        "summary": "Serves on the House Health Committee and sponsored House Bill 2006, the AI in Companionship Apps Safety Act, requiring safety features for chatbots, and legislation limiting mental health professionals' use of AI to administrative tasks.",
+        "short": "Sponsored AI companionship-app safety act; limits AI use in mental health care.",
+        "source": "https://www.melissashusterman.com/news",
+        "date": "2026-07"
+      },
+      "energy": {
+        "summary": "Co-sponsored House Bill 1135 to ban the herbicide paraquat statewide by 2027 and lists advocating for environmental sustainability as a core priority.",
+        "short": "Co-sponsored paraquat ban; lists environmental sustainability as a priority.",
+        "source": "https://www.melissashusterman.com/news",
+        "date": "2026-07"
+      },
+      "guns": {
+        "summary": "Advocates limiting handgun purchases to one per month, saying Pennsylvania is a large supplier of illegal firearms recovered in other states, and lists gun control reform as a core priority.",
+        "short": "Advocates one-handgun-a-month limit; lists gun control reform as priority.",
+        "source": "https://www.melissashusterman.com/news",
+        "date": "2026-07"
+      }
+    }
+  }
+}

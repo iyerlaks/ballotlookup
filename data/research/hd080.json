@@ -1,0 +1,68 @@
+{
+  "23181": {
+    "name": "Scott D. Barger",
+    "website": "https://wethetaxpayers.org/",
+    "positions": {
+      "economy": {
+        "summary": "In announcing his 2026 re-election bid, Barger said he has championed pro-business policies that reduce regulatory burdens and lower taxes to create an environment where Pennsylvania businesses can thrive and create good-paying jobs.",
+        "short": "Says he backs pro-business policies reducing regulation and lowering taxes.",
+        "source": "https://www.altoonamirror.com/news/local-news/2026/01/state-rep-scott-barger-launches-bid-to-retain-house-seat/",
+        "date": "2026-01"
+      },
+      "taxes": {
+        "summary": "Barger voted against the 2026-27 state budget, saying it made no real effort to exercise fiscal restraint and was again not finished by the June 30 deadline. He said his goals were preserving the Rainy Day Fund, which was achieved, and eliminating the structural deficit, which was not.",
+        "short": "Voted no on 2026 state budget, citing lack of fiscal restraint.",
+        "source": "https://www.repbarger.com/News/38253/",
+        "date": "2026-07"
+      },
+      "abortion": {
+        "summary": "In his re-election announcement, Barger described himself as a steadfast advocate for the sanctity of life who has consistently voted to protect the unborn and supported pro-life legislation.",
+        "short": "Describes himself as pro-life; says he votes to protect unborn.",
+        "source": "https://www.altoonamirror.com/news/local-news/2026/01/state-rep-scott-barger-launches-bid-to-retain-house-seat/",
+        "date": "2026-01"
+      },
+      "education": {
+        "summary": "His campaign platform proposes holding schools accountable for declining results through what it calls a Florida-style public measurement. His official House site also lists ensuring all students have access to a high-quality education, regardless of where they live, among his legislative priorities.",
+        "short": "Proposes Florida-style public measurement to hold schools accountable.",
+        "source": "https://wethetaxpayers.org/",
+        "date": "2026-07"
+      },
+      "energy": {
+        "summary": "His campaign platform proposes permanently keeping Pennsylvania out of the Regional Greenhouse Gas Initiative (RGGI), which it describes as job-destroying.",
+        "short": "Proposes permanently keeping Pennsylvania out of RGGI.",
+        "source": "https://wethetaxpayers.org/",
+        "date": "2026-07"
+      },
+      "guns": {
+        "summary": "In his re-election announcement, Barger said he has protected Second Amendment rights and stood against efforts he views as infringing on law-abiding citizens' right to keep and bear arms.",
+        "short": "Says he opposes efforts infringing Second Amendment rights.",
+        "source": "https://www.altoonamirror.com/news/local-news/2026/01/state-rep-scott-barger-launches-bid-to-retain-house-seat/",
+        "date": "2026-01"
+      }
+    }
+  },
+  "23811": {
+    "name": "Sarah Holland",
+    "website": "https://www.hollandforthehouse.com/",
+    "positions": {
+      "economy": {
+        "summary": "In a VOTE411 questionnaire, Holland named agricultural funding and investment in rural infrastructure among her priorities, citing environmental and economic concerns in the district. Her campaign site lists infrastructure investment in broadband, roads, and services among her legislative goals.",
+        "short": "Prioritizes agricultural funding and investment in rural infrastructure.",
+        "source": "https://onyourballot.vote411.org/m/race-detail.do?id=50206542",
+        "date": "2026-05"
+      },
+      "taxes": {
+        "summary": "In a VOTE411 questionnaire, Holland said the state budget should not be a bargaining chip and that delays hurt schools, farms, and essential services. She calls for earlier bipartisan negotiations, more transparency, and reducing last-minute gridlock in the budget process.",
+        "short": "Opposes budget delays; wants earlier bipartisan negotiations and transparency.",
+        "source": "https://onyourballot.vote411.org/m/race-detail.do?id=50206542",
+        "date": "2026-05"
+      },
+      "energy": {
+        "summary": "Her campaign site says she will advocate for air and water quality standards and lists environmental protection and preventing AI data center expansion to preserve farmland among her legislative goals. In a VOTE411 questionnaire, she said the state has a role in setting environmental and infrastructure standards for data centers.",
+        "short": "Supports air and water standards; would limit data-center expansion.",
+        "source": "https://www.hollandforthehouse.com/meetsarah",
+        "date": "2026-07"
+      }
+    }
+  }
+}

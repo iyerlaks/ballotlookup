@@ -1,0 +1,50 @@
+{
+  "22723": {
+    "name": "Perry Sinclair Warren Jr.",
+    "website": "https://www.perrywarren.com/",
+    "positions": {
+      "economy": {
+        "summary": "His campaign site calls for guaranteeing a living wage that protects the quality of life of workers and their families, supporting small businesses and entrepreneurs, and developing programs that create long-term employment opportunities.",
+        "short": "Supports living wage, small businesses, long-term job creation programs.",
+        "source": "https://www.perrywarren.com/issues",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "Supports full state funding of public schools to reduce school districts' reliance on local property and earned income taxes.",
+        "short": "Supports full state school funding to reduce local property taxes.",
+        "source": "https://www.perrywarren.com/issues",
+        "date": "2026-07"
+      },
+      "abortion": {
+        "summary": "Supports the right to choose and says he works to keep reproductive healthcare safe and accessible.",
+        "short": "Supports abortion rights; keep reproductive healthcare safe and accessible.",
+        "source": "https://www.perrywarren.com/issues",
+        "date": "2026-07"
+      },
+      "education": {
+        "summary": "Says he has voted for increased state public school funding in each budget, supports equal access to quality early childhood education, and calls for affordable post-secondary education to reduce student loan burdens.",
+        "short": "Voted for increased school funding; supports affordable early and higher education.",
+        "source": "https://www.perrywarren.com/issues",
+        "date": "2026-07"
+      },
+      "healthcare": {
+        "summary": "Supports protecting insurance coverage for pre-existing conditions and reducing prescription drug costs, and backs education, treatment, and drug courts that offer rehabilitation in response to the opioid crisis.",
+        "short": "Supports pre-existing condition protections, lower drug costs, opioid treatment.",
+        "source": "https://www.perrywarren.com/issues",
+        "date": "2026-07"
+      },
+      "energy": {
+        "summary": "Calls for keeping fracking out of the Delaware River Basin to protect drinking water, supports the moratorium on leasing state parks and forests for natural gas extraction, and supports pursuing green energy solutions.",
+        "short": "Opposes Delaware River Basin fracking; supports state-lands moratorium, green energy.",
+        "source": "https://www.perrywarren.com/issues",
+        "date": "2026-07"
+      },
+      "guns": {
+        "summary": "Prime sponsor of bills requiring universal background checks on gun purchases, safe firearm storage, and reporting of lost or stolen guns, and of a no-fly, no-buy measure; also supports keeping firearms out of schools.",
+        "short": "Sponsors universal background checks, safe storage, lost-gun reporting bills.",
+        "source": "https://www.perrywarren.com/issues",
+        "date": "2026-07"
+      }
+    }
+  }
+}

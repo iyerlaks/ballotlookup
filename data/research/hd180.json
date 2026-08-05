@@ -1,0 +1,44 @@
+{
+  "22794": {
+    "name": "Jose A. Giral",
+    "website": "https://www.pahouse.com/Giral/",
+    "positions": {
+      "economy": {
+        "summary": "In a February 2026 statement on Governor Shapiro's budget proposal, Giral said he supports raising the state minimum wage to $15 per hour and lowering costs such as rent, utilities, and housing application fees.",
+        "short": "Supports raising minimum wage to $15, lowering costs.",
+        "source": "https://www.pahouse.com/Giral/InTheNews/NewsRelease/?id=142321",
+        "date": "2026-02"
+      },
+      "education": {
+        "summary": "In the same February 2026 statement on the governor's budget proposal, Giral said he supports increased investment in basic and special education, school safety, and mental health services.",
+        "short": "Supports more investment in education, school safety, mental health.",
+        "source": "https://www.pahouse.com/Giral/InTheNews/NewsRelease/?id=142321",
+        "date": "2026-02"
+      },
+      "abortion": {
+        "summary": "Giral is a co-sponsor of HB 1957 in the 2025-2026 session, a proposed amendment to the state constitution providing for personal reproductive liberty.",
+        "short": "Co-sponsors constitutional amendment providing for personal reproductive liberty.",
+        "source": "https://www.palegis.us/legislation/bills/2025/hb1957",
+        "date": "2025-12"
+      },
+      "healthcare": {
+        "summary": "Giral sponsored legislation requiring health insurance to cover blood lead tests for pregnant women once during pregnancy and for children at 12 and 24 months of age; the House passed it in June 2026.",
+        "short": "Sponsored bill requiring insurance-covered lead testing for children, mothers.",
+        "source": "https://www.pahouse.com/InTheNews/NewsRelease/?id=143941",
+        "date": "2026-06"
+      },
+      "energy": {
+        "summary": "Giral sponsored HB 2017, which updates the state's fee structure for nuclear operators to distinguish small modular and micro reactors, saying it would keep small modular reactor development competitive in Pennsylvania.",
+        "short": "Sponsored bill to encourage small modular nuclear reactor development.",
+        "source": "https://www.pahouse.com/Giral/InTheNews/NewsRelease/?id=142173",
+        "date": "2026-02"
+      },
+      "guns": {
+        "summary": "Giral was prime sponsor of HB 1548 in the 2023-2024 session, the Police and Community Safety Act, which would limit cooperation between local law enforcement and postsecondary institutions and federal immigration authorities; the bill addresses policing and immigration rather than firearms.",
+        "short": "Prime-sponsored Police and Community Safety Act limiting immigration cooperation.",
+        "source": "https://www.palegis.us/legislation/bills/2023/hb1548",
+        "date": "2023-06"
+      }
+    }
+  }
+}

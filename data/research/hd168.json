@@ -1,0 +1,80 @@
+{
+  "22990": {
+    "name": "Lisa Anne Borowski",
+    "website": "https://www.lisaborowski.com/",
+    "positions": {
+      "abortion": {
+        "summary": "Her campaign site says she is a proud pro-choice candidate and states that choice should remain between a person and their doctor, with no place for politicians interfering.",
+        "short": "Says she is pro-choice; choice belongs between person and doctor.",
+        "source": "https://www.lisaborowski.com/right-to-choose",
+        "date": "2026-07"
+      },
+      "education": {
+        "summary": "Her campaign site says public education will always be a top priority and that she will always fight for public schools, citing a record of investing in public schools as a former school board officer.",
+        "short": "Says public schools are a top priority; will fight for them.",
+        "source": "https://www.lisaborowski.com/public-education",
+        "date": "2026-07"
+      },
+      "healthcare": {
+        "summary": "As the incumbent, she introduced House Bill 1460 in May 2025 to expand the Attorney General's authority to review hospital mergers, acquisitions, and major financial transactions and to restrict private equity practices, following Delaware County hospital closures.",
+        "short": "Introduced bill to expand state oversight of hospital acquisitions.",
+        "source": "https://pasenate.com/sen-tim-kearney-rep-lisa-borowski-introduce-legislation-to-safeguard-pennsylvanias-healthcare-systems/",
+        "date": "2025-05"
+      },
+      "energy": {
+        "summary": "Her campaign site says she is dedicated to fighting climate change, including through a shift toward renewable energy sources.",
+        "short": "Says she is dedicated to fighting climate change via renewable energy.",
+        "source": "https://www.lisaborowski.com/protecting-the-environment",
+        "date": "2026-07"
+      },
+      "guns": {
+        "summary": "Her campaign site says she has always supported legislation to end gun violence, including universal background checks, closing loopholes in firearm legislation, and red flag laws.",
+        "short": "Supports universal background checks, closing loopholes, and red flag laws.",
+        "source": "https://www.lisaborowski.com/common-sense-gun-reform",
+        "date": "2026-07"
+      }
+    }
+  },
+  "23882": {
+    "name": "Kathryn M. L. Buckley",
+    "website": "https://buckleyforpa.com/",
+    "positions": {
+      "economy": {
+        "summary": "Her campaign site says she supports pro-growth policies that help create a job-friendly environment and supports career and technical education for sought-after skills.",
+        "short": "Supports pro-growth policies and career and technical education.",
+        "source": "https://buckleyforpa.com/issues/",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "Her campaign site says she will focus on controlling spending, cutting government waste, and preventing tax increases, and that she opposes any proposed tax increases.",
+        "short": "Will control spending, cut waste; opposes any tax increases.",
+        "source": "https://buckleyforpa.com/issues/",
+        "date": "2026-07"
+      },
+      "education": {
+        "summary": "Her campaign site says she supports boosting education funding, backs both public and choice education initiatives, and supports reducing standardized testing to prioritize skills teaching.",
+        "short": "Supports boosting funding, public and choice education, less standardized testing.",
+        "source": "https://buckleyforpa.com/issues/",
+        "date": "2026-07"
+      },
+      "healthcare": {
+        "summary": "Her campaign site says she will work to attract new providers to the community and increase competition to reduce costs, describing her goal as accessible and affordable healthcare.",
+        "short": "Will attract providers and increase competition to reduce costs.",
+        "source": "https://buckleyforpa.com/issues/",
+        "date": "2026-07"
+      },
+      "energy": {
+        "summary": "Her campaign site says she supports fostering a responsible energy industry for sustainable jobs.",
+        "short": "Supports fostering a responsible energy industry for sustainable jobs.",
+        "source": "https://buckleyforpa.com/issues/",
+        "date": "2026-07"
+      },
+      "guns": {
+        "summary": "Her campaign site does not detail a firearms position; on public safety it says she supports fully funding police and opposes efforts to defund the police.",
+        "short": "Supports fully funding police; opposes defunding the police.",
+        "source": "https://buckleyforpa.com/issues/",
+        "date": "2026-07"
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "23438": {
+    "name": "Robert Lee James",
+    "website": "https://www.jamesfordistrict64.com",
+    "positions": {
+      "economy": {
+        "summary": "His campaign site says his focus is helping local businesses create jobs in the county and reducing government over-regulation.",
+        "short": "Focuses on local job creation and reducing government over-regulation.",
+        "source": "https://www.jamesfordistrict64.com/page2",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "Responding to the governor's $53.26 billion 2026-27 budget proposal, said he is uncomfortable with the amount of spending, opposed transferring $4.58 billion from the Rainy Day Fund to cover expenses, and opposed the proposed new taxes on skill games and marijuana.",
+        "short": "Opposes proposed spending level, Rainy Day Fund transfer, new taxes.",
+        "source": "https://www.repjames.com/News/37457/Press-Releases/James-Urges-Fiscal-Discipline--Targeted-Investments-for-2026-27-Fiscal-Year-Budget",
+        "date": "2026-02"
+      },
+      "abortion": {
+        "summary": "Voted against House Bill 1957, a proposed amendment to the Pennsylvania Constitution providing for personal reproductive liberty, which passed the House 102-101 in December 2025. His campaign site also lists him as pro-life.",
+        "short": "Voted against reproductive-liberty constitutional amendment; campaign lists pro-life.",
+        "source": "https://www.palegis.us/house/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=795",
+        "date": "2025-12"
+      },
+      "education": {
+        "summary": "In a 2019 interview he said he supports the Educational Improvement Tax Credit, which lets businesses direct tax dollars toward scholarship and educational organizations, and called the hold-harmless school funding policy critical for western Pennsylvania districts with declining enrollment.",
+        "short": "Supports Educational Improvement Tax Credit and hold-harmless school funding.",
+        "source": "https://www.pacatholic.org/rep-lee-james-is-pro-life-and-pro-e-i-t-c/",
+        "date": "2019-06"
+      },
+      "energy": {
+        "summary": "His legislative site says he supports responsibly harvesting Pennsylvania's abundant natural resources in a way that promotes economic growth while protecting the state's environmental integrity.",
+        "short": "Supports developing natural resources while protecting environmental integrity.",
+        "source": "https://www.repjames.com/",
+        "date": "2026-07"
+      },
+      "guns": {
+        "summary": "Voted against House Bill 1593, a bill to extend background-check requirements to private firearm sales, which passed the House 104-99 in September 2025. His campaign site also lists him as pro-Second Amendment.",
+        "short": "Voted against extending background checks to private firearm sales.",
+        "source": "https://www.palegis.us/house/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=625",
+        "date": "2025-09"
+      }
+    }
+  },
+  "24002": {
+    "name": "Amanda Shaffer",
+    "website": "https://www.facebook.com/people/Amanda-Shaffer-for-State-Representative/61582180777622/",
+    "positions": {}
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "22918": {
+    "name": "Lisa Baker",
+    "website": "https://www.bakerforsenate.com/",
+    "positions": {
+      "economy": {
+        "summary": "Her campaign says she is battling inflation by ensuring conservative spending levels in the state budget and eliminating waste, fraud, and abuse, and fighting rising energy costs by resisting efforts to shut down the energy sector.",
+        "short": "Says she fights inflation via conservative spending, resists energy shutdowns.",
+        "source": "https://www.bakerforsenate.com/priorities",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "Her campaign platform calls for reforming Pennsylvania's tax structure, supporting job creators, and keeping state spending conservative while eliminating waste and fraud.",
+        "short": "Supports tax structure reform, job creators, conservative state spending.",
+        "source": "https://www.bakerforsenate.com/priorities",
+        "date": "2026-07"
+      },
+      "abortion": {
+        "summary": "Voted against Senate Bill 106 in July 2022, the constitutional amendment package declaring the Pennsylvania Constitution provides no right to abortion; she was one of two Senate Republicans to oppose it.",
+        "short": "Voted against 2022 no-right-to-abortion constitutional amendment.",
+        "source": "https://www.spotlightpa.org/news/2022/07/pa-abortion-restrictions-constitutional-amendment-voter-id/",
+        "date": "2022-07"
+      },
+      "education": {
+        "summary": "Her campaign says she works to connect students with family-sustaining jobs by expanding educational opportunities and making technical training more widely available.",
+        "short": "Supports expanding educational opportunities and technical training for jobs.",
+        "source": "https://www.bakerforsenate.com/priorities",
+        "date": "2026-07"
+      },
+      "healthcare": {
+        "summary": "Championed Senate Bill 739, enacted in 2024, requiring health insurers and Medicaid and CHIP programs to cover telemedicine services; she called telemedicine a vital solution for securing accessible and affordable health care in small communities and rural areas.",
+        "short": "Championed 2024 law requiring insurance coverage of telemedicine services.",
+        "source": "https://www.senatorbaker.com/2024/06/27/baker-senate-bill-expanding-access-to-telemedicine-services-heads-for-enactment/",
+        "date": "2024-06"
+      },
+      "energy": {
+        "summary": "Her campaign says she fights rising energy costs by resisting efforts to shut down Pennsylvania's energy sector and works to create needed baseload energy and increase energy production for affordable, reliable energy.",
+        "short": "Supports increased energy production, baseload energy; resists sector shutdowns.",
+        "source": "https://www.bakerforsenate.com/priorities",
+        "date": "2026-07"
+      },
+      "guns": {
+        "summary": "Her campaign platform pledges to protect Second Amendment rights and to recruit and retain additional law enforcement officers and first responders by offering new incentives.",
+        "short": "Pledges to protect Second Amendment rights, add law enforcement incentives.",
+        "source": "https://www.bakerforsenate.com/priorities",
+        "date": "2026-07"
+      }
+    }
+  },
+  "23686": {
+    "name": "Jackie Baker",
+    "website": "https://jackiebakerforpa.org/",
+    "positions": {
+      "economy": {
+        "summary": "Her campaign platform calls for raising the minimum wage, eliminating the tipped minimum wage, establishing paid family and medical leave and earned paid sick days, and strengthening labor unions.",
+        "short": "Supports raising minimum wage, paid leave, stronger labor unions.",
+        "source": "https://jackiebakerforpa.org/issues",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "Her campaign platform supports passing a Fair Share Tax, closing the Delaware loophole so corporations pay corporate taxes, reforming corporate taxes, and passing targeted property tax relief.",
+        "short": "Supports Fair Share Tax, closing Delaware loophole, property tax relief.",
+        "source": "https://jackiebakerforpa.org/issues",
+        "date": "2026-07"
+      },
+      "abortion": {
+        "summary": "Her campaign platform says reproductive health decisions are personal and should be private, supports Planned Parenthood health centers, and says she would take steps to codify abortion protections in Pennsylvania law.",
+        "short": "Supports codifying abortion protections; backs Planned Parenthood centers.",
+        "source": "https://jackiebakerforpa.org/issues",
+        "date": "2026-07"
+      },
+      "education": {
+        "summary": "Her campaign platform calls for fully funding K-12 education by increasing the state share of school funding, making Pre-K available to all families, making college tuition affordable, and increasing funding for school-based mental health services.",
+        "short": "Supports fully funding K-12, universal Pre-K, affordable college tuition.",
+        "source": "https://jackiebakerforpa.org/issues",
+        "date": "2026-07"
+      },
+      "healthcare": {
+        "summary": "Her campaign platform calls health care a human right and proposes saving rural hospitals, protecting the Affordable Care Act, continuing to fund CHIP, and making health care more affordable, equitable, and accessible.",
+        "short": "Proposes saving rural hospitals, protecting ACA, funding CHIP.",
+        "source": "https://jackiebakerforpa.org/issues",
+        "date": "2026-07"
+      },
+      "energy": {
+        "summary": "Her campaign platform calls for rapidly transitioning to renewable energy, protecting air and water, and investing in programs such as Growing Greener to address climate change.",
+        "short": "Supports rapid renewable energy transition, protecting air and water.",
+        "source": "https://jackiebakerforpa.org/issues",
+        "date": "2026-07"
+      },
+      "guns": {
+        "summary": "In a 2022 candidate survey during her previous run for this seat, she said she supports a universal background check system for all gun purchases and red flag laws to keep guns from dangerous individuals.",
+        "short": "Supports universal background checks and red flag laws (2022 survey).",
+        "source": "https://www.wcexaminer.com/2022/10/18/baker-v-baker-in-20th-senate-race/",
+        "date": "2022-10"
+      }
+    }
+  }
+}

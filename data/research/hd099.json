@@ -1,0 +1,74 @@
+{
+  "24034": {
+    "name": "Ethan Gabrick",
+    "website": "https://ethan4pa.com/",
+    "positions": {
+      "economy": {
+        "summary": "His campaign platform supports raising the minimum wage to at least $15 per hour, capping apartment and manufactured-home lot rent increases at an inflation-tied index, and expanding funding for the state's housing affordability program (PHARE).",
+        "short": "Supports $15 minimum wage, rent-increase caps, housing program funding.",
+        "source": "https://ethan4pa.com/",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "Says he would expand the Pennsylvania child tax credit as part of efforts to reduce family expenses.",
+        "short": "Proposes expanding the Pennsylvania child tax credit.",
+        "source": "https://www.yahoo.com/news/articles/cumru-township-democrat-running-represent-162200854.html",
+        "date": "2026-04"
+      },
+      "education": {
+        "summary": "His platform supports expanding eligibility for universal pre-K with increased per-child funding and staffing, and providing universal school lunches for all Pennsylvania children.",
+        "short": "Supports expanding universal pre-K and universal school lunches.",
+        "source": "https://ethan4pa.com/",
+        "date": "2026-07"
+      },
+      "healthcare": {
+        "summary": "Supports creating a universal healthcare system in Pennsylvania by backing the Pennsylvania Guaranteed Healthcare Act, and proposes rural hospital funding during the transition to that system.",
+        "short": "Supports universal healthcare system; rural hospital transition funding.",
+        "source": "https://ethan4pa.com/",
+        "date": "2026-07"
+      },
+      "energy": {
+        "summary": "Proposes an indefinite statewide moratorium on data centers that use more than 20 megawatts of power in Pennsylvania; his platform does not detail a broader energy or environment agenda.",
+        "short": "Proposes moratorium on data centers using over 20 megawatts.",
+        "source": "https://ethan4pa.com/",
+        "date": "2026-07"
+      }
+    }
+  },
+  "23126": {
+    "name": "David H. Zimmerman",
+    "website": "https://www.davezimmerman.us/",
+    "positions": {
+      "taxes": {
+        "summary": "Voted against the state's $48 billion 2024-25 budget, saying it spent $2.7 billion more than the prior year, exceeded predictions of available revenue, and would mean taxes need to be raised in the next few years.",
+        "short": "Voted against 2024 state budget; says spending forces tax increases.",
+        "source": "https://repzimmerman.com/News/34414/Press-Releases/Zimmerman-Says-Budget-Lacks-Accountability--Unsustainable",
+        "date": "2024-07"
+      },
+      "abortion": {
+        "summary": "Voted in July 2022 for Senate Bill 106, a package of proposed constitutional amendments including one stating that the Pennsylvania Constitution does not grant a right to taxpayer-funded abortion or any other right relating to abortion.",
+        "short": "Voted for amendment stating no constitutional right to abortion.",
+        "source": "https://www.palegis.us/house/roll-calls/summary?sessYr=2021&sessInd=0&rcNum=1156",
+        "date": "2022-07"
+      },
+      "education": {
+        "summary": "Introduced the Student, Teacher Support Act, which would allow public school districts to employ, or approve as volunteers, certified school chaplains; he said it would be one more optional resource for districts and would not create a mandate.",
+        "short": "Introduced bill allowing districts to employ certified school chaplains.",
+        "source": "https://repzimmerman.com/News/33948/Press-Releases/Zimmerman-Introduces-Student--Teacher-Support-Act",
+        "date": "2024-04"
+      },
+      "healthcare": {
+        "summary": "Sponsored the Immunization Freedom Act, which would require doctors to let parents set individualized childhood vaccination schedules with at least one vaccine per year and would penalize doctors who dismiss those families; he called it a first step in allowing families and physicians to work together.",
+        "short": "Sponsored bill letting parents set individualized childhood vaccination schedules.",
+        "source": "https://transforminghealth.org/2021/05/13/pediatricians-say-gop-vaccination-proposal-in-pa-could-put-children-newborns-at-risk/",
+        "date": "2021-05"
+      },
+      "guns": {
+        "summary": "Voted in May 2023 against final passage of House Bill 714, which would require background checks on all firearm sales in Pennsylvania by repealing the exemption for private sales; the bill passed the House 109-92.",
+        "short": "Voted against bill requiring background checks on all firearm sales.",
+        "source": "https://www.palegis.us/house/roll-calls/summary?sessYr=2023&sessInd=0&rcNum=96",
+        "date": "2023-05"
+      }
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "22855": {
+    "name": "Michael J Armanini",
+    "party": "Republican",
+    "website": "https://www.repmikearmanini.com/",
+    "incumbent": true,
+    "positions": {
+      "economy": {
+        "summary": "Armanini says Pennsylvania should build \"a business climate that welcomes investment\" by \"reducing burdensome regulations, modernizing our infrastructure and unleashing our energy potential,\" and says current policies make it harder for businesses to grow in the state.",
+        "short": "Supports reducing regulations and modernizing infrastructure to attract investment",
+        "source": "https://www.repmikearmanini.com/News/36910/Latest-News/Armanini--Pennsylvania-Must-Focus-on-Economic-Growth",
+        "date": "2025-11"
+      },
+      "taxes": {
+        "summary": "Armanini said the 2026-27 state budget \"avoids broad-based tax increases\" and \"keeps the established schedule for the corporate net income tax reduction,\" which he called important wins for taxpayers and employers, and said it was negotiated to help working families without relying on the Rainy Day Fund. He has separately proposed a sales tax holiday on football equipment as part of a House Republican tax-holiday package.",
+        "short": "Opposes broad-based tax increases; proposes targeted sales tax holidays",
+        "source": "https://www.pahousegop.com/News/38257/Latest-News/PA-Budget-Supports-Schools--Retired-Public-Servants--Armanini-Says",
+        "date": "2026-07",
+        "additional_sources": [
+          "https://www.pahousegop.com/News/37744/Press-Releases/Armanini-Proposes-Sales-Tax-Holiday"
+        ]
+      },
+      "abortion": {
+        "summary": "Armanini voted no on HB 1957 (December 2025), a proposed constitutional amendment providing for personal reproductive liberty, which passed the House 102-101. In July 2022 he voted yes on SB 106, a proposed amendment stating there is no constitutional right to taxpayer-funded abortion or other right relating to abortion.",
+        "short": "Voted against reproductive liberty amendment; for no-abortion-right amendment",
+        "source": "https://www.palegis.us/house/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=795",
+        "date": "2025-12",
+        "additional_sources": [
+          "https://www.palegis.us/house/roll-calls/summary?sessYr=2021&sessInd=0&rcNum=1156"
+        ]
+      },
+      "education": {
+        "summary": "Armanini said the 2026-27 state budget includes significant investments in education, providing additional resources for schools across Pennsylvania while continuing to support students and teachers, and that ensuring schools have resources while maintaining accountability for taxpayer dollars remains an important priority.",
+        "short": "Supports budget's increased school funding; stresses taxpayer accountability",
+        "source": "https://www.pahousegop.com/News/38257/Latest-News/PA-Budget-Supports-Schools--Retired-Public-Servants--Armanini-Says",
+        "date": "2026-07"
+      },
+      "energy": {
+        "summary": "Armanini sponsored a bill, part of an 11-bill House Republican energy package, requiring permit appeals before the Environmental Hearing Board to be resolved within one year, saying \"Projects are getting significantly delayed and killed during the appeals process at a time when we desperately need more electricity added to our 13-state grid.\" He has said producing more baseload energy would create family-sustaining jobs and prevent brownouts and blackouts.",
+        "short": "Proposes one-year limit on permit appeals; supports more baseload energy",
+        "source": "https://www.pahousegop.com/News/38231/Latest-News/Armanini-Bill-Designed-to-Grow-Energy-Production",
+        "date": "2026-07"
+      },
+      "guns": {
+        "summary": "Armanini co-sponsored HB 979 (2021), which would have further limited local governments' authority to regulate firearms and ammunition; it passed both chambers and was vetoed by the governor in February 2022. He also sponsored HB 1344, setting certification standards for police dogs trained to detect fentanyl, which became law in June 2026.",
+        "short": "Co-sponsored bill limiting local firearm regulation; fentanyl-dog law enacted",
+        "source": "https://www.palegis.us/legislation/bills/2021/hb979",
+        "date": "2022-02",
+        "additional_sources": [
+          "https://www.pahousegop.com/News/38182/Press-Releases/Senate-OKs-Armanini-Bill-for-Enhanced-Drug-Investigations",
+          "https://www.palegis.us/legislation/bills/2025/hb1344"
+        ]
+      }
+    }
+  },
+  "23333": {
+    "name": "Kimberly Kohlhepp",
+    "party": "Democratic",
+    "website": "https://www.kimforpa.com/",
+    "incumbent": false,
+    "positions": {
+      "economy": {
+        "summary": "Kohlhepp's campaign platform calls for reining in utility prices, lowering housing costs, addressing the housing supply shortage, and empowering small businesses and working families. She says she will \"fight for what I call life-sustaining services,\" naming housing, utilities, and healthcare.",
+        "short": "Proposes reining in utility prices, lowering housing costs; supports small businesses",
+        "source": "https://www.kimforpa.com/theissues",
+        "date": "2026-07",
+        "additional_sources": [
+          "https://www.connectradio.fm/news/kohlhepp-launches-campaign-for-75th-state-house-seat/"
+        ]
+      },
+      "healthcare": {
+        "summary": "Kohlhepp's campaign says she is advocating for Pennsylvania families by expanding access to affordable healthcare, and she names healthcare as one of the \"life-sustaining services\" she would prioritize alongside housing and utilities.",
+        "short": "Supports expanding access to affordable healthcare for families",
+        "source": "https://www.kimforpa.com/",
+        "date": "2026-07",
+        "additional_sources": [
+          "https://www.connectradio.fm/news/kohlhepp-launches-campaign-for-75th-state-house-seat/"
+        ]
+      },
+      "education": {
+        "summary": "Kohlhepp's campaign says she is advocating for Pennsylvania families by expanding access to affordable education, paired with healthcare access as a campaign priority; her site does not publish further detail on school policy.",
+        "short": "Supports expanding access to affordable education for families",
+        "source": "https://www.kimforpa.com/",
+        "date": "2026-07"
+      },
+      "energy": {
+        "summary": "Kohlhepp's campaign platform calls for preserving the PA Wilds, protecting wildlife, and growing the region's tourism industry; the site does not detail an energy policy.",
+        "short": "Proposes preserving PA Wilds and wildlife; no stated energy policy",
+        "source": "https://www.kimforpa.com/theissues",
+        "date": "2026-07"
+      }
+    }
+  }
+}

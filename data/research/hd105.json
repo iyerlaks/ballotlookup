@@ -1,0 +1,50 @@
+{
+  "23392": {
+    "name": "Justin Curtis Fleming",
+    "website": "https://www.flemingforpa.com/",
+    "positions": {
+      "economy": {
+        "summary": "His campaign platform says he is committed to paying every Pennsylvanian a family-sustaining wage, investing in affordable, high-quality childcare so parents can work, and strengthening unions by making it easier for workers to organize.",
+        "short": "Supports family-sustaining wages, childcare investment, and stronger unions.",
+        "source": "https://www.flemingforpa.com/policy",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "His campaign platform proposes that the state help municipalities preserve services without increasing local taxes, and give municipalities tools to address rising pension costs he attributes to outdated legislation.",
+        "short": "Proposes state help so municipalities avoid raising local taxes.",
+        "source": "https://www.flemingforpa.com/policy",
+        "date": "2026-07"
+      },
+      "abortion": {
+        "summary": "In December 2025 he voted for House Bill 1957, a proposed amendment to the Pennsylvania Constitution providing for personal reproductive liberty, which passed the House 102-101.",
+        "short": "Voted for reproductive-liberty amendment to the state constitution.",
+        "source": "https://www.palegis.us/house/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=795",
+        "date": "2025-12"
+      },
+      "education": {
+        "summary": "His campaign platform calls for increased funding for pre-kindergarten access and support for career and technical education options, saying a child's zip code should not determine their success in school.",
+        "short": "Supports increased pre-K funding and career-technical education options.",
+        "source": "https://www.flemingforpa.com/policy",
+        "date": "2026-07"
+      },
+      "healthcare": {
+        "summary": "His campaign platform calls for making health insurance more accessible and affordable and addressing prescription drug costs; he cites his daughter's Type 1 diabetes and the price of insulin as a personal reason for the priority.",
+        "short": "Supports more accessible insurance and lower prescription drug costs.",
+        "source": "https://www.flemingforpa.com/policy",
+        "date": "2026-07"
+      },
+      "energy": {
+        "summary": "His campaign platform describes climate change as a long-term threat and says he will work to address warming trends and extreme weather; it also calls for stormwater management systems and keeping rivers and streams clean.",
+        "short": "Platform calls for climate action and clean rivers and streams.",
+        "source": "https://www.flemingforpa.com/policy",
+        "date": "2026-07"
+      },
+      "guns": {
+        "summary": "In May 2023 he voted for final passage of House Bill 714, which would expand background check requirements to include private sales of long guns; the bill passed the House 109-92.",
+        "short": "Voted to expand background checks to private long-gun sales.",
+        "source": "https://www.palegis.us/house/roll-calls/summary?sessYr=2023&sessInd=0&rcNum=96",
+        "date": "2023-05"
+      }
+    }
+  }
+}

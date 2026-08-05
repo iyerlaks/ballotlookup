@@ -1,0 +1,42 @@
+{
+  "24069": {
+    "name": "Thomas Kucer",
+    "positions": {}
+  },
+  "22830": {
+    "name": "Jack B. Rader Jr.",
+    "website": "https://www.reprader.com/",
+    "positions": {
+      "economy": {
+        "summary": "His office lists job creation and economic growth among his legislative priorities.",
+        "short": "Lists job creation and economic growth as priorities.",
+        "source": "https://www.reprader.com/about",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "In February 2026 he called Governor Shapiro's proposed budget unsustainable, citing a 5.4% spending increase against a 1.9% revenue increase and an estimated 60% reduction in the Rainy Day Fund, and called for fiscal responsibility.",
+        "short": "Called Shapiro's proposed budget unsustainable; urged fiscal responsibility.",
+        "source": "https://www.pahousegop.com/News/37443/Latest-News/Shapiro-Budget-Proposal-Unsustainable-Rader-Says-",
+        "date": "2026-02"
+      },
+      "abortion": {
+        "summary": "As a state representative he sponsored HB 321 (2019), which would prohibit abortion based on a prenatal Down syndrome diagnosis, and voted for SB 106 (2022), a proposed constitutional amendment stating the state constitution does not grant a right to abortion.",
+        "short": "Sponsored Down syndrome abortion-ban bill; voted for constitutional amendment.",
+        "source": "https://choicetracker.org/legislator/h176rader",
+        "date": "2022-07"
+      },
+      "education": {
+        "summary": "His office lists addressing the school property tax, which funds public schools, among his legislative priorities.",
+        "short": "Lists addressing the school property tax among his priorities.",
+        "source": "https://www.reprader.com/about",
+        "date": "2026-07"
+      },
+      "guns": {
+        "summary": "His office has announced state grants he secured for local first responders and for school safety and mental health programs in the district; these are grant announcements rather than a stated position on firearms.",
+        "short": "Announced state grants for first responders and school safety.",
+        "source": "https://www.reprader.com/NewsGroup/All-News",
+        "date": "2026-02"
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "23301": {
+    "name": "Robert Freeman",
+    "website": "https://www.pahouse.com/Freeman/",
+    "positions": {
+      "economy": {
+        "summary": "As the incumbent, Freeman authored legislation to spur local economic development and housing affordability, including tax incentives to redevelop abandoned factory and mill buildings and a lease-to-purchase program to expand affordable home ownership.",
+        "short": "Authored factory-reuse tax incentives and affordable home-ownership bills.",
+        "source": "https://www.pahouse.com/files/Documents/Newsletter/2024-08-28_043613__136%20Fall%20NL%200824.pdf",
+        "date": "2024-08"
+      },
+      "taxes": {
+        "summary": "Authored a bill to create a Tax-Exempt Property Municipal Assistance Fund to compensate municipalities with high shares of tax-exempt property, and said the state budget increased education funding without raising state taxes.",
+        "short": "Authored tax-exempt-property municipal aid bill; touts no-tax-increase budget.",
+        "source": "https://www.pahouse.com/files/Documents/Newsletter/2024-08-28_043613__136%20Fall%20NL%200824.pdf",
+        "date": "2024-08"
+      },
+      "abortion": {
+        "summary": "Endorsed by Planned Parenthood PA PAC, which backs candidates it calls demonstrated champions who stand on the side of reproductive rights; the endorsement announcement does not detail his specific policy positions.",
+        "short": "Endorsed by Planned Parenthood PA PAC as a reproductive-rights champion.",
+        "source": "https://www.plannedparenthoodaction.org/planned-parenthood-pennsylvania-advocates/press-releases/planned-parenthood-pa-pac-endorses-its-first-round-of-sexual-and-reproductive-health-care-champions-for-election",
+        "date": "2024-03"
+      },
+      "education": {
+        "summary": "Wrote that funding public education is one of state government's most significant responsibilities, called the basic-education funding formula inadequate and noted courts found it unconstitutional, and praised a budget adding more than $1 billion in new K-12 funding without raising state taxes.",
+        "short": "Calls public education funding a top duty; backs fair-funding increases.",
+        "source": "https://www.pahouse.com/files/Documents/Newsletter/2024-08-28_043613__136%20Fall%20NL%200824.pdf",
+        "date": "2024-08"
+      },
+      "energy": {
+        "summary": "Conservation Voters of Pennsylvania, which endorsed him, describes him as a member of the legislature's Climate Caucus who earned a 100% score on its 2019-2020 Pennsylvania Environmental Scorecard.",
+        "short": "Conservation Voters cites Climate Caucus membership, 100% environmental scorecard.",
+        "source": "https://www.conservationpa.org/endorsements/hd-136-rep-robert-freeman",
+        "date": "2020-06"
+      },
+      "guns": {
+        "summary": "Endorsed by CeaseFirePA Action, which backs candidates it says will help pass gun-safety policies and put Pennsylvanians' safety before the gun industry; the endorsement does not detail his specific positions.",
+        "short": "Endorsed by CeaseFirePA Action as a gun-safety champion.",
+        "source": "https://www.ceasefirepa.org/general-interest/ceasefirepa-action-endorses-81-gun-safety-champions-for-2024-election/",
+        "date": "2024-07"
+      }
+    }
+  },
+  "23324": {
+    "name": "Pilar M. Campisi",
+    "positions": {
+      "education": {
+        "summary": "Her platform calls for supporting parental rights in education.",
+        "short": "Supports parental rights in education.",
+        "source": "https://lafayettestudentnews.com/190511/news/easton-election-guide-2026-primary-election/",
+        "date": "2026-04"
+      },
+      "energy": {
+        "summary": "Her platform calls for maintaining organic farming standards, an agricultural and environmental-standards issue.",
+        "short": "Supports maintaining organic farming standards.",
+        "source": "https://lafayettestudentnews.com/190511/news/easton-election-guide-2026-primary-election/",
+        "date": "2026-04"
+      }
+    }
+  }
+}

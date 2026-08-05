@@ -1,0 +1,67 @@
+{
+  "23986": {
+    "name": "Les Mavus",
+    "positions": {
+      "economy": {
+        "summary": "In a voter-guide questionnaire, said affordability, particularly around utilities, is the top issue facing the district, noting the cost per kilowatt-hour is rising faster than the national average and residents are seeing their bills spike.",
+        "short": "Says affordability, especially rising utility bills, is the top issue.",
+        "source": "https://onyourballot.vote411.org/m/race-detail.do?id=50206757",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "In a voter-guide questionnaire, said the state cannot have a budget process that shuts down the government for months at a time while schools and public transportation go unfunded.",
+        "short": "Opposes budget process that shuts government, defunds schools and transit.",
+        "source": "https://onyourballot.vote411.org/m/race-detail.do?id=50206757",
+        "date": "2026-07"
+      },
+      "energy": {
+        "summary": "Asked whether Pennsylvania should regulate data centers, said yes, calling for government to protect costs, the environment, and land rather than serving corporations and their interests.",
+        "short": "Supports regulating data centers to protect costs, environment, and land.",
+        "source": "https://onyourballot.vote411.org/m/race-detail.do?id=50206757",
+        "date": "2026-07"
+      }
+    }
+  },
+  "22815": {
+    "name": "Craig T. Staats",
+    "website": "https://www.staatsforstaterep.com/",
+    "positions": {
+      "economy": {
+        "summary": "His campaign says he has fought to keep government spending in check and prevent policies that would raise costs on families, and that he supports small businesses and economic growth.",
+        "short": "Says he fights spending and opposes policies raising family costs.",
+        "source": "https://www.staatsforstaterep.com/",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "His campaign says he supported state budgets that reduced spending, avoided broad-based tax increases, and protected the Rainy Day Fund, and that he supports easing the property tax burden.",
+        "short": "Supported budgets reducing spending; backs property-tax relief.",
+        "source": "https://www.staatsforstaterep.com/",
+        "date": "2026-07"
+      },
+      "education": {
+        "summary": "His campaign says he led a rewrite of Pennsylvania's career and technical education law to modernize workforce training and expand pathways for students into high-demand careers.",
+        "short": "Led rewrite of Pennsylvania's career and technical education law.",
+        "source": "https://www.staatsforstaterep.com/",
+        "date": "2026-07"
+      },
+      "energy": {
+        "summary": "His campaign says he opposed Pennsylvania joining the Regional Greenhouse Gas Initiative, describing it as an energy tax that would have driven up electricity and heating costs.",
+        "short": "Opposed RGGI, calling it an energy tax raising costs.",
+        "source": "https://www.staatsforstaterep.com/",
+        "date": "2026-07"
+      },
+      "abortion": {
+        "summary": "Co-sponsored House Bill 77 of the 2017-2018 session, which would have established a dismemberment abortion ban and amended related provisions of the criminal code.",
+        "short": "Co-sponsored 2017 bill to establish a dismemberment abortion ban.",
+        "source": "https://www.palegis.us/legislation/bills/2017/hb0077",
+        "date": "2017-02"
+      },
+      "guns": {
+        "summary": "Co-sponsored House Bill 671 of the 2017-2018 session, which would strengthen state preemption limiting municipalities from enacting their own firearms and ammunition regulations.",
+        "short": "Co-sponsored 2017 bill limiting local firearms regulation.",
+        "source": "https://www.palegis.us/legislation/bills/2017/hb671",
+        "date": "2017-04"
+      }
+    }
+  }
+}

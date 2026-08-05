@@ -1,0 +1,42 @@
+{
+  "22801": {
+    "name": "Benjamin V Sanchez",
+    "website": "https://www.bensanchez.org/",
+    "positions": {
+      "abortion": {
+        "summary": "Sanchez's campaign site lists access to reproductive healthcare among his key issues, stating he supports accessible and affordable healthcare for all, especially access to reproductive healthcare.",
+        "short": "Supports access to reproductive healthcare.",
+        "source": "https://bensanchez.org/key-issues",
+        "date": "2026-07"
+      },
+      "education": {
+        "summary": "On his campaign site, Sanchez lists strengthening and supporting public education throughout the Commonwealth as a key issue for the district.",
+        "short": "Supports strengthening and supporting public education statewide.",
+        "source": "https://bensanchez.org/key-issues",
+        "date": "2026-07"
+      },
+      "healthcare": {
+        "summary": "Sanchez's campaign site names ensuring accessible and affordable healthcare for all as a key issue facing the district.",
+        "short": "Supports accessible, affordable healthcare for all.",
+        "source": "https://bensanchez.org/key-issues",
+        "date": "2026-07"
+      },
+      "energy": {
+        "summary": "Sanchez's campaign site lists protecting the environment and providing clean and safe drinking water among his key issues.",
+        "short": "Supports protecting the environment and clean drinking water.",
+        "source": "https://bensanchez.org/key-issues",
+        "date": "2026-07"
+      },
+      "guns": {
+        "summary": "On his campaign site, Sanchez lists demanding action for gun safety among his key issues, and the homepage describes him as an advocate for gun safety.",
+        "short": "Supports demanding action for gun safety.",
+        "source": "https://bensanchez.org/key-issues",
+        "date": "2026-07"
+      }
+    }
+  },
+  "23630": {
+    "name": "Cory L. Toner",
+    "positions": {}
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "22760": {
+    "name": "Frank Farry",
+    "website": "https://www.frankfarry.com/",
+    "positions": {
+      "economy": {
+        "summary": "His campaign says the biggest issue facing families is the cost of everyday life, and cites bipartisan tax relief he passed for working families, small businesses, and seniors.",
+        "short": "Says everyday costs are the top issue; cites tax relief passed.",
+        "source": "https://frankfarry.com/issues",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "Sponsored Senate Bill 527, the Commuter Tax Fairness Act, which would return earned income taxes paid by suburban commuters with Philadelphia-based employers to their home municipalities; he said the legislation is about protecting taxpayers and restoring fairness.",
+        "short": "Sponsored bill returning commuter wage taxes to home municipalities.",
+        "source": "https://www.pasenategop.com/news/farrys-commuter-tax-fairness-act-to-protect-local-taxpayers-passes-senate/",
+        "date": "2025-06"
+      },
+      "abortion": {
+        "summary": "As a state representative he voted in December 2021 for Senate Bill 106, a proposed constitutional amendment stating there is no constitutional right to taxpayer-funded abortion or other right relating to abortion. During his 2022 Senate campaign he said he supports a woman's right to choose an abortion up to the point of viability.",
+        "short": "Voted for no-right-to-abortion amendment; later said supports choice to viability.",
+        "source": "https://www.palegis.us/house/roll-calls/summary?sessYr=2021&sessInd=0&rcNum=656",
+        "date": "2021-12"
+      },
+      "education": {
+        "summary": "His campaign says he worked with Republicans and Democrats to pass record funding for public schools and has consistently been a voice for investing in kids.",
+        "short": "Says he helped pass record public school funding.",
+        "source": "https://frankfarry.com/issues",
+        "date": "2026-07"
+      },
+      "healthcare": {
+        "summary": "As chair of the Senate Institutional Sustainability and Innovation Committee, he says he is leading efforts to improve the efficiency, transparency, and long-term viability of Pennsylvania's health care and aging-care systems.",
+        "short": "Says he leads efforts on health care efficiency and viability.",
+        "source": "https://senatorfarry.com/about/",
+        "date": "2026-07"
+      },
+      "energy": {
+        "summary": "His campaign says he has fought to lower energy costs and to end Pennsylvania's participation in the Regional Greenhouse Gas Initiative (RGGI), which it says will save ratepayers money.",
+        "short": "Says he fought to lower energy costs, end RGGI participation.",
+        "source": "https://frankfarry.com/issues",
+        "date": "2026-07"
+      },
+      "guns": {
+        "summary": "Is advancing a crime package that includes mandatory jail time for felons illegally possessing firearms and increased penalties for gun store robberies; two of his bills in the package, on package theft and street racing, have been signed into law.",
+        "short": "Advances crime package: jail for felons with firearms, robbery penalties.",
+        "source": "https://senatorfarry.com/about/",
+        "date": "2026-07"
+      }
+    }
+  },
+  "22707": {
+    "name": "Eileen T. Hartnett Albillar",
+    "website": "https://www.eileenforpa.com/",
+    "positions": {
+      "economy": {
+        "summary": "Her campaign says she will fight to lower costs and grow the local economy so residents have good-paying jobs that can support a family.",
+        "short": "Proposes lowering costs, growing economy for family-supporting jobs.",
+        "source": "https://www.eileenforpa.com/",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "In a January 2026 interview she criticized the state's four-month budget impasse for delaying essential services, pointing to school districts that considered closures during the delay.",
+        "short": "Criticized state budget impasse for delaying essential services.",
+        "source": "https://buckscountybeacon.com/2026/01/long-time-bucks-county-public-servant-eileen-hartnett-albillar-wants-to-help-democrats-flip-pennsylvanias-state-senate/",
+        "date": "2026-01"
+      },
+      "abortion": {
+        "summary": "In a January 2026 interview she named strengthening reproductive rights among her legislative priorities.",
+        "short": "Names strengthening reproductive rights a legislative priority.",
+        "source": "https://buckscountybeacon.com/2026/01/long-time-bucks-county-public-servant-eileen-hartnett-albillar-wants-to-help-democrats-flip-pennsylvanias-state-senate/",
+        "date": "2026-01"
+      },
+      "education": {
+        "summary": "Her campaign says she will fully fund public schools.",
+        "short": "Proposes fully funding public schools.",
+        "source": "https://www.eileenforpa.com/",
+        "date": "2026-07"
+      }
+    }
+  }
+}

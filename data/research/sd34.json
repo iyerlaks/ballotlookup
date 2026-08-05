@@ -1,0 +1,86 @@
+{
+  "22693": {
+    "name": "William Gregory Rothman",
+    "website": "https://www.friendsofgregrothman.com/",
+    "positions": {
+      "economy": {
+        "summary": "Rothman's campaign site supports attracting industries such as AI and data centers, citing his sponsorship of SB 939, and supports streamlining permits for small businesses.",
+        "short": "Supports attracting AI and data center industries; streamlining small-business permits.",
+        "source": "https://www.friendsofgregrothman.com/",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "Rothman's campaign site says he has fought for responsible budgets and cutting tax rates, and that he aims to protect taxpayers, restrain government growth, and keep Pennsylvania competitive.",
+        "short": "Supports cutting tax rates, responsible budgets, restraining government growth.",
+        "source": "https://www.friendsofgregrothman.com/issues",
+        "date": "2026-07"
+      },
+      "abortion": {
+        "summary": "As a state representative in July 2022, Rothman voted for Senate Bill 106, a proposed constitutional amendment declaring that the Pennsylvania Constitution grants no right to taxpayer-funded abortion or any other right relating to abortion.",
+        "short": "Voted for amendment declaring no state constitutional right to abortion.",
+        "source": "https://www.palegis.us/house/roll-calls/summary?sessYr=2021&sessInd=0&rcNum=1156",
+        "date": "2022-07"
+      },
+      "education": {
+        "summary": "Rothman's campaign site says he secured funding for schools and has consistently supported expanding Pennsylvania's scholarship programs so working- and middle-income families can choose schools that fit their child's needs.",
+        "short": "Supports school funding and expanding scholarship programs for school choice.",
+        "source": "https://www.friendsofgregrothman.com/issues",
+        "date": "2026-07"
+      },
+      "energy": {
+        "summary": "Rothman's campaign site says he supported legislation to unlock Pennsylvania's supply of affordable domestic energy and to address permitting delays that hinder job creation.",
+        "short": "Supports developing Pennsylvania's domestic energy supply and faster permitting.",
+        "source": "https://www.friendsofgregrothman.com/issues",
+        "date": "2026-07"
+      },
+      "guns": {
+        "summary": "In a 2022 statement quoted in a Gun Owners of America endorsement, Rothman said he would never waver in supporting the right to defend and protect oneself and family; the endorsement cites his co-sponsorship of constitutional carry legislation.",
+        "short": "Supports Second Amendment rights; co-sponsored constitutional carry legislation.",
+        "source": "https://pennsylvania.gunowners.org/goa-endorses-rep-greg-rothman-for-state-senate/",
+        "date": "2022-04"
+      }
+    }
+  },
+  "23791": {
+    "name": "Nathan Wood",
+    "website": "https://www.electnathanwood.com/",
+    "positions": {
+      "economy": {
+        "summary": "Wood's campaign site endorses the Senate Democratic Affordability Action Plan, including raising the minimum wage to $15 per hour by 2029, expanding the child care tax credit, and first-time homebuyer assistance. He also proposes tying any legislative cost-of-living raises to the minimum wage.",
+        "short": "Supports $15 minimum wage by 2029, child care tax credit expansion.",
+        "source": "https://www.electnathanwood.com/issues",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "Wood's campaign site proposes freezing legislators' pay when the state budget is late, and cites progressive taxation and crackdowns on tax avoidance among the policies of countries he describes as models for addressing income inequality.",
+        "short": "Proposes legislator pay freeze for late budgets; cites progressive taxation.",
+        "source": "https://www.electnathanwood.com/issues",
+        "date": "2026-07"
+      },
+      "abortion": {
+        "summary": "Wood's campaign site FAQ supports the continued availability and insurance coverage of abortion, describing it as a medical and in some cases financial imperative.",
+        "short": "Supports continued availability and insurance coverage of abortion.",
+        "source": "https://www.electnathanwood.com/issues",
+        "date": "2026-07"
+      },
+      "education": {
+        "summary": "Wood's campaign site supports Governor Shapiro's proposed $565 million education spending increase through the adequacy formula, standardizing cyber charter school tuition at $8,000 per student (HB 2370), universal free school breakfast and lunch, and robust funding for the PASSHE state university system.",
+        "short": "Supports increased school funding, cyber charter tuition cap, free school meals.",
+        "source": "https://www.electnathanwood.com/issues",
+        "date": "2026-07"
+      },
+      "healthcare": {
+        "summary": "Wood's campaign site endorses expanding healthcare access (SB 322) as part of the Senate Democratic Affordability Action Plan, and cites rising health insurance prices among the cost pressures he says the legislature should address.",
+        "short": "Supports expanding healthcare access; cites rising health insurance costs.",
+        "source": "https://www.electnathanwood.com/issues",
+        "date": "2026-07"
+      },
+      "energy": {
+        "summary": "Wood's campaign site supports a moratorium on new data center construction, citing energy grid and environmental concerns, and supports bills to keep data center energy costs from being passed to consumers and to protect utility ratepayers from involuntary reenrollment at higher rates.",
+        "short": "Supports data center moratorium; supports utility ratepayer protection bills.",
+        "source": "https://www.electnathanwood.com/issues",
+        "date": "2026-07"
+      }
+    }
+  }
+}

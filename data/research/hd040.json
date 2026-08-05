@@ -1,0 +1,62 @@
+{
+  "23021": {
+    "name": "Jonathan C. Lloyd",
+    "website": "https://jlforpa.com/",
+    "positions": {
+      "economy": {
+        "summary": "His campaign platform, organized around affordability, supports raising the minimum wage, addressing the rising cost of childcare, and supporting the development of affordable starter homes.",
+        "short": "Supports raising minimum wage, affordable childcare and starter homes.",
+        "source": "https://jlforpa.com/",
+        "date": "2026-07"
+      }
+    }
+  },
+  "22883": {
+    "name": "Natalie Nicole Stuck",
+    "website": "https://nataliemihalek.com/",
+    "positions": {
+      "economy": {
+        "summary": "Her campaign platform calls for extending greater economic freedom to small businesses, deregulating the economy, reviving the region's manufacturing industry, and keeping government out of the way of business.",
+        "short": "Supports deregulation, small-business freedom, reviving regional manufacturing.",
+        "source": "https://nataliemihalek.com/new-issues/",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "Supported passage of the $50.8 billion 2026-27 state budget, saying it does not rely on tax increases or raids of Pennsylvania's Rainy Day Fund, and said she weighs whether the state can responsibly afford the overall spending amount.",
+        "short": "Supported 2026-27 budget; says no tax increases or fund raids.",
+        "source": "https://www.repmihalek.com/News/38274/Press-Releases/Mihalek--Budget-Plan-Hits-the-Mark-on-Priorities",
+        "date": "2026-07"
+      },
+      "abortion": {
+        "summary": "Voted in December 2021 for Senate Bill 106, a proposed package of constitutional amendments including language that there is no constitutional right to taxpayer-funded abortion or any other right relating to abortion.",
+        "short": "Voted for amendment declaring no constitutional right to abortion.",
+        "source": "https://www.palegis.us/house/roll-calls/summary?sessYr=2021&sessInd=0&rcNum=656",
+        "date": "2021-12"
+      },
+      "education": {
+        "summary": "Her campaign platform says parents, not the Harrisburg bureaucracy, should control children's education, and says the school funding system needs a rehaul with greater transparency and a more efficient funding mechanism.",
+        "short": "Says parents should control education; proposes school funding rehaul.",
+        "source": "https://nataliemihalek.com/new-issues/",
+        "date": "2026-07"
+      },
+      "healthcare": {
+        "summary": "Her campaign platform advocates a patient-centered approach focused on quality care and better health outcomes, and says she has championed legislation to put patients' needs first.",
+        "short": "Advocates patient-centered care; says she championed patients-first legislation.",
+        "source": "https://nataliemihalek.com/new-issues/",
+        "date": "2026-07"
+      },
+      "energy": {
+        "summary": "In a 2020 op-ed she opposed Pennsylvania joining the Regional Greenhouse Gas Initiative, saying the state had already met and exceeded its goals without membership, and supported natural gas development and manufacturing in the region.",
+        "short": "Opposes RGGI membership; supports natural gas development, manufacturing.",
+        "source": "https://www.repmihalek.com/News/17969/Press-Releases/It%E2%80%99s-Time-to-Stop-Apologizing-for-Our-Success-",
+        "date": "2020-07"
+      },
+      "guns": {
+        "summary": "Her campaign's public safety platform, citing her background as a prosecutor, says she prioritizes protecting victims, not criminals, and opposes policies she links to a spike in violent crime across Western Pennsylvania; it does not detail positions on gun laws.",
+        "short": "Public-safety platform prioritizes victims; does not detail gun laws.",
+        "source": "https://nataliemihalek.com/new-issues/",
+        "date": "2026-07"
+      }
+    }
+  }
+}

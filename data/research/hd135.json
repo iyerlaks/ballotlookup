@@ -1,0 +1,50 @@
+{
+  "23649": {
+    "name": "Joseph F. Poplawski",
+    "website": "https://www.joe4pahouse135.com/",
+    "positions": {
+      "economy": {
+        "summary": "His campaign says he will focus on affordable housing so that families, seniors, and young people can afford to live and thrive, and on supporting working families and smart growth.",
+        "short": "Focuses on affordable housing and supporting working families.",
+        "source": "https://www.joe4pahouse135.com/",
+        "date": "2026-07"
+      },
+      "guns": {
+        "summary": "His campaign 'About' page lists an endorsement from Gun Owners of America, an organization that backs candidates who support gun rights; the page does not detail a gun policy position.",
+        "short": "Endorsed by Gun Owners of America; no position detailed.",
+        "source": "https://www.joe4pahouse135.com/about",
+        "date": "2026-07"
+      }
+    }
+  },
+  "23329": {
+    "name": "Stephen P. Samuelson",
+    "website": "https://www.pahouse.com/Samuelson",
+    "positions": {
+      "taxes": {
+        "summary": "Introduced legislation to expand Pennsylvania's Property Tax/Rent Rebate program, proposing a one-time $204 million investment to double rebate payments for eligible seniors, widows, widowers, and people with disabilities.",
+        "short": "Proposes expanding Property Tax/Rent Rebate to double senior rebates.",
+        "source": "https://www.pahouse.com/Samuelson/InTheNews/NewsRelease/?id=124657",
+        "date": "2022-04"
+      },
+      "abortion": {
+        "summary": "His recorded votes include voting against a 2022 proposed constitutional amendment specifying no state constitutional right to abortion, and against multiple bills restricting abortion between 2013 and 2021, according to a reproductive-rights vote tracker.",
+        "short": "Voted against 2022 amendment and other abortion restrictions.",
+        "source": "https://choicetracker.org/pa/people/steve-samuelson/33030144",
+        "date": "2022-07"
+      },
+      "education": {
+        "summary": "At a 2021 hearing he said Pennsylvania must fulfill its constitutional obligation to fund public education, praised Level Up funding for underfunded districts including Bethlehem, and called for full implementation of the state's Fair Funding Formula.",
+        "short": "Calls for fully funding public schools via Fair Funding Formula.",
+        "source": "https://www.pahouse.com/Samuelson/InTheNews/NewsRelease/?id=120999",
+        "date": "2021-09"
+      },
+      "energy": {
+        "summary": "Endorsed by Conservation Voters of Pennsylvania in 2020, which cited his 100% score on its 2019-2020 environmental scorecard and his Climate Caucus membership and described him as supporting clean air, clean water, and renewable energy.",
+        "short": "Endorsed by conservation group citing his environmental scorecard, clean-energy record.",
+        "source": "https://www.conservationpa.org/endorsements/hd-135-rep-steve-samuelson",
+        "date": "2020-10"
+      }
+    }
+  }
+}

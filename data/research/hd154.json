@@ -1,0 +1,50 @@
+{
+  "23737": {
+    "name": "Napoleon J. Nelson",
+    "website": "https://napoleonfor154.com/",
+    "positions": {
+      "economy": {
+        "summary": "His campaign platform states that Pennsylvanians should not work for lower wages than surrounding states and supports a $15 minimum wage.",
+        "short": "Supports a $15 minimum wage.",
+        "source": "https://napoleonfor154.com/platform",
+        "date": "2024-01"
+      },
+      "taxes": {
+        "summary": "His campaign platform calls for providing property tax relief, stopping tax breaks for big businesses, and closing the Delaware loophole that lets corporations avoid state income taxes.",
+        "short": "Supports property tax relief; proposes closing the Delaware loophole.",
+        "source": "https://napoleonfor154.com/platform",
+        "date": "2024-01"
+      },
+      "abortion": {
+        "summary": "His campaign platform states a commitment to protect reproductive freedom.",
+        "short": "Says he will protect reproductive freedom.",
+        "source": "https://napoleonfor154.com/platform",
+        "date": "2024-01"
+      },
+      "education": {
+        "summary": "His campaign platform advocates ensuring children have a safe, equitable, rigorous and fully funded public education, and calls to recruit, train, and deploy a diverse pool of teachers.",
+        "short": "Supports fully funded public education; recruiting diverse teachers.",
+        "source": "https://napoleonfor154.com/platform",
+        "date": "2024-01"
+      },
+      "healthcare": {
+        "summary": "His campaign platform states that healthcare is a right not a privilege, with a stated goal of affordable physical and mental health care for every Pennsylvanian.",
+        "short": "Says healthcare is a right; supports affordable care for all.",
+        "source": "https://napoleonfor154.com/platform",
+        "date": "2024-01"
+      },
+      "energy": {
+        "summary": "His campaign platform calls for strengthening state oversight by increasing funding and staffing of the Department of Environmental Protection and for a moratorium on industry practices that are meaningfully detrimental to air, water, or soil.",
+        "short": "Supports more DEP funding; proposes moratorium on harmful practices.",
+        "source": "https://napoleonfor154.com/platform",
+        "date": "2024-01"
+      },
+      "guns": {
+        "summary": "His campaign platform supports background checks for all sales, banning automatic weapons, and restricting 3D-printed guns, and calls to restore local rights and hold the NRA accountable.",
+        "short": "Supports universal background checks and banning automatic weapons.",
+        "source": "https://napoleonfor154.com/platform",
+        "date": "2024-01"
+      }
+    }
+  }
+}

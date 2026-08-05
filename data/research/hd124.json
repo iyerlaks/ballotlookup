@@ -1,0 +1,80 @@
+{
+  "23385": {
+    "name": "James A. Barton",
+    "website": "https://www.jamiebarton4leadership.com/",
+    "positions": {
+      "economy": {
+        "summary": "His campaign site says he will focus on job growth, reduce wasteful spending, and use his business experience to make government work more efficiently.",
+        "short": "Focuses on job growth, reducing wasteful spending, government efficiency.",
+        "source": "https://www.jamiebarton4leadership.com/",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "His campaign site calls for reducing taxes and wasteful spending and eliminating property taxes. In a 2022 candidate questionnaire he called property taxes inherently unfair, supported working toward total elimination, and proposed freezing them for seniors.",
+        "short": "Supports reducing taxes, eliminating property taxes, cutting wasteful spending.",
+        "source": "https://www.jamiebarton4leadership.com/",
+        "date": "2026-07"
+      },
+      "education": {
+        "summary": "In a 2022 Times News candidate questionnaire he supported investing more in schools at the state level to ease the funding burden on local districts, ensuring parental voice in education decisions, and developing a fair funding formula for charter schools.",
+        "short": "Supports more state school funding, parental voice, charter funding formula.",
+        "source": "https://www.tnonline.com/20221103/election-burns-barton-answers-questions-for-124th-district/",
+        "date": "2022-11"
+      },
+      "healthcare": {
+        "summary": "In a 2022 Times News candidate questionnaire he supported increasing funding for mental health services, examining private insurance coverage of mental health, and continuing school-based mental health access programs; the answer addressed mental health care specifically rather than broader health policy.",
+        "short": "Supports increased mental health funding and school-based mental health programs.",
+        "source": "https://www.tnonline.com/20221103/election-burns-barton-answers-questions-for-124th-district/",
+        "date": "2022-11"
+      },
+      "energy": {
+        "summary": "As the incumbent, he supported the November 2025 budget deal's repeal of Pennsylvania's Regional Greenhouse Gas Initiative (RGGI) regulations and its permitting reforms, saying RGGI cost the state energy jobs and economic development; his campaign site also calls for revitalizing the Pennsylvania energy industry.",
+        "short": "Supported RGGI repeal and permitting reforms; supports revitalizing energy industry.",
+        "source": "https://repbarton.com/News/36948/Latest-News/Barton--Energy-Policy-Wins-Make-Bloated-Budget-Deal-Worth-It",
+        "date": "2025-11"
+      },
+      "guns": {
+        "summary": "In a 2022 Times News candidate questionnaire he named standing up for law enforcement to keep communities safe as a priority; this is a public-safety statement, and the sources reviewed do not detail a position on firearms policy.",
+        "short": "Names supporting law enforcement as public-safety priority; firearms not detailed.",
+        "source": "https://www.tnonline.com/20221103/election-burns-barton-answers-questions-for-124th-district/",
+        "date": "2022-11"
+      }
+    }
+  },
+  "23441": {
+    "name": "Tina M. Burns",
+    "website": "https://www.burns4pa.com/",
+    "positions": {
+      "economy": {
+        "summary": "Her campaign site lists living wages, job creation, small business development support, and long-term sustainability planning as economic priorities, along with basic needs including affordable housing.",
+        "short": "Supports living wages, job creation, small business development, affordable housing.",
+        "source": "https://www.burns4pa.com/",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "Her campaign site calls for closing corporate tax loopholes, applying a severance tax on natural gas fracking, and addressing senior property tax issues.",
+        "short": "Supports closing corporate loopholes, fracking severance tax, senior property-tax relief.",
+        "source": "https://www.burns4pa.com/",
+        "date": "2026-07"
+      },
+      "education": {
+        "summary": "In a 2022 Times News candidate questionnaire she opposed using public school funds for unregulated charter schools, saying it strains underfunded public schools, and supported more equitable and fair state-level education funding.",
+        "short": "Opposes public funds for unregulated charters; supports equitable state funding.",
+        "source": "https://www.tnonline.com/20221103/election-burns-barton-answers-questions-for-124th-district/",
+        "date": "2022-11"
+      },
+      "healthcare": {
+        "summary": "In a 2022 Times News candidate questionnaire she supported health care for all, improved support services for seniors and people with disabilities, and expanded mental health care through faster intervention pathways, telehealth, and better insurance coverage.",
+        "short": "Supports health care for all, expanded senior, disability, mental-health services.",
+        "source": "https://www.tnonline.com/20221103/election-burns-barton-answers-questions-for-124th-district/",
+        "date": "2022-11"
+      },
+      "energy": {
+        "summary": "In her 2024 candidate platform she said she stands for voters' money working for them rather than for fossil fuel interests, and for the environment over what she called environmentally irresponsible industries; her current site supports a severance tax on fracking.",
+        "short": "Says she stands against fossil-fuel interests and for the environment.",
+        "source": "https://www.branch.vote/races/2024-pennsylvania-general-election-pa-state-state-representative-pa-state-house-124/candidates/tina-m-burns",
+        "date": "2024-09"
+      }
+    }
+  }
+}

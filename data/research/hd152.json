@@ -1,0 +1,44 @@
+{
+  "23349": {
+    "name": "Nancy Guenst",
+    "website": "https://nancy4pahouse.com/",
+    "positions": {
+      "economy": {
+        "summary": "Her campaign platform calls for raising the minimum wage, addressing budget shortfalls at PennDOT and DEP, and investing in renewable energy to create new jobs.",
+        "short": "Calls for raising minimum wage, investing in renewable energy for jobs.",
+        "source": "https://nancy4pahouse.com/full-platform",
+        "date": "2022-11"
+      },
+      "abortion": {
+        "summary": "Her campaign platform says she will continue to protect the right to choose and will not let Republican-led restrictions on that right pass in Pennsylvania.",
+        "short": "Says she will protect the right to choose.",
+        "source": "https://nancy4pahouse.com/full-platform",
+        "date": "2022-11"
+      },
+      "education": {
+        "summary": "Her campaign platform says she will continue to fight for a sustainable, fair school funding formula to ensure equitable funding for schools.",
+        "short": "Supports a sustainable, fair school funding formula for equitable funding.",
+        "source": "https://nancy4pahouse.com/full-platform",
+        "date": "2022-11"
+      },
+      "healthcare": {
+        "summary": "Her campaign platform says Pennsylvania needs to expand Medicaid and Medicare toward insuring 100% of citizens, stating that healthcare is a right.",
+        "short": "Supports expanding Medicaid and Medicare toward universal coverage.",
+        "source": "https://nancy4pahouse.com/full-platform",
+        "date": "2022-11"
+      },
+      "energy": {
+        "summary": "Her campaign platform supports investing in renewable energy and says she will work for climate-change legislation and oversight based on facts and science.",
+        "short": "Supports renewable energy and science-based climate legislation.",
+        "source": "https://nancy4pahouse.com/full-platform",
+        "date": "2022-11"
+      },
+      "guns": {
+        "summary": "Her campaign platform says background check laws should be strengthened so that only law-abiding individuals have access to firearms.",
+        "short": "Supports strengthening background check laws on firearm access.",
+        "source": "https://nancy4pahouse.com/full-platform",
+        "date": "2022-11"
+      }
+    }
+  }
+}

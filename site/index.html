@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PA Ballot Lookup — November 3, 2026 General Election</title>
+<meta name="description" content="Enter your Pennsylvania street address to see every candidate on your November 3, 2026 general election ballot, compare their positions side by side, and print a canvassing handout. Free, nonpartisan, no signup.">
+<style>
+  :root {
+    --ink: #1d2733;
+    --ink-soft: #4a5a6a;
+    --paper: #f7f8f9;
+    --card: #ffffff;
+    --line: #dde3e8;
+    --accent: #1f4e79;      /* keystone navy */
+    --accent-soft: #eaf1f7;
+    --gold: #c9a227;
+    --dem: #3b6ea5;
+    --rep: #b0413e;
+    --other: #6b7280;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--paper); color: var(--ink);
+    font-family: Georgia, 'Times New Roman', serif;
+    line-height: 1.55;
+  }
+  header {
+    background: var(--accent); color: #fff;
+    padding: 2.2rem 1rem 1.8rem; text-align: center;
+    border-bottom: 4px solid var(--gold);
+  }
+  header h1 { margin: 0 0 .35rem; font-size: 1.9rem; font-weight: normal; letter-spacing: .02em; }
+  header .sub { margin: 0; opacity: .92; font-size: 1.02rem; }
+  header .tagline {
+    display: inline-block; margin-top: .8rem; font-size: .82rem;
+    font-family: Verdana, sans-serif; letter-spacing: .12em; text-transform: uppercase;
+    border: 1px solid rgba(255,255,255,.45); border-radius: 999px; padding: .25rem .9rem;
+  }
+  main { max-width: 780px; margin: 0 auto; padding: 1.4rem 1rem 3rem; }
+
+  .lookup {
+    background: var(--card); border: 1px solid var(--line); border-radius: 10px;
+    padding: 1.3rem 1.3rem 1.1rem; margin-top: -2.4rem; box-shadow: 0 2px 10px rgba(29,39,51,.08);
+  }
+  .lookup label { display: block; font-family: Verdana, sans-serif; font-size: .8rem; letter-spacing: .05em; text-transform: uppercase; color: var(--ink-soft); margin-bottom: .45rem; }
+  .row { display: flex; gap: .6rem; flex-wrap: wrap; }
+  input[type=text] {
+    flex: 1 1 340px; font: inherit; font-size: 1.05rem; padding: .65rem .8rem;
+    border: 1px solid var(--line); border-radius: 8px; color: var(--ink); background: #fff;
+  }
+  input[type=text]:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+  button {
+    font-family: Verdana, sans-serif; font-size: .95rem; padding: .65rem 1.4rem;
+    background: var(--accent); color: #fff; border: 0; border-radius: 8px; cursor: pointer;
+  }
+  button:hover { background: #163a5c; }
+  button:disabled { background: #8ba3b8; cursor: wait; }
+  .hint { font-size: .85rem; color: var(--ink-soft); margin: .55rem 0 0; }
+  .privacy { font-size: .78rem; color: var(--ink-soft); margin: .3rem 0 0; font-style: italic; }
+
+  #status { margin: 1.1rem 0 0; font-size: .95rem; }
+  #status.err { color: #8a1f1c; }
+
+  .districts {
+    background: var(--accent-soft); border: 1px solid var(--line); border-radius: 10px;
+    padding: .9rem 1.2rem; margin: 1.4rem 0 0; font-size: .95rem;
+  }
+  .districts strong { font-family: Verdana, sans-serif; font-size: .8rem; letter-spacing: .05em; text-transform: uppercase; color: var(--accent); display: block; margin-bottom: .3rem; }
+
+  .toolbar { display: flex; justify-content: flex-end; margin-top: 1rem; }
+  .toolbar button {
+    background: #fff; color: var(--accent); border: 1.5px solid var(--accent);
+  }
+  .toolbar button:hover { background: var(--accent-soft); }
+
+  .race {
+    background: var(--card); border: 1px solid var(--line); border-radius: 10px;
+    margin-top: 1.1rem; overflow: hidden;
+  }
+  .race h2 {
+    margin: 0; padding: .8rem 1.2rem; font-size: 1.12rem; font-weight: normal;
+    background: linear-gradient(to right, var(--accent-soft), var(--card));
+    border-bottom: 1px solid var(--line);
+  }
+  .race h2 .dist { color: var(--ink-soft); font-size: .92rem; }
+  .cand { display: flex; align-items: baseline; gap: .8rem; padding: .8rem 1.2rem; border-bottom: 1px solid var(--line); flex-wrap: wrap; }
+  .cand:last-child { border-bottom: 0; }
+  .badge {
+    flex: 0 0 auto; font-family: Verdana, sans-serif; font-size: .7rem; letter-spacing: .06em;
+    color: #fff; border-radius: 4px; padding: .18rem .5rem; min-width: 3.2rem; text-align: center;
+  }
+  .badge.DEM { background: var(--dem); } .badge.REP { background: var(--rep); }
+  .badge.other { background: var(--other); }
+  .cand .name { font-size: 1.05rem; }
+  .cand .meta { color: var(--ink-soft); font-size: .85rem; }
+  .cand .links { margin-left: auto; font-family: Verdana, sans-serif; font-size: .78rem; white-space: nowrap; }
+  .cand .links a { color: var(--accent); text-decoration: none; margin-left: .8rem; }
+  .cand .links a:hover { text-decoration: underline; }
+  .race .note { padding: .8rem 1.2rem; color: var(--ink-soft); font-size: .92rem; }
+
+  /* ---- side-by-side comparison ---- */
+  .cmp-toggle {
+    display: block; width: 100%; text-align: center; border: 0; border-top: 1px solid var(--line);
+    background: var(--accent-soft); color: var(--accent); border-radius: 0;
+    font-size: .82rem; letter-spacing: .05em; padding: .55rem;
+  }
+  .cmp-toggle:hover { background: #dce8f2; }
+  .cmp-wrap { display: none; overflow-x: auto; border-top: 1px solid var(--line); }
+  .race.cmp-open .cmp-wrap { display: block; }
+  table.cmp { border-collapse: collapse; width: 100%; min-width: 560px; font-size: .88rem; }
+  .cmp th, .cmp td { border: 1px solid var(--line); padding: .55rem .7rem; vertical-align: top; text-align: left; }
+  .cmp thead th { background: var(--accent-soft); font-family: Verdana, sans-serif; font-size: .78rem; font-weight: normal; }
+  .cmp thead th .badge { display: inline-block; margin-right: .4rem; }
+  .cmp td.issue { font-family: Verdana, sans-serif; font-size: .74rem; letter-spacing: .04em; text-transform: uppercase; color: var(--ink-soft); background: #fbfcfd; white-space: nowrap; }
+  .cmp .pos { margin: 0; }
+  .cmp .src { display: block; margin-top: .3rem; font-family: Verdana, sans-serif; font-size: .7rem; }
+  .cmp .src a { color: var(--accent); text-decoration: none; }
+  .cmp .none { color: #9aa6b1; font-style: italic; }
+  .cmp-note { padding: .6rem 1.2rem .8rem; font-size: .78rem; color: var(--ink-soft); background: #fbfcfd; }
+
+  .callout {
+    border-left: 4px solid var(--gold); background: #fdf9ee; border-radius: 6px;
+    padding: .7rem 1rem; margin-top: 1.1rem; font-size: .9rem; color: #5a4d20;
+  }
+
+  /* ---- per-candidate evidence panel ---- */
+  .cmp thead th .ev-link {
+    display: block; margin-top: .25rem; font-family: Verdana, sans-serif;
+    font-size: .7rem; font-weight: normal; color: var(--accent); text-decoration: none;
+  }
+  .cmp thead th .ev-link:hover { text-decoration: underline; }
+  .ev-overlay {
+    position: fixed; inset: 0; background: rgba(29,39,51,.55);
+    display: none; z-index: 50; padding: 1rem; overflow-y: auto;
+  }
+  .ev-overlay.open { display: block; }
+  .ev-panel {
+    background: var(--card); border-radius: 10px; max-width: 660px;
+    margin: 2.2rem auto; box-shadow: 0 8px 30px rgba(29,39,51,.35);
+  }
+  .ev-head {
+    display: flex; align-items: baseline; gap: .8rem;
+    padding: 1rem 1.2rem .8rem; border-bottom: 2px solid var(--gold);
+  }
+  .ev-head h2 { margin: 0; font-size: 1.25rem; font-weight: normal; flex: 1; }
+  .ev-head .meta { color: var(--ink-soft); font-size: .85rem; }
+  .ev-close {
+    background: none; border: 0; color: var(--ink-soft); font-size: 1.5rem;
+    line-height: 1; cursor: pointer; padding: .1rem .4rem; border-radius: 6px;
+  }
+  .ev-close:hover { background: var(--accent-soft); color: var(--accent); }
+  .ev-body { padding: .4rem 1.2rem 1.2rem; }
+  .ev-iss { margin-top: 1rem; }
+  .ev-iss h3 {
+    margin: 0 0 .25rem; font-family: Verdana, sans-serif; font-size: .74rem;
+    letter-spacing: .05em; text-transform: uppercase; color: var(--accent); font-weight: normal;
+  }
+  .ev-iss p { margin: 0; font-size: .95rem; }
+  .ev-iss .src { display: block; margin-top: .25rem; font-family: Verdana, sans-serif; font-size: .72rem; }
+  .ev-iss .src a { color: var(--accent); text-decoration: none; }
+  .ev-iss .src a:hover { text-decoration: underline; }
+  .ev-iss .none { color: #9aa6b1; font-style: italic; }
+  .ev-note {
+    margin-top: 1.2rem; padding-top: .8rem; border-top: 1px solid var(--line);
+    font-size: .78rem; color: var(--ink-soft);
+  }
+
+  .about {
+    background: var(--card); border: 1px solid var(--line); border-radius: 10px;
+    padding: 1.3rem 1.4rem; margin-top: 2.4rem; font-size: .92rem;
+  }
+  .about h2 {
+    margin: 0 0 .6rem; font-size: 1.15rem; font-weight: normal;
+    border-bottom: 2px solid var(--gold); padding-bottom: .4rem;
+  }
+  .about h3 {
+    margin: 1rem 0 .3rem; font-family: Verdana, sans-serif; font-size: .78rem;
+    letter-spacing: .06em; text-transform: uppercase; color: var(--accent); font-weight: normal;
+  }
+  .about p, .about ul { margin: .3rem 0; color: var(--ink); }
+  .about ul { padding-left: 1.2rem; }
+  .about li { margin: .25rem 0; }
+  .about a { color: var(--accent); }
+  footer {
+    border-top: 1px solid var(--line); margin-top: 3rem; padding: 1.6rem 1rem 2.2rem;
+    font-size: .84rem; color: var(--ink-soft); text-align: center;
+  }
+  footer .links a { color: var(--accent); margin: 0 .7rem; }
+  footer p { max-width: 640px; margin: .6rem auto; }
+  @media (max-width: 560px) {
+    .cand .links { margin-left: 0; width: 100%; }
+    .cand .links a:first-child { margin-left: 0; }
+  }
+
+  /* ---- print handout ---- */
+  #printsheet { display: none; }
+  @media print {
+    body > *:not(#printsheet) { display: none !important; }
+    #printsheet { display: block; }
+    @page { size: letter portrait; margin: 0.45in; }
+    body { background: #fff; color: #000; font-family: Georgia, serif; }
+
+    #printsheet .ph-head { text-align: center; border-bottom: 2.5pt solid #000; padding-bottom: 6pt; }
+    #printsheet .ph-head h1 { margin: 0; font-size: 15pt; font-weight: bold; letter-spacing: .02em; }
+    #printsheet .ph-head .ph-sub { margin: 2pt 0 0; font-size: 10pt; }
+    #printsheet .ph-dist { text-align: center; font-size: 8.5pt; margin: 4pt 0 6pt; font-family: Verdana, sans-serif; }
+
+    #printsheet .ph-races { column-count: 2; column-gap: 18pt; column-rule: .5pt solid #999; }
+    #printsheet .ph-race { break-inside: avoid; margin: 0 0 8pt; }
+    #printsheet .ph-race h2 { font-size: 10.5pt; margin: 0 0 2pt; border-bottom: .75pt solid #000; padding-bottom: 1.5pt; font-weight: bold; }
+    #printsheet .ph-race .ph-d { font-weight: normal; font-size: 8.5pt; }
+    #printsheet .ph-cand { font-size: 9.5pt; margin: 1.5pt 0; }
+    #printsheet .ph-cand .ph-p { font-family: Verdana, sans-serif; font-size: 7pt; border: .75pt solid #000; padding: 0 3pt; margin-right: 4pt; }
+    #printsheet .ph-cand .ph-co { font-size: 8pt; color: #333; }
+    #printsheet .ph-none { font-size: 8.5pt; font-style: italic; }
+
+    #printsheet .ph-fold { border: 0; border-top: 1pt dashed #aaa; margin: 10pt 0; position: relative; }
+    #printsheet .ph-fold::after { content: "fold"; position: absolute; right: 0; top: -7pt; font-size: 6.5pt; color: #999; font-family: Verdana, sans-serif; }
+
+    #printsheet .ph-vote { display: flex; gap: 14pt; font-size: 9pt; }
+    #printsheet .ph-vote > div { flex: 1; }
+    #printsheet .ph-vote h3 { font-size: 9.5pt; margin: 0 0 3pt; border-bottom: .75pt solid #000; padding-bottom: 1.5pt; }
+    #printsheet .ph-vote ul { margin: 0; padding-left: 12pt; }
+    #printsheet .ph-vote li { margin: 1.5pt 0; }
+    #printsheet .ph-foot { margin-top: 8pt; padding-top: 4pt; border-top: 2.5pt solid #000; font-size: 7.5pt; text-align: center; font-family: Verdana, sans-serif; color: #333; }
+
+    /* page 2: concise position comparison */
+    #printsheet .ph-cmp-page { break-before: page; page-break-before: always; }
+    #printsheet .ph-cmp-page h1 { text-align: center; font-size: 13pt; margin: 0 0 2pt; border-bottom: 2.5pt solid #000; padding-bottom: 4pt; }
+    #printsheet .ph-cmp-page .ph-cmp-sub { text-align: center; font-size: 8pt; margin: 3pt 0 8pt; font-family: Verdana, sans-serif; color: #333; }
+    #printsheet .ph-cmp-race { break-inside: avoid; margin-bottom: 10pt; }
+    #printsheet .ph-cmp-race h2 { font-size: 10.5pt; margin: 0 0 3pt; font-weight: bold; }
+    #printsheet table.ph-cmp { border-collapse: collapse; width: 100%; font-size: 8pt; }
+    #printsheet .ph-cmp th, #printsheet .ph-cmp td { border: .75pt solid #000; padding: 2.5pt 4pt; vertical-align: top; text-align: left; }
+    #printsheet .ph-cmp thead th { font-family: Verdana, sans-serif; font-size: 7.5pt; }
+    #printsheet .ph-cmp td.ph-iss { font-family: Verdana, sans-serif; font-size: 6.5pt; text-transform: uppercase; letter-spacing: .03em; white-space: nowrap; width: 1%; }
+    #printsheet .ph-cmp .ph-nof { color: #555; font-style: italic; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Pennsylvania Ballot Lookup</h1>
+  <p class="sub">General Election &middot; Tuesday, November 3, 2026</p>
+  <span class="tagline">Nonpartisan &middot; Free &middot; No signup</span>
+</header>
+
+<main>
+  <div class="lookup">
+    <label for="addr">Your Pennsylvania street address</label>
+    <form id="f" class="row">
+      <input id="addr" type="text" autocomplete="street-address"
+             placeholder="e.g. 450 Exton Square Parkway, Exton, PA 19341" required>
+      <button id="go" type="submit">See my ballot</button>
+    </form>
+    <p class="hint">A street address is needed because legislative districts can split a ZIP code, even a street. City or ZIP alone isn&rsquo;t precise enough.</p>
+    <p class="privacy">Your address is sent only to the U.S. Census Bureau&rsquo;s public geocoder to find your districts. It is never stored, logged, or shared by this site.</p>
+  </div>
+
+  <div id="status" role="status"></div>
+  <div id="results"></div>
+
+  <section class="about" id="about">
+    <h2>About this tool</h2>
+    <p>This is an independent, volunteer-built, nonpartisan lookup for Pennsylvania&rsquo;s November 3, 2026 general election. It exists to answer one question: <em>who is on my ballot, and where do they stand?</em></p>
+
+    <h3>Where the information comes from</h3>
+    <ul>
+      <li><strong>Who&rsquo;s on your ballot:</strong> the Pennsylvania Department of State&rsquo;s official candidate listing. Every certified candidate appears, listed identically.</li>
+      <li><strong>Your districts:</strong> the U.S. Census Bureau&rsquo;s public geocoder. Your address is sent only there, and is never stored or logged by this site.</li>
+      <li><strong>Issue positions:</strong> each candidate&rsquo;s own campaign materials, voting records, and public statements &mdash; every entry carries a link to its source and the date.</li>
+    </ul>
+
+    <h3>How position summaries are written</h3>
+    <ul>
+      <li>Summaries paraphrase what the candidate has said or done, in neutral wording, with no evaluation or characterization.</li>
+      <li>Nothing is ever inferred from a candidate&rsquo;s party. If a position can&rsquo;t be verified from the candidate&rsquo;s own record, the table says &ldquo;No public position on file&rdquo; &mdash; that means unverified, not that the candidate has no view.</li>
+      <li>Every race is compared on the same fixed set of seven issues, and every candidate in a race gets the same research effort.</li>
+    </ul>
+
+    <h3>Corrections</h3>
+    <p id="corrections-line"></p>
+  </section>
+
+  <footer>
+    <div class="links">
+      <a href="https://www.vote.pa.gov/Register-to-Vote/Pages/default.aspx" target="_blank" rel="noopener">Register to vote</a>
+      <a href="https://www.vote.pa.gov/Voting-in-PA/Pages/Mail-and-Absentee-Ballot.aspx" target="_blank" rel="noopener">Mail ballot</a>
+      <a href="https://www.vote.pa.gov/Voting-in-PA/Pages/Polling-Place-Information.aspx" target="_blank" rel="noopener">Find your polling place</a>
+      <a href="https://www.legis.state.pa.us/cfdocs/legis/home/findyourlegislator/" target="_blank" rel="noopener">Your current legislators</a>
+    </div>
+    <p id="sources"></p>
+    <p>This is an independent, volunteer-built, nonpartisan voter information tool. It is not affiliated with any party, campaign, or government agency. Every candidate certified for the ballot is listed identically. Ballot questions and any special elections are not included &mdash; your county ballot is the final word. Confirm details with your <a href="https://www.vote.pa.gov/Resources/Pages/Contact-Your-Election-Officials.aspx" target="_blank" rel="noopener">county election office</a>.</p>
+  </footer>
+</main>
+
+<div id="printsheet" aria-hidden="true"></div>
+
+<div id="ev-overlay" class="ev-overlay">
+  <div class="ev-panel" role="dialog" aria-modal="true" aria-labelledby="ev-title"></div>
+</div>
+
+<script src="data.js"></script>
+<script>
+(function () {
+  const D = window.BALLOT_DATA;
+  const ISSUES = D.issues || [];
+  const VOTE = D.voting || {};
+  const $ = id => document.getElementById(id);
+  const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+  $('sources').innerHTML =
+    'Candidate data: ' + esc(D.dataSource) + ' &middot; last updated ' + esc(D.lastUpdated) +
+    '. District lookup: U.S. Census Bureau Geocoder. ' + esc(D.notes);
+
+  $('corrections-line').innerHTML = D.contactEmail
+    ? 'Spot an error &mdash; a wrong candidate, a mischaracterized position, a dead link? Email ' +
+      '<a href="mailto:' + esc(D.contactEmail) + '">' + esc(D.contactEmail) + '</a>. ' +
+      'Corrections are checked against the cited source and fixed promptly. Candidates and campaign staff: ' +
+      'to add or update a position, email a link to a public statement and it will be summarized under the same rules as everyone else&rsquo;s.'
+    : 'Corrections are checked against the cited source and fixed promptly. A contact address for corrections will be posted here when this tool launches.';
+
+  // The Census geocoder does not send CORS headers, but supports JSONP.
+  let jsonpSeq = 0;
+  function geocode(address) {
+    return new Promise((resolve, reject) => {
+      const cb = '__geo_cb_' + (++jsonpSeq);
+      const s = document.createElement('script');
+      const timer = setTimeout(() => { cleanup(); reject(new Error('timeout')); }, 15000);
+      function cleanup() { clearTimeout(timer); delete window[cb]; s.remove(); }
+      window[cb] = data => { cleanup(); resolve(data); };
+      s.onerror = () => { cleanup(); reject(new Error('network')); };
+      s.src = 'https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress' +
+        '?address=' + encodeURIComponent(address) +
+        '&benchmark=Public_AR_Current&vintage=Current_Current&format=jsonp&callback=' + cb;
+      document.head.appendChild(s);
+    });
+  }
+
+  function layer(geos, nameContains) {
+    for (const key of Object.keys(geos)) {
+      if (key.includes(nameContains)) return (geos[key] && geos[key][0]) || null;
+    }
+    return null;
+  }
+
+  // ---- per-candidate evidence panel ----
+  // Registry of candidates rendered on the current ballot, so "All statements"
+  // links can carry a plain index instead of serialized data. Reset per lookup.
+  let evReg = [];
+  function evLink(c, cls) {
+    if (!c.positions || !Object.keys(c.positions).length) return '';
+    const id = evReg.push(c) - 1;
+    return '<a href="#" class="ev-link ' + (cls || '') + '" data-ev="' + id + '">All statements</a>';
+  }
+
+  function openEvidence(c) {
+    const cls = (c.partyCode === 'DEM' || c.partyCode === 'REP') ? c.partyCode : 'other';
+    const items = ISSUES.map(iss => {
+      const p = (c.positions || {})[iss.key];
+      let inner;
+      if (p) {
+        // A position is a single statement object or a list of them
+        // (newest first). Render every statement, each with its source.
+        const entries = Array.isArray(p) ? p : [p];
+        inner = entries.map(e => {
+          let one = '<p>' + esc(e.summary) + '</p>';
+          if (e.source) one += '<span class="src"><a href="' + esc(e.source) + '" target="_blank" rel="noopener">source' +
+            (e.date ? ' (' + esc(e.date) + ')' : '') + '</a></span>';
+          return one;
+        }).join('');
+      } else {
+        inner = '<p class="none">No public position on file</p>';
+      }
+      return '<div class="ev-iss"><h3>' + esc(iss.label) + '</h3>' + inner + '</div>';
+    }).join('');
+    const panel = document.querySelector('#ev-overlay .ev-panel');
+    panel.innerHTML =
+      '<div class="ev-head"><span class="badge ' + cls + '">' + esc(c.partyCode) + '</span>' +
+      '<h2 id="ev-title">' + esc(c.name) + '</h2>' +
+      '<span class="meta">' + esc(c.party) + '</span>' +
+      '<button class="ev-close" type="button" aria-label="Close">&times;</button></div>' +
+      '<div class="ev-body">' + items +
+      '<div class="ev-note">Everything this project has verified for this candidate, in one place. ' +
+      'Each entry is a neutral summary of the candidate&rsquo;s own public statements or record, and links to its source with the date. ' +
+      '&ldquo;No public position on file&rdquo; means no statement has been verified yet &mdash; it does not mean the candidate has no view. ' +
+      'All candidates are shown against the same seven issues. ' +
+      'Where several statements are listed for one issue they appear newest first; the number of statements reflects available coverage, not endorsement.</div></div>';
+    $('ev-overlay').classList.add('open');
+    document.body.style.overflow = 'hidden';
+    panel.querySelector('.ev-close').focus();
+  }
+
+  function closeEvidence() {
+    $('ev-overlay').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  function candidateRow(c) {
+    const cls = (c.partyCode === 'DEM' || c.partyCode === 'REP') ? c.partyCode : 'other';
+    // Verified page URL when the data has one; identical search-link fallback
+    // otherwise, so every candidate carries the same Ballotpedia chip.
+    const bp = c.ballotpedia || ('https://ballotpedia.org/wiki/index.php?search=' + encodeURIComponent(c.name + ' Pennsylvania'));
+    const web = 'https://duckduckgo.com/?q=' + encodeURIComponent(c.name + ' Pennsylvania campaign 2026');
+    let links = evLink(c);
+    if (c.website) links += '<a href="' + esc(c.website) + '" target="_blank" rel="noopener">Website</a>';
+    links += '<a href="' + bp + '" target="_blank" rel="noopener">Ballotpedia</a>' +
+             '<a href="' + web + '" target="_blank" rel="noopener">Search</a>';
+    if (c.cfUrl) links += '<a href="' + esc(c.cfUrl) + '" target="_blank" rel="noopener">Finance</a>';
+    return '<div class="cand">' +
+      '<span class="badge ' + cls + '">' + esc(c.partyCode) + '</span>' +
+      '<span class="name">' + esc(c.name) + '</span>' +
+      '<span class="meta">' + esc(c.party) + (c.county ? ' &middot; ' + esc(c.county) + ' County' : '') + '</span>' +
+      '<span class="links">' + links + '</span></div>';
+  }
+
+  function comparisonTable(race) {
+    const cands = race.candidates;
+    const withData = cands.filter(c => c.positions && Object.keys(c.positions).length);
+    if (!withData.length || !ISSUES.length) return '';
+    let head = '<tr><th></th>' + cands.map(c => {
+      const cls = (c.partyCode === 'DEM' || c.partyCode === 'REP') ? c.partyCode : 'other';
+      return '<th><span class="badge ' + cls + '">' + esc(c.partyCode) + '</span>' + esc(c.name) +
+        evLink(c) + '</th>';
+    }).join('') + '</tr>';
+    let body = ISSUES.map(iss => {
+      const cells = cands.map(c => {
+        let p = (c.positions || {})[iss.key];
+        if (Array.isArray(p)) p = p[0];  // newest entry is primary, by mechanical rule
+        if (!p) return '<td><span class="none">No public position on file</span></td>';
+        let cell = '<p class="pos">' + esc(p.short || p.summary) + '</p>';
+        if (p.source) cell += '<span class="src"><a href="' + esc(p.source) + '" target="_blank" rel="noopener">source' +
+          (p.date ? ' (' + esc(p.date) + ')' : '') + '</a></span>';
+        return '<td>' + cell + '</td>';
+      }).join('');
+      return '<tr><td class="issue">' + esc(iss.label) + '</td>' + cells + '</tr>';
+    }).join('');
+    return '<button class="cmp-toggle" type="button" aria-expanded="false">Compare positions side by side ▾</button>' +
+      '<div class="cmp-wrap"><table class="cmp"><thead>' + head + '</thead><tbody>' + body + '</tbody></table>' +
+      '<div class="cmp-note">Position lines are condensed for side-by-side scanning; the &ldquo;All statements&rdquo; link under a candidate&rsquo;s name opens their full statements, each with a source and date. Everything is a neutral summary of the candidate&rsquo;s own public statements. &ldquo;No public position on file&rdquo; means this project has not yet verified a statement &mdash; it does not mean the candidate has no view. ' + esc(D.issuesNote || '') + '</div></div>';
+  }
+
+  function raceCard(title, dist, race, emptyNote) {
+    let body;
+    if (race && race.candidates.length) {
+      body = race.candidates.map(candidateRow).join('') + comparisonTable(race);
+    } else {
+      body = '<div class="note">' + esc(emptyNote || 'No certified candidates are listed yet for this race.') + '</div>';
+    }
+    return '<section class="race"><h2>' + esc(title) +
+      (dist ? ' <span class="dist">&mdash; ' + esc(dist) + '</span>' : '') +
+      '</h2>' + body + '</section>';
+  }
+
+  function ordinal(n) {
+    const s = ['th', 'st', 'nd', 'rd'], v = n % 100;
+    return n + (s[(v - 20) % 10] || s[v] || s[0]);
+  }
+
+  // ---- print handout ----
+  let lastBallot = null;   // {districtLine, races: [{title, dist, race}]}
+
+  function buildPrintSheet() {
+    if (!lastBallot) return;
+    const fmt = d => {
+      if (!d) return '';
+      const [y, m, day] = d.split(' ')[0].split('-').map(Number);
+      return new Date(y, m - 1, day).toLocaleDateString('en-US', {month: 'long', day: 'numeric'});
+    };
+    const raceBlocks = lastBallot.races.map(r => {
+      let inner;
+      if (r.race && r.race.candidates.length) {
+        inner = r.race.candidates.map(c =>
+          '<div class="ph-cand"><span class="ph-p">' + esc(c.partyCode) + '</span>' + esc(c.name) +
+          (c.county ? ' <span class="ph-co">(' + esc(c.county) + ' Co.)</span>' : '') + '</div>').join('');
+      } else {
+        inner = '<div class="ph-none">' + esc(r.emptyNote || 'No certified candidates listed yet.') + '</div>';
+      }
+      return '<div class="ph-race"><h2>' + esc(r.title) +
+        (r.dist ? ' <span class="ph-d">— ' + esc(r.dist) + '</span>' : '') + '</h2>' + inner + '</div>';
+    }).join('');
+
+    // page 2: concise side-by-side positions for races that have them on file
+    const cmpRaces = lastBallot.races.filter(r => r.race &&
+      r.race.candidates.some(c => c.positions && Object.keys(c.positions).length));
+    let cmpPage = '';
+    if (cmpRaces.length && ISSUES.length) {
+      const blocks = cmpRaces.map(r => {
+        const cands = r.race.candidates;
+        const head = '<tr><th></th>' + cands.map(c =>
+          '<th>' + esc(c.name) + ' (' + esc(c.partyCode) + ')</th>').join('') + '</tr>';
+        const rows = ISSUES.map(iss => {
+          const cells = cands.map(c => {
+            let p = (c.positions || {})[iss.key];
+            if (Array.isArray(p)) p = p[0];  // newest entry is primary, by mechanical rule
+            if (!p) return '<td><span class="ph-nof">Not on file</span></td>';
+            return '<td>' + esc(p.short || p.summary) + '</td>';
+          }).join('');
+          return '<tr><td class="ph-iss">' + esc(iss.label) + '</td>' + cells + '</tr>';
+        }).join('');
+        return '<div class="ph-cmp-race"><h2>' + esc(r.title) + '</h2>' +
+          '<table class="ph-cmp"><thead>' + head + '</thead><tbody>' + rows + '</tbody></table></div>';
+      }).join('');
+      cmpPage = '<div class="ph-cmp-page"><h1>Where They Stand</h1>' +
+        '<p class="ph-cmp-sub">Condensed from each candidate&rsquo;s own public statements &middot; ' +
+        'full statements with sources and dates: ' + esc(D.siteUrl || 'see this tool online') +
+        ' &middot; &ldquo;Not on file&rdquo; = no statement verified yet, not &ldquo;no view&rdquo;</p>' +
+        blocks + '</div>';
+    }
+
+    $('printsheet').innerHTML =
+      '<div class="ph-head"><h1>Your November 3, 2026 Ballot</h1>' +
+      '<p class="ph-sub">Pennsylvania General Election &middot; Polls open ' + esc(VOTE.pollHours || '7:00 AM – 8:00 PM') + '</p></div>' +
+      '<div class="ph-dist">' + esc(lastBallot.districtLine) + '</div>' +
+      '<div class="ph-races">' + raceBlocks + '</div>' +
+      '<hr class="ph-fold">' +
+      '<div class="ph-vote">' +
+        '<div><h3>Key dates</h3><ul>' +
+          (VOTE.registerBy ? '<li>Register to vote by <b>' + fmt(VOTE.registerBy) + '</b></li>' : '') +
+          (VOTE.mailApplyBy ? '<li>Apply for a mail ballot by <b>' + fmt(VOTE.mailApplyBy) + ', 5 PM</b></li>' : '') +
+          (VOTE.mailReceiveBy ? '<li>Mail ballots must be <b>received</b> by <b>8 PM ' + fmt(VOTE.mailReceiveBy) + '</b></li>' : '') +
+          '<li>Election Day: <b>Tuesday, November 3</b>, polls ' + esc(VOTE.pollHours || '7 AM – 8 PM') + '</li>' +
+        '</ul></div>' +
+        '<div><h3>Learn more</h3><ul>' +
+          '<li>Register / mail ballot / polling place: <b>vote.pa.gov</b></li>' +
+          '<li>Candidate details &amp; positions: <b>' + esc(D.siteUrl || 'this tool') + '</b></li>' +
+          '<li>Candidate profiles: <b>ballotpedia.org</b></li>' +
+        '</ul></div>' +
+      '</div>' +
+      '<div class="ph-foot">Nonpartisan voter information &middot; every certified candidate listed identically &middot; candidate data: PA Department of State (updated ' + esc(D.lastUpdated) + ') &middot; confirm your full ballot, including any ballot questions, with your county election office</div>' +
+      cmpPage;
+  }
+
+  document.addEventListener('click', e => {
+    const t = e.target.closest('.cmp-toggle');
+    if (t) {
+      const race = t.closest('.race');
+      race.classList.toggle('cmp-open');
+      const open = race.classList.contains('cmp-open');
+      t.setAttribute('aria-expanded', open);
+      t.textContent = open ? 'Hide comparison ▴' : 'Compare positions side by side ▾';
+    }
+    const ev = e.target.closest('.ev-link');
+    if (ev) {
+      e.preventDefault();
+      const c = evReg[+ev.dataset.ev];
+      if (c) openEvidence(c);
+    }
+    if (e.target.closest('.ev-close') || e.target.id === 'ev-overlay') closeEvidence();
+    if (e.target.id === 'printbtn') { buildPrintSheet(); window.print(); }
+  });
+
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape' && $('ev-overlay').classList.contains('open')) closeEvidence();
+  });
+
+  $('f').addEventListener('submit', async e => {
+    e.preventDefault();
+    const addr = $('addr').value.trim();
+    if (!addr) return;
+    const st = $('status'); const res = $('results');
+    st.className = ''; st.textContent = 'Looking up your districts…';
+    res.innerHTML = ''; $('go').disabled = true;
+    evReg = []; closeEvidence();
+    try {
+      const data = await geocode(/\bpa\b|pennsylvania/i.test(addr) ? addr : addr + ', PA');
+      const matches = (((data || {}).result || {}).addressMatches) || [];
+      if (!matches.length) {
+        st.className = 'err';
+        st.textContent = 'That address couldn’t be found. Try the format: street number and name, city, PA, ZIP — e.g. “450 Exton Square Parkway, Exton, PA 19341”.';
+        return;
+      }
+      const m = matches[0];
+      const g = m.geographies || {};
+      const stateG = layer(g, 'States');
+      if (stateG && stateG.GEOID !== '42') {
+        st.className = 'err';
+        st.textContent = 'That address is in ' + (stateG.NAME || 'another state') + '. This tool covers Pennsylvania only.';
+        return;
+      }
+      const cd = layer(g, 'Congressional');
+      const sd = layer(g, 'Upper');
+      const hd = layer(g, 'Lower');
+      const county = layer(g, 'Counties');
+      const cdNum = cd ? parseInt(cd.GEOID.slice(2), 10) : null;
+      const sdNum = sd ? parseInt(sd.GEOID.slice(2), 10) : null;
+      const hdNum = hd ? parseInt(hd.GEOID.slice(2), 10) : null;
+
+      const districtLine = (county ? county.NAME : '') +
+        (cdNum ? ' · ' + ordinal(cdNum) + ' Congressional District' : '') +
+        (sdNum ? ' · Senate District ' + sdNum : '') +
+        (hdNum ? ' · House District ' + hdNum : '');
+
+      const ballotRaces = [
+        {title: 'Governor', dist: 'Statewide', race: D.races['STATEWIDE-GOV']},
+        {title: 'Lieutenant Governor', dist: 'Statewide', race: D.races['STATEWIDE-LTGOV']},
+      ];
+      if (cdNum) ballotRaces.push({title: 'U.S. House of Representatives',
+        dist: ordinal(cdNum) + ' Congressional District',
+        race: D.races['CD-' + String(cdNum).padStart(2, '0')]});
+      if (sdNum) {
+        const key = 'SD-' + sdNum;
+        ballotRaces.push({title: 'Pennsylvania State Senate',
+          dist: ordinal(sdNum) + ' Senatorial District',
+          race: D.races[key] || null,
+          emptyNote: 'Your state senate seat (District ' + sdNum + ') is not on the 2026 ballot. ' +
+            'Pennsylvania senators serve four-year terms; odd-numbered districts vote next in 2028. ' +
+            'You can look up your current senator with the “Your current legislators” link below.'});
+      }
+      if (hdNum) ballotRaces.push({title: 'Pennsylvania State House',
+        dist: ordinal(hdNum) + ' Legislative District', race: D.races['HD-' + hdNum]});
+
+      lastBallot = {districtLine, races: ballotRaces};
+
+      st.textContent = '';
+      let html = '<div class="districts"><strong>Matched address</strong>' + esc(m.matchedAddress) +
+        '<br><strong style="margin-top:.6rem">Your districts</strong>' + esc(districtLine) + '</div>';
+      html += '<div class="toolbar"><button id="printbtn" type="button">🖨 Print canvassing handout</button></div>';
+      for (const r of ballotRaces) html += raceCard(r.title, r.dist, r.race, r.emptyNote);
+      html += '<div class="callout">Minor-party and independent candidates have until August 3, 2026 to file, ' +
+        'so more names may be added to these races. Data last updated ' + esc(D.lastUpdated) + '.</div>';
+      res.innerHTML = html;
+    } catch (err) {
+      st.className = 'err';
+      st.textContent = 'The district lookup service didn’t respond. Please try again in a moment.';
+    } finally {
+      $('go').disabled = false;
+    }
+  });
+})();
+</script>
+</body>
+</html>

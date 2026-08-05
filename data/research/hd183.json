@@ -1,0 +1,80 @@
+{
+  "23694": {
+    "name": "Deirdre J. Kamber",
+    "website": "https://www.dkt4pa.com/",
+    "positions": {
+      "economy": {
+        "summary": "Her platform says she would make food and basic necessities affordable for everyone, increase access to affordable housing, and strengthen local Main Streets to raise property values and support small businesses.",
+        "short": "Supports affordable food, housing, and strengthening local Main Streets.",
+        "source": "https://www.dkt4pa.com/",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "She says she would reduce property taxes, especially for residents on fixed incomes, and use public grants more effectively to reduce reliance on local taxes.",
+        "short": "Supports reducing property taxes; using grants to cut local reliance.",
+        "source": "https://www.dkt4pa.com/",
+        "date": "2026-07"
+      },
+      "education": {
+        "summary": "Her platform states that she would reinvest in public education.",
+        "short": "Supports reinvesting in public education.",
+        "source": "https://www.dkt4pa.com/",
+        "date": "2026-07"
+      },
+      "healthcare": {
+        "summary": "She says she would work to reduce healthcare costs and improve access to care.",
+        "short": "Supports reducing healthcare costs and improving access to care.",
+        "source": "https://www.dkt4pa.com/",
+        "date": "2026-07"
+      },
+      "energy": {
+        "summary": "Her platform says she would require AI data centers to locate in isolated warehouse districts, away from neighborhoods and green spaces.",
+        "short": "Supports siting AI data centers away from neighborhoods and green spaces.",
+        "source": "https://www.dkt4pa.com/",
+        "date": "2026-07"
+      },
+      "guns": {
+        "summary": "She says she would protect responsible and safe gun ownership and support first responders, including volunteers, with equipment, safety, and recruitment.",
+        "short": "Supports responsible gun ownership; supporting first responders and volunteers.",
+        "source": "https://www.dkt4pa.com/",
+        "date": "2026-07"
+      }
+    }
+  },
+  "22842": {
+    "name": "Zachary Allen Mako",
+    "website": "https://zachmakoforpa.com/",
+    "positions": {
+      "economy": {
+        "summary": "His official member biography lists job creation and infrastructure improvements among his priorities, alongside property tax reform.",
+        "short": "Lists job creation and infrastructure improvements among his priorities.",
+        "source": "https://repmako.com/about",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "His campaign says property taxes are out of control and he advocates eliminating and reducing them; he describes himself as a fiscal conservative focused on cutting waste, controlling spending, and opposing tax increases proposed by Governors Wolf and Shapiro.",
+        "short": "Supports eliminating property taxes; opposes tax increases, cutting waste.",
+        "source": "https://zachmakoforpa.com/issues-2/",
+        "date": "2026-07"
+      },
+      "education": {
+        "summary": "His campaign says every child deserves a quality education and supports expanding education choice options such as charter schools, homeschooling, vocational training, and education scholarships, along with fair state funding for the Lehigh Valley.",
+        "short": "Supports school choice, charter schools, vocational training, and scholarships.",
+        "source": "https://zachmakoforpa.com/issues-2/",
+        "date": "2026-07"
+      },
+      "abortion": {
+        "summary": "As an incumbent he voted for Senate Bill 106 in 2022, a proposed state constitutional amendment providing that there is no constitutional right to abortion, and in prior sessions voted for bills restricting abortion, according to the abortion-rights tracker Choice Tracker.",
+        "short": "Voted for 2022 amendment stating no constitutional right to abortion.",
+        "source": "https://choicetracker.org/legislator/h183mako",
+        "date": "2022-07"
+      },
+      "guns": {
+        "summary": "His campaign describes him as a strong supporter of the Second Amendment who opposes municipal firearm restrictions and supports concealed carry rights, and states that public safety is the number one responsibility of government while backing law enforcement.",
+        "short": "Supports Second Amendment, concealed carry; backs law enforcement, public safety.",
+        "source": "https://zachmakoforpa.com/issues-2/",
+        "date": "2026-07"
+      }
+    }
+  }
+}

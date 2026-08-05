@@ -1,0 +1,37 @@
+{
+  "23808": {
+    "name": "Gwendolyn Green",
+    "positions": {
+      "economy": {
+        "summary": "Is the prime sponsor of House Bill 1150 (2025), which would amend the Minimum Wage Act to raise Pennsylvania's minimum wage to $15 per hour with annual cost-of-living increases and raise the tipped minimum wage.",
+        "short": "Prime-sponsored bill to raise minimum wage to $15.",
+        "source": "https://www.palegis.us/legislation/bills/2025/hb1150",
+        "date": "2025-04"
+      },
+      "abortion": {
+        "summary": "Co-sponsored House Bill 26 (2025), the Reproductive Freedom Act, which would provide for reproductive rights and repeal or modify various existing provisions relating to abortion.",
+        "short": "Co-sponsored Reproductive Freedom Act on abortion rights.",
+        "source": "https://www.palegis.us/legislation/bills/2025/hb26",
+        "date": "2025-01"
+      },
+      "education": {
+        "summary": "Co-sponsored House Bill 224 (2025), which would amend the Public School Code to provide for higher education accountability and transparency through a comparison tool.",
+        "short": "Co-sponsored higher-education accountability and transparency bill.",
+        "source": "https://www.palegis.us/legislation/bills/2025/hb0224",
+        "date": "2025-01"
+      },
+      "energy": {
+        "summary": "Co-sponsored House Bill 501 (2025), which would amend the Alternative Energy Portfolio Standards Act, revising portfolio requirements and providing for zero emissions credits.",
+        "short": "Co-sponsored bill revising alternative energy portfolio standards.",
+        "source": "https://www.palegis.us/legislation/bills/2025/hb501",
+        "date": "2026-03"
+      },
+      "guns": {
+        "summary": "Her official House biography lists sensible gun reform to combat the gun violence epidemic among her stated legislative priorities.",
+        "short": "Lists sensible gun reform among her legislative priorities.",
+        "source": "https://www.pahouse.com/Green/About/Biography",
+        "date": "2026-07"
+      }
+    }
+  }
+}

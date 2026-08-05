@@ -1,0 +1,86 @@
+{
+  "23108": {
+    "name": "Kerry A. Benninghoff",
+    "website": "https://www.kerrybenninghoff.com/",
+    "positions": {
+      "economy": {
+        "summary": "Voted against House Bill 1500 (2023), which would have raised Pennsylvania's minimum wage.",
+        "short": "Voted against 2023 bill to raise the minimum wage.",
+        "source": "https://www.palegis.us/house/roll-calls/summary?sessYr=2023&sessInd=0&rcNum=270",
+        "date": "2023-06"
+      },
+      "taxes": {
+        "summary": "His campaign says he believes taxes should be low, describes himself as a watchdog for government waste, and advocates greater transparency and government reform.",
+        "short": "Says taxes should be low; calls himself waste watchdog.",
+        "source": "https://www.kerrybenninghoff.com/about",
+        "date": "2026-07"
+      },
+      "abortion": {
+        "summary": "Voted for Senate Bill 106 (2022), a proposed constitutional amendment stating there is no constitutional right to taxpayer-funded abortion or other right relating to abortion.",
+        "short": "Voted for amendment stating no constitutional right to abortion.",
+        "source": "https://www.palegis.us/house/roll-calls/summary?sessYr=2021&sessInd=0&rcNum=1156",
+        "date": "2022-07"
+      },
+      "education": {
+        "summary": "His campaign says he supports ensuring an educational system that gives children a clear path to good-paying careers.",
+        "short": "Supports education giving children a path to good-paying careers.",
+        "source": "https://www.kerrybenninghoff.com/about",
+        "date": "2026-07"
+      },
+      "healthcare": {
+        "summary": "His campaign says he is passionate about cancer research and other healthcare initiatives, and he founded and chairs the General Assembly's bipartisan Cancer Caucus.",
+        "short": "Founded bipartisan Cancer Caucus; emphasizes cancer research initiatives.",
+        "source": "https://www.kerrybenninghoff.com/about",
+        "date": "2026-07"
+      },
+      "energy": {
+        "summary": "In a May 2022 statement supporting a House package of fossil fuel bills, he said Pennsylvania should increase natural gas production and transmission capabilities as part of American-led energy independence.",
+        "short": "Supports increasing Pennsylvania natural gas production and transmission.",
+        "source": "https://www.northcentralpa.com/news/pa-house-passes-package-of-bills-to-increase-fossil-fuel-production/article_4c52d186-ca2d-11ec-9f43-1f5ced17738c.html",
+        "date": "2022-05"
+      },
+      "guns": {
+        "summary": "Voted against House Bill 714 (2023), which would expand background checks to additional firearm sales; he also voted against House Bill 1018 (2023), an extreme risk protection order measure.",
+        "short": "Voted against firearm background-check and extreme-risk-protection bills.",
+        "source": "https://www.palegis.us/house/roll-calls/summary?sessYr=2023&sessInd=0&rcNum=96",
+        "date": "2023-05"
+      }
+    }
+  },
+  "23374": {
+    "name": "John R. Zangari",
+    "website": "https://votezangari.com/",
+    "positions": {
+      "economy": {
+        "summary": "His campaign says his top focus is making life in Pennsylvania more affordable, saying families are squeezed by taxes, housing costs, groceries, and utilities.",
+        "short": "Says his top focus is making life more affordable.",
+        "source": "https://votezangari.com/",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "His campaign says he would lower the tax burden on working people and cut programs he says do not deliver results, citing $250 million spent on horse racing subsidies.",
+        "short": "Would lower working people's taxes; cut horse racing subsidies.",
+        "source": "https://votezangari.com/",
+        "date": "2026-07"
+      },
+      "education": {
+        "summary": "At his campaign launch he proposed redirecting money from subsidies he would eliminate toward schools, rural infrastructure, and property tax relief.",
+        "short": "Proposes redirecting eliminated subsidy money toward schools.",
+        "source": "https://www.statecollege.com/articles/political-news/zangari-launches-bid-for-171st-state-house-district/",
+        "date": "2026-02"
+      },
+      "healthcare": {
+        "summary": "As part of his affordability agenda he said he would work to lower the cost of essentials including prescription medication; his platform does not otherwise detail a healthcare policy.",
+        "short": "Says he would lower prescription medication and other essential costs.",
+        "source": "https://www.statecollege.com/articles/political-news/zangari-launches-bid-for-171st-state-house-district/",
+        "date": "2026-02"
+      },
+      "energy": {
+        "summary": "At his campaign launch he said he would push back on cost increases he attributes to unchecked data center growth.",
+        "short": "Would push back on costs from unchecked data center growth.",
+        "source": "https://www.statecollege.com/articles/political-news/zangari-launches-bid-for-171st-state-house-district/",
+        "date": "2026-02"
+      }
+    }
+  }
+}

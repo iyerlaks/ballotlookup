@@ -1,0 +1,80 @@
+{
+  "23202": {
+    "name": "Bradford T. Chambers",
+    "website": "https://bradforpa.com/",
+    "positions": {
+      "economy": {
+        "summary": "His campaign lists housing affordability as a core priority, calling for quality housing that Lancaster County families can actually afford.",
+        "short": "Prioritizes housing Lancaster County families can actually afford.",
+        "source": "https://bradforpa.com/issues",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "His campaign calls for lower property taxes for homeowners, paired with fair state funding for public schools.",
+        "short": "Calls for lower property taxes for homeowners.",
+        "source": "https://bradforpa.com/issues",
+        "date": "2026-07"
+      },
+      "abortion": {
+        "summary": "Told LNP in 2024 that he believes in the protections that were in place under Roe v. Wade and that the decision to end a pregnancy should be made by a woman and her doctor, not politicians; he called criminalizing women and doctors for such decisions unacceptable.",
+        "short": "Supports Roe-era protections; decision belongs to woman and doctor.",
+        "source": "https://lancasteronline.com/news/politics/republican-state-rep-brett-miller-faces-progressive-challenger-in-41st-district-voters-guide/article_47e13192-7d13-11ef-bbca-479ac92a90a0.html",
+        "date": "2024-09"
+      },
+      "education": {
+        "summary": "His campaign calls for fair funding for public schools, listing it alongside property tax relief as a top priority.",
+        "short": "Calls for fair funding for public schools.",
+        "source": "https://bradforpa.com/issues",
+        "date": "2026-07"
+      },
+      "healthcare": {
+        "summary": "His campaign calls for single-payer healthcare for Pennsylvania and lower insurance and prescription costs.",
+        "short": "Calls for single-payer healthcare in Pennsylvania, lower costs.",
+        "source": "https://bradforpa.com/issues",
+        "date": "2026-07"
+      },
+      "energy": {
+        "summary": "Endorsed in 2024 by Conservation Voters of Pennsylvania, whose endorsement page says he would fight to reduce runoff pollution in the Chesapeake Bay watershed and work with municipalities to expand access to renewable energy technology; his current campaign site does not detail an energy position.",
+        "short": "2024 conservation endorsement cited runoff reduction, renewable energy expansion.",
+        "source": "https://www.conservationpa.org/endorsements/brad-chambers-hd-41-lost",
+        "date": "2024-10"
+      }
+    }
+  },
+  "23866": {
+    "name": "Brett R. Miller",
+    "website": "http://www.millerforpahouse.com/",
+    "positions": {
+      "economy": {
+        "summary": "His campaign says reducing regulations is key to job growth, that more opportunity can flourish when government gets out of the way, and that small businesses are the engine of job creation.",
+        "short": "Supports reducing regulations; calls small businesses job-creation engine.",
+        "source": "http://www.millerforpahouse.com/on-the-issues",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "His campaign says he opposes unnecessary tax increases, notes he never voted to raise property taxes in nine years as a township supervisor, and says government should prioritize spending rather than raise taxes.",
+        "short": "Opposes unnecessary tax increases; says government should prioritize spending.",
+        "source": "http://www.millerforpahouse.com/on-the-issues",
+        "date": "2026-07"
+      },
+      "abortion": {
+        "summary": "Co-sponsored a 2024 bill to ban abortion once a fetal heartbeat is detected; LNP reported the bill did not explicitly grant exceptions for rape, incest, or the mother's health.",
+        "short": "Co-sponsored 2024 bill banning abortion after fetal heartbeat.",
+        "source": "https://lancasteronline.com/news/politics/republican-state-rep-brett-miller-faces-progressive-challenger-in-41st-district-voters-guide/article_47e13192-7d13-11ef-bbca-479ac92a90a0.html",
+        "date": "2024-09"
+      },
+      "education": {
+        "summary": "Supported the 2024 state budget's $1.1 billion increase in education spending, which he said addressed the unconstitutional funding of Pennsylvania's public schools; his campaign pledges to push for fair school funding.",
+        "short": "Supported $1.1 billion education increase; pledges fair school funding.",
+        "source": "https://lancasteronline.com/news/politics/republican-state-rep-brett-miller-faces-progressive-challenger-in-41st-district-voters-guide/article_47e13192-7d13-11ef-bbca-479ac92a90a0.html",
+        "date": "2024-09"
+      },
+      "guns": {
+        "summary": "Co-sponsored House Bill 979 of 2021, which limited local regulation of firearms and ammunition by strengthening state preemption; the bill passed the legislature and was vetoed by the governor in 2022.",
+        "short": "Co-sponsored 2021 bill limiting local firearm regulation.",
+        "source": "https://www.palegis.us/legislation/bills/2021/hb979",
+        "date": "2021-06"
+      }
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "23227": {
+    "name": "Michael D. Harostock III",
+    "website": "https://www.mikeharostock.com/",
+    "positions": {
+      "economy": {
+        "summary": "His campaign priorities call for cutting wasteful spending policies he says have increased costs and affordability challenges, and for supporting small businesses to drive economic growth and generate stable, family-sustaining jobs.",
+        "short": "Proposes cutting wasteful spending; supporting small businesses for jobs.",
+        "source": "https://www.mikeharostock.com/priorities",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "His campaign priorities call for reducing tax burdens for hardworking families and seniors on fixed incomes.",
+        "short": "Proposes reducing taxes for families and seniors on fixed incomes.",
+        "source": "https://www.mikeharostock.com/priorities",
+        "date": "2026-07"
+      },
+      "education": {
+        "summary": "His campaign priorities call for prioritizing initiatives that improve and support educational systems, student opportunities, and teacher and student resources.",
+        "short": "Proposes initiatives improving schools, student opportunities, teacher resources.",
+        "source": "https://www.mikeharostock.com/priorities",
+        "date": "2026-07"
+      },
+      "healthcare": {
+        "summary": "His campaign priorities call for ensuring Pennsylvanians have access to high-quality, affordable healthcare and prescription drugs.",
+        "short": "Proposes ensuring access to affordable healthcare and prescription drugs.",
+        "source": "https://www.mikeharostock.com/priorities",
+        "date": "2026-07"
+      },
+      "guns": {
+        "summary": "His campaign priorities include a public safety plank proposing to secure funding for police officers, firefighters, and first responders; the site does not state a position on firearms policy.",
+        "short": "Proposes first-responder funding; site does not address firearms policy.",
+        "source": "https://www.mikeharostock.com/priorities",
+        "date": "2026-07"
+      }
+    }
+  },
+  "23544": {
+    "name": "Jessica McClay",
+    "website": "https://www.mcclayforpa.com/",
+    "positions": {
+      "economy": {
+        "summary": "Her platform proposes addressing housing shortages through development investment and homeowner assistance, lowering grocery prices by passing laws that make marketplaces more competitive, and raising the minimum wage to $15 per hour.",
+        "short": "Proposes housing investment, more competitive marketplaces, $15 minimum wage.",
+        "source": "https://www.mcclayforpa.com/issues",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "Her platform proposes generating state revenue by taxing skill games and legalizing marijuana, and cites her decision to decline the Wilkes-Barre employee pension program as part of a commitment to responsible government spending.",
+        "short": "Proposes revenue from taxing skill games and legalizing marijuana.",
+        "source": "https://www.mcclayforpa.com/issues",
+        "date": "2026-07"
+      },
+      "abortion": {
+        "summary": "Her platform states she supports a woman's right to choose and proposes passing a state constitutional amendment to protect reproductive rights and access to abortion.",
+        "short": "Supports abortion rights; proposes state constitutional amendment protecting access.",
+        "source": "https://www.mcclayforpa.com/issues",
+        "date": "2026-07"
+      },
+      "education": {
+        "summary": "Her platform proposes fully funding public schools to constitutional levels, securing state grants for teacher wages and arts programs, hiring more teachers to reduce class sizes, creating vocational training programs, and eliminating school meal debt.",
+        "short": "Proposes fully funding public schools, more teachers, vocational training.",
+        "source": "https://www.mcclayforpa.com/issues",
+        "date": "2026-07"
+      },
+      "healthcare": {
+        "summary": "Her platform proposes expanding healthcare access by mandating insurance coverage for preventative procedures and extending Medicaid, supports workplace protections for healthcare workers facing on-the-job violence, and opposes healthcare monopolies.",
+        "short": "Proposes extending Medicaid, mandated preventative coverage; opposes healthcare monopolies.",
+        "source": "https://www.mcclayforpa.com/issues",
+        "date": "2026-07"
+      },
+      "energy": {
+        "summary": "Her platform proposes preventing energy price hikes by building renewable energy projects and infrastructure to increase energy supply while lowering prices.",
+        "short": "Proposes renewable energy projects to lower energy prices.",
+        "source": "https://www.mcclayforpa.com/issues",
+        "date": "2026-07"
+      },
+      "guns": {
+        "summary": "Her platform supports common sense gun safety reform through background checks to keep firearms away from criminals.",
+        "short": "Supports gun safety reform through background checks.",
+        "source": "https://www.mcclayforpa.com/issues",
+        "date": "2026-07"
+      }
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "22749": {
+    "name": "Stephanie Paige Borowicz",
+    "website": "https://www.repstephanie.com/",
+    "positions": {
+      "economy": {
+        "summary": "Identifies inflation as one of the top issues facing Pennsylvanians, citing high grocery, gas, and energy costs, and says pursuing energy independence would reduce inflation across sectors.",
+        "short": "Says inflation is a top issue; backs energy independence.",
+        "source": "https://www.lockhaven.com/news/local-news/2024/10/stephanie-borowicz-provides-answers-on-key-issues/",
+        "date": "2024-10"
+      },
+      "taxes": {
+        "summary": "Voted against the July 2026 state budget, saying it relies on accounting gimmicks and one-time funding sources and creates a $4.8 billion structural deficit that could force spending down the Rainy Day Fund or raising taxes. In 2024 she said she supports cutting the state gas tax and would like to eliminate the state income tax.",
+        "short": "Voted against 2026 state budget; supports cutting state taxes.",
+        "source": "https://www.repstephanie.com/News/38287/Press-Releases/Rep--Borowicz-a--No--on-Irresponsible-PA-State-Budget",
+        "date": "2026-07"
+      },
+      "abortion": {
+        "summary": "Sponsored House Bill 904, which would prohibit an abortion once a fetal heartbeat is detected, calling it the strongest pro-life legislation in Pennsylvania history; in 2024 she said she stands for the life of the unborn.",
+        "short": "Sponsored bill banning abortion once fetal heartbeat is detected.",
+        "source": "https://www.repstephanie.com/News/19808/Latest-News/Borowicz,-Health-Committee-Advance-Strongest-Pro-Life-Measure-in-Pennsylvania-History-Seeking-to-Protect-Life-at-First-Heartbeat-",
+        "date": "2021-05"
+      },
+      "education": {
+        "summary": "Sponsored legislation to require an armed guard at every Pennsylvania school, and opposes what she calls gender ideology instruction, saying parents should control their children's education and schools should return to basics.",
+        "short": "Sponsored armed-guard-in-schools bill; opposes gender ideology instruction.",
+        "source": "https://www.lockhaven.com/news/local-news/2024/10/stephanie-borowicz-provides-answers-on-key-issues/",
+        "date": "2024-10"
+      },
+      "healthcare": {
+        "summary": "Supports House Bill 2339, which would require hospitals to publish their prices, and says creating competition in healthcare would produce lower prices, rather than relying on government-controlled systems.",
+        "short": "Supports hospital price transparency; favors competition over government systems.",
+        "source": "https://www.lockhaven.com/news/local-news/2024/10/stephanie-borowicz-provides-answers-on-key-issues/",
+        "date": "2024-10"
+      },
+      "energy": {
+        "summary": "Opposes the Regional Greenhouse Gas Initiative, calling it an additional climate tax, and says Pennsylvania must begin to drill again, open up the pipelines, and become energy independent.",
+        "short": "Opposes RGGI; supports drilling, pipelines, energy independence.",
+        "source": "https://www.lockhaven.com/news/local-news/2022/11/76th-district-state-house-race-qa-stephanie-borowicz/",
+        "date": "2022-11"
+      },
+      "guns": {
+        "summary": "Opposes gun control legislation and praised the defeat of House Bills 2206 and 335 in 2024, saying the Second Amendment shall not be infringed and vowing to oppose attempts to restrict firearm ownership in Pennsylvania.",
+        "short": "Opposes gun control; praised defeat of 2024 gun bills.",
+        "source": "https://www.repstephanie.com/News/34155/Latest-News/Borowicz-Praises-Defeat-of-Gun-Control-Bills-",
+        "date": "2024-05"
+      }
+    }
+  },
+  "23375": {
+    "name": "Sara Elizabeth Eggler",
+    "website": "https://saraegglerforpa76district.com/",
+    "positions": {
+      "economy": {
+        "summary": "Says she would work to secure grants and funding for small businesses, advocate for fair living wages, and ensure rural communities receive adequate state assistance; she also cites homebuyers in the district unable to find homes in their price range.",
+        "short": "Proposes small-business funding, fair living wages, rural assistance.",
+        "source": "https://www.lockhaven.com/news/local-news/2026/02/eggler-announces-run-for-76th-district-house-seat/",
+        "date": "2026-02"
+      },
+      "taxes": {
+        "summary": "Her campaign says the district has sent tax dollars to Harrisburg while too little comes back, and that her mission would be to bring state resources home to the district; her site does not detail a position on tax rates or the state budget.",
+        "short": "Says too little tax money returns; pledges bringing resources home.",
+        "source": "https://saraegglerforpa76district.com/about/",
+        "date": "2026-07"
+      },
+      "healthcare": {
+        "summary": "Says she would push for fair funding for rural healthcare providers and for closer access to VA hospitals and medical specialists, saying healthcare should not break a family.",
+        "short": "Proposes fair rural provider funding; closer VA, specialist access.",
+        "source": "https://www.lockhaven.com/news/local-news/2026/02/eggler-announces-run-for-76th-district-house-seat/",
+        "date": "2026-02"
+      },
+      "energy": {
+        "summary": "Her campaign site says she supports responsible development of Pennsylvania's natural resources and protecting them for future generations while expanding responsible public access.",
+        "short": "Supports responsible natural resource development and public access.",
+        "source": "https://saraegglerforpa76district.com/about/",
+        "date": "2026-07"
+      }
+    }
+  }
+}

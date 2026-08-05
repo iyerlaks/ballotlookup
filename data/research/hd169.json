@@ -1,0 +1,50 @@
+{
+  "23648": {
+    "name": "Austin L. Graham",
+    "website": "https://www.austinlgraham.com/",
+    "positions": {
+      "economy": {
+        "summary": "His campaign says many working families are budgeting carefully and still treading water, and proposes cutting waste and policies that quietly raise costs, reducing delays and red tape for families and small businesses, and investing in infrastructure and workforce programs.",
+        "short": "Proposes cutting waste, reducing red tape, investing in infrastructure and workforce.",
+        "source": "https://www.austinlgraham.com/",
+        "date": "2026-07"
+      }
+    }
+  },
+  "22922": {
+    "name": "Kate Anne Klunk",
+    "website": "https://www.repklunk.com/",
+    "positions": {
+      "economy": {
+        "summary": "Her campaign biography lists revitalizing Pennsylvania's business climate to create what she calls good, family-sustaining jobs among her priorities.",
+        "short": "Lists revitalizing business climate to create family-sustaining jobs.",
+        "source": "https://www.repklunk.com/about",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "Her campaign biography lists restoring fiscal discipline in state government, providing immediate and permanent property tax relief, and opposing what she calls unnecessary tax increases on families, seniors, and businesses.",
+        "short": "Lists property tax relief, fiscal discipline, opposing tax increases.",
+        "source": "https://www.repklunk.com/about",
+        "date": "2026-07"
+      },
+      "abortion": {
+        "summary": "Voted for a 2022 proposed constitutional amendment stating the Pennsylvania Constitution does not grant a right to abortion, saying on the House floor it would place the decision with voters and elected representatives rather than judges.",
+        "short": "Voted for 2022 amendment stating no state constitutional abortion right.",
+        "source": "https://www.witf.org/2022/07/11/after-advancing-constitutional-amendment-pennsylvania-republicans-move-closer-to-being-able-to-restrict-abortion-access/",
+        "date": "2022-07"
+      },
+      "education": {
+        "summary": "Her campaign biography lists improving the quality of children's educational opportunities among her stated priorities, without detailing specific policies.",
+        "short": "Lists improving quality of children's educational opportunities as a priority.",
+        "source": "https://www.repklunk.com/about",
+        "date": "2026-07"
+      },
+      "guns": {
+        "summary": "Is the prime sponsor of House Bill 548 (2025), which would further limit the regulation of firearms and ammunition by strengthening state preemption over local rules.",
+        "short": "Prime-sponsored 2025 bill limiting local firearm and ammunition regulation.",
+        "source": "https://legiscan.com/PA/bill/HB548/2025",
+        "date": "2025-02"
+      }
+    }
+  }
+}

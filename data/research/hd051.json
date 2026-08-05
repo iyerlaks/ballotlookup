@@ -1,0 +1,44 @@
+{
+  "23742": {
+    "name": "Charity Grimm Krupa",
+    "website": "https://www.repgrimmkrupa.com/",
+    "positions": {
+      "economy": {
+        "summary": "In a 2022 candidate survey she supported some adjustment to the minimum wage, noting the buying power of a dollar has changed significantly since 2009, but opposed a $15 minimum wage, citing effects on small businesses and inflation; she also said she would support suspending or rolling back the state gas tax.",
+        "short": "Supports some minimum wage adjustment; opposes $15; supports gas-tax rollback.",
+        "source": "https://www.wesanews.org/wesa-voter-guide/2022-09-30/wesa-candidate-survey-charity-grimm-krupa-and-richard-ringer-on-the-issues",
+        "date": "2022-09"
+      },
+      "taxes": {
+        "summary": "Voted against House Bill 2400, the 2026-27 General Fund budget, saying it spends more than Pennsylvania is expected to take in and relies on accounting gimmicks; she called for spending reductions and cited principles of limited government and fiscal discipline.",
+        "short": "Voted against 2026-27 budget, citing deficit spending; seeks spending cuts.",
+        "source": "https://www.repgrimmkrupa.com/News/38247/Press-Releases/Grimm-Krupa-Opposes-Budget-Built-on-Deficit-Spending-and-Accounting-Gimmicks",
+        "date": "2026-07"
+      },
+      "abortion": {
+        "summary": "In a 2022 candidate survey she said she is personally pro-life and believes abortion should be made as rare as possible, and that she would support exceptions for rape, incest, or the life of the mother.",
+        "short": "Personally pro-life; wants abortion rare; supports rape, incest, life exceptions.",
+        "source": "https://www.wesanews.org/wesa-voter-guide/2022-09-30/wesa-candidate-survey-charity-grimm-krupa-and-richard-ringer-on-the-issues",
+        "date": "2022-09"
+      },
+      "education": {
+        "summary": "In a 2022 candidate survey she supported eliminating school property taxes and replacing them with a tax structure more reflective of a citizen's individual circumstances, and proposed reducing district costs by eliminating unfunded mandates.",
+        "short": "Supports eliminating school property taxes; proposes cutting unfunded mandates.",
+        "source": "https://www.wesanews.org/wesa-voter-guide/2022-09-30/wesa-candidate-survey-charity-grimm-krupa-and-richard-ringer-on-the-issues",
+        "date": "2022-09"
+      },
+      "energy": {
+        "summary": "In a 2022 candidate survey she opposed Pennsylvania's participation in the Regional Greenhouse Gas Initiative, saying it creates a competitive disadvantage and that government should not be picking winners and losers.",
+        "short": "Opposes Pennsylvania joining the Regional Greenhouse Gas Initiative.",
+        "source": "https://www.wesanews.org/wesa-voter-guide/2022-09-30/wesa-candidate-survey-charity-grimm-krupa-and-richard-ringer-on-the-issues",
+        "date": "2022-09"
+      },
+      "guns": {
+        "summary": "In a 2022 candidate survey she opposed universal background checks, saying law-abiding gun owners follow gun laws and criminals do not, and advocated serious punishments for gun crimes.",
+        "short": "Opposes universal background checks; advocates serious punishments for gun crimes.",
+        "source": "https://www.wesanews.org/wesa-voter-guide/2022-09-30/wesa-candidate-survey-charity-grimm-krupa-and-richard-ringer-on-the-issues",
+        "date": "2022-09"
+      }
+    }
+  }
+}

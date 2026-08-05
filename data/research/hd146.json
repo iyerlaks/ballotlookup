@@ -1,0 +1,44 @@
+{
+  "22799": {
+    "name": "Joseph Ciresi",
+    "website": "https://ciresiforpa.com/",
+    "positions": {
+      "economy": {
+        "summary": "His campaign prioritizes restoring passenger train service between Reading and Philadelphia, which he says would take thousands of cars off highways and revitalize boroughs and boost local economies.",
+        "short": "Prioritizes restoring passenger rail to revitalize boroughs, boost local economies.",
+        "source": "https://ciresiforpa.com/on-the-issues/",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "Supports property tax relief through fair education funding and educational mandate reform, and backs a natural gas severance tax and closing corporate tax loopholes as revenue sources.",
+        "short": "Supports property tax relief, severance tax, closing corporate loopholes.",
+        "source": "https://ciresiforpa.com/on-the-issues/",
+        "date": "2026-07"
+      },
+      "education": {
+        "summary": "Advocates for increased state funding of school districts, citing over $1 billion in added basic education funding across two budget cycles.",
+        "short": "Advocates increased state funding for school districts.",
+        "source": "https://ciresiforpa.com/on-the-issues/",
+        "date": "2026-07"
+      },
+      "healthcare": {
+        "summary": "Says no Pennsylvanian should have to choose between their health and their paycheck; voted to make prescription drugs more affordable and wrote a bill easing access to prescriptions.",
+        "short": "Voted to lower prescription costs; wrote prescription-access bill.",
+        "source": "https://ciresiforpa.com/on-the-issues/",
+        "date": "2026-07"
+      },
+      "abortion": {
+        "summary": "Stated he supports a woman's right to choose and voted against abortion-restriction measures, including a 2022 proposed constitutional amendment (SB 106), as compiled by the advocacy tracker Choice Tracker.",
+        "short": "Stated supports right to choose; voted against restrictions.",
+        "source": "https://choicetracker.org/pa/people/joe-ciresi/53215232",
+        "date": "2022-07"
+      },
+      "guns": {
+        "summary": "Co-sponsored House Bill 777 (2023-2024 session), which would require serial numbers on privately made firearms to address untraceable 'ghost guns'; the bill passed the House 104-97 in March 2024.",
+        "short": "Co-sponsored a bill requiring serial numbers on ghost guns.",
+        "source": "https://www.palegis.us/legislation/bills/2023/hb777",
+        "date": "2024-03"
+      }
+    }
+  }
+}

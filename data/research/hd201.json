@@ -1,0 +1,50 @@
+{
+  "23076": {
+    "name": "Andre Donte Carroll",
+    "website": "https://www.andredcarroll.com/",
+    "positions": {
+      "economy": {
+        "summary": "His campaign platform calls for raising Pennsylvania's minimum wage from $7.25 to $15.00 an hour and for paid family leave, and says housing is a human right that should be affordable and accessible to everyone.",
+        "short": "Supports raising minimum wage to $15, paid family leave, affordable housing.",
+        "source": "https://www.andredcarroll.com/issues",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "His campaign platform proposes altering the wage tax for tipped employees so that employers are responsible for paying it.",
+        "short": "Proposes shifting tipped-employee wage tax responsibility onto employers.",
+        "source": "https://www.andredcarroll.com/issues",
+        "date": "2026-07"
+      },
+      "abortion": {
+        "summary": "His campaign platform supports granting free access to high quality, trauma informed, and culturally competent reproductive health and abortion services for working class communities across the commonwealth.",
+        "short": "Supports free access to reproductive health and abortion services.",
+        "source": "https://www.andredcarroll.com/issues",
+        "date": "2026-07"
+      },
+      "education": {
+        "summary": "His campaign platform supports universal Pre-K, free community college, and increased funding for career and technical education, and opposes tying school funding to standardized test scores.",
+        "short": "Supports universal Pre-K, free community college; opposes test-based school funding.",
+        "source": "https://www.andredcarroll.com/issues",
+        "date": "2026-07"
+      },
+      "healthcare": {
+        "summary": "His campaign platform supports creating a public healthcare option to ensure every Pennsylvanian has access to quality healthcare regardless of income or employment, and increased funding for community mental health resources.",
+        "short": "Supports a public healthcare option and community mental health funding.",
+        "source": "https://www.andredcarroll.com/issues",
+        "date": "2026-07"
+      },
+      "energy": {
+        "summary": "His campaign platform, under environmental justice, supports a state law incentivizing residents to install solar panels, funding to combat flooding, and the creation of new green jobs.",
+        "short": "Supports solar incentives, flood funding, and new green jobs.",
+        "source": "https://www.andredcarroll.com/issues",
+        "date": "2026-07"
+      },
+      "guns": {
+        "summary": "His campaign platform does not state a position on firearms; its public safety content appears in a criminal justice section supporting an end to mandatory minimum sentencing, universal parole, and marijuana legalization with expungement.",
+        "short": "No firearms position stated; platform focuses on criminal justice reform.",
+        "source": "https://www.andredcarroll.com/issues",
+        "date": "2026-07"
+      }
+    }
+  }
+}

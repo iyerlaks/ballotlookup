@@ -1,0 +1,42 @@
+{
+  "23549": {
+    "name": "Peter Schweyer",
+    "website": "https://www.peterschweyer.com/",
+    "positions": {
+      "economy": {
+        "summary": "His campaign platform says the minimum wage must be raised to $15 an hour, which he says would lift pay for workers and reverse decades of growing pay inequality. He also supports strategic investments and responsible economic development projects in the district.",
+        "short": "Supports raising minimum wage to $15; supports economic development investments.",
+        "source": "https://www.peterschweyer.com/issues",
+        "date": "2026-07"
+      },
+      "abortion": {
+        "summary": "Describes himself as 100% pro-choice, saying neither state nor federal government has any right to tell a woman what she can or cannot do on reproductive rights. He voted against bills restricting abortion, including a 20-week ban, and co-sponsored a bill to bar cooperation with out-of-state abortion investigations.",
+        "short": "Describes himself as 100% pro-choice; voted against abortion restrictions.",
+        "source": "https://armchairlehighvalley.substack.com/p/134th-incumbent-peter-schweyer-faces",
+        "date": "2022-10"
+      },
+      "education": {
+        "summary": "Chairs the House Education Committee. He authored legislation, now in the school code, requiring weekly on-camera wellness checks for cyber charter students, saying students should learn in a safe and healthy environment, and defended giving last year's cyber charter funding changes a year or two to show their impact.",
+        "short": "Education Committee chair; authored cyber charter student wellness-check law.",
+        "source": "https://www.lockhaven.com/news/local-news/2026/07/pa-cyber-charter-funding-remains-steady-as-legislators-emphasize-student-well-being/",
+        "date": "2026-07"
+      },
+      "energy": {
+        "summary": "Sponsored House Bill 1842 to create a community solar program letting customers subscribe to shared solar facilities, calling it a win for renewable energy access, the grid, the environment, and jobs. He reintroduced community solar legislation that passed the House in 2026 as part of the governor's energy plan.",
+        "short": "Sponsors community solar legislation; supports renewable energy access.",
+        "source": "https://www.pahouse.com/InTheNews/NewsRelease/?id=133436",
+        "date": "2024-03"
+      },
+      "guns": {
+        "summary": "Supports stricter firearms regulations: he co-sponsored a bill to ban high-capacity semi-automatic weapons, co-sponsored universal background checks for gun-show purchases, supported safe storage requirements, and voted against permitless concealed carry.",
+        "short": "Supports background checks, safe storage; opposed permitless concealed carry.",
+        "source": "https://armchairlehighvalley.substack.com/p/134th-incumbent-peter-schweyer-faces",
+        "date": "2022-10"
+      }
+    }
+  },
+  "23985": {
+    "name": "Miriam Alicia Maldonado",
+    "positions": {}
+  }
+}

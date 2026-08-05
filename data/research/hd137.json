@@ -1,0 +1,92 @@
+{
+  "22762": {
+    "name": "Joseph T. Emrick",
+    "website": "https://votejoeemrick.com/",
+    "positions": {
+      "economy": {
+        "summary": "His campaign says he is committed to cutting taxes, reducing energy costs, lowering healthcare costs, and making life more affordable for families and seniors.",
+        "short": "Supports cutting taxes, reducing energy and healthcare costs.",
+        "source": "https://votejoeemrick.com/meet-joe/",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "His campaign says he supports lowering taxes and fiscally responsible budgeting, and notes he voted to fund public education without raising taxes; he cites endorsements from business groups for his budget record.",
+        "short": "Supports lowering taxes and fiscally responsible budgeting.",
+        "source": "https://votejoeemrick.com/meet-joe/",
+        "date": "2026-07"
+      },
+      "abortion": {
+        "summary": "In July 2022 he voted for Senate Bill 106, a proposed constitutional amendment stating there is no constitutional right to abortion or to taxpayer-funded abortion.",
+        "short": "Voted for 2022 amendment stating no constitutional right to abortion.",
+        "source": "https://www.palegis.us/house/roll-calls/summary?sessYr=2021&sessInd=0&rcNum=1156",
+        "date": "2022-07"
+      },
+      "education": {
+        "summary": "A former economics and history teacher, he says he has prioritized supporting local schools and voted to fully fund public education at record levels without raising taxes.",
+        "short": "Says he voted to fully fund public education without raising taxes.",
+        "source": "https://votejoeemrick.com/meet-joe/",
+        "date": "2026-07"
+      },
+      "healthcare": {
+        "summary": "His campaign says he is working to ensure every Pennsylvanian has access to high-quality, affordable healthcare and prescription drugs.",
+        "short": "Supports access to affordable healthcare and prescription drugs.",
+        "source": "https://votejoeemrick.com/priorities/",
+        "date": "2026-07"
+      },
+      "energy": {
+        "summary": "His campaign says he opposes excessive warehouse development and truck traffic, supports smart economic growth, and cites reducing energy costs and protecting the environment.",
+        "short": "Opposes excessive warehouse development; cites reducing energy costs, environment.",
+        "source": "https://votejoeemrick.com/priorities/",
+        "date": "2026-07"
+      },
+      "guns": {
+        "summary": "In November 2021 he voted for Senate Bill 565, which would allow carrying a concealed firearm without a license.",
+        "short": "Voted for bill allowing concealed carry without a license.",
+        "source": "https://www.palegis.us/house/roll-calls/summary?sessYr=2021&sessInd=0&rcNum=624",
+        "date": "2021-11"
+      }
+    }
+  },
+  "23500": {
+    "name": "Jeffrey M. Warren",
+    "website": "https://www.jeffwarrenforpa.com/",
+    "positions": {
+      "economy": {
+        "summary": "His campaign says he would hold price-gouging corporations accountable for the cost of essentials, from groceries to housing to health care.",
+        "short": "Would hold price-gouging corporations accountable for essentials' costs.",
+        "source": "https://www.jeffwarrenforpa.com/issues",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "His campaign says he supports ensuring big corporations pay their fair share in taxes and lowering the property tax burden on homeowners through better school funding.",
+        "short": "Supports corporations paying fair share; lowering homeowners' property taxes.",
+        "source": "https://www.jeffwarrenforpa.com/issues",
+        "date": "2026-07"
+      },
+      "education": {
+        "summary": "His campaign says he prioritizes fairly funding local schools to give children better opportunities.",
+        "short": "Supports fairly funding local schools.",
+        "source": "https://www.jeffwarrenforpa.com/issues",
+        "date": "2026-07"
+      },
+      "healthcare": {
+        "summary": "His campaign says he wants to ensure all Pennsylvanians have a right to affordable and quality healthcare regardless of race, class, or geographic location.",
+        "short": "Supports affordable, quality healthcare for all Pennsylvanians.",
+        "source": "https://www.jeffwarrenforpa.com/issues",
+        "date": "2026-07"
+      },
+      "energy": {
+        "summary": "His campaign says he supports preserving as much farmland and open space as possible, continuing work he has done on Northampton County Council.",
+        "short": "Supports preserving farmland and open space.",
+        "source": "https://www.jeffwarrenforpa.com/issues",
+        "date": "2026-07"
+      },
+      "guns": {
+        "summary": "On public safety, his campaign says he would ensure police, fire departments, and EMS have the tools they need and provide enhanced mental health resources for schools and the community; the site does not detail a firearms-policy position.",
+        "short": "Supports funding police, fire, EMS; enhanced community mental health resources.",
+        "source": "https://www.jeffwarrenforpa.com/issues",
+        "date": "2026-07"
+      }
+    }
+  }
+}

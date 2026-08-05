@@ -1,0 +1,80 @@
+{
+  "23222": {
+    "name": "Maria Collett",
+    "website": "https://www.mariaforpasenate.com/",
+    "positions": {
+      "economy": {
+        "summary": "Supports raising Pennsylvania's minimum wage, which her campaign notes has not changed in over a decade, and backs support for labor, infrastructure, and business development; she introduced legislation directing $300 million to the childcare industry for recovery and workforce development.",
+        "short": "Supports raising minimum wage; introduced $300 million childcare funding bill.",
+        "source": "https://www.mariaforpasenate.com/priorities",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "Supports increasing the state's share of public school funding to reduce local school districts' reliance on property taxes, and backs grant programs for municipal improvements and facilities.",
+        "short": "Supports more state school funding to reduce property-tax reliance.",
+        "source": "https://www.mariaforpasenate.com/priorities",
+        "date": "2026-07"
+      },
+      "abortion": {
+        "summary": "Says she is committed to protecting a woman's right to control her own body and has co-sponsored legislation to codify access to safe and legal abortion into Pennsylvania law.",
+        "short": "Co-sponsored legislation to codify access to safe, legal abortion.",
+        "source": "https://www.mariaforpasenate.com/priorities",
+        "date": "2026-07"
+      },
+      "education": {
+        "summary": "Supports increasing Pennsylvania's state contribution to education funding, which her campaign says ranks 44th of 50, along with investments in early childhood education and pre-K, charter school accountability reforms, and making higher education more accessible and affordable.",
+        "short": "Supports more state education funding, pre-K investment, charter accountability.",
+        "source": "https://www.mariaforpasenate.com/priorities",
+        "date": "2026-07"
+      },
+      "healthcare": {
+        "summary": "Says healthcare is a human right; introduced Senate Bill 240 to establish safe nurse-to-patient staffing ratios in hospitals and supported $20 million in student loan reimbursement for nurses.",
+        "short": "Introduced nurse-staffing-ratio bill; supported nurse student-loan reimbursement.",
+        "source": "https://www.mariaforpasenate.com/priorities",
+        "date": "2026-07"
+      },
+      "energy": {
+        "summary": "Introduced Senate Bills 611 and 612 to set contaminant limits for PFAS 'forever chemicals' in drinking water, and opposes placing the financial burden of water safety improvements on ratepayers.",
+        "short": "Introduced bills limiting PFAS chemicals in drinking water.",
+        "source": "https://www.mariaforpasenate.com/priorities",
+        "date": "2026-07"
+      },
+      "guns": {
+        "summary": "Supports background checks on all gun sales, closing loopholes that allow domestic abusers and stalkers to access firearms, and allowing local governments to pass their own gun ordinances.",
+        "short": "Supports universal background checks; closing domestic-abuser firearm loopholes.",
+        "source": "https://www.mariaforpasenate.com/priorities",
+        "date": "2026-07"
+      }
+    }
+  },
+  "24005": {
+    "name": "Robert F. Costello III",
+    "website": "https://www.facebook.com/profile.php?id=61572091648044",
+    "positions": {
+      "economy": {
+        "summary": "In a candidate profile shared by the Montgomery County Republican Committee, Costello says he wants to reduce burdensome regulations and replace crumbling infrastructure.",
+        "short": "Says he wants reduced regulations and replaced crumbling infrastructure.",
+        "source": "https://www.facebook.com/MontgomeryCountyGOP/posts/candidate-profile-vote-robert-f-costello-iii-for-state-senate-12th-district-in-a/1383658813787208/",
+        "date": "2026-05"
+      },
+      "taxes": {
+        "summary": "In a candidate profile shared by the Montgomery County Republican Committee, Costello says he wants to restore fiscal responsibility and increase accountability in government; the profile does not detail specific tax proposals.",
+        "short": "Says he wants fiscal responsibility and government accountability; no tax specifics.",
+        "source": "https://www.facebook.com/MontgomeryCountyGOP/posts/candidate-profile-vote-robert-f-costello-iii-for-state-senate-12th-district-in-a/1383658813787208/",
+        "date": "2026-05"
+      },
+      "education": {
+        "summary": "In a candidate profile shared by the Montgomery County Republican Committee, Costello, described as an educator, says he wants to invest in education at every level.",
+        "short": "Says he wants to invest in education at every level.",
+        "source": "https://www.facebook.com/MontgomeryCountyGOP/posts/candidate-profile-vote-robert-f-costello-iii-for-state-senate-12th-district-in-a/1383658813787208/",
+        "date": "2026-05"
+      },
+      "guns": {
+        "summary": "In a candidate profile shared by the Montgomery County Republican Committee, Costello says he wants to support law enforcement; the profile does not address gun policy directly.",
+        "short": "Says he wants to support law enforcement; no gun-policy detail.",
+        "source": "https://www.facebook.com/MontgomeryCountyGOP/posts/candidate-profile-vote-robert-f-costello-iii-for-state-senate-12th-district-in-a/1383658813787208/",
+        "date": "2026-05"
+      }
+    }
+  }
+}
