@@ -3,7 +3,7 @@ window.BALLOT_DATA = {
  "election": "2026 Pennsylvania General Election",
  "electionDate": "2026-11-03",
  "dataSource": "Pennsylvania Department of State \u2014 Official Candidate Listing (pavoterservices.pa.gov)",
- "lastUpdated": "2026-08-04",
+ "lastUpdated": "2026-08-24",
  "notes": "Minor-party and independent candidates file by Aug 3, 2026 and may not appear yet.",
  "issues": [
   {
@@ -267,6 +267,87 @@ window.BALLOT_DATA = {
        "short": "Supports first responders; commits to protecting Second Amendment rights.",
        "source": "https://votejeffclark.org/issues.php",
        "date": "2026-07"
+      }
+     }
+    }
+   ]
+  },
+  "HD-20": {
+   "office": "Pennsylvania State House",
+   "district": "20th Legislative District",
+   "candidates": [
+    {
+     "name": "Emily Kinkead",
+     "party": "Democratic",
+     "partyCode": "DEM",
+     "county": "Allegheny",
+     "cfUrl": "https://www.campaignfinanceonline.pa.gov/Pages/CFAnnualTotals.aspx?Filer=2026C0511",
+     "website": "https://www.emily4pa20.com/",
+     "ballotpedia": "https://ballotpedia.org/Emily_Kinkead",
+     "positions": {
+      "economy": {
+       "summary": "Supports raising Pennsylvania's minimum wage to $15 per hour and indexing it to inflation, saying no wage that puts a full-time worker under the poverty level should be acceptable.",
+       "short": "Supports $15 minimum wage indexed to inflation.",
+       "source": "https://www.emily4pa20.com/issues/",
+       "date": "2026-07"
+      },
+      "taxes": {
+       "summary": "Said the completed 2025-26 state budget contained much to celebrate, citing public school funding increases and a new tax credit she said benefits nearly 1 million Pennsylvanians, while criticizing Senate Republican leaders for taking over 134 days to finish it.",
+       "short": "Praised 2025 budget's school funding, tax credit; criticized delay.",
+       "source": "https://www.pahouse.com/kinkead/EmailArchive/?id=141112",
+       "date": "2025-11"
+      },
+      "abortion": {
+       "summary": "Her campaign site says she will fight to enshrine protections for a safe, legal abortion unencumbered by government interference into Pennsylvania law, and that she supports comprehensive sexual education.",
+       "short": "Supports enshrining legal abortion protections into Pennsylvania law.",
+       "source": "https://www.emily4pa20.com/issues/",
+       "date": "2026-07"
+      },
+      "education": {
+       "summary": "Advocates increasing state funding for K-12 public schools and opposes directing taxpayer dollars to what she calls failing cyber charter schools, saying resources should go to classrooms instead.",
+       "short": "Supports more K-12 funding; opposes cyber charter subsidies.",
+       "source": "https://www.emily4pa20.com/issues/",
+       "date": "2026-07"
+      },
+      "healthcare": {
+       "summary": "Supports expanding healthcare access for all Pennsylvanians, protecting Affordable Care Act provisions, closing corporate tax loopholes to fund care, and lowering prescription drug prices.",
+       "short": "Supports expanding access, protecting ACA, lowering drug prices.",
+       "source": "https://www.emily4pa20.com/issues/",
+       "date": "2026-07"
+      },
+      "energy": {
+       "summary": "Opposed HB 1100, a bill she said would provide nearly one billion dollars in subsidies to petrochemical companies, and supports transitioning to clean, renewable energy while protecting workers affected by the transition.",
+       "short": "Supports renewable energy transition; opposed petrochemical subsidies.",
+       "source": "https://www.emily4pa20.com/issues/",
+       "date": "2026-07"
+      },
+      "guns": {
+       "summary": "In the 2025-2026 legislative session she co-sponsored House Bill 837, which would limit handgun purchases and establish a Violence Prevention Account.",
+       "short": "Co-sponsored bill limiting handgun purchases, creating violence-prevention account.",
+       "source": "https://www.palegis.us/legislation/bills/2025/hb837",
+       "date": "2025-03"
+      }
+     }
+    },
+    {
+     "name": "Joseph Blaise Aguglia II",
+     "party": "Republican",
+     "partyCode": "REP",
+     "county": "Allegheny",
+     "cfUrl": "https://www.campaignfinanceonline.pa.gov/Pages/CFAnnualTotals.aspx?Filer=2026C1427",
+     "website": "https://www.facebook.com/profile.php?id=61583558406772",
+     "positions": {
+      "economy": {
+       "summary": "Said he entered the race to improve what he sees as \"failed policies\" that result in seniors and others losing their homes and in rising prices of utilities and gas. Stated his campaign focus as \"Affordability, Accountability, Improvement, and Reform.\"",
+       "short": "Says failed policies raise utility, gas prices; focus on affordability, reform.",
+       "source": "https://www.wesanews.org/2026-06-08/allegheny-gop-write-in-pa-house",
+       "date": "2026-06"
+      },
+      "guns": {
+       "summary": "Cited public safety concerns among his reasons for running. No specific proposals on guns or public safety have been reported.",
+       "short": "Cited public safety concerns as a reason for running.",
+       "source": "https://www.wesanews.org/2026-06-08/allegheny-gop-write-in-pa-house",
+       "date": "2026-06"
       }
      }
     }
@@ -1742,6 +1823,104 @@ window.BALLOT_DATA = {
     }
    ]
   },
+  "HD-122": {
+   "office": "Pennsylvania State House",
+   "district": "122nd Legislative District",
+   "candidates": [
+    {
+     "name": "Christian Michael Bartulovich",
+     "party": "Democratic",
+     "partyCode": "DEM",
+     "county": "Carbon",
+     "cfUrl": "https://www.campaignfinanceonline.pa.gov/Pages/CFAnnualTotals.aspx?Filer=2026C1422",
+     "website": "https://christianforcarbon.com/",
+     "positions": {
+      "economy": {
+       "summary": "Says an economy that works only for the cities is not working for his district; wants to reinvest in skilled trades and vocational education and attract employers who hire locally. Supports giving families and current residents the opportunity to buy a home before corporate investors do, and taxing corporate-owned housing.",
+       "short": "Reinvest in skilled trades; let residents buy homes before investors.",
+       "source": "https://christianforcarbon.com/platform.html",
+       "date": "2026-08"
+      },
+      "taxes": {
+       "summary": "Calls for full elimination of school property taxes, replaced by a consumption tax with a credit for essentials, paired with pension reform. Says Harrisburg has a spending problem rather than a revenue problem, and points to his township's record of not levying a property tax.",
+       "short": "Eliminate school property taxes; replace with consumption tax; restrain spending.",
+       "source": "https://christianforcarbon.com/platform.html",
+       "date": "2026-08"
+      },
+      "education": {
+       "summary": "Wants to reinvest in skilled trades and vocational education as alternatives to four-year degrees. Notes that roughly 44 cents of every dollar funding public schools comes from local property taxes, a funding structure he wants to replace.",
+       "short": "Reinvest in vocational education and skilled trades as degree alternatives.",
+       "source": "https://christianforcarbon.com/platform.html",
+       "date": "2026-08"
+      },
+      "healthcare": {
+       "summary": "Supports expanding the roles of nurse practitioners and physician assistants in underserved areas and treats telehealth and broadband as essential healthcare infrastructure. Proposes tax credits, state certification reimbursement, and school credit for training to support volunteer fire and EMS crews.",
+       "short": "Expand nurse practitioner roles; treat telehealth as essential infrastructure.",
+       "source": "https://christianforcarbon.com/platform.html",
+       "date": "2026-08"
+      },
+      "guns": {
+       "summary": "Says he will make sure local police, fire, and EMS have the backing, training, and resources to do the job, and will defend the constitutional rights of Carbon County residents against efforts in Harrisburg to chip away at them, stating that safety and liberty are not opposites.",
+       "short": "Back police, fire, EMS; defend residents' constitutional rights.",
+       "source": "https://christianforcarbon.com/platform.html",
+       "date": "2026-08"
+      }
+     }
+    },
+    {
+     "name": "Doyle Heffley",
+     "party": "Republican",
+     "partyCode": "REP",
+     "county": "Carbon",
+     "cfUrl": "https://www.campaignfinanceonline.pa.gov/Pages/CFAnnualTotals.aspx?Filer=2026C0261",
+     "ballotpedia": "https://ballotpedia.org/Doyle_Heffley",
+     "positions": {
+      "economy": {
+       "summary": "In announcing his 2026 reelection bid, said he has sponsored legislation to lower housing costs and reduce regulatory burdens and has worked with state and federal officials to secure grants for communities across Carbon County.",
+       "short": "Sponsored bills to lower housing costs, reduce regulatory burdens.",
+       "source": "https://www.tnonline.com/20260321/heffley-announces-reelection-bid-for-122nd-district/",
+       "date": "2026-03"
+      },
+      "taxes": {
+       "summary": "Pledged in his reelection announcement to continue fighting government waste, fraud and abuse and protecting taxpayers through fiscally responsible budgeting, citing his record of advancing property tax relief while opposing tax increases on families.",
+       "short": "Pledges fiscally responsible budgeting, property tax relief; opposes tax increases.",
+       "source": "https://www.tnonline.com/20260321/heffley-announces-reelection-bid-for-122nd-district/",
+       "date": "2026-03"
+      },
+      "abortion": {
+       "summary": "Voted for Senate Bill 106 of 2022, a proposed package of constitutional amendments that included language stating the Pennsylvania Constitution does not grant any right to abortion or to taxpayer funding of abortion; the measure passed the House 107-92.",
+       "short": "Voted for no-constitutional-right-to-abortion amendment package in 2022.",
+       "source": "https://www.palegis.us/house/roll-calls/summary?sessYr=2021&sessInd=0&rcNum=1156",
+       "date": "2022-07"
+      },
+      "education": {
+       "summary": "Said the November 2025 state budget invests in schools to ensure all students have access to a high-quality education through expanded school choice, scholarships for students in underperforming schools, and funding for the SHINE after-school program.",
+       "short": "Supports expanded school choice, scholarships, after-school program funding.",
+       "source": "https://www.tnonline.com/20251113/budget-impasse-ends-after-135-days/",
+       "date": "2025-11"
+      },
+      "healthcare": {
+       "summary": "As chairman of the House Human Services Committee, has led multiple hearings on Pennsylvania's drug crisis, focusing on fentanyl and xylazine dangers and the use of taxpayer dollars for recovery and related programs; this is committee work on the drug crisis rather than a stated broader healthcare platform.",
+       "short": "Leads drug-crisis hearings as Human Services Committee chairman.",
+       "source": "https://www.tnonline.com/20260321/heffley-announces-reelection-bid-for-122nd-district/",
+       "date": "2026-03"
+      },
+      "energy": {
+       "summary": "Praised the November 2025 budget agreement for calling for Pennsylvania's exit from the Regional Greenhouse Gas Initiative, which he called job-killing and overly burdensome, saying the state can unleash Pennsylvania energy and that the agreement prevents a $2.5 billion energy tax, lowering utility costs.",
+       "short": "Supports exiting RGGI; says it prevents energy tax.",
+       "source": "https://www.tnonline.com/20251113/budget-impasse-ends-after-135-days/",
+       "date": "2025-11"
+      },
+      "guns": {
+       "summary": "Voted against House Bill 714 of 2023, which would require background checks for private sales and transfers of long guns; the bill passed the House 109-92 in May 2023.",
+       "short": "Voted against expanding background checks to private long-gun sales.",
+       "source": "https://www.palegis.us/house/roll-calls/summary?sessYr=2023&sessInd=0&rcNum=96",
+       "date": "2023-05"
+      }
+     }
+    }
+   ]
+  },
   "HD-63": {
    "office": "Pennsylvania State House",
    "district": "63rd Legislative District",
@@ -2142,6 +2321,72 @@ window.BALLOT_DATA = {
        "date": "2024-04"
       }
      }
+    }
+   ]
+  },
+  "HD-154": {
+   "office": "Pennsylvania State House",
+   "district": "154th Legislative District",
+   "candidates": [
+    {
+     "name": "Napoleon J. Nelson",
+     "party": "Democratic",
+     "partyCode": "DEM",
+     "county": "Montgomery",
+     "cfUrl": "https://www.campaignfinanceonline.pa.gov/Pages/CFAnnualTotals.aspx?Filer=2026C1092",
+     "website": "https://napoleonfor154.com/",
+     "ballotpedia": "https://ballotpedia.org/Napoleon_Nelson",
+     "positions": {
+      "economy": {
+       "summary": "His campaign platform states that Pennsylvanians should not work for lower wages than surrounding states and supports a $15 minimum wage.",
+       "short": "Supports a $15 minimum wage.",
+       "source": "https://napoleonfor154.com/platform",
+       "date": "2024-01"
+      },
+      "taxes": {
+       "summary": "His campaign platform calls for providing property tax relief, stopping tax breaks for big businesses, and closing the Delaware loophole that lets corporations avoid state income taxes.",
+       "short": "Supports property tax relief; proposes closing the Delaware loophole.",
+       "source": "https://napoleonfor154.com/platform",
+       "date": "2024-01"
+      },
+      "abortion": {
+       "summary": "His campaign platform states a commitment to protect reproductive freedom.",
+       "short": "Says he will protect reproductive freedom.",
+       "source": "https://napoleonfor154.com/platform",
+       "date": "2024-01"
+      },
+      "education": {
+       "summary": "His campaign platform advocates ensuring children have a safe, equitable, rigorous and fully funded public education, and calls to recruit, train, and deploy a diverse pool of teachers.",
+       "short": "Supports fully funded public education; recruiting diverse teachers.",
+       "source": "https://napoleonfor154.com/platform",
+       "date": "2024-01"
+      },
+      "healthcare": {
+       "summary": "His campaign platform states that healthcare is a right not a privilege, with a stated goal of affordable physical and mental health care for every Pennsylvanian.",
+       "short": "Says healthcare is a right; supports affordable care for all.",
+       "source": "https://napoleonfor154.com/platform",
+       "date": "2024-01"
+      },
+      "energy": {
+       "summary": "His campaign platform calls for strengthening state oversight by increasing funding and staffing of the Department of Environmental Protection and for a moratorium on industry practices that are meaningfully detrimental to air, water, or soil.",
+       "short": "Supports more DEP funding; proposes moratorium on harmful practices.",
+       "source": "https://napoleonfor154.com/platform",
+       "date": "2024-01"
+      },
+      "guns": {
+       "summary": "His campaign platform supports background checks for all sales, banning automatic weapons, and restricting 3D-printed guns, and calls to restore local rights and hold the NRA accountable.",
+       "short": "Supports universal background checks and banning automatic weapons.",
+       "source": "https://napoleonfor154.com/platform",
+       "date": "2024-01"
+      }
+     }
+    },
+    {
+     "name": "Stephanie Lynn Berardi",
+     "party": "Progress for Pennsylvania",
+     "partyCode": "PRO",
+     "county": "Montgomery",
+     "cfUrl": "https://www.campaignfinanceonline.pa.gov/Pages/CFAnnualTotals.aspx?Filer=2026C1461"
     }
    ]
   },
@@ -2734,6 +2979,99 @@ window.BALLOT_DATA = {
     }
    ]
   },
+  "HD-30": {
+   "office": "Pennsylvania State House",
+   "district": "30th Legislative District",
+   "candidates": [
+    {
+     "name": "Arvind Venkat",
+     "party": "Democratic",
+     "partyCode": "DEM",
+     "county": "Allegheny",
+     "cfUrl": "https://www.campaignfinanceonline.pa.gov/Pages/CFAnnualTotals.aspx?Filer=2026C0026",
+     "website": "https://www.venkatforpa.com/",
+     "ballotpedia": "https://ballotpedia.org/Arvind_Venkat",
+     "positions": {
+      "taxes": {
+       "summary": "Called the governor's February 2026 budget proposal a promising starting point and said he will work to ensure the final state budget reduces the pressure on property taxes and protects healthcare access.",
+       "short": "Says final budget should reduce property tax pressure.",
+       "source": "https://www.pahouse.com/venkat/EmailArchive/?id=142206",
+       "date": "2026-02"
+      },
+      "abortion": {
+       "summary": "Says he will continue to vote to protect the reproductive health and liberty of all Pennsylvania women, citing his experience as an ER physician treating a woman who nearly died after an unsafe abortion.",
+       "short": "Says he will vote to protect reproductive health, liberty.",
+       "source": "https://www.venkatforpa.com/issues/reproductive-health",
+       "date": "2026-07"
+      },
+      "education": {
+       "summary": "Says schools are central to communities and pledges to advocate for adequate resources to keep schools operating while maintaining safe, supportive spaces for students and educators.",
+       "short": "Pledges to advocate for adequate school resources, safe schools.",
+       "source": "https://www.venkatforpa.com/issues/education",
+       "date": "2026-07"
+      },
+      "healthcare": {
+       "summary": "Supports making healthcare more accessible and affordable, including medical debt relief, reducing copayments and deductibles, keeping elderly patients independent in their homes, and expanding addiction and mental illness treatment resources.",
+       "short": "Supports medical debt relief, lower copays, expanded mental-health treatment.",
+       "source": "https://www.venkatforpa.com/issues/healthcare",
+       "date": "2026-07"
+      },
+      "energy": {
+       "summary": "Says climate change is real and serious, and supports improving air and water quality, expanding green spaces, addressing flooding and stormwater issues, and developing diverse, cleaner energy sources while allowing communities local authority over energy decisions.",
+       "short": "Supports cleaner energy sources, air-water quality, local energy authority.",
+       "source": "https://www.venkatforpa.com/issues/environment",
+       "date": "2026-07"
+      },
+      "guns": {
+       "summary": "Says gun violence is a public health crisis he has treated as an ER doctor, and that it is possible to respect the constitutional right to own a firearm while passing legislation that reduces gun violence.",
+       "short": "Supports gun-violence legislation while respecting firearm ownership rights.",
+       "source": "https://www.venkatforpa.com/issues/gun-violence",
+       "date": "2026-07"
+      }
+     }
+    },
+    {
+     "name": "Libby Blackburn",
+     "party": "Republican",
+     "partyCode": "REP",
+     "county": "Allegheny",
+     "cfUrl": "https://www.campaignfinanceonline.pa.gov/Pages/CFAnnualTotals.aspx?Filer=2026C1431",
+     "website": "https://libbyforpa.com/",
+     "positions": {
+      "economy": {
+       "summary": "Says she wants to help families achieve financial security for peace of mind and to be able to leave something for the next generation at home in Pennsylvania.",
+       "short": "Help families achieve financial security and peace of mind.",
+       "source": "https://libbyforpa.com/",
+       "date": "2026-08"
+      },
+      "taxes": {
+       "summary": "Calls for fiscal discipline focused on priorities so the state spends only what it has. Cites her record as a school board member of voting against tax increases 13 years in a row.",
+       "short": "Spend only what state has; voted against tax increases.",
+       "source": "https://libbyforpa.com/",
+       "date": "2026-08"
+      },
+      "education": {
+       "summary": "Supports accountability, investment, and innovation in schools to prepare students to succeed, and wants to increase parental involvement. Says she would request a seat on the House Education Committee, citing 14 years as a North Allegheny school director.",
+       "short": "Supports school accountability, investment, innovation; increase parental involvement.",
+       "source": "https://libbyforpa.com/",
+       "date": "2026-08"
+      },
+      "healthcare": {
+       "summary": "Says she wants to reduce healthcare costs and increase accessibility to quality care.",
+       "short": "Reduce healthcare costs and increase accessibility to quality care.",
+       "source": "https://libbyforpa.com/",
+       "date": "2026-08"
+      },
+      "guns": {
+       "summary": "Says she will support police and emergency responders and bring residents and law enforcement together to meet shared goals. Has not stated a position specific to firearms policy.",
+       "short": "Support police and emergency responders; bring residents and police together.",
+       "source": "https://libbyforpa.com/",
+       "date": "2026-08"
+      }
+     }
+    }
+   ]
+  },
   "HD-45": {
    "office": "Pennsylvania State House",
    "district": "45th Legislative District",
@@ -2829,228 +3167,6 @@ window.BALLOT_DATA = {
        "short": "Supports funding police, firefighters, EMS; no stated gun policy.",
        "source": "https://www.james4pa.com/",
        "date": "2026-07"
-      }
-     }
-    }
-   ]
-  },
-  "STATEWIDE-LTGOV": {
-   "office": "Lieutenant Governor",
-   "district": "Statewide",
-   "candidates": [
-    {
-     "name": "Austin Davis",
-     "party": "Democratic",
-     "partyCode": "DEM",
-     "county": "Allegheny",
-     "cfUrl": "https://www.campaignfinanceonline.pa.gov/Pages/CFAnnualTotals.aspx?Filer=2026C0092",
-     "website": "https://davisforpa.com/",
-     "ballotpedia": "https://ballotpedia.org/Austin_Davis_(Pennsylvania)",
-     "positions": {
-      "economy": {
-       "summary": "Has made affordability a central campaign theme, touring the state to highlight the administration's efforts to cut taxes, lower costs, and grow the economy, pointing to rising costs of child care, energy, and housing for working families, seniors, and small businesses.",
-       "short": "Affordability focus: cut taxes, lower child care, energy, and housing costs.",
-       "source": "https://www.pa.gov/ltgovernor/newsroom/icymi--lt--governor-wraps-up--putting-more-money-back-in-your-po",
-       "date": "2026-04"
-      },
-      "taxes": {
-       "summary": "Campaigns on the administration's record of cutting taxes while lowering household costs, and backed the 2026-27 Shapiro budget proposal with its investments in afterschool programs, anti-violence organizations, and early childhood education.",
-       "short": "Backs the Shapiro budget: afterschool, anti-violence, early-childhood investments.",
-       "source": "https://www.pa.gov/ltgovernor/newsroom/lt--gov--austin-davis-highlights-new-budget-proposal-s-investmen",
-       "date": "2026-02"
-      },
-      "abortion": [
-       {
-        "summary": "Supports legal abortion access, saying everyone regardless of income deserves access to reproductive healthcare after a court ruling struck down the ban on Medicaid-funded abortions; joined a multi-state Reproductive Freedom Coalition of Democratic lieutenant governors.",
-        "short": "Supports legal abortion access; joined Reproductive Freedom Coalition.",
-        "source": "https://x.com/LGAustinDavis/status/2046249852460273829",
-        "date": "2026-06"
-       },
-       {
-        "summary": "As part of a June 2026 Shapiro administration action on reproductive health care, his office will engage providers and public safety leaders across the state to discuss ways to keep health care workers, patients, and visitors safe at reproductive health care clinics.",
-        "short": "His office will engage providers on reproductive clinic safety.",
-        "source": "https://www.pa.gov/governor/newsroom/2026-press-releases/governor-shapiro-takes-additional-action-to-protect-a-woman-s-ri",
-        "date": "2026-06"
-       }
-      ],
-      "education": [
-       {
-        "summary": "Emphasizes expanding after-school and summer programming, touting increased BOOST grant funding, and says the state needs to keep growing after-school resources and access to mental health support in school districts.",
-        "short": "Expand after-school and summer programs and school mental-health support.",
-        "source": "https://www.wytv.com/news/local-news/lieutenant-governor-tours-local-school-offers-safety-and-support-to-students/",
-        "date": "2026-05"
-       },
-       {
-        "summary": "Visiting BOOST and Violence Intervention and Prevention grant recipients in Erie and Farrell, said the investments are about providing a place where youth feel safe and stay engaged after the school bell rings, and noted proposed 2026-27 budget increases for both programs.",
-        "short": "Says after-school grant investments keep youth safe and engaged.",
-        "source": "https://www.pa.gov/ltgovernor/newsroom/lt--gov--davis-highlights-investments-in-youth-safety-programs",
-        "date": "2026-05"
-       }
-      ],
-      "energy": {
-       "summary": "Says the administration is pursuing an all-of-the-above energy strategy intended to create jobs and bring electricity costs down by producing more energy in Pennsylvania, while protecting consumers.",
-       "short": "All-of-the-above strategy: produce more in-state energy, lower bills.",
-       "source": "https://www.pa.gov/ltgovernor/newsroom/in-fayette-county--lieutenant-governor-davis-focuses-on-energy-c",
-       "date": "2026-06"
-      },
-      "guns": [
-       {
-        "summary": "At a Pottstown roundtable, said violent crime is down statewide because the administration is taking a comprehensive approach of supporting law enforcement, investing in community-led prevention, caring for victims, and addressing root causes of violence, and said the 2026-27 budget continues investments in violence intervention organizations.",
-        "short": "Says comprehensive approach cut violent crime; budget continues prevention investments.",
-        "source": "https://cumberlink.com/news/community/article_ac2ce540-ea43-5990-8e34-98441bb73c86.html",
-        "date": "2026-08"
-       },
-       {
-        "summary": "Makes reducing gun violence a central campaign focus; as chair of the Pennsylvania Commission on Crime and Delinquency he secured increased funding for violence intervention programs and led the relaunch of the state's Office of Gun Violence Prevention.",
-        "short": "Reducing gun violence is a central focus; funded violence intervention programs.",
-        "source": "https://www.spotlightpa.org/news/2026/04/pennsylvania-primary-election-lieutenant-governor-guide-davis-richey-ventre-elections/",
-        "date": "2026-04"
-       },
-       {
-        "summary": "Said the state is taking a holistic approach to gun violence that has to include firearm suicides, which he said represent the majority of gun deaths in Pennsylvania, including investing in mental and behavioral health services and pushing for gun safety laws.",
-        "short": "Says gun-violence approach must include firearm suicides and mental health.",
-        "source": "https://www.pa.gov/ltgovernor/newsroom/lt--gov--austin-davis-leads-conversation-on-reducing-firearm-sui",
-        "date": "2024-09"
-       }
-      ]
-     }
-    },
-    {
-     "name": "Jason L. Richey",
-     "party": "Republican",
-     "partyCode": "REP",
-     "county": "Allegheny",
-     "cfUrl": "https://www.campaignfinanceonline.pa.gov/Pages/CFAnnualTotals.aspx?Filer=2026C0645",
-     "website": "https://richeyforpa.com/",
-     "ballotpedia": "https://ballotpedia.org/Jason_Richey_(Pennsylvania)",
-     "positions": {
-      "economy": [
-       {
-        "summary": "Says he will work to make Pennsylvania more affordable by reducing the tax burden and developing the state's energy resources; pledges to root out waste, fraud, and abuse in state government and cites more than 160,000 state regulatory restrictions as a burden on small businesses.",
-        "short": "Reduce the tax burden, develop energy resources, cut regulations.",
-        "source": "https://www.wesanews.org/wesa-voter-guide/2026-04-20/pa-republican-lieutenant-governor",
-        "date": "2026-04"
-       },
-       {
-        "summary": "At the state Republican Party winter meeting, said Pennsylvania is not meeting its potential and needs change, and pledged to act as a chief operating officer for the state focused on economic metrics and efficiency.",
-        "short": "Says Pennsylvania needs change; pledges to act as state operating officer.",
-        "source": "https://pennwatch.org/pennsylvania-gop-endorses-jason-richey-for-lieutenant-governor-at-winter-meeting/",
-        "date": "2026-02"
-       },
-       {
-        "summary": "Said the problems that prompted his earlier run for governor still exist, saying Pennsylvania has not advanced forward at all.",
-        "short": "Says problems from his earlier run still exist; state hasn't advanced.",
-        "source": "https://www.wesanews.org/politics-government/2026-01-30/garrity-richey-challenge-shapiro-davis",
-        "date": "2026-01"
-       }
-      ],
-      "taxes": [
-       {
-        "summary": "Has said he opposes income taxes, arguing they penalize work; in his earlier gubernatorial run he proposed eliminating Pennsylvania's 3.07% personal income tax in favor of sales and transfer taxes, and his campaign pledges to protect taxpayers from what it calls reckless spending.",
-        "short": "Opposes income taxes; previously proposed eliminating PA's 3.07% income tax.",
-        "source": "https://www.spotlightpa.org/news/2026/04/pennsylvania-primary-election-lieutenant-governor-guide-davis-richey-ventre-elections/",
-        "date": "2026-04"
-       },
-       {
-        "summary": "At the state Republican Party winter meeting, reiterated his proposal to eliminate the state's personal income tax, saying it would attract new residents and businesses.",
-        "short": "Reiterates eliminating state personal income tax to attract residents, businesses.",
-        "source": "https://pennwatch.org/pennsylvania-gop-endorses-jason-richey-for-lieutenant-governor-at-winter-meeting/",
-        "date": "2026-02"
-       },
-       {
-        "summary": "Said he would support policies to increase energy production to drive up state revenue, allowing for decreases in property and income taxes as a result.",
-        "short": "Supports energy-driven revenue growth allowing property and income tax decreases.",
-        "source": "https://www.wesanews.org/politics-government/2026-01-30/garrity-richey-challenge-shapiro-davis",
-        "date": "2026-01"
-       }
-      ],
-      "abortion": {
-       "summary": "Has previously described himself as a pro-life candidate and said he would support changing state abortion policy; declined to discuss the issue in a January 2026 interview after joining the Garrity ticket.",
-       "short": "Previously described himself as pro-life; declined recent comment.",
-       "source": "https://www.wesanews.org/politics-government/2026-01-30/garrity-richey-challenge-shapiro-davis",
-       "date": "2026-01"
-      },
-      "education": [
-       {
-        "summary": "Along with running mate Stacy Garrity, said he favors school choice to allow parents to decide the best educational opportunity and format for their children.",
-        "short": "Favors school choice so parents decide children's educational format.",
-        "source": "https://www.wcexaminer.com/2026/07/31/gop-nominees-garrity-richey-describe-their-platform/",
-        "date": "2026-07"
-       },
-       {
-        "summary": "Has previously advocated increasing alternatives to traditional public schools, supporting expanded school choice options for families.",
-        "short": "Supports expanded school choice alternatives.",
-        "source": "https://www.spotlightpa.org/news/2026/04/pennsylvania-primary-election-lieutenant-governor-guide-davis-richey-ventre-elections/",
-        "date": "2026-04"
-       }
-      ],
-      "energy": [
-       {
-        "summary": "Describing the ticket's platform, said unleashing energy production, particularly natural gas extraction, should be a top priority for the state.",
-        "short": "Says unleashing energy production, especially natural gas, is top priority.",
-        "source": "https://www.wcexaminer.com/2026/07/31/gop-nominees-garrity-richey-describe-their-platform/",
-        "date": "2026-07"
-       },
-       {
-        "summary": "Centers his campaign on expanding Pennsylvania natural gas production and export infrastructure through private industry, saying development could generate billions in revenue and hundreds of thousands of jobs.",
-        "short": "Expand natural gas production and exports via private industry.",
-        "source": "https://richeyforpa.com/",
-        "date": "2026-06"
-       },
-       {
-        "summary": "At the state Republican Party winter meeting, pledged to help unleash Pennsylvania's natural gas potential, advocating extraction of resources in what he called an environmentally friendly fashion.",
-        "short": "Pledges to unleash natural gas potential with environmentally friendly extraction.",
-        "source": "https://pennwatch.org/pennsylvania-gop-endorses-jason-richey-for-lieutenant-governor-at-winter-meeting/",
-        "date": "2026-02"
-       }
-      ],
-      "guns": {
-       "summary": "His campaign platform pledges to prioritize public safety, support law enforcement, and defend constitutional rights and liberties; on chairing the Board of Pardons, he has said an applicant's history of violent behavior would be a guiding principle because public safety comes first.",
-       "short": "Prioritize public safety, support law enforcement, defend constitutional rights.",
-       "source": "https://www.spotlightpa.org/news/2026/04/pennsylvania-primary-election-lieutenant-governor-guide-davis-richey-ventre-elections/",
-       "date": "2026-04"
-      }
-     }
-    },
-    {
-     "name": "Craig Joseph Bolton",
-     "party": "Green",
-     "partyCode": "GRN",
-     "county": "Philadelphia",
-     "cfUrl": "https://www.campaignfinanceonline.pa.gov/Pages/CFAnnualTotals.aspx?Filer=2026C1454",
-     "website": "https://www.dastraforpa.org/",
-     "positions": {
-      "economy": {
-       "summary": "Says he is especially interested in the Green Party's Social Justice pillar, which he describes as calling for a living wage and a real safety net, and says his work focuses on strengthening the material conditions of working people.",
-       "short": "Endorses living wage and a real safety net for workers.",
-       "source": "https://www.dastraforpa.org/press-releases/craig-bolton-is-the-green-party-candidate-for-pa-lt-governor",
-       "date": "2026-04"
-      },
-      "taxes": {
-       "summary": "The Dastra-Bolton campaign platform calls for eliminating working-class property taxes and reducing the gas tax.",
-       "short": "Platform calls for eliminating working-class property taxes, reducing gas tax.",
-       "source": "https://www.dastraforpa.org/",
-       "date": "2026-07"
-      },
-      "healthcare": [
-       {
-        "summary": "The Dastra-Bolton campaign platform calls for breaking up healthcare monopolies.",
-        "short": "Platform calls for breaking up healthcare monopolies.",
-        "source": "https://www.dastraforpa.org/",
-        "date": "2026-07"
-       },
-       {
-        "summary": "Says he will work to raise awareness of the need for universal single-payer healthcare in Pennsylvania.",
-        "short": "Supports universal single-payer healthcare in Pennsylvania.",
-        "source": "https://www.dastraforpa.org/press-releases/craig-bolton-is-the-green-party-candidate-for-pa-lt-governor",
-        "date": "2026-04"
-       }
-      ],
-      "education": {
-       "summary": "Says there are organized efforts by Republicans to withhold state resources from Philadelphia, particularly education and transit system funds.",
-       "short": "Criticizes withholding of state education funds from Philadelphia.",
-       "source": "https://www.gpofpa.org/green_party_candidates_will_clean_up_pennsylvania",
-       "date": "2026-05"
       }
      }
     }
@@ -4253,6 +4369,40 @@ window.BALLOT_DATA = {
    "office": "Pennsylvania State Senate",
    "district": "50th Senatorial District",
    "candidates": [
+    {
+     "name": "Sue Ann Mulvey",
+     "party": "Democratic",
+     "partyCode": "DEM",
+     "county": "Mercer",
+     "cfUrl": "https://www.campaignfinanceonline.pa.gov/Pages/CFAnnualTotals.aspx?Filer=2026C1417",
+     "website": "https://sueannmulvey.wixsite.com/sue-for-senate",
+     "positions": {
+      "economy": {
+       "summary": "Mulvey lists strengthening local businesses among her campaign priorities, and her campaign site says she will fight for better jobs in the district.",
+       "short": "Strengthen local businesses; fight for better jobs.",
+       "source": "https://www.ncnewsonline.com/news/local_news/mulvey-secures-dem-nomination-for-state-senate-race/article_e4e89442-f57d-477b-9d28-7ae7e41d98d3.html",
+       "date": "2026-06"
+      },
+      "taxes": {
+       "summary": "Mulvey lists lower taxes among her stated campaign priorities.",
+       "short": "Lists lower taxes among her campaign priorities.",
+       "source": "https://www.ncnewsonline.com/news/local_news/mulvey-secures-dem-nomination-for-state-senate-race/article_e4e89442-f57d-477b-9d28-7ae7e41d98d3.html",
+       "date": "2026-06"
+      },
+      "education": {
+       "summary": "Mulvey lists supporting public education among her campaign priorities.",
+       "short": "Lists supporting public education among her priorities.",
+       "source": "https://www.ncnewsonline.com/news/local_news/mulvey-secures-dem-nomination-for-state-senate-race/article_e4e89442-f57d-477b-9d28-7ae7e41d98d3.html",
+       "date": "2026-06"
+      },
+      "healthcare": {
+       "summary": "Mulvey, a registered nurse and school nurse, lists protecting rural healthcare among her campaign priorities; her campaign site says she will fight for affordable access to quality, local healthcare.",
+       "short": "Protect rural healthcare; fight for affordable local healthcare access.",
+       "source": "https://www.ncnewsonline.com/news/local_news/mulvey-secures-dem-nomination-for-state-senate-race/article_e4e89442-f57d-477b-9d28-7ae7e41d98d3.html",
+       "date": "2026-06"
+      }
+     }
+    },
     {
      "name": "Michele Brooks",
      "party": "Republican",
@@ -6428,270 +6578,6 @@ window.BALLOT_DATA = {
     }
    ]
   },
-  "STATEWIDE-GOV": {
-   "office": "Governor",
-   "district": "Statewide",
-   "candidates": [
-    {
-     "name": "Joshua D. Shapiro",
-     "party": "Democratic",
-     "partyCode": "DEM",
-     "county": "Montgomery",
-     "cfUrl": "https://www.campaignfinanceonline.pa.gov/Pages/CFAnnualTotals.aspx?Filer=2026C0403",
-     "website": "https://joshshapiro.org/",
-     "ballotpedia": "https://ballotpedia.org/Josh_Shapiro",
-     "positions": {
-      "economy": [
-       {
-        "summary": "His 2026-27 budget address centered on affordability, calling on the legislature to raise the state minimum wage from $7.25 to $15 per hour by January 2027; his administration cites over 21,500 jobs created and more than $39 billion in private-sector investment since he took office.",
-        "short": "Raise the minimum wage to $15/hr by Jan 2027; cites job growth and private investment.",
-        "source": "https://www.pa.gov/governor/newsroom/2026-press-releases/gov-shapiro-2026-27-budget-proposal-to-keep-doing-what-s-working",
-        "date": "2026-02"
-       },
-       {
-        "summary": "In January 2026 announced Eli Lilly's plan to build a $3.5 billion pharmaceutical manufacturing plant in Lehigh County, citing it as part of his administration's economic development record.",
-        "short": "Announced Eli Lilly's $3.5 billion Lehigh County pharmaceutical plant.",
-        "source": "https://www.spotlightpa.org/news/2026/04/pennsylvania-primary-election-josh-shapiro-governor-guide-elections/",
-        "date": "2026-01"
-       }
-      ],
-      "taxes": [
-       {
-        "summary": "His $53.2 billion 2026-27 budget proposal would increase spending about 5.4% without raising income or sales taxes, funded in part by taxing skill games, legalizing and taxing recreational marijuana, and closing a corporate tax loophole used by multistate companies.",
-        "short": "No income or sales tax increases; fund budget via skill games, marijuana legalization, closing a corporate loophole.",
-        "source": "https://www.spotlightpa.org/news/2026/02/josh-shapiro-budget-address-school-marijuana-minimum-wage-capitol/",
-        "date": "2026-02"
-       },
-       {
-        "summary": "Signed a 2025-26 state budget establishing the Working Pennsylvanians Tax Credit, a state earned income tax credit worth up to $805 per person.",
-        "short": "Signed budget creating Working Pennsylvanians Tax Credit, up to $805 per person.",
-        "source": "https://www.spotlightpa.org/news/2026/04/pennsylvania-primary-election-josh-shapiro-governor-guide-elections/",
-        "date": "2025-11"
-       }
-      ],
-      "abortion": [
-       {
-        "summary": "Supports maintaining legal abortion access in Pennsylvania and has pledged to veto further restrictions; declined to defend the state's ban on Medicaid coverage for most abortions in court and joined a multistate brief opposing restrictions on mailing mifepristone.",
-        "short": "Supports legal abortion access; pledges to veto further restrictions.",
-        "source": "https://www.spotlightpa.org/news/2026/06/josh-shapiro-stacy-garrity-abortion-access-medicaid-guide-governor-race-elections/",
-        "date": "2026-06"
-       },
-       {
-        "summary": "During his 2022 campaign for governor, promised to veto any law 'undermining a woman's right to choose,' including early-term bans similar to the Texas law.",
-        "short": "Promised in 2022 to veto any law undermining abortion rights.",
-        "source": "https://www.statecollege.com/articles/elections/pa-election-2026-where-governor-candidates-garrity-and-shapiro-stand-on-abortion/",
-        "date": "2022-09"
-       }
-      ],
-      "education": [
-       {
-        "summary": "His 2026-27 budget proposes $565 million to continue closing the adequacy funding gap among the state's poorest public schools, plus $50 million increases each for basic and special education, after K-12 funding rose nearly 30% in his first term.",
-        "short": "$565M more toward underfunded public schools, plus basic and special ed increases.",
-        "source": "https://whyy.org/articles/pennsylvania-budget-josh-shapiro-education-minimum-wage/",
-        "date": "2026-02"
-       },
-       {
-        "summary": "In 2023 supported a $100 million private school voucher program during budget negotiations, then line-item vetoed the funding after House Democrats opposed it.",
-        "short": "Backed a $100 million voucher program in 2023, then vetoed the funding.",
-        "source": "https://www.spotlightpa.org/news/2026/04/pennsylvania-primary-election-josh-shapiro-governor-guide-elections/",
-        "date": "2023-08"
-       }
-      ],
-      "healthcare": [
-       {
-        "summary": "Has directed state funding to rural hospitals facing cuts or closure, secured $193 million in federal funding for a five-year Rural Health Transformation Plan, and publicly opposes federal Medicaid cuts he says would reduce coverage for hundreds of thousands of Pennsylvanians.",
-        "short": "Funds rural hospitals; opposes federal Medicaid cuts.",
-        "source": "https://www.spotlightpa.org/statecollege/2026/04/garrity-shapiro-pennsylvania-governor-race-2026-broadband-data-centers-medicaid-rural-issues/",
-        "date": "2026-04"
-       },
-       {
-        "summary": "His 2026-27 budget proposes increased funding for county mental health programs and substance use disorder treatment, continued investment in the 988 mental health hotline, and expanded maternal health initiatives.",
-        "short": "Proposes more county mental health, 988 hotline, maternal health funding.",
-        "source": "https://whyy.org/articles/pennsylvania-budget-josh-shapiro-education-minimum-wage/",
-        "date": "2026-02"
-       },
-       {
-        "summary": "Signed legislation regulating pharmacy benefit managers, with stated goals of lowering out-of-pocket prescription costs and increasing drug price transparency.",
-        "short": "Signed pharmacy benefit manager regulation to lower prescription costs.",
-        "source": "https://www.pa.gov/governor/accomplishments/healthcare",
-        "date": "2024-07"
-       }
-      ],
-      "energy": [
-       {
-        "summary": "Created GRID (Governor's Responsible Infrastructure Development) standards for data centers, which call on developers to provide their own power generation and meet environmental protections.",
-        "short": "Created GRID standards requiring data center developers to provide power generation.",
-        "source": "https://www.spotlightpa.org/news/2026/04/pennsylvania-primary-election-josh-shapiro-governor-guide-elections/",
-        "date": "2026-04"
-       },
-       {
-        "summary": "Withdrew Pennsylvania from the Regional Greenhouse Gas Initiative in late 2025 as part of budget negotiations, and unveiled a state-level cap-and-trade program that would require legislative approval.",
-        "short": "Withdrew PA from RGGI; unveiled state cap-and-trade proposal.",
-        "source": "https://www.spotlightpa.org/news/2026/04/pennsylvania-primary-election-josh-shapiro-governor-guide-elections/",
-        "date": "2025-11"
-       },
-       {
-        "summary": "His 'Lightning Plan' proposes a state cap-and-invest carbon emissions program (PACER), an updated clean-energy supply standard (PRESS), faster permitting for energy projects, and expanded energy tax credits, with stated goals of lowering electricity bills and adding in-state power generation.",
-        "short": "Cap-and-invest carbon program, clean-energy standard, faster permitting ('Lightning Plan').",
-        "source": "https://environmentamerica.org/pennsylvania/articles/gov-shapiro-unveiled-his-lightning-plan-what-is-it-what-does-it-mean-for-pa/",
-        "date": "2025-01"
-       }
-      ],
-      "guns": {
-       "summary": "Established a Pennsylvania Office of Gun Violence Prevention and supports universal background checks, closing the gun-show loophole, banning untraceable ghost-gun parts, and red-flag laws, while also funding additional state police officers and community violence intervention programs.",
-       "short": "Supports universal background checks and red-flag laws; created Office of Gun Violence Prevention.",
-       "source": "https://www.pa.gov/governor/accomplishments/public-safety",
-       "date": "2026-07"
-      }
-     }
-    },
-    {
-     "name": "Stacy Lorraine Garrity",
-     "party": "Republican",
-     "partyCode": "REP",
-     "county": "Bradford",
-     "cfUrl": "https://www.campaignfinanceonline.pa.gov/Pages/CFAnnualTotals.aspx?Filer=2026C0735",
-     "website": "https://garrityforpa.com/",
-     "ballotpedia": "https://ballotpedia.org/Stacy_Garrity",
-     "positions": {
-      "economy": [
-       {
-        "summary": "Says expanding Pennsylvania's natural gas industry is central to lowering energy costs and creating jobs; supports bringing manufacturing jobs back from overseas and creating a farmer-focused office to streamline agricultural permits.",
-        "short": "Expand natural gas to lower costs and create jobs; bring manufacturing back.",
-        "source": "https://www.spotlightpa.org/news/2026/04/pennsylvania-primary-election-stacy-garrity-governor-guide-elections/",
-        "date": "2026-04"
-       },
-       {
-        "summary": "In a January 2026 Pennsylvania Press Club speech, said Pennsylvania is in the bottom tier of states for economic performance and growth and above average for family and business tax burdens, and said the state must tear down these barriers to economic opportunity, citing priorities of lowering property taxes for seniors and helping young people afford a first home.",
-        "short": "Says PA ranks in the bottom tier for growth; must tear down barriers to economic opportunity.",
-        "source": "https://www.lockhaven.com/news/local-news/2026/04/pa-primary-election-2026-your-complete-guide-to-republican-stacy-garrity-in-the-race-for-governor/",
-        "date": "2026-01"
-       },
-       {
-        "summary": "In a September 2025 interview, said Pennsylvania is 'right near the bottom on our economy' with one of the highest tax burdens in the country, and said she would lower taxes and bring more jobs to the state.",
-        "short": "Says PA is near the bottom on economy; would lower taxes, bring jobs.",
-        "source": "https://www.cityandstatepa.com/politics/2025/09/pennsylvanians-deserve-better-q-2026-gubernatorial-candidate-stacy-garrity/408172/",
-        "date": "2025-09"
-       }
-      ],
-      "taxes": [
-       {
-        "summary": "Her campaign platform proposes reducing property taxes by one-third within two years and rolling back or eliminating the gross receipts tax on utilities and ending tax stacking on energy bills, which she says would cut utility bills by 15-25%.",
-        "short": "Proposes cutting property taxes by one-third; roll back utility gross receipts tax.",
-        "source": "https://garrityforpa.com/turnaroundpa/",
-        "date": "2026-08"
-       },
-       {
-        "summary": "Prioritizes lowering property taxes for seniors and eliminating the inheritance tax for farmers; opposes drawing down the state's rainy day fund, warning depletion would lead to tax increases, and cites roughly $200 million in taxpayer savings from cutting fraud and inefficiency as treasurer.",
-        "short": "Lower property taxes for seniors, end inheritance tax for farmers; protect the rainy day fund.",
-        "source": "https://www.spotlightpa.org/news/2026/04/pennsylvania-primary-election-stacy-garrity-governor-guide-elections/",
-        "date": "2026-04"
-       },
-       {
-        "summary": "In a September 2025 interview, said 'We need to lower taxes, because Pennsylvanians are paying too much and getting too little.'",
-        "short": "Says Pennsylvanians pay too much; the state needs to lower taxes.",
-        "source": "https://www.cityandstatepa.com/politics/2025/09/pennsylvanians-deserve-better-q-2026-gubernatorial-candidate-stacy-garrity/408172/",
-        "date": "2025-09"
-       }
-      ],
-      "abortion": [
-       {
-        "summary": "Describes herself as pro-life with exceptions for rape, incest, and the life of the mother; says she would respect Pennsylvania's current abortion law and would not back a ban, criticized a court ruling allowing Medicaid funds to cover abortion care, and says changes to the 24-week limit would be up to the legislature.",
-        "short": "Pro-life with exceptions; says she would respect current PA law and not back a ban.",
-        "source": "https://www.spotlightpa.org/news/2026/06/josh-shapiro-stacy-garrity-abortion-access-medicaid-guide-governor-race-elections/",
-        "date": "2026-06"
-       },
-       {
-        "summary": "Told NBC10 in April 2026 that she would not support an abortion ban, saying 'Pennsylvania, right now, is in a decent place.'",
-        "short": "Told NBC10 she would not support an abortion ban.",
-        "source": "https://www.statecollege.com/articles/elections/pa-election-2026-where-governor-candidates-garrity-and-shapiro-stand-on-abortion/",
-        "date": "2026-04"
-       },
-       {
-        "summary": "Celebrated the U.S. Supreme Court's 2022 decision overturning Roe v. Wade, and her campaign sold 'Defund Planned Parenthood' merchandise at the time.",
-        "short": "Celebrated the 2022 decision overturning Roe v. Wade.",
-        "source": "https://www.witf.org/2026/06/12/pa-election-2026-where-governor-candidates-garrity-and-shapiro-stand-on-abortion/",
-        "date": "2022-06"
-       }
-      ],
-      "education": [
-       {
-        "summary": "Her campaign platform proposes implementing Lifeline Scholarships, expanding existing scholarship programs, and opting Pennsylvania into the federal education tax credit program; says the state spends more than $23,000 per student while outcomes are declining.",
-        "short": "Proposes Lifeline Scholarships, expanded scholarships, federal education tax credit opt-in.",
-        "source": "https://garrityforpa.com/turnaroundpa/",
-        "date": "2026-08"
-       },
-       {
-        "summary": "Supports school choice, saying parents rather than bureaucrats should decide how children are educated regardless of ZIP code; backs charter schools, cyber charters, private schools, and scholarship programs, and says the cyber charter funding formula should be examined because those schools vary in quality.",
-        "short": "Supports school choice: charters, cyber charters, private-school scholarships.",
-        "source": "https://www.spotlightpa.org/news/2026/04/pennsylvania-primary-election-stacy-garrity-governor-guide-elections/",
-        "date": "2026-04"
-       },
-       {
-        "summary": "In a September 2025 interview, said she wants to 'put parents in the driver's seat of their kids' education' and that parents, not bureaucrats, should decide where their kids go to school.",
-        "short": "Wants parents, not bureaucrats, deciding where kids go to school.",
-        "source": "https://www.cityandstatepa.com/politics/2025/09/pennsylvanians-deserve-better-q-2026-gubernatorial-candidate-stacy-garrity/408172/",
-        "date": "2025-09"
-       }
-      ],
-      "healthcare": {
-       "summary": "Proposes raising rural Medicaid reimbursement rates for specialties such as maternity care, declaring a Rural Health Emergency to secure federal funding for rural OB-GYN recruitment, directing opioid settlement money toward maternal addiction care, and considering medical liability reform for rural doctors.",
-       "short": "Raise rural Medicaid rates; declare a Rural Health Emergency for maternity care.",
-       "source": "https://www.spotlightpa.org/statecollege/2026/04/garrity-shapiro-pennsylvania-governor-race-2026-broadband-data-centers-medicaid-rural-issues/",
-       "date": "2026-04"
-      },
-      "energy": [
-       {
-        "summary": "Has laid out a natural-gas-first energy plan including a Day One executive order lifting the ban on new drilling sites, a special legislative session to fast-track permits for gas production, pipelines, and power plants, and rolling back energy mandates; says the plan could create over 200,000 jobs, and has criticized Pennsylvania's participation in the RGGI carbon program.",
-        "short": "Natural-gas-first plan: lift drilling ban, fast-track permits; opposes RGGI carbon program.",
-        "source": "https://penncapital-star.com/economy/garrity-lays-out-plan-to-unleash-the-commonwealths-natural-gas-industry/",
-        "date": "2026-06"
-       },
-       {
-        "summary": "At a September 2025 campaign stop, said Pennsylvania's energy industry is 'being strangled by overregulation,' pledged 'When I am governor, I will unleash Pennsylvania energy responsibly,' and described supporting an all-of-the-above energy approach.",
-        "short": "Says energy industry is strangled by overregulation; will unleash it responsibly.",
-        "source": "https://www.wesanews.org/politics-government/2025-09-23/in-north-hills-gops-garrity-blasts-shapiro-pledges-to-do-more-for-pa-as-governor",
-        "date": "2025-09"
-       }
-      ],
-      "guns": {
-       "summary": "Identifies as a strong supporter of Second Amendment rights and has backed legislation to expand concealed-carry rights, including a bill to allow concealed carry without a license.",
-       "short": "Strong Second Amendment supporter; backed permitless concealed carry.",
-       "source": "https://www.politicspa.com/elections/candidates/stacy-garrity",
-       "date": "2026-07"
-      }
-     }
-    },
-    {
-     "name": "Anthony James Dastra",
-     "party": "Green",
-     "partyCode": "GRN",
-     "county": "Lancaster",
-     "cfUrl": "https://www.campaignfinanceonline.pa.gov/Pages/CFAnnualTotals.aspx?Filer=2026C1455",
-     "website": "https://www.dastraforpa.org/",
-     "positions": {
-      "taxes": {
-       "summary": "Proposes eliminating property taxes for working-class residents and reducing the state gas tax; both are listed as planks on his campaign website.",
-       "short": "Proposes eliminating working-class property taxes and reducing gas tax.",
-       "source": "https://www.dastraforpa.org/",
-       "date": "2026-08"
-      },
-      "healthcare": {
-       "summary": "Proposes breaking up healthcare monopolies, a plank listed on his campaign website.",
-       "short": "Proposes breaking up healthcare monopolies.",
-       "source": "https://www.dastraforpa.org/",
-       "date": "2026-08"
-      },
-      "energy": {
-       "summary": "Says the fossil fuel industry is polluting Pennsylvania's air, soil, and water, and criticizes fracking's contamination of well water in Dimock. Opposes new data centers, citing their energy consumption and pollution of land and drinking water.",
-       "short": "Opposes new data centers; says fossil fuel industry pollutes air, water.",
-       "source": "https://www.gpofpa.org/green_party_candidates_will_clean_up_pennsylvania",
-       "date": "2026-05"
-      }
-     }
-    }
-   ]
-  },
   "HD-58": {
    "office": "Pennsylvania State House",
    "district": "58th Legislative District",
@@ -6834,6 +6720,295 @@ window.BALLOT_DATA = {
        "short": "Authored bill raising penalties for Protection from Abuse violations.",
        "source": "https://www.pahouse.com/InTheNews/NewsRelease/?id=142110",
        "date": "2026-02"
+      }
+     }
+    },
+    {
+     "name": "Cynthia P. Ward",
+     "party": "Republican",
+     "partyCode": "REP",
+     "county": "Cumberland",
+     "cfUrl": "https://www.campaignfinanceonline.pa.gov/Pages/CFAnnualTotals.aspx?Filer=2026C1434",
+     "positions": {
+      "economy": {
+       "summary": "In her 2024 Ballotpedia Candidate Connection survey, Ward said she would promote policies that stimulate growth and create opportunities for all residents, and would attract businesses and jobs by streamlining the regulatory process and cutting red tape.",
+       "short": "Promote growth, attract jobs by streamlining regulation, cutting red tape.",
+       "source": "https://ballotpedia.org/Cindi_Ward",
+       "date": "2024-10"
+      },
+      "taxes": {
+       "summary": "Ward said she would lower taxes and inflation by reallocating taxpayer dollars to effective programs and reducing unnecessary spending. She also said financial transparency about how government spends taxpayer money is crucial and advocates open financial reporting.",
+       "short": "Lower taxes by reducing unnecessary spending; advocate open financial reporting.",
+       "source": "https://ballotpedia.org/Cindi_Ward",
+       "date": "2024-10"
+      },
+      "education": {
+       "summary": "Ward, an East Pennsboro Area School District board director, said she would prioritize strong reading programs, advocate for better resources and support for teachers, and emphasize hands-on learning in the curriculum.",
+       "short": "Prioritize reading programs, support teachers, emphasize hands-on learning.",
+       "source": "https://ballotpedia.org/Cindi_Ward",
+       "date": "2024-10"
+      },
+      "healthcare": {
+       "summary": "Ward identified ensuring access to affordable healthcare, especially in rural areas, as a pressing state challenge and said Pennsylvania needs solutions to expand access and improve quality of care for an aging population facing rising costs.",
+       "short": "Expand affordable healthcare access and improve care, especially rural areas.",
+       "source": "https://ballotpedia.org/Cindi_Ward",
+       "date": "2024-10"
+      },
+      "energy": {
+       "summary": "Ward said Pennsylvania must develop strategies to address environmental challenges while balancing economic growth, and that transitioning to clean energy sources and investing in green technologies can create jobs and promote a sustainable future.",
+       "short": "Address environmental challenges balancing growth; transition to clean energy.",
+       "source": "https://ballotpedia.org/Cindi_Ward",
+       "date": "2024-10"
+      }
+     }
+    }
+   ]
+  },
+  "STATEWIDE-LTGOV": {
+   "office": "Lieutenant Governor",
+   "district": "Statewide",
+   "candidates": [
+    {
+     "name": "Austin Davis",
+     "party": "Democratic",
+     "partyCode": "DEM",
+     "county": "Allegheny",
+     "cfUrl": "https://www.campaignfinanceonline.pa.gov/Pages/CFAnnualTotals.aspx?Filer=2026C0092",
+     "website": "https://davisforpa.com/",
+     "ballotpedia": "https://ballotpedia.org/Austin_Davis_(Pennsylvania)",
+     "positions": {
+      "economy": {
+       "summary": "Has made affordability a central campaign theme, touring the state to highlight the administration's efforts to cut taxes, lower costs, and grow the economy, pointing to rising costs of child care, energy, and housing for working families, seniors, and small businesses.",
+       "short": "Affordability focus: cut taxes, lower child care, energy, and housing costs.",
+       "source": "https://www.pa.gov/ltgovernor/newsroom/icymi--lt--governor-wraps-up--putting-more-money-back-in-your-po",
+       "date": "2026-04"
+      },
+      "taxes": {
+       "summary": "Campaigns on the administration's record of cutting taxes while lowering household costs, and backed the 2026-27 Shapiro budget proposal with its investments in afterschool programs, anti-violence organizations, and early childhood education.",
+       "short": "Backs the Shapiro budget: afterschool, anti-violence, early-childhood investments.",
+       "source": "https://www.pa.gov/ltgovernor/newsroom/lt--gov--austin-davis-highlights-new-budget-proposal-s-investmen",
+       "date": "2026-02"
+      },
+      "abortion": [
+       {
+        "summary": "Supports legal abortion access, saying everyone regardless of income deserves access to reproductive healthcare after a court ruling struck down the ban on Medicaid-funded abortions; joined a multi-state Reproductive Freedom Coalition of Democratic lieutenant governors.",
+        "short": "Supports legal abortion access; joined Reproductive Freedom Coalition.",
+        "source": "https://x.com/LGAustinDavis/status/2046249852460273829",
+        "date": "2026-06"
+       },
+       {
+        "summary": "As part of a June 2026 Shapiro administration action on reproductive health care, his office will engage providers and public safety leaders across the state to discuss ways to keep health care workers, patients, and visitors safe at reproductive health care clinics.",
+        "short": "His office will engage providers on reproductive clinic safety.",
+        "source": "https://www.pa.gov/governor/newsroom/2026-press-releases/governor-shapiro-takes-additional-action-to-protect-a-woman-s-ri",
+        "date": "2026-06"
+       }
+      ],
+      "education": [
+       {
+        "summary": "Emphasizes expanding after-school and summer programming, touting increased BOOST grant funding, and says the state needs to keep growing after-school resources and access to mental health support in school districts.",
+        "short": "Expand after-school and summer programs and school mental-health support.",
+        "source": "https://www.wytv.com/news/local-news/lieutenant-governor-tours-local-school-offers-safety-and-support-to-students/",
+        "date": "2026-05"
+       },
+       {
+        "summary": "Visiting BOOST and Violence Intervention and Prevention grant recipients in Erie and Farrell, said the investments are about providing a place where youth feel safe and stay engaged after the school bell rings, and noted proposed 2026-27 budget increases for both programs.",
+        "short": "Says after-school grant investments keep youth safe and engaged.",
+        "source": "https://www.pa.gov/ltgovernor/newsroom/lt--gov--davis-highlights-investments-in-youth-safety-programs",
+        "date": "2026-05"
+       }
+      ],
+      "energy": {
+       "summary": "Says the administration is pursuing an all-of-the-above energy strategy intended to create jobs and bring electricity costs down by producing more energy in Pennsylvania, while protecting consumers.",
+       "short": "All-of-the-above strategy: produce more in-state energy, lower bills.",
+       "source": "https://www.pa.gov/ltgovernor/newsroom/in-fayette-county--lieutenant-governor-davis-focuses-on-energy-c",
+       "date": "2026-06"
+      },
+      "guns": [
+       {
+        "summary": "At a Pottstown roundtable, said violent crime is down statewide because the administration is taking a comprehensive approach of supporting law enforcement, investing in community-led prevention, caring for victims, and addressing root causes of violence, and said the 2026-27 budget continues investments in violence intervention organizations.",
+        "short": "Says comprehensive approach cut violent crime; budget continues prevention investments.",
+        "source": "https://cumberlink.com/news/community/article_ac2ce540-ea43-5990-8e34-98441bb73c86.html",
+        "date": "2026-08"
+       },
+       {
+        "summary": "Makes reducing gun violence a central campaign focus; as chair of the Pennsylvania Commission on Crime and Delinquency he secured increased funding for violence intervention programs and led the relaunch of the state's Office of Gun Violence Prevention.",
+        "short": "Reducing gun violence is a central focus; funded violence intervention programs.",
+        "source": "https://www.spotlightpa.org/news/2026/04/pennsylvania-primary-election-lieutenant-governor-guide-davis-richey-ventre-elections/",
+        "date": "2026-04"
+       },
+       {
+        "summary": "Said the state is taking a holistic approach to gun violence that has to include firearm suicides, which he said represent the majority of gun deaths in Pennsylvania, including investing in mental and behavioral health services and pushing for gun safety laws.",
+        "short": "Says gun-violence approach must include firearm suicides and mental health.",
+        "source": "https://www.pa.gov/ltgovernor/newsroom/lt--gov--austin-davis-leads-conversation-on-reducing-firearm-sui",
+        "date": "2024-09"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Jason L. Richey",
+     "party": "Republican",
+     "partyCode": "REP",
+     "county": "Allegheny",
+     "cfUrl": "https://www.campaignfinanceonline.pa.gov/Pages/CFAnnualTotals.aspx?Filer=2026C0645",
+     "website": "https://richeyforpa.com/",
+     "ballotpedia": "https://ballotpedia.org/Jason_Richey_(Pennsylvania)",
+     "positions": {
+      "economy": [
+       {
+        "summary": "Says he will work to make Pennsylvania more affordable by reducing the tax burden and developing the state's energy resources; pledges to root out waste, fraud, and abuse in state government and cites more than 160,000 state regulatory restrictions as a burden on small businesses.",
+        "short": "Reduce the tax burden, develop energy resources, cut regulations.",
+        "source": "https://www.wesanews.org/wesa-voter-guide/2026-04-20/pa-republican-lieutenant-governor",
+        "date": "2026-04"
+       },
+       {
+        "summary": "At the state Republican Party winter meeting, said Pennsylvania is not meeting its potential and needs change, and pledged to act as a chief operating officer for the state focused on economic metrics and efficiency.",
+        "short": "Says Pennsylvania needs change; pledges to act as state operating officer.",
+        "source": "https://pennwatch.org/pennsylvania-gop-endorses-jason-richey-for-lieutenant-governor-at-winter-meeting/",
+        "date": "2026-02"
+       },
+       {
+        "summary": "Said the problems that prompted his earlier run for governor still exist, saying Pennsylvania has not advanced forward at all.",
+        "short": "Says problems from his earlier run still exist; state hasn't advanced.",
+        "source": "https://www.wesanews.org/politics-government/2026-01-30/garrity-richey-challenge-shapiro-davis",
+        "date": "2026-01"
+       }
+      ],
+      "taxes": [
+       {
+        "summary": "Has said he opposes income taxes, arguing they penalize work; in his earlier gubernatorial run he proposed eliminating Pennsylvania's 3.07% personal income tax in favor of sales and transfer taxes, and his campaign pledges to protect taxpayers from what it calls reckless spending.",
+        "short": "Opposes income taxes; previously proposed eliminating PA's 3.07% income tax.",
+        "source": "https://www.spotlightpa.org/news/2026/04/pennsylvania-primary-election-lieutenant-governor-guide-davis-richey-ventre-elections/",
+        "date": "2026-04"
+       },
+       {
+        "summary": "At the state Republican Party winter meeting, reiterated his proposal to eliminate the state's personal income tax, saying it would attract new residents and businesses.",
+        "short": "Reiterates eliminating state personal income tax to attract residents, businesses.",
+        "source": "https://pennwatch.org/pennsylvania-gop-endorses-jason-richey-for-lieutenant-governor-at-winter-meeting/",
+        "date": "2026-02"
+       },
+       {
+        "summary": "Said he would support policies to increase energy production to drive up state revenue, allowing for decreases in property and income taxes as a result.",
+        "short": "Supports energy-driven revenue growth allowing property and income tax decreases.",
+        "source": "https://www.wesanews.org/politics-government/2026-01-30/garrity-richey-challenge-shapiro-davis",
+        "date": "2026-01"
+       }
+      ],
+      "abortion": {
+       "summary": "Has previously described himself as a pro-life candidate and said he would support changing state abortion policy; declined to discuss the issue in a January 2026 interview after joining the Garrity ticket.",
+       "short": "Previously described himself as pro-life; declined recent comment.",
+       "source": "https://www.wesanews.org/politics-government/2026-01-30/garrity-richey-challenge-shapiro-davis",
+       "date": "2026-01"
+      },
+      "education": [
+       {
+        "summary": "Along with running mate Stacy Garrity, said he favors school choice to allow parents to decide the best educational opportunity and format for their children.",
+        "short": "Favors school choice so parents decide children's educational format.",
+        "source": "https://www.wcexaminer.com/2026/07/31/gop-nominees-garrity-richey-describe-their-platform/",
+        "date": "2026-07"
+       },
+       {
+        "summary": "Has previously advocated increasing alternatives to traditional public schools, supporting expanded school choice options for families.",
+        "short": "Supports expanded school choice alternatives.",
+        "source": "https://www.spotlightpa.org/news/2026/04/pennsylvania-primary-election-lieutenant-governor-guide-davis-richey-ventre-elections/",
+        "date": "2026-04"
+       }
+      ],
+      "energy": [
+       {
+        "summary": "Describing the ticket's platform, said unleashing energy production, particularly natural gas extraction, should be a top priority for the state.",
+        "short": "Says unleashing energy production, especially natural gas, is top priority.",
+        "source": "https://www.wcexaminer.com/2026/07/31/gop-nominees-garrity-richey-describe-their-platform/",
+        "date": "2026-07"
+       },
+       {
+        "summary": "Centers his campaign on expanding Pennsylvania natural gas production and export infrastructure through private industry, saying development could generate billions in revenue and hundreds of thousands of jobs.",
+        "short": "Expand natural gas production and exports via private industry.",
+        "source": "https://richeyforpa.com/",
+        "date": "2026-06"
+       },
+       {
+        "summary": "At the state Republican Party winter meeting, pledged to help unleash Pennsylvania's natural gas potential, advocating extraction of resources in what he called an environmentally friendly fashion.",
+        "short": "Pledges to unleash natural gas potential with environmentally friendly extraction.",
+        "source": "https://pennwatch.org/pennsylvania-gop-endorses-jason-richey-for-lieutenant-governor-at-winter-meeting/",
+        "date": "2026-02"
+       }
+      ],
+      "guns": {
+       "summary": "His campaign platform pledges to prioritize public safety, support law enforcement, and defend constitutional rights and liberties; on chairing the Board of Pardons, he has said an applicant's history of violent behavior would be a guiding principle because public safety comes first.",
+       "short": "Prioritize public safety, support law enforcement, defend constitutional rights.",
+       "source": "https://www.spotlightpa.org/news/2026/04/pennsylvania-primary-election-lieutenant-governor-guide-davis-richey-ventre-elections/",
+       "date": "2026-04"
+      }
+     }
+    },
+    {
+     "name": "John C. Thomas",
+     "party": "Libertarian",
+     "partyCode": "LIB",
+     "county": "Armstrong",
+     "cfUrl": "https://www.campaignfinanceonline.pa.gov/Pages/CFAnnualTotals.aspx?Filer=2026C1457",
+     "website": "https://www.kenk4pa.com/",
+     "positions": {
+      "economy": [
+       {
+        "summary": "Criticized regulations he says make housing more expensive amid an affordability crisis, and pointed to his Habitat for Humanity board work putting people into homes.",
+        "short": "Says regulations make housing more expensive; cites Habitat work.",
+        "source": "https://www.indianagazette.com/local_news/thomas-tries-again-for-statewide-office-as-libertarian-choice-for-lieutenant-governor/article_98040611-59ff-46e0-b1f5-9a758518a828.html",
+        "date": "2026-03"
+       },
+       {
+        "summary": "Says government money printing drives up prices and makes it harder for families across the Commonwealth to plan for their future; names sound money as a central campaign issue.",
+        "short": "Says money printing drives up prices; backs sound money.",
+        "source": "https://news.lp.org/meet-john-thomas-libertarian-candidate-for-us-senate-in-pennsylvania/",
+        "date": "2024-07"
+       }
+      ],
+      "taxes": [
+       {
+        "summary": "As part of the Krawchuk-Thomas ticket, says the campaign will focus on eliminating Pennsylvania's property tax and opposing tax increases and government waste.",
+        "short": "Ticket campaigns to eliminate property tax, oppose tax increases.",
+        "source": "https://www.kenk4pa.com/ballot-certified/",
+        "date": "2026-08"
+       },
+       {
+        "summary": "Cites Ross Perot's balanced-budget movement as a model for forcing politicians to take sound financial management seriously.",
+        "short": "Cites Perot balanced-budget movement as fiscal management model.",
+        "source": "https://news.lp.org/meet-john-thomas-libertarian-candidate-for-us-senate-in-pennsylvania/",
+        "date": "2024-07"
+       }
+      ],
+      "abortion": {
+       "summary": "In the Pittsburgh City Paper's 2024 U.S. Senate election guide, Thomas identified as pro-life and criticized voters who supported Roe v. Wade while not opposing vaccine mandates.",
+       "short": "Identifies as pro-life; criticized Roe supporters over vaccine mandates.",
+       "source": "https://www.pghcitypaper.com/specials-guides/election-guide-2024-us-senate-26856924/",
+       "date": "2024-10"
+      },
+      "education": [
+       {
+        "summary": "Says he will campaign alongside gubernatorial running mate Ken Krawchuk on what he calls a great plan to grow school choice throughout the Commonwealth.",
+        "short": "Backs Krawchuk plan to grow school choice statewide.",
+        "source": "https://www.leadertimes.com/news/kittanning-man-wins-nomination-for-lieutenant-governor/article_a92b7a07-2ddc-4078-b5e0-08ba991fbfb7.html",
+        "date": "2026-03"
+       },
+       {
+        "summary": "In his 2023 school board race he ran on offering alternatives to public schools; he has worked across public, private, and charter school settings for two decades.",
+        "short": "Ran on offering alternatives to public schools.",
+        "source": "https://www.spotlightpa.org/news/2024/09/pennsylvania-election-2024-us-senate-candidates-bob-casey-dave-mccormick-third-parties/",
+        "date": "2024-09"
+       }
+      ],
+      "healthcare": {
+       "summary": "His 2024 U.S. Senate platform opposed puberty blockers for minors, stating that children's capacity to provide informed consent is limited, and called for privatizing regulatory agencies.",
+       "short": "Opposed puberty blockers for minors; privatize regulatory agencies.",
+       "source": "https://www.branch.vote/races/2024-pennsylvania-general-election-pa-state-us-senator-pa-state/candidates/john-c-thomas-jr",
+       "date": "2024-09"
+      },
+      "guns": {
+       "summary": "Advocates releasing people incarcerated for victimless crimes, citing U.S. incarceration rates, and notes the lieutenant governor's role as chair of Pennsylvania's Board of Pardons.",
+       "short": "Advocates releasing people incarcerated for victimless crimes via pardons.",
+       "source": "https://www.leadertimes.com/news/kittanning-man-wins-nomination-for-lieutenant-governor/article_a92b7a07-2ddc-4078-b5e0-08ba991fbfb7.html",
+       "date": "2026-03"
       }
      }
     }
@@ -9592,6 +9767,86 @@ window.BALLOT_DATA = {
     }
    ]
   },
+  "HD-7": {
+   "office": "Pennsylvania State House",
+   "district": "7th Legislative District",
+   "candidates": [
+    {
+     "name": "Christopher Anthony-Michael Ford",
+     "party": "Democratic",
+     "partyCode": "DEM",
+     "county": "Mercer",
+     "cfUrl": "https://www.campaignfinanceonline.pa.gov/Pages/CFAnnualTotals.aspx?Filer=2026C1418",
+     "positions": {
+      "economy": {
+       "summary": "Says he plans to support small businesses. Says he is running because Farrell and Sharon are overlooked and the area lacks leadership in Harrisburg.",
+       "short": "Plans to support small businesses; says Farrell and Sharon are overlooked.",
+       "source": "https://www.alliednews.com/news/mercer-county-democrats-gather-nominating-signatures-at-event/article_a5de5151-ddc4-5762-8e21-bd3c46a6a9b5.html",
+       "date": "2026-02"
+      },
+      "education": {
+       "summary": "Says he plans to look at improving the public school system. He has served three years on the Sharon City School Board.",
+       "short": "Plans to look at improving the public school system.",
+       "source": "https://www.alliednews.com/news/mercer-county-democrats-gather-nominating-signatures-at-event/article_a5de5151-ddc4-5762-8e21-bd3c46a6a9b5.html",
+       "date": "2026-02"
+      },
+      "guns": {
+       "summary": "Lists community safety and criminal reform among the priorities he plans to pursue, along with strengthening senior services. He has not made a specific statement on firearms.",
+       "short": "Lists community safety and criminal reform among his priorities.",
+       "source": "https://www.alliednews.com/news/mercer-county-democrats-gather-nominating-signatures-at-event/article_a5de5151-ddc4-5762-8e21-bd3c46a6a9b5.html",
+       "date": "2026-02"
+      }
+     }
+    },
+    {
+     "name": "Parke H. Wentling",
+     "party": "Republican",
+     "partyCode": "REP",
+     "county": "Mercer",
+     "cfUrl": "https://www.campaignfinanceonline.pa.gov/Pages/CFAnnualTotals.aspx?Filer=2026C0165",
+     "website": "https://electparkewentling.com/",
+     "ballotpedia": "https://ballotpedia.org/Parke_Wentling",
+     "positions": {
+      "economy": {
+       "summary": "His campaign site says he enacted pro-growth policies that enabled the private sector to protect and create family-sustaining jobs.",
+       "short": "Says he enacted pro-growth policies supporting family-sustaining jobs.",
+       "source": "https://electparkewentling.com/priorities/",
+       "date": "2026-07"
+      },
+      "taxes": {
+       "summary": "His campaign site says he passed fiscally responsible balanced budgets that did not increase taxes on working families, and that he opposed former Gov. Wolf's proposed tax increases.",
+       "short": "Says he passed balanced budgets without raising taxes.",
+       "source": "https://electparkewentling.com/priorities/",
+       "date": "2026-07"
+      },
+      "abortion": {
+       "summary": "Voted in July 2022 for Senate Bill 106, a package of proposed state constitutional amendments that included a provision declaring the Pennsylvania Constitution does not grant any right relating to abortion or public funding of abortion.",
+       "short": "Voted for amendment declaring constitution grants no abortion right.",
+       "source": "https://www.palegis.us/house/roll-calls/summary?sessYr=2021&sessInd=0&rcNum=1156",
+       "date": "2022-07"
+      },
+      "education": {
+       "summary": "His official House biography lists investing in the state's education system to build a brighter future for children among his priorities.",
+       "short": "Lists investing in the state education system among priorities.",
+       "source": "https://www.repwentling.com/About",
+       "date": "2026-07"
+      },
+      "energy": {
+       "summary": "His campaign site cites securing funding to improve water quality, infrastructure, trails, and recreation facilities, and establishing a conservation coalition to protect ospreys; it does not state positions on energy policy.",
+       "short": "Cites water-quality and conservation funding; no stated energy policy.",
+       "source": "https://electparkewentling.com/priorities/",
+       "date": "2026-07"
+      },
+      "guns": {
+       "summary": "Voted in May 2023 against House Bill 714, a bill reported as requiring background checks on all firearm sales in Pennsylvania; the bill passed the House 109-92.",
+       "short": "Voted against requiring background checks on all firearm sales.",
+       "source": "https://www.palegis.us/house/roll-calls/summary?sessYr=2023&sessInd=0&rcNum=96",
+       "date": "2023-05"
+      }
+     }
+    }
+   ]
+  },
   "HD-57": {
    "office": "Pennsylvania State House",
    "district": "57th Legislative District",
@@ -10096,6 +10351,318 @@ window.BALLOT_DATA = {
        "source": "https://gambinoforpa.com/guns-safety/",
        "date": "2026-05"
       }
+     }
+    }
+   ]
+  },
+  "STATEWIDE-GOV": {
+   "office": "Governor",
+   "district": "Statewide",
+   "candidates": [
+    {
+     "name": "Joshua D. Shapiro",
+     "party": "Democratic",
+     "partyCode": "DEM",
+     "county": "Montgomery",
+     "cfUrl": "https://www.campaignfinanceonline.pa.gov/Pages/CFAnnualTotals.aspx?Filer=2026C0403",
+     "website": "https://joshshapiro.org/",
+     "ballotpedia": "https://ballotpedia.org/Josh_Shapiro",
+     "positions": {
+      "economy": [
+       {
+        "summary": "His 2026-27 budget address centered on affordability, calling on the legislature to raise the state minimum wage from $7.25 to $15 per hour by January 2027; his administration cites over 21,500 jobs created and more than $39 billion in private-sector investment since he took office.",
+        "short": "Raise the minimum wage to $15/hr by Jan 2027; cites job growth and private investment.",
+        "source": "https://www.pa.gov/governor/newsroom/2026-press-releases/gov-shapiro-2026-27-budget-proposal-to-keep-doing-what-s-working",
+        "date": "2026-02"
+       },
+       {
+        "summary": "In January 2026 announced Eli Lilly's plan to build a $3.5 billion pharmaceutical manufacturing plant in Lehigh County, citing it as part of his administration's economic development record.",
+        "short": "Announced Eli Lilly's $3.5 billion Lehigh County pharmaceutical plant.",
+        "source": "https://www.spotlightpa.org/news/2026/04/pennsylvania-primary-election-josh-shapiro-governor-guide-elections/",
+        "date": "2026-01"
+       }
+      ],
+      "taxes": [
+       {
+        "summary": "His $53.2 billion 2026-27 budget proposal would increase spending about 5.4% without raising income or sales taxes, funded in part by taxing skill games, legalizing and taxing recreational marijuana, and closing a corporate tax loophole used by multistate companies.",
+        "short": "No income or sales tax increases; fund budget via skill games, marijuana legalization, closing a corporate loophole.",
+        "source": "https://www.spotlightpa.org/news/2026/02/josh-shapiro-budget-address-school-marijuana-minimum-wage-capitol/",
+        "date": "2026-02"
+       },
+       {
+        "summary": "Signed a 2025-26 state budget establishing the Working Pennsylvanians Tax Credit, a state earned income tax credit worth up to $805 per person.",
+        "short": "Signed budget creating Working Pennsylvanians Tax Credit, up to $805 per person.",
+        "source": "https://www.spotlightpa.org/news/2026/04/pennsylvania-primary-election-josh-shapiro-governor-guide-elections/",
+        "date": "2025-11"
+       }
+      ],
+      "abortion": [
+       {
+        "summary": "Supports maintaining legal abortion access in Pennsylvania and has pledged to veto further restrictions; declined to defend the state's ban on Medicaid coverage for most abortions in court and joined a multistate brief opposing restrictions on mailing mifepristone.",
+        "short": "Supports legal abortion access; pledges to veto further restrictions.",
+        "source": "https://www.spotlightpa.org/news/2026/06/josh-shapiro-stacy-garrity-abortion-access-medicaid-guide-governor-race-elections/",
+        "date": "2026-06"
+       },
+       {
+        "summary": "During his 2022 campaign for governor, promised to veto any law 'undermining a woman's right to choose,' including early-term bans similar to the Texas law.",
+        "short": "Promised in 2022 to veto any law undermining abortion rights.",
+        "source": "https://www.statecollege.com/articles/elections/pa-election-2026-where-governor-candidates-garrity-and-shapiro-stand-on-abortion/",
+        "date": "2022-09"
+       }
+      ],
+      "education": [
+       {
+        "summary": "His 2026-27 budget proposes $565 million to continue closing the adequacy funding gap among the state's poorest public schools, plus $50 million increases each for basic and special education, after K-12 funding rose nearly 30% in his first term.",
+        "short": "$565M more toward underfunded public schools, plus basic and special ed increases.",
+        "source": "https://whyy.org/articles/pennsylvania-budget-josh-shapiro-education-minimum-wage/",
+        "date": "2026-02"
+       },
+       {
+        "summary": "In 2023 supported a $100 million private school voucher program during budget negotiations, then line-item vetoed the funding after House Democrats opposed it.",
+        "short": "Backed a $100 million voucher program in 2023, then vetoed the funding.",
+        "source": "https://www.spotlightpa.org/news/2026/04/pennsylvania-primary-election-josh-shapiro-governor-guide-elections/",
+        "date": "2023-08"
+       }
+      ],
+      "healthcare": [
+       {
+        "summary": "Has directed state funding to rural hospitals facing cuts or closure, secured $193 million in federal funding for a five-year Rural Health Transformation Plan, and publicly opposes federal Medicaid cuts he says would reduce coverage for hundreds of thousands of Pennsylvanians.",
+        "short": "Funds rural hospitals; opposes federal Medicaid cuts.",
+        "source": "https://www.spotlightpa.org/statecollege/2026/04/garrity-shapiro-pennsylvania-governor-race-2026-broadband-data-centers-medicaid-rural-issues/",
+        "date": "2026-04"
+       },
+       {
+        "summary": "His 2026-27 budget proposes increased funding for county mental health programs and substance use disorder treatment, continued investment in the 988 mental health hotline, and expanded maternal health initiatives.",
+        "short": "Proposes more county mental health, 988 hotline, maternal health funding.",
+        "source": "https://whyy.org/articles/pennsylvania-budget-josh-shapiro-education-minimum-wage/",
+        "date": "2026-02"
+       },
+       {
+        "summary": "Signed legislation regulating pharmacy benefit managers, with stated goals of lowering out-of-pocket prescription costs and increasing drug price transparency.",
+        "short": "Signed pharmacy benefit manager regulation to lower prescription costs.",
+        "source": "https://www.pa.gov/governor/accomplishments/healthcare",
+        "date": "2024-07"
+       }
+      ],
+      "energy": [
+       {
+        "summary": "Created GRID (Governor's Responsible Infrastructure Development) standards for data centers, which call on developers to provide their own power generation and meet environmental protections.",
+        "short": "Created GRID standards requiring data center developers to provide power generation.",
+        "source": "https://www.spotlightpa.org/news/2026/04/pennsylvania-primary-election-josh-shapiro-governor-guide-elections/",
+        "date": "2026-04"
+       },
+       {
+        "summary": "Withdrew Pennsylvania from the Regional Greenhouse Gas Initiative in late 2025 as part of budget negotiations, and unveiled a state-level cap-and-trade program that would require legislative approval.",
+        "short": "Withdrew PA from RGGI; unveiled state cap-and-trade proposal.",
+        "source": "https://www.spotlightpa.org/news/2026/04/pennsylvania-primary-election-josh-shapiro-governor-guide-elections/",
+        "date": "2025-11"
+       },
+       {
+        "summary": "His 'Lightning Plan' proposes a state cap-and-invest carbon emissions program (PACER), an updated clean-energy supply standard (PRESS), faster permitting for energy projects, and expanded energy tax credits, with stated goals of lowering electricity bills and adding in-state power generation.",
+        "short": "Cap-and-invest carbon program, clean-energy standard, faster permitting ('Lightning Plan').",
+        "source": "https://environmentamerica.org/pennsylvania/articles/gov-shapiro-unveiled-his-lightning-plan-what-is-it-what-does-it-mean-for-pa/",
+        "date": "2025-01"
+       }
+      ],
+      "guns": {
+       "summary": "Established a Pennsylvania Office of Gun Violence Prevention and supports universal background checks, closing the gun-show loophole, banning untraceable ghost-gun parts, and red-flag laws, while also funding additional state police officers and community violence intervention programs.",
+       "short": "Supports universal background checks and red-flag laws; created Office of Gun Violence Prevention.",
+       "source": "https://www.pa.gov/governor/accomplishments/public-safety",
+       "date": "2026-07"
+      }
+     }
+    },
+    {
+     "name": "Stacy Lorraine Garrity",
+     "party": "Republican",
+     "partyCode": "REP",
+     "county": "Bradford",
+     "cfUrl": "https://www.campaignfinanceonline.pa.gov/Pages/CFAnnualTotals.aspx?Filer=2026C0735",
+     "website": "https://garrityforpa.com/",
+     "ballotpedia": "https://ballotpedia.org/Stacy_Garrity",
+     "positions": {
+      "economy": [
+       {
+        "summary": "Says expanding Pennsylvania's natural gas industry is central to lowering energy costs and creating jobs; supports bringing manufacturing jobs back from overseas and creating a farmer-focused office to streamline agricultural permits.",
+        "short": "Expand natural gas to lower costs and create jobs; bring manufacturing back.",
+        "source": "https://www.spotlightpa.org/news/2026/04/pennsylvania-primary-election-stacy-garrity-governor-guide-elections/",
+        "date": "2026-04"
+       },
+       {
+        "summary": "In a January 2026 Pennsylvania Press Club speech, said Pennsylvania is in the bottom tier of states for economic performance and growth and above average for family and business tax burdens, and said the state must tear down these barriers to economic opportunity, citing priorities of lowering property taxes for seniors and helping young people afford a first home.",
+        "short": "Says PA ranks in the bottom tier for growth; must tear down barriers to economic opportunity.",
+        "source": "https://www.lockhaven.com/news/local-news/2026/04/pa-primary-election-2026-your-complete-guide-to-republican-stacy-garrity-in-the-race-for-governor/",
+        "date": "2026-01"
+       },
+       {
+        "summary": "In a September 2025 interview, said Pennsylvania is 'right near the bottom on our economy' with one of the highest tax burdens in the country, and said she would lower taxes and bring more jobs to the state.",
+        "short": "Says PA is near the bottom on economy; would lower taxes, bring jobs.",
+        "source": "https://www.cityandstatepa.com/politics/2025/09/pennsylvanians-deserve-better-q-2026-gubernatorial-candidate-stacy-garrity/408172/",
+        "date": "2025-09"
+       }
+      ],
+      "taxes": [
+       {
+        "summary": "Her campaign platform proposes reducing property taxes by one-third within two years and rolling back or eliminating the gross receipts tax on utilities and ending tax stacking on energy bills, which she says would cut utility bills by 15-25%.",
+        "short": "Proposes cutting property taxes by one-third; roll back utility gross receipts tax.",
+        "source": "https://garrityforpa.com/turnaroundpa/",
+        "date": "2026-08"
+       },
+       {
+        "summary": "Prioritizes lowering property taxes for seniors and eliminating the inheritance tax for farmers; opposes drawing down the state's rainy day fund, warning depletion would lead to tax increases, and cites roughly $200 million in taxpayer savings from cutting fraud and inefficiency as treasurer.",
+        "short": "Lower property taxes for seniors, end inheritance tax for farmers; protect the rainy day fund.",
+        "source": "https://www.spotlightpa.org/news/2026/04/pennsylvania-primary-election-stacy-garrity-governor-guide-elections/",
+        "date": "2026-04"
+       },
+       {
+        "summary": "In a September 2025 interview, said 'We need to lower taxes, because Pennsylvanians are paying too much and getting too little.'",
+        "short": "Says Pennsylvanians pay too much; the state needs to lower taxes.",
+        "source": "https://www.cityandstatepa.com/politics/2025/09/pennsylvanians-deserve-better-q-2026-gubernatorial-candidate-stacy-garrity/408172/",
+        "date": "2025-09"
+       }
+      ],
+      "abortion": [
+       {
+        "summary": "Describes herself as pro-life with exceptions for rape, incest, and the life of the mother; says she would respect Pennsylvania's current abortion law and would not back a ban, criticized a court ruling allowing Medicaid funds to cover abortion care, and says changes to the 24-week limit would be up to the legislature.",
+        "short": "Pro-life with exceptions; says she would respect current PA law and not back a ban.",
+        "source": "https://www.spotlightpa.org/news/2026/06/josh-shapiro-stacy-garrity-abortion-access-medicaid-guide-governor-race-elections/",
+        "date": "2026-06"
+       },
+       {
+        "summary": "Told NBC10 in April 2026 that she would not support an abortion ban, saying 'Pennsylvania, right now, is in a decent place.'",
+        "short": "Told NBC10 she would not support an abortion ban.",
+        "source": "https://www.statecollege.com/articles/elections/pa-election-2026-where-governor-candidates-garrity-and-shapiro-stand-on-abortion/",
+        "date": "2026-04"
+       },
+       {
+        "summary": "Celebrated the U.S. Supreme Court's 2022 decision overturning Roe v. Wade, and her campaign sold 'Defund Planned Parenthood' merchandise at the time.",
+        "short": "Celebrated the 2022 decision overturning Roe v. Wade.",
+        "source": "https://www.witf.org/2026/06/12/pa-election-2026-where-governor-candidates-garrity-and-shapiro-stand-on-abortion/",
+        "date": "2022-06"
+       }
+      ],
+      "education": [
+       {
+        "summary": "Her campaign platform proposes implementing Lifeline Scholarships, expanding existing scholarship programs, and opting Pennsylvania into the federal education tax credit program; says the state spends more than $23,000 per student while outcomes are declining.",
+        "short": "Proposes Lifeline Scholarships, expanded scholarships, federal education tax credit opt-in.",
+        "source": "https://garrityforpa.com/turnaroundpa/",
+        "date": "2026-08"
+       },
+       {
+        "summary": "Supports school choice, saying parents rather than bureaucrats should decide how children are educated regardless of ZIP code; backs charter schools, cyber charters, private schools, and scholarship programs, and says the cyber charter funding formula should be examined because those schools vary in quality.",
+        "short": "Supports school choice: charters, cyber charters, private-school scholarships.",
+        "source": "https://www.spotlightpa.org/news/2026/04/pennsylvania-primary-election-stacy-garrity-governor-guide-elections/",
+        "date": "2026-04"
+       },
+       {
+        "summary": "In a September 2025 interview, said she wants to 'put parents in the driver's seat of their kids' education' and that parents, not bureaucrats, should decide where their kids go to school.",
+        "short": "Wants parents, not bureaucrats, deciding where kids go to school.",
+        "source": "https://www.cityandstatepa.com/politics/2025/09/pennsylvanians-deserve-better-q-2026-gubernatorial-candidate-stacy-garrity/408172/",
+        "date": "2025-09"
+       }
+      ],
+      "healthcare": {
+       "summary": "Proposes raising rural Medicaid reimbursement rates for specialties such as maternity care, declaring a Rural Health Emergency to secure federal funding for rural OB-GYN recruitment, directing opioid settlement money toward maternal addiction care, and considering medical liability reform for rural doctors.",
+       "short": "Raise rural Medicaid rates; declare a Rural Health Emergency for maternity care.",
+       "source": "https://www.spotlightpa.org/statecollege/2026/04/garrity-shapiro-pennsylvania-governor-race-2026-broadband-data-centers-medicaid-rural-issues/",
+       "date": "2026-04"
+      },
+      "energy": [
+       {
+        "summary": "Has laid out a natural-gas-first energy plan including a Day One executive order lifting the ban on new drilling sites, a special legislative session to fast-track permits for gas production, pipelines, and power plants, and rolling back energy mandates; says the plan could create over 200,000 jobs, and has criticized Pennsylvania's participation in the RGGI carbon program.",
+        "short": "Natural-gas-first plan: lift drilling ban, fast-track permits; opposes RGGI carbon program.",
+        "source": "https://penncapital-star.com/economy/garrity-lays-out-plan-to-unleash-the-commonwealths-natural-gas-industry/",
+        "date": "2026-06"
+       },
+       {
+        "summary": "At a September 2025 campaign stop, said Pennsylvania's energy industry is 'being strangled by overregulation,' pledged 'When I am governor, I will unleash Pennsylvania energy responsibly,' and described supporting an all-of-the-above energy approach.",
+        "short": "Says energy industry is strangled by overregulation; will unleash it responsibly.",
+        "source": "https://www.wesanews.org/politics-government/2025-09-23/in-north-hills-gops-garrity-blasts-shapiro-pledges-to-do-more-for-pa-as-governor",
+        "date": "2025-09"
+       }
+      ],
+      "guns": {
+       "summary": "Identifies as a strong supporter of Second Amendment rights and has backed legislation to expand concealed-carry rights, including a bill to allow concealed carry without a license.",
+       "short": "Strong Second Amendment supporter; backed permitless concealed carry.",
+       "source": "https://www.politicspa.com/elections/candidates/stacy-garrity",
+       "date": "2026-07"
+      }
+     }
+    },
+    {
+     "name": "Kenneth V Krawchuk",
+     "party": "Libertarian",
+     "partyCode": "LIB",
+     "county": "Montgomery",
+     "cfUrl": "https://www.campaignfinanceonline.pa.gov/Pages/CFAnnualTotals.aspx?Filer=2026C1456",
+     "website": "https://www.kenk4pa.com/",
+     "positions": {
+      "economy": {
+       "summary": "Krawchuk says the cost of government in Pennsylvania has risen faster than inflation for decades and proposes fewer regulations so small businesses can thrive, with lower taxes leaving more money in residents' pockets.",
+       "short": "Proposes fewer regulations on small businesses and lower taxes.",
+       "source": "https://www.kenk4pa.com/",
+       "date": "2026-08"
+      },
+      "taxes": [
+       {
+        "summary": "Krawchuk proposes eliminating the Pennsylvania personal income tax over four years through spending cuts, pledges to veto every tax increase, and supports requiring voter referendums for tax increases.",
+        "short": "Proposes eliminating state income tax; pledges to veto tax increases.",
+        "source": "https://www.kenk4pa.com/issues/taxes/",
+        "date": "2026-08"
+       },
+       {
+        "summary": "He targets about $3.5 billion in spending cuts via line-item vetoes, including subsidies for horse racing, stadiums, films, and coal, and proposes consolidating the cabinet from 24 to 8 positions.",
+        "short": "Proposes $3.5 billion in line-item spending cuts and cabinet consolidation.",
+        "source": "https://www.kenk4pa.com/issues/taxes/",
+        "date": "2026-08"
+       },
+       {
+        "summary": "He proposes eliminating school property taxes entirely, funded by moving students to a private-school system paid from existing state funding.",
+        "short": "Proposes eliminating school property taxes through school privatization plan.",
+        "source": "https://www.kenk4pa.com/issues/education/",
+        "date": "2026-08"
+       }
+      ],
+      "abortion": {
+       "summary": "Krawchuk proposes a \"pro-option\" framework in which a woman who does not want her pregnancy could legally abandon parental rights so others may adopt prenatally, with options including carrying to term at adopters' expense or early delivery; abortion would remain available if no one steps forward. He describes the approach as voluntary, not government coercion.",
+       "short": "Proposes voluntary prenatal-adoption framework; abortion remains available otherwise.",
+       "source": "https://www.kenk4pa.com/issues/abortion/",
+       "date": "2026-08"
+      },
+      "education": {
+       "summary": "Krawchuk proposes privatizing Pennsylvania's public schools, giving every student an approximately $11,500 Education Savings Account funded from existing state money so parents can choose any school, selling public school buildings to private operators, and eliminating school property taxes. A new Scholastic Standards Board would set curriculum standards and testing.",
+       "short": "Proposes privatizing public schools with $11,500 education savings accounts.",
+       "source": "https://www.kenk4pa.com/issues/education/",
+       "date": "2026-08"
+      },
+      "energy": [
+       {
+        "summary": "Krawchuk proposes treating pollution as trespass, holding polluters directly liable for cleanup rather than relying on regulation, and says the fracking boom is good for Pennsylvania, supporting it without new taxes while holding operators liable for waste violations.",
+        "short": "Supports fracking untaxed; proposes treating pollution as liable trespass.",
+        "source": "https://www.kenk4pa.com/issues/environment/",
+        "date": "2026-08"
+       },
+       {
+        "summary": "He proposes eliminating government-granted utility monopolies and deregulating energy so consumers can choose among providers, including green power options.",
+        "short": "Proposes deregulating utilities so consumers choose providers, including green power.",
+        "source": "https://www.kenk4pa.com/issues/environment/",
+        "date": "2026-08"
+       }
+      ],
+      "guns": [
+       {
+        "summary": "Krawchuk opposes gun control, citing the Pennsylvania Constitution's right to bear arms and arguing that armed citizens deter crime; he commits to defending the right to keep and bear arms and opposes additional restrictions.",
+        "short": "Opposes gun control; commits to defending right to bear arms.",
+        "source": "https://www.kenk4pa.com/issues/gun-control/",
+        "date": "2026-08"
+       },
+       {
+        "summary": "On public safety, he proposes eliminating parole for violent offenders so they serve full sentences, and ending civil asset forfeiture without a criminal conviction, which he calls \"legalized theft.\"",
+        "short": "Proposes ending parole for violent offenders and conviction-less asset forfeiture.",
+        "source": "https://www.kenk4pa.com/issues/crime/",
+        "date": "2026-08"
+       }
+      ]
      }
     }
    ]
@@ -12363,64 +12930,6 @@ window.BALLOT_DATA = {
     }
    ]
   },
-  "HD-122": {
-   "office": "Pennsylvania State House",
-   "district": "122nd Legislative District",
-   "candidates": [
-    {
-     "name": "Doyle Heffley",
-     "party": "Republican",
-     "partyCode": "REP",
-     "county": "Carbon",
-     "cfUrl": "https://www.campaignfinanceonline.pa.gov/Pages/CFAnnualTotals.aspx?Filer=2026C0261",
-     "ballotpedia": "https://ballotpedia.org/Doyle_Heffley",
-     "positions": {
-      "economy": {
-       "summary": "In announcing his 2026 reelection bid, said he has sponsored legislation to lower housing costs and reduce regulatory burdens and has worked with state and federal officials to secure grants for communities across Carbon County.",
-       "short": "Sponsored bills to lower housing costs, reduce regulatory burdens.",
-       "source": "https://www.tnonline.com/20260321/heffley-announces-reelection-bid-for-122nd-district/",
-       "date": "2026-03"
-      },
-      "taxes": {
-       "summary": "Pledged in his reelection announcement to continue fighting government waste, fraud and abuse and protecting taxpayers through fiscally responsible budgeting, citing his record of advancing property tax relief while opposing tax increases on families.",
-       "short": "Pledges fiscally responsible budgeting, property tax relief; opposes tax increases.",
-       "source": "https://www.tnonline.com/20260321/heffley-announces-reelection-bid-for-122nd-district/",
-       "date": "2026-03"
-      },
-      "abortion": {
-       "summary": "Voted for Senate Bill 106 of 2022, a proposed package of constitutional amendments that included language stating the Pennsylvania Constitution does not grant any right to abortion or to taxpayer funding of abortion; the measure passed the House 107-92.",
-       "short": "Voted for no-constitutional-right-to-abortion amendment package in 2022.",
-       "source": "https://www.palegis.us/house/roll-calls/summary?sessYr=2021&sessInd=0&rcNum=1156",
-       "date": "2022-07"
-      },
-      "education": {
-       "summary": "Said the November 2025 state budget invests in schools to ensure all students have access to a high-quality education through expanded school choice, scholarships for students in underperforming schools, and funding for the SHINE after-school program.",
-       "short": "Supports expanded school choice, scholarships, after-school program funding.",
-       "source": "https://www.tnonline.com/20251113/budget-impasse-ends-after-135-days/",
-       "date": "2025-11"
-      },
-      "healthcare": {
-       "summary": "As chairman of the House Human Services Committee, has led multiple hearings on Pennsylvania's drug crisis, focusing on fentanyl and xylazine dangers and the use of taxpayer dollars for recovery and related programs; this is committee work on the drug crisis rather than a stated broader healthcare platform.",
-       "short": "Leads drug-crisis hearings as Human Services Committee chairman.",
-       "source": "https://www.tnonline.com/20260321/heffley-announces-reelection-bid-for-122nd-district/",
-       "date": "2026-03"
-      },
-      "energy": {
-       "summary": "Praised the November 2025 budget agreement for calling for Pennsylvania's exit from the Regional Greenhouse Gas Initiative, which he called job-killing and overly burdensome, saying the state can unleash Pennsylvania energy and that the agreement prevents a $2.5 billion energy tax, lowering utility costs.",
-       "short": "Supports exiting RGGI; says it prevents energy tax.",
-       "source": "https://www.tnonline.com/20251113/budget-impasse-ends-after-135-days/",
-       "date": "2025-11"
-      },
-      "guns": {
-       "summary": "Voted against House Bill 714 of 2023, which would require background checks for private sales and transfers of long guns; the bill passed the House 109-92 in May 2023.",
-       "short": "Voted against expanding background checks to private long-gun sales.",
-       "source": "https://www.palegis.us/house/roll-calls/summary?sessYr=2023&sessInd=0&rcNum=96",
-       "date": "2023-05"
-      }
-     }
-    }
-   ]
-  },
   "HD-110": {
    "office": "Pennsylvania State House",
    "district": "110th Legislative District",
@@ -13918,6 +14427,51 @@ window.BALLOT_DATA = {
        "date": "2026-07"
       }
      }
+    },
+    {
+     "name": "Gail R. Scott",
+     "party": "Republican",
+     "partyCode": "REP",
+     "county": "Delaware",
+     "cfUrl": "https://www.campaignfinanceonline.pa.gov/Pages/CFAnnualTotals.aspx?Filer=2026C1463",
+     "positions": {
+      "economy": {
+       "summary": "In her nomination statement, Scott said neighbors across the district, from Ridley to Upper Darby, cannot make ends meet because of the high costs they are facing, and said change is needed.",
+       "short": "Says neighbors can't make ends meet because of high costs.",
+       "source": "https://politicspa.com/sd-26-scott-steps-in-as-gop-candidate/149970/",
+       "date": "2026-08"
+      },
+      "taxes": {
+       "summary": "Scott said Delaware County residents are struggling with crushing taxes, citing the county government raising taxes 47 percent, and said it is clear that change is needed.",
+       "short": "Says residents struggle with crushing taxes; cites 47% county increase.",
+       "source": "https://politicspa.com/sd-26-scott-steps-in-as-gop-candidate/149970/",
+       "date": "2026-08"
+      },
+      "education": {
+       "summary": "In her nomination statement, Scott said the people of Delaware County are struggling with failing schools. She has not detailed specific education proposals.",
+       "short": "Says people of Delaware County are struggling with failing schools.",
+       "source": "https://politicspa.com/sd-26-scott-steps-in-as-gop-candidate/149970/",
+       "date": "2026-08"
+      },
+      "healthcare": {
+       "summary": "In her nomination statement, Scott said the people of Delaware County are struggling with a broken healthcare system. She has not detailed specific healthcare proposals.",
+       "short": "Says people are struggling with a broken healthcare system.",
+       "source": "https://politicspa.com/sd-26-scott-steps-in-as-gop-candidate/149970/",
+       "date": "2026-08"
+      },
+      "energy": {
+       "summary": "Scott cited increased electricity costs coming from the state government as part of the high costs residents face, and said it is clear that change is needed.",
+       "short": "Cites increased electricity costs from state government; says change needed.",
+       "source": "https://politicspa.com/sd-26-scott-steps-in-as-gop-candidate/149970/",
+       "date": "2026-08"
+      },
+      "guns": {
+       "summary": "In her nomination statement, Scott said the people of Delaware County are struggling with unsafe streets. She has not stated positions on firearms policy.",
+       "short": "Says people of Delaware County are struggling with unsafe streets.",
+       "source": "https://politicspa.com/sd-26-scott-steps-in-as-gop-candidate/149970/",
+       "date": "2026-08"
+      }
+     }
     }
    ]
   },
@@ -14427,65 +14981,6 @@ window.BALLOT_DATA = {
     }
    ]
   },
-  "HD-20": {
-   "office": "Pennsylvania State House",
-   "district": "20th Legislative District",
-   "candidates": [
-    {
-     "name": "Emily Kinkead",
-     "party": "Democratic",
-     "partyCode": "DEM",
-     "county": "Allegheny",
-     "cfUrl": "https://www.campaignfinanceonline.pa.gov/Pages/CFAnnualTotals.aspx?Filer=2026C0511",
-     "website": "https://www.emily4pa20.com/",
-     "ballotpedia": "https://ballotpedia.org/Emily_Kinkead",
-     "positions": {
-      "economy": {
-       "summary": "Supports raising Pennsylvania's minimum wage to $15 per hour and indexing it to inflation, saying no wage that puts a full-time worker under the poverty level should be acceptable.",
-       "short": "Supports $15 minimum wage indexed to inflation.",
-       "source": "https://www.emily4pa20.com/issues/",
-       "date": "2026-07"
-      },
-      "taxes": {
-       "summary": "Said the completed 2025-26 state budget contained much to celebrate, citing public school funding increases and a new tax credit she said benefits nearly 1 million Pennsylvanians, while criticizing Senate Republican leaders for taking over 134 days to finish it.",
-       "short": "Praised 2025 budget's school funding, tax credit; criticized delay.",
-       "source": "https://www.pahouse.com/kinkead/EmailArchive/?id=141112",
-       "date": "2025-11"
-      },
-      "abortion": {
-       "summary": "Her campaign site says she will fight to enshrine protections for a safe, legal abortion unencumbered by government interference into Pennsylvania law, and that she supports comprehensive sexual education.",
-       "short": "Supports enshrining legal abortion protections into Pennsylvania law.",
-       "source": "https://www.emily4pa20.com/issues/",
-       "date": "2026-07"
-      },
-      "education": {
-       "summary": "Advocates increasing state funding for K-12 public schools and opposes directing taxpayer dollars to what she calls failing cyber charter schools, saying resources should go to classrooms instead.",
-       "short": "Supports more K-12 funding; opposes cyber charter subsidies.",
-       "source": "https://www.emily4pa20.com/issues/",
-       "date": "2026-07"
-      },
-      "healthcare": {
-       "summary": "Supports expanding healthcare access for all Pennsylvanians, protecting Affordable Care Act provisions, closing corporate tax loopholes to fund care, and lowering prescription drug prices.",
-       "short": "Supports expanding access, protecting ACA, lowering drug prices.",
-       "source": "https://www.emily4pa20.com/issues/",
-       "date": "2026-07"
-      },
-      "energy": {
-       "summary": "Opposed HB 1100, a bill she said would provide nearly one billion dollars in subsidies to petrochemical companies, and supports transitioning to clean, renewable energy while protecting workers affected by the transition.",
-       "short": "Supports renewable energy transition; opposed petrochemical subsidies.",
-       "source": "https://www.emily4pa20.com/issues/",
-       "date": "2026-07"
-      },
-      "guns": {
-       "summary": "In the 2025-2026 legislative session she co-sponsored House Bill 837, which would limit handgun purchases and establish a Violence Prevention Account.",
-       "short": "Co-sponsored bill limiting handgun purchases, creating violence-prevention account.",
-       "source": "https://www.palegis.us/legislation/bills/2025/hb837",
-       "date": "2025-03"
-      }
-     }
-    }
-   ]
-  },
   "HD-114": {
    "office": "Pennsylvania State House",
    "district": "114th Legislative District",
@@ -14714,6 +15209,52 @@ window.BALLOT_DATA = {
        "short": "Endorsed by CeaseFirePA as a gun safety champion.",
        "source": "https://www.ceasefirepa.org/general-interest/ceasefirepa-action-endorses-81-gun-safety-champions-for-2024-election/",
        "date": "2024-07"
+      }
+     }
+    },
+    {
+     "name": "John A. Mancinelli Jr.",
+     "party": "Republican",
+     "partyCode": "REP",
+     "county": "Delaware",
+     "cfUrl": "https://www.campaignfinanceonline.pa.gov/Pages/CFAnnualTotals.aspx?Filer=2026C1439",
+     "website": "https://johnmforpa161.com/",
+     "positions": {
+      "economy": {
+       "summary": "Says he is committed to fostering a thriving economy with more jobs and opportunities for Pennsylvanians by reducing taxes and regulations to help businesses grow.",
+       "short": "Commits to fostering jobs by reducing taxes and regulations.",
+       "source": "https://web.archive.org/web/20250624001414/https://johnmforpa161.com/the-issues/",
+       "date": "2025-06"
+      },
+      "taxes": {
+       "summary": "Calls for a balanced state budget and spending taxpayer dollars wisely, focusing on cutting wasteful spending and prioritizing essential services.",
+       "short": "Calls for balanced budget, cutting wasteful spending, prioritizing essential services.",
+       "source": "https://web.archive.org/web/20250624001414/https://johnmforpa161.com/the-issues/",
+       "date": "2025-06"
+      },
+      "education": {
+       "summary": "Advocates for empowering parents to make decisions about their children's education and for improving education funding and accountability to ensure a quality education for all students.",
+       "short": "Advocates empowering parents, improving education funding and accountability.",
+       "source": "https://web.archive.org/web/20250624001414/https://johnmforpa161.com/the-issues/",
+       "date": "2025-06"
+      },
+      "healthcare": {
+       "summary": "Says he aims to improve access to affordable care without unnecessary government overreach, backing patient-centered healthcare reforms. In a May 2026 statement he said he would fight for better health care resources.",
+       "short": "Aims to improve affordable care access, backs patient-centered reforms.",
+       "source": "https://web.archive.org/web/20250624001414/https://johnmforpa161.com/the-issues/",
+       "date": "2025-06"
+      },
+      "energy": {
+       "summary": "Says he will promote Pennsylvania's energy independence through responsible resource development, balancing economic growth with environmental stewardship to safeguard natural resources.",
+       "short": "Promotes energy independence, balancing growth with environmental stewardship.",
+       "source": "https://web.archive.org/web/20250624001414/https://johnmforpa161.com/the-issues/",
+       "date": "2025-06"
+      },
+      "guns": {
+       "summary": "Says he is dedicated to public safety, supporting law enforcement officers and implementing policies that reduce crime and protect families.",
+       "short": "Supports law enforcement, backs policies reducing crime, protecting families.",
+       "source": "https://web.archive.org/web/20250624001414/https://johnmforpa161.com/the-issues/",
+       "date": "2025-06"
       }
      }
     }
@@ -16516,94 +17057,6 @@ window.BALLOT_DATA = {
     }
    ]
   },
-  "HD-145": {
-   "office": "Pennsylvania State House",
-   "district": "145th Legislative District",
-   "candidates": [
-    {
-     "name": "Les Mavus",
-     "party": "Democratic",
-     "partyCode": "DEM",
-     "county": "Bucks",
-     "cfUrl": "https://www.campaignfinanceonline.pa.gov/Pages/CFAnnualTotals.aspx?Filer=2026C1341",
-     "ballotpedia": "https://ballotpedia.org/Les_Mavus",
-     "positions": {
-      "economy": {
-       "summary": "In a voter-guide questionnaire, said affordability, particularly around utilities, is the top issue facing the district, noting the cost per kilowatt-hour is rising faster than the national average and residents are seeing their bills spike.",
-       "short": "Says affordability, especially rising utility bills, is the top issue.",
-       "source": "https://onyourballot.vote411.org/m/race-detail.do?id=50206757",
-       "date": "2026-07"
-      },
-      "taxes": {
-       "summary": "In a voter-guide questionnaire, said the state cannot have a budget process that shuts down the government for months at a time while schools and public transportation go unfunded.",
-       "short": "Opposes budget process that shuts government, defunds schools and transit.",
-       "source": "https://onyourballot.vote411.org/m/race-detail.do?id=50206757",
-       "date": "2026-07"
-      },
-      "energy": {
-       "summary": "Asked whether Pennsylvania should regulate data centers, said yes, calling for government to protect costs, the environment, and land rather than serving corporations and their interests.",
-       "short": "Supports regulating data centers to protect costs, environment, and land.",
-       "source": "https://onyourballot.vote411.org/m/race-detail.do?id=50206757",
-       "date": "2026-07"
-      }
-     }
-    },
-    {
-     "name": "Craig T. Staats",
-     "party": "Republican",
-     "partyCode": "REP",
-     "county": "Bucks",
-     "cfUrl": "https://www.campaignfinanceonline.pa.gov/Pages/CFAnnualTotals.aspx?Filer=2026C0170",
-     "website": "https://www.staatsforstaterep.com/",
-     "ballotpedia": "https://ballotpedia.org/Craig_Staats",
-     "positions": {
-      "economy": {
-       "summary": "His campaign says he has fought to keep government spending in check and prevent policies that would raise costs on families, and that he supports small businesses and economic growth.",
-       "short": "Says he fights spending and opposes policies raising family costs.",
-       "source": "https://www.staatsforstaterep.com/",
-       "date": "2026-07"
-      },
-      "taxes": {
-       "summary": "His campaign says he supported state budgets that reduced spending, avoided broad-based tax increases, and protected the Rainy Day Fund, and that he supports easing the property tax burden.",
-       "short": "Supported budgets reducing spending; backs property-tax relief.",
-       "source": "https://www.staatsforstaterep.com/",
-       "date": "2026-07"
-      },
-      "education": {
-       "summary": "His campaign says he led a rewrite of Pennsylvania's career and technical education law to modernize workforce training and expand pathways for students into high-demand careers.",
-       "short": "Led rewrite of Pennsylvania's career and technical education law.",
-       "source": "https://www.staatsforstaterep.com/",
-       "date": "2026-07"
-      },
-      "energy": {
-       "summary": "His campaign says he opposed Pennsylvania joining the Regional Greenhouse Gas Initiative, describing it as an energy tax that would have driven up electricity and heating costs.",
-       "short": "Opposed RGGI, calling it an energy tax raising costs.",
-       "source": "https://www.staatsforstaterep.com/",
-       "date": "2026-07"
-      },
-      "abortion": {
-       "summary": "Co-sponsored House Bill 77 of the 2017-2018 session, which would have established a dismemberment abortion ban and amended related provisions of the criminal code.",
-       "short": "Co-sponsored 2017 bill to establish a dismemberment abortion ban.",
-       "source": "https://www.palegis.us/legislation/bills/2017/hb0077",
-       "date": "2017-02"
-      },
-      "guns": {
-       "summary": "Co-sponsored House Bill 671 of the 2017-2018 session, which would strengthen state preemption limiting municipalities from enacting their own firearms and ammunition regulations.",
-       "short": "Co-sponsored 2017 bill limiting local firearms regulation.",
-       "source": "https://www.palegis.us/legislation/bills/2017/hb671",
-       "date": "2017-04"
-      }
-     }
-    },
-    {
-     "name": "Rebecca Catherine Prendergast",
-     "party": "Independent Party",
-     "partyCode": "INDP",
-     "county": "Bucks",
-     "cfUrl": "https://www.campaignfinanceonline.pa.gov/Pages/CFAnnualTotals.aspx?Filer=2026C1446"
-    }
-   ]
-  },
   "HD-24": {
    "office": "Pennsylvania State House",
    "district": "24th Legislative District",
@@ -17366,62 +17819,10 @@ window.BALLOT_DATA = {
    "candidates": [
     {
      "name": "Robert E. Merski",
-     "party": "Democratic",
+     "party": "Democratic / Republican",
      "partyCode": "DEM",
      "county": "Erie",
      "cfUrl": "https://www.campaignfinanceonline.pa.gov/Pages/CFAnnualTotals.aspx?Filer=2026C1208",
-     "ballotpedia": "https://ballotpedia.org/Robert_Merski",
-     "positions": {
-      "economy": {
-       "summary": "Voted in June 2023 for House Bill 1500, which would raise Pennsylvania's minimum wage; the bill passed the House 103-100.",
-       "short": "Voted for bill to raise Pennsylvania's minimum wage.",
-       "source": "https://www.palegis.us/house/roll-calls/summary?sessYr=2023&sessInd=0&rcNum=270",
-       "date": "2023-06"
-      },
-      "taxes": {
-       "summary": "Voted in June 2023 for House Bill 1100, which expanded the state's Property Tax/Rent Rebate program and supplemental tax reduction for older adults and people with disabilities; the bill passed the House 194-9 and later became law.",
-       "short": "Voted to expand Property Tax/Rent Rebate program.",
-       "source": "https://www.palegis.us/house/roll-calls/summary?sessYr=2023&sessInd=0&rcNum=188",
-       "date": "2023-06"
-      },
-      "abortion": {
-       "summary": "In July 2022 voted against Senate Bill 106, a package of proposed constitutional amendments that included language stating the Pennsylvania Constitution does not grant any right relating to abortion, including taxpayer-funded abortion; the package also covered election-related provisions.",
-       "short": "Voted against amendment package declaring no constitutional abortion right.",
-       "source": "https://www.palegis.us/house/roll-calls/summary?sessYr=2021&sessInd=0&rcNum=1156",
-       "date": "2022-07"
-      },
-      "education": {
-       "summary": "Announced state Competitive Equipment Grants for career and technical education programs at Erie schools in June 2026, saying students learn best in classrooms where they can learn by doing; this is a funding announcement rather than a campaign platform.",
-       "short": "Announces CTE equipment grants; backs hands-on career education.",
-       "source": "https://www.pahouse.com/InTheNews/NewsRelease/?id=143858",
-       "date": "2026-06"
-      },
-      "healthcare": {
-       "summary": "Sponsored House Bill 1961 to have Pennsylvania join a multistate licensure compact for physician assistants, which he said would streamline licensing across state lines and expand telehealth services; the bill passed the House in November 2025.",
-       "short": "Sponsored physician-assistant licensure compact bill expanding telehealth services.",
-       "source": "https://www.pahouse.com/Merski/InTheNews/NewsRelease/?id=141123",
-       "date": "2025-11"
-      },
-      "energy": {
-       "summary": "Announced a $25,000 state grant in June 2026 to plan solar panels and a green roof on Erie's municipal building, saying investing in energy efficiency and clean power is smart for taxpayers and the environment; this is a funding announcement rather than a campaign platform.",
-       "short": "Announces solar planning grant; calls clean-power investment smart.",
-       "source": "https://www.pahouse.com/InTheNews/NewsRelease/?id=144012",
-       "date": "2026-06"
-      },
-      "guns": {
-       "summary": "Voted in May 2023 for House Bill 714, which would require background checks on all firearm sales in Pennsylvania, including private sales; the bill passed the House 109-92.",
-       "short": "Voted for universal firearm background checks bill.",
-       "source": "https://www.palegis.us/house/roll-calls/summary?sessYr=2023&sessInd=0&rcNum=96",
-       "date": "2023-05"
-      }
-     }
-    },
-    {
-     "name": "Robert E. Merski",
-     "party": "Republican",
-     "partyCode": "REP",
-     "county": "Erie",
-     "cfUrl": "https://www.campaignfinanceonline.pa.gov/Pages/CFAnnualTotals.aspx?Filer=2026C1426",
      "ballotpedia": "https://ballotpedia.org/Robert_Merski",
      "positions": {
       "economy": {
@@ -18280,65 +18681,6 @@ window.BALLOT_DATA = {
     }
    ]
   },
-  "HD-154": {
-   "office": "Pennsylvania State House",
-   "district": "154th Legislative District",
-   "candidates": [
-    {
-     "name": "Napoleon J. Nelson",
-     "party": "Democratic",
-     "partyCode": "DEM",
-     "county": "Montgomery",
-     "cfUrl": "https://www.campaignfinanceonline.pa.gov/Pages/CFAnnualTotals.aspx?Filer=2026C1092",
-     "website": "https://napoleonfor154.com/",
-     "ballotpedia": "https://ballotpedia.org/Napoleon_Nelson",
-     "positions": {
-      "economy": {
-       "summary": "His campaign platform states that Pennsylvanians should not work for lower wages than surrounding states and supports a $15 minimum wage.",
-       "short": "Supports a $15 minimum wage.",
-       "source": "https://napoleonfor154.com/platform",
-       "date": "2024-01"
-      },
-      "taxes": {
-       "summary": "His campaign platform calls for providing property tax relief, stopping tax breaks for big businesses, and closing the Delaware loophole that lets corporations avoid state income taxes.",
-       "short": "Supports property tax relief; proposes closing the Delaware loophole.",
-       "source": "https://napoleonfor154.com/platform",
-       "date": "2024-01"
-      },
-      "abortion": {
-       "summary": "His campaign platform states a commitment to protect reproductive freedom.",
-       "short": "Says he will protect reproductive freedom.",
-       "source": "https://napoleonfor154.com/platform",
-       "date": "2024-01"
-      },
-      "education": {
-       "summary": "His campaign platform advocates ensuring children have a safe, equitable, rigorous and fully funded public education, and calls to recruit, train, and deploy a diverse pool of teachers.",
-       "short": "Supports fully funded public education; recruiting diverse teachers.",
-       "source": "https://napoleonfor154.com/platform",
-       "date": "2024-01"
-      },
-      "healthcare": {
-       "summary": "His campaign platform states that healthcare is a right not a privilege, with a stated goal of affordable physical and mental health care for every Pennsylvanian.",
-       "short": "Says healthcare is a right; supports affordable care for all.",
-       "source": "https://napoleonfor154.com/platform",
-       "date": "2024-01"
-      },
-      "energy": {
-       "summary": "His campaign platform calls for strengthening state oversight by increasing funding and staffing of the Department of Environmental Protection and for a moratorium on industry practices that are meaningfully detrimental to air, water, or soil.",
-       "short": "Supports more DEP funding; proposes moratorium on harmful practices.",
-       "source": "https://napoleonfor154.com/platform",
-       "date": "2024-01"
-      },
-      "guns": {
-       "summary": "His campaign platform supports background checks for all sales, banning automatic weapons, and restricting 3D-printed guns, and calls to restore local rights and hold the NRA accountable.",
-       "short": "Supports universal background checks and banning automatic weapons.",
-       "source": "https://napoleonfor154.com/platform",
-       "date": "2024-01"
-      }
-     }
-    }
-   ]
-  },
   "HD-59": {
    "office": "Pennsylvania State House",
    "district": "59th Legislative District",
@@ -19147,6 +19489,66 @@ window.BALLOT_DATA = {
        "date": "2023-08"
       }
      }
+    }
+   ]
+  },
+  "HD-145": {
+   "office": "Pennsylvania State House",
+   "district": "145th Legislative District",
+   "candidates": [
+    {
+     "name": "Craig T. Staats",
+     "party": "Republican",
+     "partyCode": "REP",
+     "county": "Bucks",
+     "cfUrl": "https://www.campaignfinanceonline.pa.gov/Pages/CFAnnualTotals.aspx?Filer=2026C0170",
+     "website": "https://www.staatsforstaterep.com/",
+     "ballotpedia": "https://ballotpedia.org/Craig_Staats",
+     "positions": {
+      "economy": {
+       "summary": "His campaign says he has fought to keep government spending in check and prevent policies that would raise costs on families, and that he supports small businesses and economic growth.",
+       "short": "Says he fights spending and opposes policies raising family costs.",
+       "source": "https://www.staatsforstaterep.com/",
+       "date": "2026-07"
+      },
+      "taxes": {
+       "summary": "His campaign says he supported state budgets that reduced spending, avoided broad-based tax increases, and protected the Rainy Day Fund, and that he supports easing the property tax burden.",
+       "short": "Supported budgets reducing spending; backs property-tax relief.",
+       "source": "https://www.staatsforstaterep.com/",
+       "date": "2026-07"
+      },
+      "education": {
+       "summary": "His campaign says he led a rewrite of Pennsylvania's career and technical education law to modernize workforce training and expand pathways for students into high-demand careers.",
+       "short": "Led rewrite of Pennsylvania's career and technical education law.",
+       "source": "https://www.staatsforstaterep.com/",
+       "date": "2026-07"
+      },
+      "energy": {
+       "summary": "His campaign says he opposed Pennsylvania joining the Regional Greenhouse Gas Initiative, describing it as an energy tax that would have driven up electricity and heating costs.",
+       "short": "Opposed RGGI, calling it an energy tax raising costs.",
+       "source": "https://www.staatsforstaterep.com/",
+       "date": "2026-07"
+      },
+      "abortion": {
+       "summary": "Co-sponsored House Bill 77 of the 2017-2018 session, which would have established a dismemberment abortion ban and amended related provisions of the criminal code.",
+       "short": "Co-sponsored 2017 bill to establish a dismemberment abortion ban.",
+       "source": "https://www.palegis.us/legislation/bills/2017/hb0077",
+       "date": "2017-02"
+      },
+      "guns": {
+       "summary": "Co-sponsored House Bill 671 of the 2017-2018 session, which would strengthen state preemption limiting municipalities from enacting their own firearms and ammunition regulations.",
+       "short": "Co-sponsored 2017 bill limiting local firearms regulation.",
+       "source": "https://www.palegis.us/legislation/bills/2017/hb671",
+       "date": "2017-04"
+      }
+     }
+    },
+    {
+     "name": "Rebecca Catherine Prendergast",
+     "party": "Independent Party",
+     "partyCode": "INDP",
+     "county": "Bucks",
+     "cfUrl": "https://www.campaignfinanceonline.pa.gov/Pages/CFAnnualTotals.aspx?Filer=2026C1446"
     }
    ]
   },
@@ -20425,59 +20827,6 @@ window.BALLOT_DATA = {
     }
    ]
   },
-  "HD-30": {
-   "office": "Pennsylvania State House",
-   "district": "30th Legislative District",
-   "candidates": [
-    {
-     "name": "Arvind Venkat",
-     "party": "Democratic",
-     "partyCode": "DEM",
-     "county": "Allegheny",
-     "cfUrl": "https://www.campaignfinanceonline.pa.gov/Pages/CFAnnualTotals.aspx?Filer=2026C0026",
-     "website": "https://www.venkatforpa.com/",
-     "ballotpedia": "https://ballotpedia.org/Arvind_Venkat",
-     "positions": {
-      "taxes": {
-       "summary": "Called the governor's February 2026 budget proposal a promising starting point and said he will work to ensure the final state budget reduces the pressure on property taxes and protects healthcare access.",
-       "short": "Says final budget should reduce property tax pressure.",
-       "source": "https://www.pahouse.com/venkat/EmailArchive/?id=142206",
-       "date": "2026-02"
-      },
-      "abortion": {
-       "summary": "Says he will continue to vote to protect the reproductive health and liberty of all Pennsylvania women, citing his experience as an ER physician treating a woman who nearly died after an unsafe abortion.",
-       "short": "Says he will vote to protect reproductive health, liberty.",
-       "source": "https://www.venkatforpa.com/issues/reproductive-health",
-       "date": "2026-07"
-      },
-      "education": {
-       "summary": "Says schools are central to communities and pledges to advocate for adequate resources to keep schools operating while maintaining safe, supportive spaces for students and educators.",
-       "short": "Pledges to advocate for adequate school resources, safe schools.",
-       "source": "https://www.venkatforpa.com/issues/education",
-       "date": "2026-07"
-      },
-      "healthcare": {
-       "summary": "Supports making healthcare more accessible and affordable, including medical debt relief, reducing copayments and deductibles, keeping elderly patients independent in their homes, and expanding addiction and mental illness treatment resources.",
-       "short": "Supports medical debt relief, lower copays, expanded mental-health treatment.",
-       "source": "https://www.venkatforpa.com/issues/healthcare",
-       "date": "2026-07"
-      },
-      "energy": {
-       "summary": "Says climate change is real and serious, and supports improving air and water quality, expanding green spaces, addressing flooding and stormwater issues, and developing diverse, cleaner energy sources while allowing communities local authority over energy decisions.",
-       "short": "Supports cleaner energy sources, air-water quality, local energy authority.",
-       "source": "https://www.venkatforpa.com/issues/environment",
-       "date": "2026-07"
-      },
-      "guns": {
-       "summary": "Says gun violence is a public health crisis he has treated as an ER doctor, and that it is possible to respect the constitutional right to own a firearm while passing legislation that reduces gun violence.",
-       "short": "Supports gun-violence legislation while respecting firearm ownership rights.",
-       "source": "https://www.venkatforpa.com/issues/gun-violence",
-       "date": "2026-07"
-      }
-     }
-    }
-   ]
-  },
   "HD-52": {
    "office": "Pennsylvania State House",
    "district": "52nd Legislative District",
@@ -20737,59 +21086,6 @@ window.BALLOT_DATA = {
        "short": "Co-sponsored 2025 bill to ban ghost guns.",
        "source": "https://www.palegis.us/legislation/bills/2025/hb1065",
        "date": "2025-04"
-      }
-     }
-    }
-   ]
-  },
-  "HD-7": {
-   "office": "Pennsylvania State House",
-   "district": "7th Legislative District",
-   "candidates": [
-    {
-     "name": "Parke H. Wentling",
-     "party": "Republican",
-     "partyCode": "REP",
-     "county": "Mercer",
-     "cfUrl": "https://www.campaignfinanceonline.pa.gov/Pages/CFAnnualTotals.aspx?Filer=2026C0165",
-     "website": "https://electparkewentling.com/",
-     "ballotpedia": "https://ballotpedia.org/Parke_Wentling",
-     "positions": {
-      "economy": {
-       "summary": "His campaign site says he enacted pro-growth policies that enabled the private sector to protect and create family-sustaining jobs.",
-       "short": "Says he enacted pro-growth policies supporting family-sustaining jobs.",
-       "source": "https://electparkewentling.com/priorities/",
-       "date": "2026-07"
-      },
-      "taxes": {
-       "summary": "His campaign site says he passed fiscally responsible balanced budgets that did not increase taxes on working families, and that he opposed former Gov. Wolf's proposed tax increases.",
-       "short": "Says he passed balanced budgets without raising taxes.",
-       "source": "https://electparkewentling.com/priorities/",
-       "date": "2026-07"
-      },
-      "abortion": {
-       "summary": "Voted in July 2022 for Senate Bill 106, a package of proposed state constitutional amendments that included a provision declaring the Pennsylvania Constitution does not grant any right relating to abortion or public funding of abortion.",
-       "short": "Voted for amendment declaring constitution grants no abortion right.",
-       "source": "https://www.palegis.us/house/roll-calls/summary?sessYr=2021&sessInd=0&rcNum=1156",
-       "date": "2022-07"
-      },
-      "education": {
-       "summary": "His official House biography lists investing in the state's education system to build a brighter future for children among his priorities.",
-       "short": "Lists investing in the state education system among priorities.",
-       "source": "https://www.repwentling.com/About",
-       "date": "2026-07"
-      },
-      "energy": {
-       "summary": "His campaign site cites securing funding to improve water quality, infrastructure, trails, and recreation facilities, and establishing a conservation coalition to protect ospreys; it does not state positions on energy policy.",
-       "short": "Cites water-quality and conservation funding; no stated energy policy.",
-       "source": "https://electparkewentling.com/priorities/",
-       "date": "2026-07"
-      },
-      "guns": {
-       "summary": "Voted in May 2023 against House Bill 714, a bill reported as requiring background checks on all firearm sales in Pennsylvania; the bill passed the House 109-92.",
-       "short": "Voted against requiring background checks on all firearm sales.",
-       "source": "https://www.palegis.us/house/roll-calls/summary?sessYr=2023&sessInd=0&rcNum=96",
-       "date": "2023-05"
       }
      }
     }
