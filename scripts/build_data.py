@@ -157,12 +157,23 @@ def main() -> None:
     for race in races.values():
         race["candidates"].sort(key=lambda c: (party_order.get(c["party"], 2), c["party"], c["name"]))
 
+    freshness = issues_db.get("freshness") or {}
+    for k in ("rosterChecked", "positionsReviewed"):
+        v = freshness.get(k, "")
+        if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", v):
+            sys.exit(f"data/issues.json freshness.{k} must be YYYY-MM-DD (got {v!r}); "
+                     "set it by hand to the date the roster was captured / positions were reviewed")
+    freshness = {k: freshness[k] for k in ("rosterChecked", "positionsReviewed")}
+
     out = {
         "election": "2026 Pennsylvania General Election",
         "electionDate": "2026-11-03",
         "dataSource": "Pennsylvania Department of State — Official Candidate Listing (pavoterservices.pa.gov)",
-        "lastUpdated": date.today().isoformat(),
-        "notes": "Minor-party and independent candidates file by Aug 3, 2026 and may not appear yet.",
+        # Freshness is data, not build time: rebuilding after a formatting or
+        # script change must not relabel an unchanged corpus as newly checked.
+        "freshness": freshness,
+        "lastUpdated": freshness["rosterChecked"],   # legacy alias, roster date
+        "notes": "",
         "issues": issues_db.get("issues", []),
         "issuesNote": issues_db.get("note", ""),
         "voting": issues_db.get("voting", {}),

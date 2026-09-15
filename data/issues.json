@@ -1,7 +1,12 @@
 {
-  "note": "Positions for the statewide and all 17 congressional races were researched July 13, 2026 from candidates' own campaign materials, voting records, and public statements. Positions for state legislative races are being added as volunteers verify them.",
+  "note": "Positions for every race were researched from candidates' own campaign materials, voting records, and public statements. The date on each source link is the date of the statement or record, not the date it was checked.",
   "siteUrl": "ballotlookup.netlify.app",
   "contactEmail": "ballotlookup@gmail.com",
+  "freshness": {
+    "rosterChecked": "2026-08-24",
+    "positionsReviewed": "2026-08-24",
+    "_comment": "rosterChecked = last capture of the PA DoS candidate listing; positionsReviewed = last research/review pass over issue positions. Set by hand at each refresh; build_data.py refuses to run without both. The site build date is deliberately NOT shown to voters."
+  },
   "voting": {
     "registerBy": "2026-10-19",
     "mailApplyBy": "2026-10-27",

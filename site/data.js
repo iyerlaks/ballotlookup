@@ -3,8 +3,12 @@ window.BALLOT_DATA = {
  "election": "2026 Pennsylvania General Election",
  "electionDate": "2026-11-03",
  "dataSource": "Pennsylvania Department of State \u2014 Official Candidate Listing (pavoterservices.pa.gov)",
+ "freshness": {
+  "rosterChecked": "2026-08-24",
+  "positionsReviewed": "2026-08-24"
+ },
  "lastUpdated": "2026-08-24",
- "notes": "Minor-party and independent candidates file by Aug 3, 2026 and may not appear yet.",
+ "notes": "",
  "issues": [
   {
    "key": "economy",
@@ -35,7 +39,7 @@ window.BALLOT_DATA = {
    "label": "Guns & public safety"
   }
  ],
- "issuesNote": "Positions for the statewide and all 17 congressional races were researched July 13, 2026 from candidates' own campaign materials, voting records, and public statements. Positions for state legislative races are being added as volunteers verify them.",
+ "issuesNote": "Positions for every race were researched from candidates' own campaign materials, voting records, and public statements. The date on each source link is the date of the statement or record, not the date it was checked.",
  "voting": {
   "registerBy": "2026-10-19",
   "mailApplyBy": "2026-10-27",

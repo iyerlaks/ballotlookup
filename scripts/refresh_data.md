@@ -39,8 +39,14 @@ so plain HTTP scripts are blocked — the capture is done through a real browser
    `fetch('http://127.0.0.1:8899/upload', {method:'POST', mode:'no-cors',
    body: JSON.stringify(out)})` from the page. Kill the server afterward.)
 
-4. Rebuild and sanity-check the printed summary (17 CDs, 25 senate districts,
-   203 house districts):
+4. Set the two voter-facing freshness dates by hand in `data/issues.json`
+   (`freshness.rosterChecked` = the date of this capture;
+   `freshness.positionsReviewed` = the date of the last research/review pass,
+   which changes only when positions were actually re-researched). The build
+   refuses to run without both, and never stamps the build date: a rebuild
+   after a script or formatting change must not relabel unchanged data as
+   newly checked. Then rebuild and sanity-check the printed summary (17 CDs,
+   25 senate districts, 203 house districts):
 
    ```
    python scripts/build_data.py

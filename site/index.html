@@ -95,10 +95,23 @@
   .badge.other { background: var(--other); }
   .cand .name { font-size: 1.05rem; }
   .cand .meta { color: var(--ink-soft); font-size: .85rem; }
-  .cand .links { margin-left: auto; font-family: Verdana, sans-serif; font-size: .78rem; white-space: nowrap; }
-  .cand .links a { color: var(--accent); text-decoration: none; margin-left: .8rem; }
+  .cand .links { margin-left: auto; font-family: Verdana, sans-serif; font-size: .78rem; display: flex; flex-wrap: wrap; gap: .15rem .8rem; }
+  .cand .links a { color: var(--accent); text-decoration: none; }
+  /* Governor + Lt. Governor: one vote elects both, so they share a row */
+  .cand.ticket { align-items: flex-start; }
+  .ticket .pair { flex: 1 1 260px; display: flex; flex-direction: column; gap: .45rem; }
+  .ticket .who { display: flex; flex-wrap: wrap; gap: .2rem .8rem; align-items: baseline; }
+  .ticket .role { font-family: Verdana, sans-serif; font-size: .7rem; letter-spacing: .05em; text-transform: uppercase; color: var(--accent); }
+  .ticket .who .links { margin-left: auto; }
   .cand .links a:hover { text-decoration: underline; }
   .race .note { padding: .8rem 1.2rem; color: var(--ink-soft); font-size: .92rem; }
+  .race .note.gap { border-left: 4px solid var(--gold); background: #fdf9ee; color: #5a4d20; }
+  .race .note a { color: var(--accent); }
+  .districts .cov { display: block; margin-top: .7rem; padding-top: .6rem; border-top: 1px solid var(--line); font-size: .85rem; color: var(--ink-soft); }
+  .alts { margin-top: .6rem; font-size: .9rem; }
+  .alts button { background: #fff; color: var(--accent); border: 1px solid var(--accent); font-size: .8rem; padding: .35rem .7rem; margin: .35rem .4rem 0 0; }
+  .alts button:hover { background: var(--accent-soft); }
+  #status.err a { color: #8a1f1c; }
 
   /* ---- side-by-side comparison ---- */
   .cmp-toggle {
@@ -119,6 +132,21 @@
   .cmp .src a { color: var(--accent); text-decoration: none; }
   .cmp .none { color: #9aa6b1; font-style: italic; }
   .cmp-note { padding: .6rem 1.2rem .8rem; font-size: .78rem; color: var(--ink-soft); background: #fbfcfd; }
+  /* phone layout: one block per issue, candidates stacked, instead of a squeezed table */
+  .cmp-stack { display: none; }
+  .cmp-stack .iss { padding: .75rem 1rem .5rem; border-bottom: 1px solid var(--line); }
+  .cmp-stack .iss h4 { margin: 0 0 .45rem; font-family: Verdana, sans-serif; font-size: .74rem; letter-spacing: .05em; text-transform: uppercase; color: var(--ink-soft); font-weight: normal; }
+  .cmp-stack .c { margin: .45rem 0; padding-left: .65rem; border-left: 3px solid var(--line); font-size: .9rem; }
+  .cmp-stack .c .n { display: block; font-family: Verdana, sans-serif; font-size: .76rem; margin-bottom: .15rem; }
+  .cmp-stack .c .n .badge { display: inline-block; margin-right: .35rem; }
+  .cmp-stack .c .pos { margin: 0; }
+  .cmp-stack .c .src { display: block; margin-top: .2rem; font-family: Verdana, sans-serif; font-size: .7rem; }
+  .cmp-stack .c .src a { color: var(--accent); text-decoration: none; }
+  .cmp-stack .none { color: #9aa6b1; font-style: italic; }
+  @media (max-width: 600px) {
+    table.cmp { display: none; }
+    .cmp-stack { display: block; }
+  }
 
   .callout {
     border-left: 4px solid var(--gold); background: #fdf9ee; border-radius: 6px;
@@ -190,8 +218,7 @@
   footer .links a { color: var(--accent); margin: 0 .7rem; }
   footer p { max-width: 640px; margin: .6rem auto; }
   @media (max-width: 560px) {
-    .cand .links { margin-left: 0; width: 100%; }
-    .cand .links a:first-child { margin-left: 0; }
+    .cand .links, .ticket .who .links { margin-left: 0; width: 100%; }
   }
 
   /* ---- print handout ---- */
@@ -270,8 +297,12 @@
     <ul>
       <li><strong>Who&rsquo;s on your ballot:</strong> the Pennsylvania Department of State&rsquo;s official candidate listing. Every certified candidate appears, listed identically.</li>
       <li><strong>Your districts:</strong> the U.S. Census Bureau&rsquo;s public geocoder. Your address is sent only there, and is never stored or logged by this site.</li>
-      <li><strong>Issue positions:</strong> each candidate&rsquo;s own campaign materials, voting records, and public statements &mdash; every entry carries a link to its source and the date.</li>
+      <li><strong>Issue positions:</strong> each candidate&rsquo;s own campaign materials, voting records, and public statements &mdash; every entry carries a link to its source and the date of the statement or record.</li>
     </ul>
+
+    <h3>How positions are researched and verified</h3>
+    <p>Positions are researched with AI assistance (Claude research agents with web search) under fixed neutrality rules, and a sample of every research batch is re-checked by a person against the cited sources. No entry is published without a source link, so you can check any summary yourself. The date shown on a source is the date of the statement or record, not the date this project last checked it; the &ldquo;positions last reviewed&rdquo; date under your results is the last full review pass.</p>
+    <p><a href="https://github.com/iyerlaks/ballotlookup/blob/main/METHODOLOGY.md" target="_blank" rel="noopener">How we research and verify</a> (full method, including what is and isn&rsquo;t verified) &middot; <a href="https://github.com/iyerlaks/ballotlookup" target="_blank" rel="noopener">Source code and data</a></p>
 
     <h3>How position summaries are written</h3>
     <ul>
@@ -308,12 +339,18 @@
   const D = window.BALLOT_DATA;
   const ISSUES = D.issues || [];
   const VOTE = D.voting || {};
+  // Two voter-facing dates, both set by hand in the data at each refresh.
+  // The site build date is deliberately not shown anywhere.
+  const FRESH = D.freshness || {rosterChecked: D.lastUpdated, positionsReviewed: D.lastUpdated};
+  const OFFICIAL_LOOKUP = '<a href="https://www.legis.state.pa.us/cfdocs/legis/home/findyourlegislator/" target="_blank" rel="noopener">official PA legislator lookup</a>' +
+    ' or your <a href="https://www.vote.pa.gov/Resources/Pages/Contact-Your-Election-Officials.aspx" target="_blank" rel="noopener">county election office</a>';
   const $ = id => document.getElementById(id);
   const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 
   $('sources').innerHTML =
-    'Candidate data: ' + esc(D.dataSource) + ' &middot; last updated ' + esc(D.lastUpdated) +
-    '. District lookup: U.S. Census Bureau Geocoder. ' + esc(D.notes);
+    'Candidate roster: ' + esc(D.dataSource) + ', checked ' + esc(FRESH.rosterChecked) +
+    '. Issue positions last reviewed ' + esc(FRESH.positionsReviewed) +
+    '. District lookup: U.S. Census Bureau Geocoder. ' + esc(D.notes || '');
 
   $('corrections-line').innerHTML = D.contactEmail
     ? 'Spot an error &mdash; a wrong candidate, a mischaracterized position, a dead link? Email ' +
@@ -350,6 +387,7 @@
   // Registry of candidates rendered on the current ballot, so "All statements"
   // links can carry a plain index instead of serialized data. Reset per lookup.
   let evReg = [];
+  let evOpener = null;   // element to return focus to when the dialog closes
   function evLink(c, cls) {
     if (!c.positions || !Object.keys(c.positions).length) return '';
     const id = evReg.push(c) - 1;
@@ -368,7 +406,7 @@
         inner = entries.map(e => {
           let one = '<p>' + esc(e.summary) + '</p>';
           if (e.source) one += '<span class="src"><a href="' + esc(e.source) + '" target="_blank" rel="noopener">source' +
-            (e.date ? ' (' + esc(e.date) + ')' : '') + '</a></span>';
+            (e.date ? ', dated ' + esc(e.date) : '') + '</a></span>';
           return one;
         }).join('');
       } else {
@@ -388,18 +426,33 @@
       '&ldquo;No public position on file&rdquo; means no statement has been verified yet &mdash; it does not mean the candidate has no view. ' +
       'All candidates are shown against the same seven issues. ' +
       'Where several statements are listed for one issue they appear newest first; the number of statements reflects available coverage, not endorsement.</div></div>';
+    evOpener = document.activeElement;
     $('ev-overlay').classList.add('open');
     document.body.style.overflow = 'hidden';
     panel.querySelector('.ev-close').focus();
   }
 
   function closeEvidence() {
+    const wasOpen = $('ev-overlay').classList.contains('open');
     $('ev-overlay').classList.remove('open');
     document.body.style.overflow = '';
+    if (wasOpen && evOpener && document.contains(evOpener)) evOpener.focus();
+    evOpener = null;
   }
 
-  function candidateRow(c) {
-    const cls = (c.partyCode === 'DEM' || c.partyCode === 'REP') ? c.partyCode : 'other';
+  // Keep Tab inside the open dialog.
+  function trapFocus(e) {
+    if (e.key !== 'Tab' || !$('ev-overlay').classList.contains('open')) return;
+    const panel = document.querySelector('#ev-overlay .ev-panel');
+    const f = panel.querySelectorAll('a[href], button:not([disabled])');
+    if (!f.length) return;
+    const first = f[0], last = f[f.length - 1];
+    if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+    else if (!panel.contains(document.activeElement)) { e.preventDefault(); first.focus(); }
+  }
+
+  function candLinks(c) {
     // Verified page URL when the data has one; identical search-link fallback
     // otherwise, so every candidate carries the same Ballotpedia chip.
     const bp = c.ballotpedia || ('https://ballotpedia.org/wiki/index.php?search=' + encodeURIComponent(c.name + ' Pennsylvania'));
@@ -409,17 +462,73 @@
     links += '<a href="' + bp + '" target="_blank" rel="noopener">Ballotpedia</a>' +
              '<a href="' + web + '" target="_blank" rel="noopener">Search</a>';
     if (c.cfUrl) links += '<a href="' + esc(c.cfUrl) + '" target="_blank" rel="noopener">Finance</a>';
-    return '<div class="cand">' +
-      '<span class="badge ' + cls + '">' + esc(c.partyCode) + '</span>' +
-      '<span class="name">' + esc(c.name) + '</span>' +
-      '<span class="meta">' + esc(c.party) + (c.county ? ' &middot; ' + esc(c.county) + ' County' : '') + '</span>' +
-      '<span class="links">' + links + '</span></div>';
+    return '<span class="links">' + links + '</span>';
   }
 
-  function comparisonTable(race) {
+  function badge(c) {
+    const cls = (c.partyCode === 'DEM' || c.partyCode === 'REP') ? c.partyCode : 'other';
+    return '<span class="badge ' + cls + '">' + esc(c.partyCode) + '</span>';
+  }
+
+  function candidateRow(c) {
+    return '<div class="cand">' + badge(c) +
+      '<span class="name">' + esc(c.name) + '</span>' +
+      '<span class="meta">' + esc(c.party) + (c.county ? ' &middot; ' + esc(c.county) + ' County' : '') + '</span>' +
+      candLinks(c) + '</div>';
+  }
+
+  // Pennsylvania elects the governor and lieutenant governor together with one
+  // vote (Pa. Const. art. IV, sec. 4), so the ballot shows them as a ticket.
+  // Pair the two statewide races by party; anyone without a running mate in
+  // the data still gets a row, flagged, rather than being dropped.
+  function ticketPairs(gov, ltg) {
+    const gs = (gov && gov.candidates) || [], ls = (ltg && ltg.candidates) || [];
+    const used = new Set();
+    const pairs = gs.map(g => {
+      const i = ls.findIndex((l, idx) => !used.has(idx) && l.partyCode === g.partyCode);
+      if (i >= 0) used.add(i);
+      return {gov: g, ltg: i >= 0 ? ls[i] : null};
+    });
+    ls.forEach((l, idx) => { if (!used.has(idx)) pairs.push({gov: null, ltg: l}); });
+    return pairs;
+  }
+
+  function who(c, role) {
+    if (!c) return '<div class="who"><span class="meta"><span class="role">' + role + '</span> no running mate in our data &mdash; confirm with your county ballot</span></div>';
+    return '<div class="who"><span class="name">' + esc(c.name) + '</span>' +
+      '<span class="meta"><span class="role">' + role + '</span>' + (c.county ? ' &middot; ' + esc(c.county) + ' County' : '') + '</span>' +
+      candLinks(c) + '</div>';
+  }
+
+  function ticketCard(gov, ltg) {
+    const pairs = ticketPairs(gov, ltg);
+    let body;
+    if (pairs.length) {
+      body = pairs.map(p => {
+        const lead = p.gov || p.ltg;
+        return '<div class="cand ticket">' + badge(lead) + '<div class="pair">' +
+          who(p.gov, 'for Governor') + who(p.ltg, 'for Lieutenant Governor') + '</div></div>';
+      }).join('') +
+      comparisonTable(gov, 'governor') + comparisonTable(ltg, 'lieutenant governor');
+    } else {
+      body = '<div class="note gap">Our candidate data has no statewide ticket listed. That is a gap on our side; confirm with your county election office.</div>';
+    }
+    return '<section class="race"><h2>Governor and Lieutenant Governor' +
+      ' <span class="dist">&mdash; Statewide &middot; one vote elects both</span></h2>' + body + '</section>';
+  }
+
+  function srcLink(p) {
+    if (!p.source) return '';
+    return '<span class="src"><a href="' + esc(p.source) + '" target="_blank" rel="noopener">source' +
+      (p.date ? ', dated ' + esc(p.date) : '') + '</a></span>';
+  }
+
+  function comparisonTable(race, label) {
+    if (!race) return '';
     const cands = race.candidates;
     const withData = cands.filter(c => c.positions && Object.keys(c.positions).length);
     if (!withData.length || !ISSUES.length) return '';
+    const what = label ? label + ' candidates' : 'positions';
     let head = '<tr><th></th>' + cands.map(c => {
       const cls = (c.partyCode === 'DEM' || c.partyCode === 'REP') ? c.partyCode : 'other';
       return '<th><span class="badge ' + cls + '">' + esc(c.partyCode) + '</span>' + esc(c.name) +
@@ -430,24 +539,36 @@
         let p = (c.positions || {})[iss.key];
         if (Array.isArray(p)) p = p[0];  // newest entry is primary, by mechanical rule
         if (!p) return '<td><span class="none">No public position on file</span></td>';
-        let cell = '<p class="pos">' + esc(p.short || p.summary) + '</p>';
-        if (p.source) cell += '<span class="src"><a href="' + esc(p.source) + '" target="_blank" rel="noopener">source' +
-          (p.date ? ' (' + esc(p.date) + ')' : '') + '</a></span>';
-        return '<td>' + cell + '</td>';
+        return '<td><p class="pos">' + esc(p.short || p.summary) + '</p>' + srcLink(p) + '</td>';
       }).join('');
       return '<tr><td class="issue">' + esc(iss.label) + '</td>' + cells + '</tr>';
     }).join('');
-    return '<button class="cmp-toggle" type="button" aria-expanded="false">Compare positions side by side ▾</button>' +
+    // Same content, stacked per issue, for narrow screens (CSS picks one).
+    const stack = ISSUES.map(iss => {
+      const blocks = cands.map(c => {
+        let p = (c.positions || {})[iss.key];
+        if (Array.isArray(p)) p = p[0];
+        const inner = p ? '<p class="pos">' + esc(p.short || p.summary) + '</p>' + srcLink(p)
+                        : '<span class="none">No public position on file</span>';
+        return '<div class="c"><span class="n">' + badge(c) + esc(c.name) + '</span>' + inner + '</div>';
+      }).join('');
+      return '<div class="iss"><h4>' + esc(iss.label) + '</h4>' + blocks + '</div>';
+    }).join('');
+    return '<button class="cmp-toggle" type="button" aria-expanded="false" data-what="' + esc(what) + '">Compare ' + esc(what) + ' side by side ▾</button>' +
       '<div class="cmp-wrap"><table class="cmp"><thead>' + head + '</thead><tbody>' + body + '</tbody></table>' +
+      '<div class="cmp-stack">' + stack + '</div>' +
       '<div class="cmp-note">Position lines are condensed for side-by-side scanning; the &ldquo;All statements&rdquo; link under a candidate&rsquo;s name opens their full statements, each with a source and date. Everything is a neutral summary of the candidate&rsquo;s own public statements. &ldquo;No public position on file&rdquo; means this project has not yet verified a statement &mdash; it does not mean the candidate has no view. ' + esc(D.issuesNote || '') + '</div></div>';
   }
 
-  function raceCard(title, dist, race, emptyNote) {
+  function raceCard(title, dist, race, emptyNote, gap) {
     let body;
     if (race && race.candidates.length) {
       body = race.candidates.map(candidateRow).join('') + comparisonTable(race);
+    } else if (gap) {
+      // emptyNote here is trusted HTML built above (contains the fallback links)
+      body = '<div class="note gap">' + emptyNote + '</div>';
     } else {
-      body = '<div class="note">' + esc(emptyNote || 'No certified candidates are listed yet for this race.') + '</div>';
+      body = '<div class="note">' + esc(emptyNote || 'No certified candidates are listed for this race.') + '</div>';
     }
     return '<section class="race"><h2>' + esc(title) +
       (dist ? ' <span class="dist">&mdash; ' + esc(dist) + '</span>' : '') +
@@ -471,20 +592,31 @@
     };
     const raceBlocks = lastBallot.races.map(r => {
       let inner;
-      if (r.race && r.race.candidates.length) {
+      if (r.ticket) {
+        inner = ticketPairs(r.ticket.gov, r.ticket.ltg).map(p => {
+          const lead = p.gov || p.ltg;
+          const nm = c => c ? esc(c.name) : '(no running mate in our data)';
+          return '<div class="ph-cand"><span class="ph-p">' + esc(lead.partyCode) + '</span>' +
+            nm(p.gov) + ' / ' + nm(p.ltg) + '</div>';
+        }).join('') || '<div class="ph-none">No statewide ticket in our data.</div>';
+      } else if (r.race && r.race.candidates.length) {
         inner = r.race.candidates.map(c =>
           '<div class="ph-cand"><span class="ph-p">' + esc(c.partyCode) + '</span>' + esc(c.name) +
           (c.county ? ' <span class="ph-co">(' + esc(c.county) + ' Co.)</span>' : '') + '</div>').join('');
       } else {
-        inner = '<div class="ph-none">' + esc(r.emptyNote || 'No certified candidates listed yet.') + '</div>';
+        inner = '<div class="ph-none">' + esc(r.printNote || r.emptyNote || 'No certified candidates listed.') + '</div>';
       }
       return '<div class="ph-race"><h2>' + esc(r.title) +
         (r.dist ? ' <span class="ph-d">— ' + esc(r.dist) + '</span>' : '') + '</h2>' + inner + '</div>';
     }).join('');
 
     // page 2: concise side-by-side positions for races that have them on file
-    const cmpRaces = lastBallot.races.filter(r => r.race &&
-      r.race.candidates.some(c => c.positions && Object.keys(c.positions).length));
+    const cmpRaces = [];
+    for (const r of lastBallot.races) {
+      const parts = r.ticket ? [{title: 'Governor', race: r.ticket.gov}, {title: 'Lieutenant Governor', race: r.ticket.ltg}]
+                             : [{title: r.title, race: r.race}];
+      for (const p of parts) if (p.race && p.race.candidates.some(c => c.positions && Object.keys(c.positions).length)) cmpRaces.push(p);
+    }
     let cmpPage = '';
     if (cmpRaces.length && ISSUES.length) {
       const blocks = cmpRaces.map(r => {
@@ -529,7 +661,7 @@
           '<li>Candidate profiles: <b>ballotpedia.org</b></li>' +
         '</ul></div>' +
       '</div>' +
-      '<div class="ph-foot">Nonpartisan voter information &middot; every certified candidate listed identically &middot; candidate data: PA Department of State (updated ' + esc(D.lastUpdated) + ') &middot; confirm your full ballot, including any ballot questions, with your county election office</div>' +
+      '<div class="ph-foot">Nonpartisan voter information &middot; every certified candidate listed identically &middot; candidate roster: PA Department of State, checked ' + esc(FRESH.rosterChecked) + ' &middot; positions last reviewed ' + esc(FRESH.positionsReviewed) + ' &middot; ballot questions and special elections not included; confirm your full ballot with your county election office</div>' +
       cmpPage;
   }
 
@@ -540,7 +672,7 @@
       race.classList.toggle('cmp-open');
       const open = race.classList.contains('cmp-open');
       t.setAttribute('aria-expanded', open);
-      t.textContent = open ? 'Hide comparison ▴' : 'Compare positions side by side ▾';
+      t.textContent = open ? 'Hide comparison ▴' : 'Compare ' + (t.dataset.what || 'positions') + ' side by side ▾';
     }
     const ev = e.target.closest('.ev-link');
     if (ev) {
@@ -550,10 +682,13 @@
     }
     if (e.target.closest('.ev-close') || e.target.id === 'ev-overlay') closeEvidence();
     if (e.target.id === 'printbtn') { buildPrintSheet(); window.print(); }
+    const alt = e.target.closest('.alts button');
+    if (alt) { $('addr').value = alt.dataset.addr; $('f').requestSubmit(); }
   });
 
   document.addEventListener('keydown', e => {
     if (e.key === 'Escape' && $('ev-overlay').classList.contains('open')) closeEvidence();
+    trapFocus(e);
   });
 
   $('f').addEventListener('submit', async e => {
@@ -572,6 +707,8 @@
         st.textContent = 'That address couldn’t be found. Try the format: street number and name, city, PA, ZIP — e.g. “450 Exton Square Parkway, Exton, PA 19341”.';
         return;
       }
+      // The geocoder ranks matches; take the first, but say so when there
+      // were others rather than silently guessing.
       const m = matches[0];
       const g = m.geographies || {};
       const stateG = layer(g, 'States');
@@ -584,43 +721,80 @@
       const sd = layer(g, 'Upper');
       const hd = layer(g, 'Lower');
       const county = layer(g, 'Counties');
-      const cdNum = cd ? parseInt(cd.GEOID.slice(2), 10) : null;
-      const sdNum = sd ? parseInt(sd.GEOID.slice(2), 10) : null;
-      const hdNum = hd ? parseInt(hd.GEOID.slice(2), 10) : null;
+      const num = geo => {
+        const n = geo && geo.GEOID ? parseInt(geo.GEOID.slice(2), 10) : NaN;
+        return Number.isInteger(n) && n > 0 ? n : null;
+      };
+      const cdNum = num(cd), sdNum = num(sd), hdNum = num(hd);
+
+      // A ballot with a district silently missing is wrong, not incomplete.
+      // Refuse to render one and send the voter to the official lookup.
+      const missing = [];
+      if (!cdNum) missing.push('congressional district');
+      if (!sdNum) missing.push('state senate district');
+      if (!hdNum) missing.push('state house district');
+      if (missing.length) {
+        st.className = 'err';
+        st.innerHTML = 'The district lookup found the address (' + esc(m.matchedAddress) + ') but did not return your ' +
+          esc(missing.join(', ')) + ', so a complete ballot can&rsquo;t be shown. Try again in a moment, add the ZIP code, or use the ' +
+          OFFICIAL_LOOKUP + '.';
+        return;
+      }
 
       const districtLine = (county ? county.NAME : '') +
-        (cdNum ? ' · ' + ordinal(cdNum) + ' Congressional District' : '') +
-        (sdNum ? ' · Senate District ' + sdNum : '') +
-        (hdNum ? ' · House District ' + hdNum : '');
+        ' \u00b7 ' + ordinal(cdNum) + ' Congressional District' +
+        ' \u00b7 Senate District ' + sdNum +
+        ' \u00b7 House District ' + hdNum;
+
+      // Distinguish "this office is not up this cycle" from "our data has no
+      // race for this district" -- the second is a gap on our side.
+      const gapNote = what => 'Our candidate data has no ' + what + ' race listed for this district. ' +
+        'That is a gap on our side, not a sign the seat is uncontested. Please confirm with the ' + OFFICIAL_LOOKUP +
+        ' and let us know at <a href="mailto:' + esc(D.contactEmail) + '">' + esc(D.contactEmail) + '</a>.';
+      const gapPrint = 'Not in our data; confirm with your county election office.';
 
       const ballotRaces = [
-        {title: 'Governor', dist: 'Statewide', race: D.races['STATEWIDE-GOV']},
-        {title: 'Lieutenant Governor', dist: 'Statewide', race: D.races['STATEWIDE-LTGOV']},
+        {title: 'Governor and Lieutenant Governor', dist: 'Statewide',
+         ticket: {gov: D.races['STATEWIDE-GOV'] || null, ltg: D.races['STATEWIDE-LTGOV'] || null}},
       ];
-      if (cdNum) ballotRaces.push({title: 'U.S. House of Representatives',
-        dist: ordinal(cdNum) + ' Congressional District',
-        race: D.races['CD-' + String(cdNum).padStart(2, '0')]});
-      if (sdNum) {
-        const key = 'SD-' + sdNum;
+      const cdRace = D.races['CD-' + String(cdNum).padStart(2, '0')] || null;
+      ballotRaces.push({title: 'U.S. House of Representatives',
+        dist: ordinal(cdNum) + ' Congressional District', race: cdRace,
+        gap: !cdRace, emptyNote: cdRace ? '' : gapNote('U.S. House'), printNote: gapPrint});
+      const sdRace = D.races['SD-' + sdNum] || null;
+      if (sdRace || sdNum % 2 === 0) {
         ballotRaces.push({title: 'Pennsylvania State Senate',
-          dist: ordinal(sdNum) + ' Senatorial District',
-          race: D.races[key] || null,
-          emptyNote: 'Your state senate seat (District ' + sdNum + ') is not on the 2026 ballot. ' +
-            'Pennsylvania senators serve four-year terms; odd-numbered districts vote next in 2028. ' +
-            'You can look up your current senator with the “Your current legislators” link below.'});
+          dist: ordinal(sdNum) + ' Senatorial District', race: sdRace,
+          gap: !sdRace, emptyNote: sdRace ? '' : gapNote('State Senate'), printNote: gapPrint});
+      } else {
+        ballotRaces.push({title: 'Pennsylvania State Senate',
+          dist: ordinal(sdNum) + ' Senatorial District', race: null,
+          emptyNote: 'Not on the 2026 ballot. Pennsylvania senators serve four-year terms; odd-numbered districts, including yours, vote next in 2028. ' +
+            'Your current senator is listed under \u201cYour current legislators\u201d below.',
+          printNote: 'Not on the 2026 ballot: odd-numbered senate districts vote next in 2028.'});
       }
-      if (hdNum) ballotRaces.push({title: 'Pennsylvania State House',
-        dist: ordinal(hdNum) + ' Legislative District', race: D.races['HD-' + hdNum]});
+      const hdRace = D.races['HD-' + hdNum] || null;
+      ballotRaces.push({title: 'Pennsylvania State House',
+        dist: ordinal(hdNum) + ' Legislative District', race: hdRace,
+        gap: !hdRace, emptyNote: hdRace ? '' : gapNote('State House'), printNote: gapPrint});
 
       lastBallot = {districtLine, races: ballotRaces};
 
       st.textContent = '';
-      let html = '<div class="districts"><strong>Matched address</strong>' + esc(m.matchedAddress) +
-        '<br><strong style="margin-top:.6rem">Your districts</strong>' + esc(districtLine) + '</div>';
-      html += '<div class="toolbar"><button id="printbtn" type="button">🖨 Print canvassing handout</button></div>';
-      for (const r of ballotRaces) html += raceCard(r.title, r.dist, r.race, r.emptyNote);
-      html += '<div class="callout">Minor-party and independent candidates have until August 3, 2026 to file, ' +
-        'so more names may be added to these races. Data last updated ' + esc(D.lastUpdated) + '.</div>';
+      let html = '<div class="districts"><strong>Matched address</strong>' + esc(m.matchedAddress);
+      if (matches.length > 1) {
+        html += '<div class="alts">The geocoder found ' + matches.length + ' possible matches and this is its best one. Not yours? Try another:' +
+          matches.slice(1, 5).map(x => '<button type="button" data-addr="' + esc(x.matchedAddress) + '">' + esc(x.matchedAddress) + '</button>').join('') + '</div>';
+      }
+      html += '<br><strong style="margin-top:.6rem">Your districts</strong>' + esc(districtLine) +
+        '<span class="cov">Shown here: candidates for governor and lieutenant governor, U.S. House, state senate, and state house. ' +
+        'Ballot questions, judicial retention votes, and any special elections are <em>not</em> included; your county ballot is the final word.</span></div>';
+      html += '<div class="toolbar"><button id="printbtn" type="button">\ud83d\udda8 Print canvassing handout</button></div>';
+      for (const r of ballotRaces) {
+        html += r.ticket ? ticketCard(r.ticket.gov, r.ticket.ltg) : raceCard(r.title, r.dist, r.race, r.emptyNote, r.gap);
+      }
+      html += '<div class="callout">Candidate roster checked ' + esc(FRESH.rosterChecked) + ' against the PA Department of State listing. ' +
+        'Issue positions last reviewed ' + esc(FRESH.positionsReviewed) + '. Spot an error? See Corrections below.</div>';
       res.innerHTML = html;
     } catch (err) {
       st.className = 'err';
