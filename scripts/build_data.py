@@ -24,12 +24,13 @@ Issue positions:
   without entries simply render without a comparison column filled in.
 """
 import json
+import os
 import re
 import sys
-from datetime import date
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
+# BALLOT_ROOT lets the tests point the build at a throwaway checkout.
+ROOT = Path(os.environ.get("BALLOT_ROOT") or Path(__file__).resolve().parent.parent)
 
 OFFICE_MAP = {
     "GOVERNOR": ("STATEWIDE-GOV", "Governor"),

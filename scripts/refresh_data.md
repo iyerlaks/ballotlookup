@@ -52,7 +52,13 @@ so plain HTTP scripts are blocked — the capture is done through a real browser
    python scripts/build_data.py
    ```
 
-5. Spot-check one known race in the browser, then redeploy the `site/` folder.
+5. Run the regression checks, then spot-check one known race in the browser
+   and redeploy the `site/` folder:
+
+   ```
+   node --test tests/*.js
+   python -m unittest discover -s tests
+   ```
 
 ## What the build script filters
 

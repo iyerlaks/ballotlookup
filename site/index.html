@@ -333,10 +333,14 @@
   <div class="ev-panel" role="dialog" aria-modal="true" aria-labelledby="ev-title"></div>
 </div>
 
+<script src="ballot_logic.js"></script>
 <script src="data.js"></script>
 <script>
 (function () {
   const D = window.BALLOT_DATA;
+  const BL = window.BallotLogic;
+  const ELECTION_YEAR = parseInt(String(D.electionDate || '').slice(0, 4), 10) || 2026;
+  const ordinal = BL.ordinal, ticketPairs = BL.ticketPairs;
   const ISSUES = D.issues || [];
   const VOTE = D.voting || {};
   // Two voter-facing dates, both set by hand in the data at each refresh.
@@ -374,13 +378,6 @@
         '&benchmark=Public_AR_Current&vintage=Current_Current&format=jsonp&callback=' + cb;
       document.head.appendChild(s);
     });
-  }
-
-  function layer(geos, nameContains) {
-    for (const key of Object.keys(geos)) {
-      if (key.includes(nameContains)) return (geos[key] && geos[key][0]) || null;
-    }
-    return null;
   }
 
   // ---- per-candidate evidence panel ----
@@ -478,21 +475,8 @@
   }
 
   // Pennsylvania elects the governor and lieutenant governor together with one
-  // vote (Pa. Const. art. IV, sec. 4), so the ballot shows them as a ticket.
-  // Pair the two statewide races by party; anyone without a running mate in
-  // the data still gets a row, flagged, rather than being dropped.
-  function ticketPairs(gov, ltg) {
-    const gs = (gov && gov.candidates) || [], ls = (ltg && ltg.candidates) || [];
-    const used = new Set();
-    const pairs = gs.map(g => {
-      const i = ls.findIndex((l, idx) => !used.has(idx) && l.partyCode === g.partyCode);
-      if (i >= 0) used.add(i);
-      return {gov: g, ltg: i >= 0 ? ls[i] : null};
-    });
-    ls.forEach((l, idx) => { if (!used.has(idx)) pairs.push({gov: null, ltg: l}); });
-    return pairs;
-  }
-
+  // vote (Pa. Const. art. IV, sec. 4), so the ballot shows them as a ticket
+  // (pairing logic: ballot_logic.js ticketPairs).
   function who(c, role) {
     if (!c) return '<div class="who"><span class="meta"><span class="role">' + role + '</span> no running mate in our data &mdash; confirm with your county ballot</span></div>';
     return '<div class="who"><span class="name">' + esc(c.name) + '</span>' +
@@ -573,11 +557,6 @@
     return '<section class="race"><h2>' + esc(title) +
       (dist ? ' <span class="dist">&mdash; ' + esc(dist) + '</span>' : '') +
       '</h2>' + body + '</section>';
-  }
-
-  function ordinal(n) {
-    const s = ['th', 'st', 'nd', 'rd'], v = n % 100;
-    return n + (s[(v - 20) % 10] || s[v] || s[0]);
   }
 
   // ---- print handout ----
@@ -710,41 +689,24 @@
       // The geocoder ranks matches; take the first, but say so when there
       // were others rather than silently guessing.
       const m = matches[0];
-      const g = m.geographies || {};
-      const stateG = layer(g, 'States');
-      if (stateG && stateG.GEOID !== '42') {
+      const d = BL.resolveDistricts(m.geographies);
+      if (d.stateGeoid && !BL.isPennsylvania(d)) {
         st.className = 'err';
-        st.textContent = 'That address is in ' + (stateG.NAME || 'another state') + '. This tool covers Pennsylvania only.';
+        st.textContent = 'That address is in ' + (d.stateName || 'another state') + '. This tool covers Pennsylvania only.';
         return;
       }
-      const cd = layer(g, 'Congressional');
-      const sd = layer(g, 'Upper');
-      const hd = layer(g, 'Lower');
-      const county = layer(g, 'Counties');
-      const num = geo => {
-        const n = geo && geo.GEOID ? parseInt(geo.GEOID.slice(2), 10) : NaN;
-        return Number.isInteger(n) && n > 0 ? n : null;
-      };
-      const cdNum = num(cd), sdNum = num(sd), hdNum = num(hd);
 
       // A ballot with a district silently missing is wrong, not incomplete.
       // Refuse to render one and send the voter to the official lookup.
-      const missing = [];
-      if (!cdNum) missing.push('congressional district');
-      if (!sdNum) missing.push('state senate district');
-      if (!hdNum) missing.push('state house district');
-      if (missing.length) {
+      if (d.missing.length) {
         st.className = 'err';
         st.innerHTML = 'The district lookup found the address (' + esc(m.matchedAddress) + ') but did not return your ' +
-          esc(missing.join(', ')) + ', so a complete ballot can&rsquo;t be shown. Try again in a moment, add the ZIP code, or use the ' +
+          esc(d.missing.join(', ')) + ', so a complete ballot can&rsquo;t be shown. Try again in a moment, add the ZIP code, or use the ' +
           OFFICIAL_LOOKUP + '.';
         return;
       }
 
-      const districtLine = (county ? county.NAME : '') +
-        ' \u00b7 ' + ordinal(cdNum) + ' Congressional District' +
-        ' \u00b7 Senate District ' + sdNum +
-        ' \u00b7 House District ' + hdNum;
+      const districtLine = BL.districtLine(d);
 
       // Distinguish "this office is not up this cycle" from "our data has no
       // race for this district" -- the second is a gap on our side.
@@ -753,30 +715,18 @@
         ' and let us know at <a href="mailto:' + esc(D.contactEmail) + '">' + esc(D.contactEmail) + '</a>.';
       const gapPrint = 'Not in our data; confirm with your county election office.';
 
-      const ballotRaces = [
-        {title: 'Governor and Lieutenant Governor', dist: 'Statewide',
-         ticket: {gov: D.races['STATEWIDE-GOV'] || null, ltg: D.races['STATEWIDE-LTGOV'] || null}},
-      ];
-      const cdRace = D.races['CD-' + String(cdNum).padStart(2, '0')] || null;
-      ballotRaces.push({title: 'U.S. House of Representatives',
-        dist: ordinal(cdNum) + ' Congressional District', race: cdRace,
-        gap: !cdRace, emptyNote: cdRace ? '' : gapNote('U.S. House'), printNote: gapPrint});
-      const sdRace = D.races['SD-' + sdNum] || null;
-      if (sdRace || sdNum % 2 === 0) {
-        ballotRaces.push({title: 'Pennsylvania State Senate',
-          dist: ordinal(sdNum) + ' Senatorial District', race: sdRace,
-          gap: !sdRace, emptyNote: sdRace ? '' : gapNote('State Senate'), printNote: gapPrint});
-      } else {
-        ballotRaces.push({title: 'Pennsylvania State Senate',
-          dist: ordinal(sdNum) + ' Senatorial District', race: null,
-          emptyNote: 'Not on the 2026 ballot. Pennsylvania senators serve four-year terms; odd-numbered districts, including yours, vote next in 2028. ' +
-            'Your current senator is listed under \u201cYour current legislators\u201d below.',
-          printNote: 'Not on the 2026 ballot: odd-numbered senate districts vote next in 2028.'});
-      }
-      const hdRace = D.races['HD-' + hdNum] || null;
-      ballotRaces.push({title: 'Pennsylvania State House',
-        dist: ordinal(hdNum) + ' Legislative District', race: hdRace,
-        gap: !hdRace, emptyNote: hdRace ? '' : gapNote('State House'), printNote: gapPrint});
+      const ballotRaces = BL.planBallot(d, D.races, ELECTION_YEAR).map(e => {
+        const out = {title: e.title, dist: e.dist, race: e.race || null};
+        if (e.status === 'ticket') { out.ticket = e.ticket; }
+        else if (e.status === 'gap') { out.gap = true; out.emptyNote = gapNote(e.office); out.printNote = gapPrint; }
+        else if (e.status === 'notUp') {
+          out.emptyNote = 'Not on the ' + ELECTION_YEAR + ' ballot. Pennsylvania senators serve four-year terms; ' +
+            (e.key.split('-')[1] % 2 ? 'odd' : 'even') + '-numbered districts, including yours, vote next in ' + e.nextYear + '. ' +
+            'Your current senator is listed under \u201cYour current legislators\u201d below.';
+          out.printNote = 'Not on the ' + ELECTION_YEAR + ' ballot; this senate seat votes next in ' + e.nextYear + '.';
+        }
+        return out;
+      });
 
       lastBallot = {districtLine, races: ballotRaces};
 

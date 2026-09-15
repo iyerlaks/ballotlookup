@@ -59,13 +59,32 @@ data/issues.json             researched issue positions (see METHODOLOGY.md)
 data/ISSUES_GUIDE.md         rules + format for adding positions
 data/research/               per-district research files as merged
 scripts/build_data.py        raw extract + positions -> site/data.js
-scripts/merge_positions.py   validate + merge research files into issues.json
+scripts/research_rules.py    the one rule set both scripts below apply
+scripts/merge_positions.py   validate + merge research files into issues.json (all or nothing)
 scripts/validate_research.py read-only validator for research files
 scripts/ballotpedia_links.py Ballotpedia link verification batch tool
 scripts/refresh_data.md      how to re-capture the raw extract
-site/index.html              the whole app (no build step, no dependencies)
+site/index.html              the app UI (no build step, no dependencies)
+site/ballot_logic.js         pure lookup logic: districts -> ballot plan (no DOM)
 site/data.js                 generated candidate database
+tests/                       regression checks (see below)
 ```
+
+## Tests
+
+No test framework to install; both suites use what ships with node and Python:
+
+```
+node --test tests/*.js
+python -m unittest discover -s tests
+```
+
+They cover the lookup's failure paths (missing district layers, out-of-state
+addresses, malformed GEOIDs), the difference between "our data has no race"
+and "this seat is not up this cycle", senate election-cycle handling by year,
+governor / lieutenant governor ticket pairing, candidate filtering in the
+build, freshness dates coming from data rather than build time, and the
+merge script refusing to write anything when any input file has a problem.
 
 ## Deploying
 
