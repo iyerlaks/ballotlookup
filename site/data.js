@@ -4,10 +4,10 @@ window.BALLOT_DATA = {
  "electionDate": "2026-11-03",
  "dataSource": "Pennsylvania Department of State \u2014 Official Candidate Listing (pavoterservices.pa.gov)",
  "freshness": {
-  "rosterChecked": "2026-08-24",
-  "positionsReviewed": "2026-08-24"
+  "rosterChecked": "2026-10-01",
+  "positionsReviewed": "2026-10-01"
  },
- "lastUpdated": "2026-08-24",
+ "lastUpdated": "2026-10-01",
  "notes": "",
  "issues": [
   {
@@ -661,6 +661,98 @@ window.BALLOT_DATA = {
        "short": "Voted for bill allowing concealed carry without a license.",
        "source": "https://www.palegis.us/house/roll-calls/summary?sessYr=2021&sessInd=0&rcNum=624",
        "date": "2021-11"
+      }
+     }
+    }
+   ]
+  },
+  "HD-151": {
+   "office": "Pennsylvania State House",
+   "district": "151st Legislative District",
+   "candidates": [
+    {
+     "name": "Melissa Anne Cerrato",
+     "party": "Democratic",
+     "partyCode": "DEM",
+     "county": "Montgomery",
+     "cfUrl": "https://www.campaignfinanceonline.pa.gov/Pages/CFAnnualTotals.aspx?Filer=2026C0073",
+     "website": "https://missy4pa.com/",
+     "ballotpedia": "https://ballotpedia.org/Melissa_Cerrato",
+     "positions": {
+      "economy": {
+       "summary": "Cerrato's campaign website lists fighting the rising cost of living among her priorities for working families in the 151st District.",
+       "short": "Lists fighting the rising cost of living as a priority.",
+       "source": "https://missy4pa.com/",
+       "date": "2026-07"
+      },
+      "taxes": {
+       "summary": "Cerrato's campaign website states she supports keeping property taxes low and holding government accountable.",
+       "short": "Supports keeping property taxes low.",
+       "source": "https://missy4pa.com/",
+       "date": "2026-07"
+      },
+      "abortion": {
+       "summary": "Cerrato's campaign website states she supports making reproductive freedom state law to protect access to abortion.",
+       "short": "Supports making reproductive freedom state law protecting abortion access.",
+       "source": "https://missy4pa.com/",
+       "date": "2026-07"
+      },
+      "education": {
+       "summary": "Cerrato's campaign website states she supports fairly funding public schools and making childcare more accessible and affordable.",
+       "short": "Supports fairly funding public schools; more accessible, affordable childcare.",
+       "source": "https://missy4pa.com/",
+       "date": "2026-07"
+      },
+      "healthcare": {
+       "summary": "Cerrato's campaign website describes her committee work on improving access to essential health services and supporting mental health initiatives.",
+       "short": "Describes work improving health-service access and mental health support.",
+       "source": "https://missy4pa.com/in-harrisburg",
+       "date": "2026-07"
+      },
+      "energy": {
+       "summary": "As the incumbent, Cerrato co-sponsored House Bill 2277 in the 2023-2024 session, which amends the Alternative Energy Portfolio Standards Act; her campaign website does not detail a separate energy position.",
+       "short": "Co-sponsored bill amending Alternative Energy Portfolio Standards Act.",
+       "source": "https://www.palegis.us/legislation/bills/2023/hb2277",
+       "date": "2024-05"
+      },
+      "guns": {
+       "summary": "Cerrato's campaign website states she supports adopting sensible gun legislation to better protect communities and schoolchildren.",
+       "short": "Supports adopting sensible gun legislation to protect communities, schoolchildren.",
+       "source": "https://missy4pa.com/",
+       "date": "2026-07"
+      }
+     }
+    },
+    {
+     "name": "Allen Arthur Anderson",
+     "party": "Republican",
+     "partyCode": "REP",
+     "county": "Montgomery",
+     "cfUrl": "https://www.campaignfinanceonline.pa.gov/Pages/CFAnnualTotals.aspx?Filer=2026C1469",
+     "positions": {
+      "economy": {
+       "summary": "In his 2024 run for the same seat, Anderson said high government spending causes inflation and that spending should stop where effectiveness cannot be measured.",
+       "short": "Says high government spending causes inflation; wants measurable spending.",
+       "source": "https://patch.com/pennsylvania/horsham/election-2024-republican-allen-anderson-state-representative",
+       "date": "2024-10"
+      },
+      "taxes": {
+       "summary": "In 2024, Anderson said he supports eliminating taxes on Social Security benefits and on tips to ease costs for residents.",
+       "short": "Supports eliminating taxes on Social Security benefits and tips.",
+       "source": "https://patch.com/pennsylvania/horsham/election-2024-republican-allen-anderson-state-representative",
+       "date": "2024-10"
+      },
+      "education": {
+       "summary": "In 2024, Anderson said school districts should be funded equally rather than some receiving preferential treatment.",
+       "short": "Says all school districts should be funded equally.",
+       "source": "https://patch.com/pennsylvania/horsham/election-2024-republican-allen-anderson-state-representative",
+       "date": "2024-10"
+      },
+      "guns": {
+       "summary": "In 2024, Anderson said crime could be reduced with more police and high bonds for violent offenders. He proposed probation for first-time offenders and jail for repeat offenders, especially violent offenders and those who use guns.",
+       "short": "Supports more police, high bonds, jail for repeat and gun offenders.",
+       "source": "https://patch.com/pennsylvania/horsham/election-2024-republican-allen-anderson-state-representative",
+       "date": "2024-10"
       }
      }
     }
@@ -4662,21 +4754,6 @@ window.BALLOT_DATA = {
        }
       ]
      }
-    },
-    {
-     "name": "Andrew Tupone",
-     "party": "Green",
-     "partyCode": "GRN",
-     "county": "Northampton",
-     "cfUrl": "https://www.campaignfinanceonline.pa.gov/Pages/CFAnnualTotals.aspx?Filer=2026C1447",
-     "positions": {
-      "energy": {
-       "summary": "Tupone said he joined the Green Party in spring 2026 because he was drawn to its environmental policies on water conservancy and its opposition to data centers.",
-       "short": "Joined Greens for water conservancy, opposition to data centers.",
-       "source": "https://www.lehighvalleypublicmedia.org/news/politics/green-party-candidate-enters-pa-7-race-amid-controversy/",
-       "date": "2026-07"
-      }
-     }
     }
    ]
   },
@@ -5532,65 +5609,6 @@ window.BALLOT_DATA = {
     }
    ]
   },
-  "HD-151": {
-   "office": "Pennsylvania State House",
-   "district": "151st Legislative District",
-   "candidates": [
-    {
-     "name": "Melissa Anne Cerrato",
-     "party": "Democratic",
-     "partyCode": "DEM",
-     "county": "Montgomery",
-     "cfUrl": "https://www.campaignfinanceonline.pa.gov/Pages/CFAnnualTotals.aspx?Filer=2026C0073",
-     "website": "https://missy4pa.com/",
-     "ballotpedia": "https://ballotpedia.org/Melissa_Cerrato",
-     "positions": {
-      "economy": {
-       "summary": "Cerrato's campaign website lists fighting the rising cost of living among her priorities for working families in the 151st District.",
-       "short": "Lists fighting the rising cost of living as a priority.",
-       "source": "https://missy4pa.com/",
-       "date": "2026-07"
-      },
-      "taxes": {
-       "summary": "Cerrato's campaign website states she supports keeping property taxes low and holding government accountable.",
-       "short": "Supports keeping property taxes low.",
-       "source": "https://missy4pa.com/",
-       "date": "2026-07"
-      },
-      "abortion": {
-       "summary": "Cerrato's campaign website states she supports making reproductive freedom state law to protect access to abortion.",
-       "short": "Supports making reproductive freedom state law protecting abortion access.",
-       "source": "https://missy4pa.com/",
-       "date": "2026-07"
-      },
-      "education": {
-       "summary": "Cerrato's campaign website states she supports fairly funding public schools and making childcare more accessible and affordable.",
-       "short": "Supports fairly funding public schools; more accessible, affordable childcare.",
-       "source": "https://missy4pa.com/",
-       "date": "2026-07"
-      },
-      "healthcare": {
-       "summary": "Cerrato's campaign website describes her committee work on improving access to essential health services and supporting mental health initiatives.",
-       "short": "Describes work improving health-service access and mental health support.",
-       "source": "https://missy4pa.com/in-harrisburg",
-       "date": "2026-07"
-      },
-      "energy": {
-       "summary": "As the incumbent, Cerrato co-sponsored House Bill 2277 in the 2023-2024 session, which amends the Alternative Energy Portfolio Standards Act; her campaign website does not detail a separate energy position.",
-       "short": "Co-sponsored bill amending Alternative Energy Portfolio Standards Act.",
-       "source": "https://www.palegis.us/legislation/bills/2023/hb2277",
-       "date": "2024-05"
-      },
-      "guns": {
-       "summary": "Cerrato's campaign website states she supports adopting sensible gun legislation to better protect communities and schoolchildren.",
-       "short": "Supports adopting sensible gun legislation to protect communities, schoolchildren.",
-       "source": "https://missy4pa.com/",
-       "date": "2026-07"
-      }
-     }
-    }
-   ]
-  },
   "HD-41": {
    "office": "Pennsylvania State House",
    "district": "41st Legislative District",
@@ -5734,6 +5752,13 @@ window.BALLOT_DATA = {
        "date": "2024-03"
       }
      }
+    },
+    {
+     "name": "Jeffrey Thomas Fartro",
+     "party": "Republican",
+     "partyCode": "REP",
+     "county": "Montgomery",
+     "cfUrl": "https://www.campaignfinanceonline.pa.gov/Pages/CFAnnualTotals.aspx?Filer=2026C1467"
     }
    ]
   },
@@ -11739,6 +11764,40 @@ window.BALLOT_DATA = {
        "date": "2022-11"
       }
      }
+    },
+    {
+     "name": "Eric William Maier Jr.",
+     "party": "Republican",
+     "partyCode": "REP",
+     "county": "Montgomery",
+     "cfUrl": "https://www.campaignfinanceonline.pa.gov/Pages/CFAnnualTotals.aspx?Filer=2026C1470",
+     "website": "https://www.voteericmaier.com/",
+     "positions": {
+      "economy": {
+       "summary": "Maier says he will work for lower taxes, responsible spending, and policies that help families, seniors, and small businesses keep more of what they earn.",
+       "short": "Proposes lower taxes and responsible spending to improve affordability.",
+       "source": "https://www.voteericmaier.com/",
+       "date": "2026-10"
+      },
+      "taxes": {
+       "summary": "Maier says he will work to ease the burden of rising property taxes for seniors and homeowners, and to protect seniors from fraud and financial exploitation.",
+       "short": "Proposes easing rising property taxes for seniors and homeowners.",
+       "source": "https://www.voteericmaier.com/",
+       "date": "2026-10"
+      },
+      "energy": {
+       "summary": "Maier says he will defend local control over data center development, require transparency, and protect water and energy resources. He supports 'bring your own energy' policies so local ratepayers do not cover data center costs.",
+       "short": "Supports local control of data centers and 'bring your own energy' policies.",
+       "source": "https://www.voteericmaier.com/",
+       "date": "2026-10"
+      },
+      "guns": {
+       "summary": "Maier, a longtime volunteer firefighter and EMT, says safe neighborhoods start with strong support for police, firefighters, EMS, and other first responders. His site does not state a position on gun policy.",
+       "short": "Supports police, firefighters, EMS and first responders for public safety.",
+       "source": "https://www.voteericmaier.com/",
+       "date": "2026-10"
+      }
+     }
     }
    ]
   },
@@ -12273,6 +12332,13 @@ window.BALLOT_DATA = {
        "date": "2026-07"
       }
      }
+    },
+    {
+     "name": "Angela C. Illingworth",
+     "party": "Republican",
+     "partyCode": "REP",
+     "county": "Montgomery",
+     "cfUrl": "https://www.campaignfinanceonline.pa.gov/Pages/CFAnnualTotals.aspx?Filer=2026C1465"
     }
    ]
   },
@@ -15454,6 +15520,98 @@ window.BALLOT_DATA = {
     }
    ]
   },
+  "HD-53": {
+   "office": "Pennsylvania State House",
+   "district": "53rd Legislative District",
+   "candidates": [
+    {
+     "name": "Steven R. Malagari",
+     "party": "Democratic",
+     "partyCode": "DEM",
+     "county": "Montgomery",
+     "cfUrl": "https://www.campaignfinanceonline.pa.gov/Pages/CFAnnualTotals.aspx?Filer=2026C0184",
+     "website": "https://votemalagari.com/",
+     "positions": {
+      "economy": {
+       "summary": "His campaign says he is fighting to protect working families and seniors from rising costs, supports raising the minimum wage to $15 per hour, and backs investment in public transportation and Pre-K Counts funding.",
+       "short": "Supports $15 minimum wage; backs protecting families from rising costs.",
+       "source": "https://votemalagari.com/priorities/",
+       "date": "2026-07"
+      },
+      "taxes": {
+       "summary": "Supports property tax relief, including expanding property tax rebates for seniors, and says increased state basic education funding reduces reliance on local property taxes.",
+       "short": "Supports property tax relief and expanded senior tax rebates.",
+       "source": "https://votemalagari.com/priorities/",
+       "date": "2026-07"
+      },
+      "abortion": {
+       "summary": "Says access to reproductive care, including family planning, IVF, and abortion services, should be a fundamental right. His campaign says he will defend abortion access, oppose attempts to outlaw it in Pennsylvania, and preserve women's health clinics.",
+       "short": "Supports abortion access; opposes attempts to outlaw it in Pennsylvania.",
+       "source": "https://votemalagari.com/priorities/",
+       "date": "2026-07"
+      },
+      "education": {
+       "summary": "Supports increased state basic education funding, including $750 million in basic education funding and $225 million directed to the lowest-spending districts, raising minimum teacher salaries, expanding technical and trade school options, and increased special education and school safety funding.",
+       "short": "Supports increased school funding, higher teacher salaries, trade schools.",
+       "source": "https://votemalagari.com/priorities/",
+       "date": "2026-07"
+      },
+      "healthcare": {
+       "summary": "His campaign says he voted to make prescriptions more affordable and set price limits, supports reducing premiums through the state health insurance exchange, and backs expanded coverage for pre-existing conditions and increased funding for primary care and health departments.",
+       "short": "Voted to lower prescription costs; supports reducing insurance premiums.",
+       "source": "https://votemalagari.com/priorities/",
+       "date": "2026-07"
+      },
+      "energy": {
+       "summary": "Endorsed by Conservation Voters of Pennsylvania, whose endorsement page says he supports fully funding the Department of Environmental Protection, backs a severance tax with increased oversight and fees for drillers, and co-sponsored legislation to transition Pennsylvania to 100% renewable energy by 2050.",
+       "short": "Co-sponsored 100% renewable-by-2050 bill; supports DEP funding, severance tax.",
+       "source": "https://www.conservationpa.org/endorsements/steve-malagari-hd-53-won",
+       "date": "2024-10"
+      },
+      "guns": {
+       "summary": "Supports universal background checks for long gun purchases, lost-and-stolen firearm reporting legislation, safe gun storage requirements, and Extreme Risk Protection Orders, along with state funding for local law enforcement and violence intervention programs.",
+       "short": "Supports universal background checks, safe storage, red-flag orders.",
+       "source": "https://votemalagari.com/priorities/",
+       "date": "2026-07"
+      }
+     }
+    },
+    {
+     "name": "Konstantinos J. Lambros",
+     "party": "Republican",
+     "partyCode": "REP",
+     "county": "Montgomery",
+     "cfUrl": "https://www.campaignfinanceonline.pa.gov/Pages/CFAnnualTotals.aspx?Filer=2026C1464",
+     "website": "https://www.voteyanni.com/",
+     "positions": {
+      "economy": {
+       "summary": "Supports lower costs and fewer barriers for small businesses, including reducing unnecessary regulations and simplifying state requirements. Also lists property tax relief for homeowners and seniors as a priority.",
+       "short": "Supports fewer regulations and lower costs for small businesses.",
+       "source": "https://www.voteyanni.com/priorities",
+       "date": "2026-10"
+      },
+      "taxes": {
+       "summary": "Supports property tax relief for homeowners and seniors and responsible state spending that respects taxpayers. States he opposes wasteful spending and wants resources focused on services that directly benefit residents.",
+       "short": "Supports property tax relief; opposes wasteful state spending.",
+       "source": "https://www.voteyanni.com/priorities",
+       "date": "2026-10"
+      },
+      "education": {
+       "summary": "Supports a fairer state share of school funding as a way to reduce the local property tax burden.",
+       "short": "Supports a fairer state share of school funding.",
+       "source": "https://www.voteyanni.com/priorities",
+       "date": "2026-10"
+      },
+      "guns": {
+       "summary": "Supports defending the constitutional rights of law-abiding firearm owners and focusing enforcement on violent criminals. Opposes firearm restrictions he views as not improving safety, and supports safe storage and training.",
+       "short": "Supports gun owners' rights; opposes unnecessary firearm restrictions.",
+       "source": "https://www.voteyanni.com/priorities",
+       "date": "2026-10"
+      }
+     }
+    }
+   ]
+  },
   "HD-120": {
    "office": "Pennsylvania State House",
    "district": "120th Legislative District",
@@ -16239,64 +16397,6 @@ window.BALLOT_DATA = {
      "partyCode": "TIP",
      "county": "Philadelphia",
      "cfUrl": "https://www.campaignfinanceonline.pa.gov/Pages/CFAnnualTotals.aspx?Filer=2026C1448"
-    }
-   ]
-  },
-  "HD-53": {
-   "office": "Pennsylvania State House",
-   "district": "53rd Legislative District",
-   "candidates": [
-    {
-     "name": "Steven R. Malagari",
-     "party": "Democratic",
-     "partyCode": "DEM",
-     "county": "Montgomery",
-     "cfUrl": "https://www.campaignfinanceonline.pa.gov/Pages/CFAnnualTotals.aspx?Filer=2026C0184",
-     "website": "https://votemalagari.com/",
-     "positions": {
-      "economy": {
-       "summary": "His campaign says he is fighting to protect working families and seniors from rising costs, supports raising the minimum wage to $15 per hour, and backs investment in public transportation and Pre-K Counts funding.",
-       "short": "Supports $15 minimum wage; backs protecting families from rising costs.",
-       "source": "https://votemalagari.com/priorities/",
-       "date": "2026-07"
-      },
-      "taxes": {
-       "summary": "Supports property tax relief, including expanding property tax rebates for seniors, and says increased state basic education funding reduces reliance on local property taxes.",
-       "short": "Supports property tax relief and expanded senior tax rebates.",
-       "source": "https://votemalagari.com/priorities/",
-       "date": "2026-07"
-      },
-      "abortion": {
-       "summary": "Says access to reproductive care, including family planning, IVF, and abortion services, should be a fundamental right. His campaign says he will defend abortion access, oppose attempts to outlaw it in Pennsylvania, and preserve women's health clinics.",
-       "short": "Supports abortion access; opposes attempts to outlaw it in Pennsylvania.",
-       "source": "https://votemalagari.com/priorities/",
-       "date": "2026-07"
-      },
-      "education": {
-       "summary": "Supports increased state basic education funding, including $750 million in basic education funding and $225 million directed to the lowest-spending districts, raising minimum teacher salaries, expanding technical and trade school options, and increased special education and school safety funding.",
-       "short": "Supports increased school funding, higher teacher salaries, trade schools.",
-       "source": "https://votemalagari.com/priorities/",
-       "date": "2026-07"
-      },
-      "healthcare": {
-       "summary": "His campaign says he voted to make prescriptions more affordable and set price limits, supports reducing premiums through the state health insurance exchange, and backs expanded coverage for pre-existing conditions and increased funding for primary care and health departments.",
-       "short": "Voted to lower prescription costs; supports reducing insurance premiums.",
-       "source": "https://votemalagari.com/priorities/",
-       "date": "2026-07"
-      },
-      "energy": {
-       "summary": "Endorsed by Conservation Voters of Pennsylvania, whose endorsement page says he supports fully funding the Department of Environmental Protection, backs a severance tax with increased oversight and fees for drillers, and co-sponsored legislation to transition Pennsylvania to 100% renewable energy by 2050.",
-       "short": "Co-sponsored 100% renewable-by-2050 bill; supports DEP funding, severance tax.",
-       "source": "https://www.conservationpa.org/endorsements/steve-malagari-hd-53-won",
-       "date": "2024-10"
-      },
-      "guns": {
-       "summary": "Supports universal background checks for long gun purchases, lost-and-stolen firearm reporting legislation, safe gun storage requirements, and Extreme Risk Protection Orders, along with state funding for local law enforcement and violence intervention programs.",
-       "short": "Supports universal background checks, safe storage, red-flag orders.",
-       "source": "https://votemalagari.com/priorities/",
-       "date": "2026-07"
-      }
-     }
     }
    ]
   },
@@ -18957,6 +19057,74 @@ window.BALLOT_DATA = {
     }
    ]
   },
+  "HD-150": {
+   "office": "Pennsylvania State House",
+   "district": "150th Legislative District",
+   "candidates": [
+    {
+     "name": "Joseph G. Webster",
+     "party": "Democratic",
+     "partyCode": "DEM",
+     "county": "Montgomery",
+     "cfUrl": "https://www.campaignfinanceonline.pa.gov/Pages/CFAnnualTotals.aspx?Filer=2026C0287",
+     "website": "https://joewebsterpa.com/",
+     "positions": {
+      "education": {
+       "summary": "His campaign lists \"strong, fairly-funded public schools\" among his legislative priorities, saying strong public schools are paramount to a vibrant community and a strong economy.",
+       "short": "Lists strong, fairly-funded public schools as a priority.",
+       "source": "https://joewebsterpa.com/",
+       "date": "2026-07"
+      },
+      "healthcare": {
+       "summary": "His campaign lists \"the availability of affordable, high-quality healthcare\" among his priorities, saying healthcare should be available and affordable for all Pennsylvanians.",
+       "short": "Lists affordable, high-quality healthcare as a priority.",
+       "source": "https://joewebsterpa.com/",
+       "date": "2026-07"
+      },
+      "abortion": {
+       "summary": "His campaign lists \"access to reproductive healthcare, including abortion, as a protected right\" among his priorities.",
+       "short": "Supports reproductive healthcare, including abortion, as a protected right.",
+       "source": "https://joewebsterpa.com/",
+       "date": "2026-07"
+      },
+      "energy": {
+       "summary": "His campaign lists \"investment in infrastructure to improve our communities and to mitigate the impact of extreme weather\" among his priorities.",
+       "short": "Supports infrastructure investment to mitigate extreme weather impacts.",
+       "source": "https://joewebsterpa.com/",
+       "date": "2026-07"
+      },
+      "guns": {
+       "summary": "Co-sponsored House Bill 1065 (2025), which would prohibit the sale of privately made firearms without serial numbers, described in its memo as banning ghost guns; he is one of roughly 60 co-sponsors, with Rep. Morgan Cephas as prime sponsor.",
+       "short": "Co-sponsored 2025 bill to ban ghost guns.",
+       "source": "https://www.palegis.us/legislation/bills/2025/hb1065",
+       "date": "2025-04"
+      }
+     }
+    },
+    {
+     "name": "Frank J. Pastella",
+     "party": "Republican",
+     "partyCode": "REP",
+     "county": "Montgomery",
+     "cfUrl": "https://www.campaignfinanceonline.pa.gov/Pages/CFAnnualTotals.aspx?Filer=2026C1468",
+     "website": "https://www.frankpastella.com/",
+     "positions": {
+      "economy": {
+       "summary": "Pastella, a local business owner, lists supporting local businesses as one of his three campaign commitments, stating a goal of aiding local businesses to thrive and grow.",
+       "short": "Supports local businesses as a core campaign commitment.",
+       "source": "https://www.frankpastella.com/about/frank/",
+       "date": "2026-10"
+      },
+      "energy": {
+       "summary": "On proposed data centers, Pastella says every proposed project should be evaluated on its own merits. He says residents should get transparency and clear answers on economic benefits, resource use, and environmental impacts before projects proceed.",
+       "short": "Says data center projects should be evaluated individually, with transparency.",
+       "source": "https://www.frankpastella.com/community-impact-items/datacenters/",
+       "date": "2026-10"
+      }
+     }
+    }
+   ]
+  },
   "SD-24": {
    "office": "Pennsylvania State Senate",
    "district": "24th Senatorial District",
@@ -21044,52 +21212,6 @@ window.BALLOT_DATA = {
        "short": "Supports ending cash bail; funding community safety, youth diversion.",
        "source": "https://www.branch.vote/races/2024-pennsylvania-general-election-pa-state-state-representative-pa-state-house-182/candidates/benjamin-r-waxman",
        "date": "2024-11"
-      }
-     }
-    }
-   ]
-  },
-  "HD-150": {
-   "office": "Pennsylvania State House",
-   "district": "150th Legislative District",
-   "candidates": [
-    {
-     "name": "Joseph G. Webster",
-     "party": "Democratic",
-     "partyCode": "DEM",
-     "county": "Montgomery",
-     "cfUrl": "https://www.campaignfinanceonline.pa.gov/Pages/CFAnnualTotals.aspx?Filer=2026C0287",
-     "website": "https://joewebsterpa.com/",
-     "positions": {
-      "education": {
-       "summary": "His campaign lists \"strong, fairly-funded public schools\" among his legislative priorities, saying strong public schools are paramount to a vibrant community and a strong economy.",
-       "short": "Lists strong, fairly-funded public schools as a priority.",
-       "source": "https://joewebsterpa.com/",
-       "date": "2026-07"
-      },
-      "healthcare": {
-       "summary": "His campaign lists \"the availability of affordable, high-quality healthcare\" among his priorities, saying healthcare should be available and affordable for all Pennsylvanians.",
-       "short": "Lists affordable, high-quality healthcare as a priority.",
-       "source": "https://joewebsterpa.com/",
-       "date": "2026-07"
-      },
-      "abortion": {
-       "summary": "His campaign lists \"access to reproductive healthcare, including abortion, as a protected right\" among his priorities.",
-       "short": "Supports reproductive healthcare, including abortion, as a protected right.",
-       "source": "https://joewebsterpa.com/",
-       "date": "2026-07"
-      },
-      "energy": {
-       "summary": "His campaign lists \"investment in infrastructure to improve our communities and to mitigate the impact of extreme weather\" among his priorities.",
-       "short": "Supports infrastructure investment to mitigate extreme weather impacts.",
-       "source": "https://joewebsterpa.com/",
-       "date": "2026-07"
-      },
-      "guns": {
-       "summary": "Co-sponsored House Bill 1065 (2025), which would prohibit the sale of privately made firearms without serial numbers, described in its memo as banning ghost guns; he is one of roughly 60 co-sponsors, with Rep. Morgan Cephas as prime sponsor.",
-       "short": "Co-sponsored 2025 bill to ban ghost guns.",
-       "source": "https://www.palegis.us/legislation/bills/2025/hb1065",
-       "date": "2025-04"
       }
      }
     }

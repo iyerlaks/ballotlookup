@@ -1,0 +1,120 @@
+{
+  "24109": {
+    "name": "Konstantinos (Yanni) Lambros",
+    "website": "https://www.voteyanni.com/",
+    "positions": {
+      "economy": {
+        "summary": "Supports lower costs and fewer barriers for small businesses, including reducing unnecessary regulations and simplifying state requirements. Also lists property tax relief for homeowners and seniors as a priority.",
+        "short": "Supports fewer regulations and lower costs for small businesses.",
+        "source": "https://www.voteyanni.com/priorities",
+        "date": "2026-10"
+      },
+      "taxes": {
+        "summary": "Supports property tax relief for homeowners and seniors and responsible state spending that respects taxpayers. States he opposes wasteful spending and wants resources focused on services that directly benefit residents.",
+        "short": "Supports property tax relief; opposes wasteful state spending.",
+        "source": "https://www.voteyanni.com/priorities",
+        "date": "2026-10"
+      },
+      "education": {
+        "summary": "Supports a fairer state share of school funding as a way to reduce the local property tax burden.",
+        "short": "Supports a fairer state share of school funding.",
+        "source": "https://www.voteyanni.com/priorities",
+        "date": "2026-10"
+      },
+      "guns": {
+        "summary": "Supports defending the constitutional rights of law-abiding firearm owners and focusing enforcement on violent criminals. Opposes firearm restrictions he views as not improving safety, and supports safe storage and training.",
+        "short": "Supports gun owners' rights; opposes unnecessary firearm restrictions.",
+        "source": "https://www.voteyanni.com/priorities",
+        "date": "2026-10"
+      }
+    }
+  },
+  "24110": {
+    "name": "Angela Illingworth",
+    "website": "",
+    "positions": {}
+  },
+  "24112": {
+    "name": "Jeffrey Fartro",
+    "website": "",
+    "positions": {}
+  },
+  "24113": {
+    "name": "Frank Pastella",
+    "website": "https://www.frankpastella.com/",
+    "positions": {
+      "economy": {
+        "summary": "Pastella, a local business owner, lists supporting local businesses as one of his three campaign commitments, stating a goal of aiding local businesses to thrive and grow.",
+        "short": "Supports local businesses as a core campaign commitment.",
+        "source": "https://www.frankpastella.com/about/frank/",
+        "date": "2026-10"
+      },
+      "energy": {
+        "summary": "On proposed data centers, Pastella says every proposed project should be evaluated on its own merits. He says residents should get transparency and clear answers on economic benefits, resource use, and environmental impacts before projects proceed.",
+        "short": "Says data center projects should be evaluated individually, with transparency.",
+        "source": "https://www.frankpastella.com/community-impact-items/datacenters/",
+        "date": "2026-10"
+      }
+    }
+  },
+  "24114": {
+    "name": "Allen Anderson",
+    "website": "",
+    "positions": {
+      "economy": {
+        "summary": "In his 2024 run for the same seat, Anderson said high government spending causes inflation and that spending should stop where effectiveness cannot be measured.",
+        "short": "Says high government spending causes inflation; wants measurable spending.",
+        "source": "https://patch.com/pennsylvania/horsham/election-2024-republican-allen-anderson-state-representative",
+        "date": "2024-10"
+      },
+      "taxes": {
+        "summary": "In 2024, Anderson said he supports eliminating taxes on Social Security benefits and on tips to ease costs for residents.",
+        "short": "Supports eliminating taxes on Social Security benefits and tips.",
+        "source": "https://patch.com/pennsylvania/horsham/election-2024-republican-allen-anderson-state-representative",
+        "date": "2024-10"
+      },
+      "education": {
+        "summary": "In 2024, Anderson said school districts should be funded equally rather than some receiving preferential treatment.",
+        "short": "Says all school districts should be funded equally.",
+        "source": "https://patch.com/pennsylvania/horsham/election-2024-republican-allen-anderson-state-representative",
+        "date": "2024-10"
+      },
+      "guns": {
+        "summary": "In 2024, Anderson said crime could be reduced with more police and high bonds for violent offenders. He proposed probation for first-time offenders and jail for repeat offenders, especially violent offenders and those who use guns.",
+        "short": "Supports more police, high bonds, jail for repeat and gun offenders.",
+        "source": "https://patch.com/pennsylvania/horsham/election-2024-republican-allen-anderson-state-representative",
+        "date": "2024-10"
+      }
+    }
+  },
+  "24115": {
+    "name": "Eric Maier",
+    "website": "https://www.voteericmaier.com/",
+    "positions": {
+      "economy": {
+        "summary": "Maier says he will work for lower taxes, responsible spending, and policies that help families, seniors, and small businesses keep more of what they earn.",
+        "short": "Proposes lower taxes and responsible spending to improve affordability.",
+        "source": "https://www.voteericmaier.com/",
+        "date": "2026-10"
+      },
+      "taxes": {
+        "summary": "Maier says he will work to ease the burden of rising property taxes for seniors and homeowners, and to protect seniors from fraud and financial exploitation.",
+        "short": "Proposes easing rising property taxes for seniors and homeowners.",
+        "source": "https://www.voteericmaier.com/",
+        "date": "2026-10"
+      },
+      "energy": {
+        "summary": "Maier says he will defend local control over data center development, require transparency, and protect water and energy resources. He supports 'bring your own energy' policies so local ratepayers do not cover data center costs.",
+        "short": "Supports local control of data centers and 'bring your own energy' policies.",
+        "source": "https://www.voteericmaier.com/",
+        "date": "2026-10"
+      },
+      "guns": {
+        "summary": "Maier, a longtime volunteer firefighter and EMT, says safe neighborhoods start with strong support for police, firefighters, EMS, and other first responders. His site does not state a position on gun policy.",
+        "short": "Supports police, firefighters, EMS and first responders for public safety.",
+        "source": "https://www.voteericmaier.com/",
+        "date": "2026-10"
+      }
+    }
+  }
+}
