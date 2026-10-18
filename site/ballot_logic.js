@@ -127,6 +127,17 @@
       ' · House District ' + d.hd;
   }
 
+  // True once election day is over: from midnight Eastern Standard Time
+  // (05:00 UTC) on the day after electionDate ("YYYY-MM-DD"). Polls close at
+  // 8 PM, so the extra hours never cut voting short. An unreadable date
+  // returns false, so a data mistake can never freeze a live tool.
+  function electionOver(electionDate, nowMs) {
+    var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(electionDate || ''));
+    if (!m) return false;
+    var freezeAt = Date.UTC(+m[1], +m[2] - 1, +m[3] + 1, 5);
+    return nowMs >= freezeAt;
+  }
+
   root.BallotLogic = {
     PA_STATE_GEOID: PA_STATE_GEOID,
     senateUpThisCycle: senateUpThisCycle,
@@ -139,6 +150,7 @@
     raceKey: raceKey,
     ticketPairs: ticketPairs,
     planBallot: planBallot,
-    districtLine: districtLine
+    districtLine: districtLine,
+    electionOver: electionOver
   };
 })(typeof module !== 'undefined' && module.exports ? module.exports : window);
