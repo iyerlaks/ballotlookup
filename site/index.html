@@ -40,6 +40,14 @@
   }
   main { max-width: 780px; margin: 0 auto; padding: 1.4rem 1rem 3rem; }
 
+  /* ---- post-election archive banner (shown from Nov 4; see electionOver) ---- */
+  .frozen {
+    background: #fdf9ee; color: #5a4d20; border-bottom: 1px solid #e8dcae;
+    padding: .9rem 1rem; text-align: center; font-size: .95rem;
+  }
+  .frozen p { max-width: 780px; margin: 0 auto; }
+  .frozen a { color: var(--accent); }
+
   .lookup {
     background: var(--card); border: 1px solid var(--line); border-radius: 10px;
     padding: 1.3rem 1.3rem 1.1rem; margin-top: -2.4rem; box-shadow: 0 2px 10px rgba(29,39,51,.08);
@@ -273,6 +281,9 @@
   <p class="sub">General Election &middot; Tuesday, November 3, 2026</p>
   <span class="tagline">Nonpartisan &middot; Free &middot; No signup</span>
 </header>
+<div id="frozen" class="frozen" role="note" hidden>
+  <p><strong>The November 3, 2026 election is over.</strong> This page is now an archive. It shows the candidates and positions as they were on election day, and it is no longer updated. For official results, go to the <a href="https://www.electionreturns.pa.gov/" target="_blank" rel="noopener">Pennsylvania Department of State election returns</a>.</p>
+</div>
 
 <main>
   <div class="lookup">
@@ -349,7 +360,11 @@
   const OFFICIAL_LOOKUP = '<a href="https://www.legis.state.pa.us/cfdocs/legis/home/findyourlegislator/" target="_blank" rel="noopener">official PA legislator lookup</a>' +
     ' or your <a href="https://www.vote.pa.gov/Resources/Pages/Contact-Your-Election-Officials.aspx" target="_blank" rel="noopener">county election office</a>';
   const $ = id => document.getElementById(id);
-  const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  // After election day the tool stays up as a labeled archive.
+  // ?preview=frozen shows the archive view before then.
+  const FROZEN = /[?&]preview=frozen(&|$)/.test(location.search) || BL.electionOver(D.electionDate, Date.now());
+  if (FROZEN) $('frozen').hidden = false;
+  const esc =s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 
   $('sources').innerHTML =
     'Candidate roster: ' + esc(D.dataSource) + ', checked ' + esc(FRESH.rosterChecked) +
@@ -628,12 +643,17 @@
       '<div class="ph-races">' + raceBlocks + '</div>' +
       '<hr class="ph-fold">' +
       '<div class="ph-vote">' +
-        '<div><h3>Key dates</h3><ul>' +
-          (VOTE.registerBy ? '<li>Register to vote by <b>' + fmt(VOTE.registerBy) + '</b></li>' : '') +
-          (VOTE.mailApplyBy ? '<li>Apply for a mail ballot by <b>' + fmt(VOTE.mailApplyBy) + ', 5 PM</b></li>' : '') +
-          (VOTE.mailReceiveBy ? '<li>Mail ballots must be <b>received</b> by <b>8 PM ' + fmt(VOTE.mailReceiveBy) + '</b></li>' : '') +
-          '<li>Election Day: <b>Tuesday, November 3</b>, polls ' + esc(VOTE.pollHours || '7 AM – 8 PM') + '</li>' +
-        '</ul></div>' +
+        (FROZEN
+          ? '<div><h3>Archive</h3><ul>' +
+              '<li>The November 3, 2026 election is over. This sheet shows the ballot as it was on election day.</li>' +
+              '<li>Official results: <b>electionreturns.pa.gov</b></li>' +
+            '</ul></div>'
+          : '<div><h3>Key dates</h3><ul>' +
+              (VOTE.registerBy ? '<li>Register to vote by <b>' + fmt(VOTE.registerBy) + '</b></li>' : '') +
+              (VOTE.mailApplyBy ? '<li>Apply for a mail ballot by <b>' + fmt(VOTE.mailApplyBy) + ', 5 PM</b></li>' : '') +
+              (VOTE.mailReceiveBy ? '<li>Mail ballots must be <b>received</b> by <b>8 PM ' + fmt(VOTE.mailReceiveBy) + '</b></li>' : '') +
+              '<li>Election Day: <b>Tuesday, November 3</b>, polls ' + esc(VOTE.pollHours || '7 AM – 8 PM') + '</li>' +
+            '</ul></div>') +
         '<div><h3>Learn more</h3><ul>' +
           '<li>Register / mail ballot / polling place: <b>vote.pa.gov</b></li>' +
           '<li>Candidate details &amp; positions: <b>' + esc(D.siteUrl || 'this tool') + '</b></li>' +

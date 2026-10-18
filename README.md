@@ -99,8 +99,11 @@ GitHub Pages / Cloudflare Pages at it. No server, no build, no keys.
 - **Late Aug 2026**: refresh again after ballot-position lotteries and any
   successful nomination objections (candidates can be struck from the ballot).
 - **Early Oct 2026**: final refresh before mail ballots drop.
-- **Nov 4, 2026**: take the tool down or freeze it with a banner; stale election
-  tools damage trust.
+- **Nov 4, 2026**: the site freezes itself. From midnight Eastern after election
+  day it shows an archive banner, and the print handout swaps its key dates for
+  an archive note (`electionOver` in `site/ballot_logic.js`, driven by
+  `electionDate` in the data). Preview it any time with `?preview=frozen`.
+  Take the tool down later if you prefer; stale election tools damage trust.
 
 ## Nonpartisan posture
 

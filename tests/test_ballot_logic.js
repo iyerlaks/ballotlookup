@@ -108,6 +108,20 @@ test('raceKey and ordinal match the data.js key scheme', () => {
     ['1st', '2nd', '3rd', '4th', '11th', '12th', '13th', '21st', '22nd', '103rd']);
 });
 
+test('electionOver: freezes at midnight Eastern after election day, never before', () => {
+  const at = iso => Date.parse(iso);
+  assert.equal(BL.electionOver('2026-11-03', at('2026-11-03T12:00:00-05:00')), false);  // polls open
+  assert.equal(BL.electionOver('2026-11-03', at('2026-11-03T23:59:59-05:00')), false);  // after polls close, still Nov 3
+  assert.equal(BL.electionOver('2026-11-03', at('2026-11-04T00:00:00-05:00')), true);
+  assert.equal(BL.electionOver('2026-11-03', at('2026-10-18T09:00:00-04:00')), false);
+  // month rollover
+  assert.equal(BL.electionOver('2026-10-31', at('2026-11-01T05:00:00Z')), true);
+  // bad or missing dates never freeze the tool
+  for (const bad of ['', null, undefined, '2026-11', 'Nov 3 2026']) {
+    assert.equal(BL.electionOver(bad, at('2030-01-01T00:00:00Z')), false);
+  }
+});
+
 test('generated data.js: every key the planner can ask for resolves consistently', () => {
   const fs = require('fs');
   const src = fs.readFileSync(path.join(__dirname, '..', 'site', 'data.js'), 'utf8');
