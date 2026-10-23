@@ -1,4 +1,27 @@
 {
+  "23986": {
+    "name": "Les Mavus",
+    "positions": {
+      "economy": {
+        "summary": "In a voter-guide questionnaire, said affordability, particularly around utilities, is the top issue facing the district, noting the cost per kilowatt-hour is rising faster than the national average and residents are seeing their bills spike.",
+        "short": "Says affordability, especially rising utility bills, is the top issue.",
+        "source": "https://onyourballot.vote411.org/m/race-detail.do?id=50206757",
+        "date": "2026-07"
+      },
+      "taxes": {
+        "summary": "In a voter-guide questionnaire, said the state cannot have a budget process that shuts down the government for months at a time while schools and public transportation go unfunded.",
+        "short": "Opposes budget process that shuts government, defunds schools and transit.",
+        "source": "https://onyourballot.vote411.org/m/race-detail.do?id=50206757",
+        "date": "2026-07"
+      },
+      "energy": {
+        "summary": "Asked whether Pennsylvania should regulate data centers, said yes, calling for government to protect costs, the environment, and land rather than serving corporations and their interests.",
+        "short": "Supports regulating data centers to protect costs, environment, and land.",
+        "source": "https://onyourballot.vote411.org/m/race-detail.do?id=50206757",
+        "date": "2026-07"
+      }
+    }
+  },
   "22815": {
     "name": "Craig T. Staats",
     "website": "https://www.staatsforstaterep.com/",

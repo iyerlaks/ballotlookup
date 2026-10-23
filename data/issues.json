@@ -3595,6 +3595,53 @@
         }
       }
     },
+    "24071": {
+      "positions": {
+        "economy": {
+          "summary": "Voted in June 2023 for House Bill 1500, which would raise Pennsylvania's minimum wage; the bill passed the House 103-100.",
+          "short": "Voted for bill to raise Pennsylvania's minimum wage.",
+          "source": "https://www.palegis.us/house/roll-calls/summary?sessYr=2023&sessInd=0&rcNum=270",
+          "date": "2023-06"
+        },
+        "taxes": {
+          "summary": "Voted in June 2023 for House Bill 1100, which expanded the state's Property Tax/Rent Rebate program and supplemental tax reduction for older adults and people with disabilities; the bill passed the House 194-9 and later became law.",
+          "short": "Voted to expand Property Tax/Rent Rebate program.",
+          "source": "https://www.palegis.us/house/roll-calls/summary?sessYr=2023&sessInd=0&rcNum=188",
+          "date": "2023-06"
+        },
+        "abortion": {
+          "summary": "In July 2022 voted against Senate Bill 106, a package of proposed constitutional amendments that included language stating the Pennsylvania Constitution does not grant any right relating to abortion, including taxpayer-funded abortion; the package also covered election-related provisions.",
+          "short": "Voted against amendment package declaring no constitutional abortion right.",
+          "source": "https://www.palegis.us/house/roll-calls/summary?sessYr=2021&sessInd=0&rcNum=1156",
+          "date": "2022-07"
+        },
+        "education": {
+          "summary": "Announced state Competitive Equipment Grants for career and technical education programs at Erie schools in June 2026, saying students learn best in classrooms where they can learn by doing; this is a funding announcement rather than a campaign platform.",
+          "short": "Announces CTE equipment grants; backs hands-on career education.",
+          "source": "https://www.pahouse.com/InTheNews/NewsRelease/?id=143858",
+          "date": "2026-06"
+        },
+        "healthcare": {
+          "summary": "Sponsored House Bill 1961 to have Pennsylvania join a multistate licensure compact for physician assistants, which he said would streamline licensing across state lines and expand telehealth services; the bill passed the House in November 2025.",
+          "short": "Sponsored physician-assistant licensure compact bill expanding telehealth services.",
+          "source": "https://www.pahouse.com/Merski/InTheNews/NewsRelease/?id=141123",
+          "date": "2025-11"
+        },
+        "energy": {
+          "summary": "Announced a $25,000 state grant in June 2026 to plan solar panels and a green roof on Erie's municipal building, saying investing in energy efficiency and clean power is smart for taxpayers and the environment; this is a funding announcement rather than a campaign platform.",
+          "short": "Announces solar planning grant; calls clean-power investment smart.",
+          "source": "https://www.pahouse.com/InTheNews/NewsRelease/?id=144012",
+          "date": "2026-06"
+        },
+        "guns": {
+          "summary": "Voted in May 2023 for House Bill 714, which would require background checks on all firearm sales in Pennsylvania, including private sales; the bill passed the House 109-92.",
+          "short": "Voted for universal firearm background checks bill.",
+          "source": "https://www.palegis.us/house/roll-calls/summary?sessYr=2023&sessInd=0&rcNum=96",
+          "date": "2023-05"
+        }
+      },
+      "ballotpedia": "https://ballotpedia.org/Robert_Merski"
+    },
     "23853": {
       "positions": {
         "economy": {
@@ -12425,6 +12472,29 @@
         }
       }
     },
+    "23986": {
+      "positions": {
+        "economy": {
+          "summary": "In a voter-guide questionnaire, said affordability, particularly around utilities, is the top issue facing the district, noting the cost per kilowatt-hour is rising faster than the national average and residents are seeing their bills spike.",
+          "short": "Says affordability, especially rising utility bills, is the top issue.",
+          "source": "https://onyourballot.vote411.org/m/race-detail.do?id=50206757",
+          "date": "2026-07"
+        },
+        "taxes": {
+          "summary": "In a voter-guide questionnaire, said the state cannot have a budget process that shuts down the government for months at a time while schools and public transportation go unfunded.",
+          "short": "Opposes budget process that shuts government, defunds schools and transit.",
+          "source": "https://onyourballot.vote411.org/m/race-detail.do?id=50206757",
+          "date": "2026-07"
+        },
+        "energy": {
+          "summary": "Asked whether Pennsylvania should regulate data centers, said yes, calling for government to protect costs, the environment, and land rather than serving corporations and their interests.",
+          "short": "Supports regulating data centers to protect costs, environment, and land.",
+          "source": "https://onyourballot.vote411.org/m/race-detail.do?id=50206757",
+          "date": "2026-07"
+        }
+      },
+      "ballotpedia": "https://ballotpedia.org/Les_Mavus"
+    },
     "22815": {
       "website": "https://www.staatsforstaterep.com/",
       "positions": {
@@ -17116,6 +17186,66 @@
       },
       "ballotpedia": "https://ballotpedia.org/Michele_Brooks"
     },
+    "24100": {
+      "website": "https://www.dastraforpa.org/",
+      "positions": {
+        "taxes": {
+          "summary": "Proposes eliminating property taxes for working-class residents and reducing the state gas tax; both are listed as planks on his campaign website.",
+          "short": "Proposes eliminating working-class property taxes and reducing gas tax.",
+          "source": "https://www.dastraforpa.org/",
+          "date": "2026-08"
+        },
+        "healthcare": {
+          "summary": "Proposes breaking up healthcare monopolies, a plank listed on his campaign website.",
+          "short": "Proposes breaking up healthcare monopolies.",
+          "source": "https://www.dastraforpa.org/",
+          "date": "2026-08"
+        },
+        "energy": {
+          "summary": "Says the fossil fuel industry is polluting Pennsylvania's air, soil, and water, and criticizes fracking's contamination of well water in Dimock. Opposes new data centers, citing their energy consumption and pollution of land and drinking water.",
+          "short": "Opposes new data centers; says fossil fuel industry pollutes air, water.",
+          "source": "https://www.gpofpa.org/green_party_candidates_will_clean_up_pennsylvania",
+          "date": "2026-05"
+        }
+      }
+    },
+    "24099": {
+      "website": "https://www.dastraforpa.org/",
+      "positions": {
+        "economy": {
+          "summary": "Says he is especially interested in the Green Party's Social Justice pillar, which he describes as calling for a living wage and a real safety net, and says his work focuses on strengthening the material conditions of working people.",
+          "short": "Endorses living wage and a real safety net for workers.",
+          "source": "https://www.dastraforpa.org/press-releases/craig-bolton-is-the-green-party-candidate-for-pa-lt-governor",
+          "date": "2026-04"
+        },
+        "taxes": {
+          "summary": "The Dastra-Bolton campaign platform calls for eliminating working-class property taxes and reducing the gas tax.",
+          "short": "Platform calls for eliminating working-class property taxes, reducing gas tax.",
+          "source": "https://www.dastraforpa.org/",
+          "date": "2026-07"
+        },
+        "healthcare": [
+          {
+            "summary": "The Dastra-Bolton campaign platform calls for breaking up healthcare monopolies.",
+            "short": "Platform calls for breaking up healthcare monopolies.",
+            "source": "https://www.dastraforpa.org/",
+            "date": "2026-07"
+          },
+          {
+            "summary": "Says he will work to raise awareness of the need for universal single-payer healthcare in Pennsylvania.",
+            "short": "Supports universal single-payer healthcare in Pennsylvania.",
+            "source": "https://www.dastraforpa.org/press-releases/craig-bolton-is-the-green-party-candidate-for-pa-lt-governor",
+            "date": "2026-04"
+          }
+        ],
+        "education": {
+          "summary": "Says there are organized efforts by Republicans to withhold state resources from Philadelphia, particularly education and transit system funds.",
+          "short": "Criticizes withholding of state education funds from Philadelphia.",
+          "source": "https://www.gpofpa.org/green_party_candidates_will_clean_up_pennsylvania",
+          "date": "2026-05"
+        }
+      }
+    },
     "24090": {
       "website": "https://jodi4pasenate.com",
       "positions": {
@@ -17130,6 +17260,16 @@
           "short": "Says corporations extracted without accountability; calls for affordable energy.",
           "source": "https://jodi4pasenate.com",
           "date": "2026-08"
+        }
+      }
+    },
+    "24092": {
+      "positions": {
+        "energy": {
+          "summary": "Tupone said he joined the Green Party in spring 2026 because he was drawn to its environmental policies on water conservancy and its opposition to data centers.",
+          "short": "Joined Greens for water conservancy, opposition to data centers.",
+          "source": "https://www.lehighvalleypublicmedia.org/news/politics/green-party-candidate-enters-pa-7-race-amid-controversy/",
+          "date": "2026-07"
         }
       }
     },

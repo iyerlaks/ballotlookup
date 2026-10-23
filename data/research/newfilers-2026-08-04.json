@@ -1,4 +1,52 @@
 {
+  "24100": {
+    "name": "Anthony James Dastra",
+    "website": "https://www.dastraforpa.org/",
+    "positions": {
+      "taxes": {
+        "summary": "Proposes eliminating property taxes for working-class residents and reducing the state gas tax; both are listed as planks on his campaign website.",
+        "short": "Proposes eliminating working-class property taxes and reducing gas tax.",
+        "source": "https://www.dastraforpa.org/",
+        "date": "2026-08"
+      },
+      "healthcare": {
+        "summary": "Proposes breaking up healthcare monopolies, a plank listed on his campaign website.",
+        "short": "Proposes breaking up healthcare monopolies.",
+        "source": "https://www.dastraforpa.org/",
+        "date": "2026-08"
+      },
+      "energy": {
+        "summary": "Says the fossil fuel industry is polluting Pennsylvania's air, soil, and water, and criticizes fracking's contamination of well water in Dimock. Opposes new data centers, citing their energy consumption and pollution of land and drinking water.",
+        "short": "Opposes new data centers; says fossil fuel industry pollutes air, water.",
+        "source": "https://www.gpofpa.org/green_party_candidates_will_clean_up_pennsylvania",
+        "date": "2026-05"
+      }
+    }
+  },
+  "24099": {
+    "name": "Craig Joseph Bolton",
+    "website": "https://www.dastraforpa.org/",
+    "positions": {
+      "economy": {
+        "summary": "Says he is especially interested in the Green Party's Social Justice pillar, which he describes as calling for a living wage and a real safety net, and says his work focuses on strengthening the material conditions of working people.",
+        "short": "Endorses living wage and a real safety net for workers.",
+        "source": "https://www.dastraforpa.org/press-releases/craig-bolton-is-the-green-party-candidate-for-pa-lt-governor",
+        "date": "2026-04"
+      },
+      "healthcare": {
+        "summary": "Says he will work to raise awareness of the need for universal single-payer healthcare in Pennsylvania.",
+        "short": "Supports universal single-payer healthcare in Pennsylvania.",
+        "source": "https://www.dastraforpa.org/press-releases/craig-bolton-is-the-green-party-candidate-for-pa-lt-governor",
+        "date": "2026-04"
+      },
+      "education": {
+        "summary": "Says there are organized efforts by Republicans to withhold state resources from Philadelphia, particularly education and transit system funds.",
+        "short": "Criticizes withholding of state education funds from Philadelphia.",
+        "source": "https://www.gpofpa.org/green_party_candidates_will_clean_up_pennsylvania",
+        "date": "2026-05"
+      }
+    }
+  },
   "24090": {
     "name": "Jodi Marie Borello",
     "website": "https://jodi4pasenate.com",
@@ -20,6 +68,17 @@
   "24091": {
     "name": "Rebecca Catherine Prendergast",
     "positions": {}
+  },
+  "24092": {
+    "name": "Andrew Tupone",
+    "positions": {
+      "energy": {
+        "summary": "Tupone said he joined the Green Party in spring 2026 because he was drawn to its environmental policies on water conservancy and its opposition to data centers.",
+        "short": "Joined Greens for water conservancy, opposition to data centers.",
+        "source": "https://www.lehighvalleypublicmedia.org/news/politics/green-party-candidate-enters-pa-7-race-amid-controversy/",
+        "date": "2026-07"
+      }
+    }
   },
   "24093": {
     "name": "Dennis Joseph Mahoney",
